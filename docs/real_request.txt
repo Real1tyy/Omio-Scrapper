@@ -1,0 +1,73 @@
+access-control-allow-headers:
+Content-Type, Accept, X-Requested-With, remember-me
+
+access-control-allow-methods:
+POST, GET, OPTIONS
+access-control-allow-origin:
+*
+access-control-max-age:
+3600
+alt-svc:
+h3=":443"; ma=86400
+cf-cache-status:
+DYNAMIC
+cf-ray:
+90fec0715e66f980-PRG
+content-encoding:
+gzip
+content-type:
+application/json
+date:
+Mon, 10 Feb 2025 20:12:02 GMT
+priority:
+u=1,i
+server:
+cloudflare
+server-timing:
+cfExtPri
+strict-transport-security:
+max-age=0;
+vary:
+Accept-Encoding
+x-content-type-options:
+nosniff
+x-envoy-upstream-service-time:
+5
+x-frame-options:
+SAMEORIGIN
+x-xss-protection:
+1
+:authority:
+www.omio.com
+:method:
+GET
+:path:
+/suggester-api/v5/position?term=Prague&locale=en&hierarchical=true
+:scheme:
+https
+accept:
+application/json, text/plain, */*
+accept-encoding:
+gzip, deflate, br, zstd
+accept-language:
+en-GB,en;q=0.9
+cookie:
+__cf_bm=6HNeXSy.oItqHquNSSJlHwppTlb6oI7i5ZcBREcO7p0-1739218309-1.0.1.1-XKivyKLqUrX7pPaivJE8I75WZAo3wZgK2qtDDlothEdjtWxh_bopG7sIoU82qllQMAm_cksqyMIiFKm5mH93B6INzFeKY3KCdOJ4tgEmtrM; _cfuvid=aRe6gZnIVgK8golAGGULNLtrmZREhMaws7ES9GOiZ2c-1739218309507-0.0.1.1-604800000; _go_client_id=9d4ea1e57c63453fb7179be75c06f9b5-v3; _omio_exp_v2=cmFkaW8tY2FiaW5zLWdudjpvbixjaGFuZ2VfeW91cl9ib29raW5nX2J1dHRvbl9ybl9lbmFibGU6b24sYmRwLXBvc3QtbW9kaWZpY2F0aW9uLXN1cnZleTpvbix0cmVuaXRhbGlhLWNoZWNrLWluLWN0YTpvbixmcmVlLW9taW8tZmxleDpjdHJsLHNlYXQtbWFwcy12MTpvbixpbmRlcGVuZGVudC10aWNrZXQtY29uZmlnLXBhZ2U6b24sbmV3LWZlcnJ5LXRjcDpvbixyYWRpby1jYWJpbnMtZmg6b24sQ01QTi01NjU1LTE6NCxhaXItc3RjcDpvbixDTVBOLTU2NTUtMjowLG1vYmlsZS13ZWItbmV3LWhlYWRlcjpvbixBRC01OTM1OjEsSkJWTjpvbixPQ1QtNDY5NjpiLGZlcnJ5LXN0Y3A6b24sc2VhdC1tYXBzLWFpcjpvbixDTVBOLTYxMDg6b24sQUQtNTk4ODoxLHBlcnNpc3QtcGRwLWRhdGE6b24sUlROVi0yOTg6YyxPQ1QtNDM0MDpiLGZjdGNwOm9uLFNQTDQ4Nzk6MSxyeWFuYWlyOm9uLGZuLTc3MDpub3JtYWwsY3MtY2hhdC13aWRnZXQ6b24sZm4tNzIyOmxiLWIsZGEtZmVycnk6b24scmctNTQ3NzpjLHRlc3QtZHVtbXk6b24sUlROVjI4NjowLENIRUMtMzEwNzpiLFJUTlYtNDI6YixBRC01NjQ3OjAsT1BBQ1EtMTE2OmEsb21pby1mbGV4LXdpdGgtY29tcGFuam9uOm9uLEFELTU4NTA6b24sU1hQLTE0MDE6MSxmbi02ODA6c2Z0LFNYUC0yMDUtSW1wcm92ZWQtc2VhcmNoLWJhcjpvbixmbi02ODM6ZC1yYmRt; __cflb=0H28uu4Zwq5kfu5J8dP8DRB8qPtJ7qVi3QbD7SsgaPP; _sp_ses.4f2b=*; cf_clearance=OwxXkoCKe04fDxvPpkX8gnkCyacgtsfNWfKIQi4XZTY-1739218310-1.2.1.1-7N88GQqigQdU9L6_mcW4ALCnZtFFc_bA4Y5GdDGlKT6Yvf_9npzQIJ3DesiB2PD1lMBY.MiIojzfBH2QKdSla7ywS01fm10BclUACPFDDEtt_485EugITiL9vhclsdnBkaHb6j.WJx5P91DTRfce2DPJ8HGeCyH72f1leC2cG4IvPdjFS3E0rwyCkye3sV8LiQtCBs8pGOPY09OiVT3wkd3oYbI8DYUKq5j2weFu7hHlPpLfH5mnjQAWZNmVFu1JIQhvpJTM9DwFxHIxqnW4uYbKgsZhbhE5tQPtFxX97iY; gdpr={%22categories%22:[%22infrastructure%22%2C%22corefunctionalities%22%2C%22security%22%2C%22marketing%22%2C%22performance%22]%2C%22time%22:1739218313975%2C%22version%22:3%2C%22isAllAccepted%22:true}; _sp_id.4f2b=3f42864d-46d6-4f33-90ce-dca70e5b17b7.1739218310.1.1739218321..b3ac0f95-bb12-41cf-bc6a-12ea9f0aa2fb..6723524b-0fe3-495c-b304-d0816e62ad1b.1739218309921.22; X-Ingress=k8s-prod-be-1|Z6pdl|Z6pdi
+priority:
+u=1, i
+referer:
+https://www.omio.com/
+sec-ch-ua:
+"Not(A:Brand";v="99", "Google Chrome";v="133", "Chromium";v="133"
+sec-ch-ua-mobile:
+?0
+sec-ch-ua-platform:
+"Linux"
+sec-fetch-dest:
+empty
+sec-fetch-mode:
+cors
+sec-fetch-site:
+same-origin
+user-agent:
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
