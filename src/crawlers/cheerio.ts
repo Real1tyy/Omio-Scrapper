@@ -1,5 +1,6 @@
 import { CheerioCrawler, CheerioCrawlerOptions, RequestQueue } from 'crawlee';
-import router from '../routers/cheerio.js';
+import { Input } from '../models/model.js';
+import createCheerioRouterwithInput from '../routers/cheerio.js';
 import logger from '../utils/logger.js';
 
 class CustomCheerioCrawler extends CheerioCrawler {
@@ -14,13 +15,15 @@ class CustomCheerioCrawler extends CheerioCrawler {
 export const createCheerioCrawler = async (
   cheerioQueue: RequestQueue,
   playwrightQueue: RequestQueue,
+  input: Input,
 ): Promise<CustomCheerioCrawler> => {
+  const cheerioRouter = await createCheerioRouterwithInput(input);
   const options: CheerioCrawlerOptions = {
     async requestHandler(context) {
       const { request } = context;
       context.playwrightQueue = playwrightQueue;
       logger.debug(`CheerioCrawler handling request ${request.url} with label ${request.label}`);
-      await router(context);
+      await cheerioRouter(context);
     },
     failedRequestHandler: async ({ request }) => {
       logger.error(

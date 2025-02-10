@@ -1,5 +1,7 @@
+import { Actor } from 'apify';
 import { PlaywrightCrawler, PlaywrightCrawlerOptions, RequestQueue } from 'crawlee';
-import router from '../routers/playwright.js';
+import { Input } from '../models/model.js';
+import createPlaywrightRouterWithInput from '../routers/playwright.js';
 import logger from '../utils/logger.js';
 
 class CustomPlaywrightCrawler extends PlaywrightCrawler {
@@ -14,21 +16,32 @@ class CustomPlaywrightCrawler extends PlaywrightCrawler {
 export const createPlaywrightCrawler = async (
   playwrightQueue: RequestQueue,
   cheerioQueue: RequestQueue,
+  input: Input,
 ): Promise<CustomPlaywrightCrawler> => {
+  const proxyConfiguration = await Actor.createProxyConfiguration({
+    useApifyProxy: true,
+  });
+
+  if (!proxyConfiguration) {
+    throw new Error('Proxy configuration not found');
+  }
+
+  const playwrightRouter = await createPlaywrightRouterWithInput(input);
   const options: PlaywrightCrawlerOptions = {
     async requestHandler(context) {
       const { request } = context;
       context.cheerioQueue = cheerioQueue;
       logger.info(`PlaywrightCrawler handling request ${request.url} with label ${request.label}`);
-      await router(context);
+      await playwrightRouter(context);
     },
     failedRequestHandler: async ({ request }) => {
       logger.error(
         `PlaywrightCrawler failed to handle request ${request.url} with label ${request.label}`,
       );
     },
-    headless: true,
+    headless: false,
     requestQueue: playwrightQueue,
+    proxyConfiguration,
   };
   return new CustomPlaywrightCrawler(options, cheerioQueue);
 };

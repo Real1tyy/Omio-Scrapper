@@ -14,14 +14,14 @@ const createRequestQueues = async (): Promise<{
   playwrightQueue = await RequestQueue.open('playwright-queue');
   cheerioQueue = await RequestQueue.open('cheerio-queue');
 
-  await playwrightQueue.addRequests([]);
-
-  await cheerioQueue.addRequests([
+  await playwrightQueue.addRequests([
     {
       url: BASE_URL,
       label: BASE_LABEL,
     },
   ]);
+
+  await cheerioQueue.addRequests([]);
 
   return { playwrightQueue, cheerioQueue };
 };

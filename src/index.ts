@@ -3,19 +3,27 @@ import { Dataset } from 'crawlee';
 import { createCheerioCrawler } from './crawlers/cheerio.js';
 import createPlaywrightCrawler from './crawlers/playwright.js';
 import createRequestQueues from './crawlers/requestQueue.js';
-import { TravelModelType } from './models/model.js';
+import { Input, RawInput } from './models/model.js';
 import logger from './utils/logger.js';
 
 Actor.main(async () => {
-  const input = await Actor.getInput<TravelModelType>();
-  if (!input) {
+  const rawInput: RawInput | null = await Actor.getInput();
+  if (!rawInput) {
     throw new Error('No input provided');
   }
+  const [year, day, month] = rawInput.date.split('-').map(Number);
+  const finalDate = new Date(Date.UTC(year, month - 1, day));
+
+  const input: Input = {
+    ...rawInput,
+    date: finalDate,
+  };
+  console.log(input);
 
   const { playwrightQueue, cheerioQueue } = await createRequestQueues();
 
-  const playwrightCrawler = await createPlaywrightCrawler(playwrightQueue, cheerioQueue);
-  const cheerioCrawler = await createCheerioCrawler(cheerioQueue, playwrightQueue);
+  const playwrightCrawler = await createPlaywrightCrawler(playwrightQueue, cheerioQueue, input);
+  const cheerioCrawler = await createCheerioCrawler(cheerioQueue, playwrightQueue, input);
 
   logger.debug(
     `playwright queue requests: ${await playwrightCrawler.requestQueue?.getTotalCount()}`,

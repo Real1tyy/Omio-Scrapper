@@ -1,9 +1,11 @@
 import { createCheerioRouter } from 'crawlee';
-import { BASE_LABEL } from '../constants/labels.js';
-import baseHandleStart from '../handlers/start.js';
+import { Input } from '../models/model.js';
+import logger from '../utils/logger.js';
+const createCheerioRouterwithInput = async (input: Input) => {
+  const cheerioRouter = createCheerioRouter();
+  logger.info(`from cheerio router: ${input}`);
 
-const cheerioRouter = createCheerioRouter();
+  return cheerioRouter;
+};
 
-cheerioRouter.addHandler(BASE_LABEL, baseHandleStart);
-
-export default cheerioRouter;
+export default createCheerioRouterwithInput;
