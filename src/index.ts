@@ -6,18 +6,23 @@ import createRequestQueues from './crawlers/requestQueue.js';
 import { Input, RawInput } from './models/model.js';
 import logger from './utils/logger.js';
 
-Actor.main(async () => {
+async function getAndValidateInput(): Promise<Input> {
   const rawInput: RawInput | null = await Actor.getInput();
   if (!rawInput) {
     throw new Error('No input provided');
   }
+
   const [year, day, month] = rawInput.date.split('-').map(Number);
   const finalDate = new Date(Date.UTC(year, month - 1, day));
 
-  const input: Input = {
+  return {
     ...rawInput,
     date: finalDate,
   };
+}
+
+Actor.main(async () => {
+  const input = await getAndValidateInput();
   console.log(input);
 
   const { playwrightQueue, cheerioQueue } = await createRequestQueues();

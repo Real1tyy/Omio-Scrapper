@@ -42,6 +42,15 @@ export const createPlaywrightCrawler = async (
     headless: false,
     requestQueue: playwrightQueue,
     proxyConfiguration,
+    persistCookiesPerSession: true,
+    useSessionPool: true,
+    keepAlive: true,
+    sessionPoolOptions: {
+      persistenceOptions: {
+        enable: true,
+      },
+      maxPoolSize: 10,
+    },
   };
   return new CustomPlaywrightCrawler(options, cheerioQueue);
 };
