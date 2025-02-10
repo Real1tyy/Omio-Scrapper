@@ -1,0 +1,10 @@
+dist
+.direnv
+.husky
+.idea
+.vscode
+.env
+.envrc
+.gitignore
+storage
+logs

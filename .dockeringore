@@ -1,0 +1,17 @@
+node_modules
+packages/**/node_modules
+.idea/
+.vscode/
+
+.git/
+dist
+coverage
+.direnv
+.husky
+.idea
+.vscode
+.env
+.envrc
+.gitignore
+storage
+logs
