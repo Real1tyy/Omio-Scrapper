@@ -1,5 +1,6 @@
-import { Actor } from 'apify';
+import { ProxyConfiguration } from 'apify';
 import { PlaywrightCrawler, PlaywrightCrawlerOptions, RequestQueue } from 'crawlee';
+import { firefox } from 'playwright';
 import { Input } from '../models/model.js';
 import createPlaywrightRouterWithInput from '../routers/playwright.js';
 import logger from '../utils/logger.js';
@@ -18,38 +19,38 @@ export const createPlaywrightCrawler = async (
   cheerioQueue: RequestQueue,
   input: Input,
 ): Promise<CustomPlaywrightCrawler> => {
-  const proxyConfiguration = await Actor.createProxyConfiguration({
-    useApifyProxy: true,
-  });
+  // const proxyConfiguration = await Actor.createProxyConfiguration({
+  //   useApifyProxy: false,
+  //   groups: ['RESIDENTIAL'],
+  // });
 
-  if (!proxyConfiguration) {
-    throw new Error('Proxy configuration not found');
-  }
+  // if (!proxyConfiguration) {
+  //   throw new Error('Proxy configuration not found');
+  // }
 
   const playwrightRouter = await createPlaywrightRouterWithInput(input);
   const options: PlaywrightCrawlerOptions = {
-    async requestHandler(context) {
-      const { request } = context;
-      context.cheerioQueue = cheerioQueue;
-      logger.info(`PlaywrightCrawler handling request ${request.url} with label ${request.label}`);
-      await playwrightRouter(context);
+    launchContext: {
+      launcher: firefox,
+      launchOptions: {
+        headless: false,
+      },
     },
-    failedRequestHandler: async ({ request }) => {
-      logger.error(
-        `PlaywrightCrawler failed to handle request ${request.url} with label ${request.label}`,
-      );
-    },
-    headless: false,
     requestQueue: playwrightQueue,
-    proxyConfiguration,
     persistCookiesPerSession: true,
     useSessionPool: true,
     keepAlive: true,
     sessionPoolOptions: {
-      persistenceOptions: {
-        enable: true,
-      },
+      persistenceOptions: { enable: true },
       maxPoolSize: 10,
+    },
+    proxyConfiguration: new ProxyConfiguration({
+      proxyUrls: [`http://auto:${process.env.APIFY_PROXY_PASSWORD}@proxy.apify.com:8000`],
+    }),
+    requestHandler: async (context) => {
+      const { request } = context;
+      logger.info(`Handling ${request.url} with label ${request.label}`);
+      await playwrightRouter(context);
     },
   };
   return new CustomPlaywrightCrawler(options, cheerioQueue);

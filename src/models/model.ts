@@ -17,7 +17,7 @@ export const getInput = async (): Promise<Input> => {
   }
   const validatedInput = TravelModel.parse(rawInput);
 
-  const [year, day, month] = validatedInput.date.split('-').map(Number);
+  const [year, month, day] = validatedInput.date.split('-').map(Number);
   const finalDate = new Date(year, month - 1, day);
 
   return {

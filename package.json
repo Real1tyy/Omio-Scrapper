@@ -10,7 +10,7 @@
   "scripts": {
     "build": "tsc",
     "start": "node dist/index.js",
-    "dev": "npm run build && npm run start",
+    "dev": "pnpm build && pnpm start",
     "test": "npx jest --passWithNoTests",
     "test:watch": "npx jest --watch",
     "test:coverage": "npx jest --coverage",
@@ -30,6 +30,7 @@
     "@types/express": "^5.0.0",
     "@types/jest": "^29.5.14",
     "@types/node": "^22.13.1",
+    "@types/set-cookie-parser": "^2.4.10",
     "@typescript-eslint/eslint-plugin": "^8.23.0",
     "@typescript-eslint/parser": "^8.23.0",
     "commitlint": "^19.7.1",
@@ -63,6 +64,7 @@
     "dotenv": "^16.4.7",
     "npm-check-updates": "^17.1.14",
     "playwright": "^1.50.1",
+    "set-cookie-parser": "^2.7.1",
     "winston": "^3.17.0",
     "zod": "^3.24.1"
   }
