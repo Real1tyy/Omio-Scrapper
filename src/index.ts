@@ -23,10 +23,6 @@ async function getAndValidateInput(): Promise<Input> {
 
 Actor.main(async () => {
   const input = await getAndValidateInput();
-  console.log(input);
-  console.log('TESTER');
-  console.log('TESTE3R');
-
   const { playwrightQueue, cheerioQueue } = await createRequestQueues();
 
   const playwrightCrawler = await createPlaywrightCrawler(playwrightQueue, cheerioQueue, input);

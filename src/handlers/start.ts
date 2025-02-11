@@ -1,6 +1,7 @@
 import { PlaywrightCrawlingContext } from 'crawlee';
 import setCookieParser, { Cookie } from 'set-cookie-parser';
 import { Input } from '../models/model.js';
+import { resultSchema } from '../models/result.js';
 import { typeAndSelectValue } from '../utils/select.js';
 
 const createBaseHandleStart = (input: Input) => {
@@ -15,11 +16,11 @@ const createBaseHandleStart = (input: Input) => {
       try {
         const headers = response.headers();
         if (headers['set-cookie']) {
-          console.log('Set-cookie:', headers['set-cookie']);
+          // console.log('Set-cookie:', headers['set-cookie']);
           const parsedCookies = setCookieParser(headers['set-cookie'], { map: false });
           interceptedCookies.push(...parsedCookies);
         } else {
-          console.log('No set-cookie:', headers);
+          // console.log('No set-cookie:', headers);
         }
       } catch (err) {
         log.error(`Error processing response from ${response.url()}: ${err}`);
@@ -54,9 +55,6 @@ const createBaseHandleStart = (input: Input) => {
       await page.context().addCookies(cookiesToAdd);
       log.info(`Added intercepted cookies to context: ${JSON.stringify(cookiesToAdd)}`);
     }
-    const cookies = await page.context().cookies();
-    console.log(cookies);
-
 
     try {
       const acceptButton = await page.waitForSelector(
@@ -96,19 +94,38 @@ const createBaseHandleStart = (input: Input) => {
     const searchButton = await page.waitForSelector('[data-e2e="buttonSearch"]');
     await searchButton.click();
     const url = page.url();
-    console.log(url);
-    
-    const hash =
-    sendRequest({
-      url: url,
+    const hash = url.match(/results\/([A-Z0-9]+)\//)?.[1];
+    const apiUrl = `https://www.omio.com/GoEuroAPI/rest/api/v5/results?direction=outbound&search_id=${hash}&sort_by=updateTime&include_segment_positions=true&sort_variants=smart&exclude_offsite_bus_results=true&exclude_offsite_train_results=true&use_stats=true&updated_since=0`;
+
+    const cookies2 = await page.context().cookies();
+    const cookieHeader = cookies2.map((cookie) => `${cookie.name}=${cookie.value}`).join('; ');
+
+    // Now call sendRequest with the Cookie header attached
+    const response = await sendRequest({
+      url: apiUrl,
       method: 'GET',
       headers: {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+        'User-Agent':
+          'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+        Cookie: cookieHeader,
       },
     });
 
+    const rawData = await response.body;
+    const data = JSON.parse(rawData.toString());
 
+    console.log(`API response: ${JSON.stringify(data)}`);
+    // data.outbounds is an object whose values are our results.
+    console.log(`Outbounds: ${JSON.stringify(data.outbounds)}`);
 
+    // Convert the outbounds object into an array of result objects.
+    const parsedOutbounds = Object.values(data.outbounds).map((result) =>
+      resultSchema.parse(result),
+    );
+
+    for (const result of parsedOutbounds) {
+      log.info(`Parsed result: ${JSON.stringify(result)}`);
+    }
 
     await page.waitForTimeout(1000000);
     // console.log('Filling date');
