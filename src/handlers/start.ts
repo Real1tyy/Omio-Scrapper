@@ -40,7 +40,8 @@ const createBaseHandleStart = (input: Input) => {
     log.info('Cookies added and banner accepted');
 
     await page.waitForTimeout(2000);
-    await selectCurrency(context, 'CZK');
+    await selectCurrency(context, 'CHF');
+    log.info(`CURRENCY IS CHF`);
     log.info('Currency selected');
 
     await page.waitForLoadState('domcontentloaded');
@@ -68,9 +69,13 @@ const createBaseHandleStart = (input: Input) => {
     log.info('Search button clicked');
 
     const url = page.url();
+    await page.close();
+    await page.context().close();
+
     console.log('URL: ', url);
     const hash = url.match(/results\/([A-Z0-9]+)\//)?.[1];
     const apiUrl = `https://www.omio.com/GoEuroAPI/rest/api/v5/results?direction=outbound&search_id=${hash}&sort_by=updateTime&include_segment_positions=true&sort_variants=smart&exclude_offsite_bus_results=true&exclude_offsite_train_results=true&use_stats=true&updated_since=0`;
+    await KeyValueStore.setValue('apiUrl', apiUrl);
 
     const cookies2 = await page.context().cookies();
     const cookieHeader = cookies2.map((cookie) => `${cookie.name}=${cookie.value}`).join('; ');
@@ -87,9 +92,9 @@ const createBaseHandleStart = (input: Input) => {
     });
     log.info('Response received');
     const rawData = await response.body;
-    KeyValueStore.setValue('rawData', rawData);
+    await KeyValueStore.setValue('rawData', rawData);
     const results = parseResults(rawData);
-    KeyValueStore.setValue('results', results);
+    await KeyValueStore.setValue('results', results);
 
     // Sort the results based on the price from lowest to highest.
     const sortedResults = results.sort((a, b) => a.price - b.price);
@@ -104,8 +109,6 @@ const createBaseHandleStart = (input: Input) => {
     }
 
     Dataset.pushData(sortedResults);
-    await page.close();
-    await page.context().close();
     // console.log('Filling date');
     // await page.click('span[data-e2e="buttonDepartureDateText"]');
     // await page.waitForTimeout(2000);
