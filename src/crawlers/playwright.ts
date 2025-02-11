@@ -40,6 +40,7 @@ export const createPlaywrightCrawler = async (
     persistCookiesPerSession: true,
     useSessionPool: true,
     keepAlive: true,
+    navigationTimeoutSecs: 1000000,
     sessionPoolOptions: {
       persistenceOptions: { enable: true },
       maxPoolSize: 10,

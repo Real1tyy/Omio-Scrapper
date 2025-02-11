@@ -1,12 +1,16 @@
-import { Dataset, PlaywrightCrawlingContext } from 'crawlee';
+import { Dataset, KeyValueStore, PlaywrightCrawlingContext } from 'crawlee';
 import setCookieParser, { Cookie } from 'set-cookie-parser';
 import { Input } from '../models/model.js';
+import { acceptCookieBanner } from '../utils/accept.js';
+import { addCookies } from '../utils/cookies.js';
+import { selectCurrency } from '../utils/currency.js';
 import { parseResults } from '../utils/parse.js';
 import { typeAndSelectValue } from '../utils/select.js';
 
 const createBaseHandleStart = (input: Input) => {
   const baseHandleStart = async (context: PlaywrightCrawlingContext) => {
     const { page, log, sendRequest } = context;
+    await page.setDefaultNavigationTimeout(1000000);
 
     // Initialize an array to store intercepted cookies.
     const interceptedCookies: Cookie[] = [];
@@ -27,73 +31,44 @@ const createBaseHandleStart = (input: Input) => {
       }
     });
 
-    // Navigate to the target site.
     await page.goto('https://www.omio.com/');
+
     await page.waitForLoadState('domcontentloaded');
-    // Wait a bit to ensure challenge cookies are received.
     await page.waitForTimeout(5000);
+    await addCookies(context, interceptedCookies);
+    await acceptCookieBanner(context);
+    log.info('Cookies added and banner accepted');
 
-    // Re-add intercepted cookies to the context to ensure they're used in subsequent requests.
-    if (interceptedCookies.length > 0) {
-      const currentURL = new URL(page.url());
-      const cookiesToAdd = interceptedCookies.map((cookie) => ({
-        name: cookie.name,
-        value: cookie.value,
-        domain: cookie.domain || currentURL.hostname,
-        path: cookie.path || '/',
-        expires: cookie.expires ? Math.floor(new Date(cookie.expires).getTime() / 1000) : -1,
-        httpOnly: cookie.httpOnly,
-        secure: cookie.secure,
-        sameSite: cookie.sameSite
-          ? ((cookie.sameSite.toLowerCase() === 'lax'
-              ? 'Lax'
-              : cookie.sameSite.toLowerCase() === 'strict'
-                ? 'Strict'
-                : 'None') as 'Lax' | 'Strict' | 'None')
-          : undefined,
-      }));
-      await page.context().addCookies(cookiesToAdd);
-      log.info(`Added intercepted cookies to context: ${JSON.stringify(cookiesToAdd)}`);
-    }
+    await page.waitForTimeout(2000);
+    await selectCurrency(context, 'CZK');
+    log.info('Currency selected');
 
-    try {
-      const acceptButton = await page.waitForSelector(
-        'button[data-element="gdpr-banner-button-accept"]',
-        { timeout: 1000 },
-      );
-      await acceptButton.click({ force: true });
-      log.info("Cookie banner accepted: 'Accept all' button clicked.");
-
-      // Simulate user interaction.
-      await page.mouse.wheel(0, 700);
-      await page.waitForTimeout(1000);
-      await page.mouse.wheel(0, 200);
-      await page.waitForTimeout(50);
-      await page.mouse.wheel(0, -500);
-      await page.waitForTimeout(1000);
-      await page.mouse.wheel(0, -500);
-    } catch (error) {
-      log.info("No cookie banner 'Accept all' button was found, continuing.");
-    }
+    await page.waitForLoadState('domcontentloaded');
     await page.waitForTimeout(5000);
+    await addCookies(context, interceptedCookies);
+    await acceptCookieBanner(context);
+    log.info('Cookies added and banner accepted');
 
-    const cookies = await context.cookies;
-    console.log(`Cookies in session: ${JSON.stringify(cookies)}`);
-
+    await page.waitForTimeout(3000);
     await typeAndSelectValue('[data-id="departurePosition"]', input.from, context);
-    await page.waitForTimeout(500);
+    log.info('From selected');
     await typeAndSelectValue('[data-id="arrivalPosition"]', input.to, context);
-    await page.waitForTimeout(500);
-
+    log.info('To selected');
     const searchCheckboxToggle = await page.waitForSelector(
       "[data-e2e='searchCheckbox'] [data-component='toggle']",
     );
     await searchCheckboxToggle.click();
+    log.info('Search checkbox toggled');
 
-    console.log('Searching prepare...');
-    const searchButton = await page.waitForSelector('[data-e2e="buttonSearch"]');
+    const searchButton = await page.waitForSelector('button[data-e2e="buttonSearch"]', {
+      timeout: 100000,
+    });
+    console.log('Search button found: ', await searchButton.innerHTML());
     await searchButton.click();
+    log.info('Search button clicked');
+
     const url = page.url();
+    console.log('URL: ', url);
     const hash = url.match(/results\/([A-Z0-9]+)\//)?.[1];
     const apiUrl = `https://www.omio.com/GoEuroAPI/rest/api/v5/results?direction=outbound&search_id=${hash}&sort_by=updateTime&include_segment_positions=true&sort_variants=smart&exclude_offsite_bus_results=true&exclude_offsite_train_results=true&use_stats=true&updated_since=0`;
 
@@ -110,14 +85,27 @@ const createBaseHandleStart = (input: Input) => {
         Cookie: cookieHeader,
       },
     });
-
+    log.info('Response received');
     const rawData = await response.body;
+    KeyValueStore.setValue('rawData', rawData);
     const results = parseResults(rawData);
-    console.log(results);
-    Dataset.pushData(results);
+    KeyValueStore.setValue('results', results);
 
-    await page.waitForTimeout(1000000);
+    // Sort the results based on the price from lowest to highest.
+    const sortedResults = results.sort((a, b) => a.price - b.price);
+
+    // Log the sorted results (for debugging purposes)
+    log.info(`Sorted Results by Price: ${JSON.stringify(sortedResults)}`);
+
+    // Continue with processing the sorted results...
+    // Example: Iterating over each result.
+    for (const result of sortedResults) {
+      log.info(`Processed Result: ${JSON.stringify(result)}`);
+    }
+
+    Dataset.pushData(sortedResults);
     await page.close();
+    await page.context().close();
     // console.log('Filling date');
     // await page.click('span[data-e2e="buttonDepartureDateText"]');
     // await page.waitForTimeout(2000);
