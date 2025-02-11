@@ -15,7 +15,6 @@ describe('parseResults', () => {
     results.forEach((result) => {
       expect(result).toHaveProperty('companyId');
       expect(result).toHaveProperty('duration');
-      expect(result).toHaveProperty('duration');
       expect(result).toHaveProperty('departureTime');
       expect(result).toHaveProperty('arrivalTime');
       expect(result).toHaveProperty('stops');

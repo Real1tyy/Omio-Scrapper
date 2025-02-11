@@ -26,6 +26,6 @@ export const resultSchema = z
     originalPrice: z.number(),
     ticketsLeft: z.number(),
   })
-  .passthrough(); // Allow additional properties to be ignored.
+  .strip(); // .strip() will remove any additional unexpected properties.
 
 export type Result = z.infer<typeof resultSchema>;

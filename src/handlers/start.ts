@@ -1,7 +1,7 @@
-import { PlaywrightCrawlingContext } from 'crawlee';
+import { Dataset, PlaywrightCrawlingContext } from 'crawlee';
 import setCookieParser, { Cookie } from 'set-cookie-parser';
 import { Input } from '../models/model.js';
-import { resultSchema } from '../models/result.js';
+import { parseResults } from '../utils/parse.js';
 import { typeAndSelectValue } from '../utils/select.js';
 
 const createBaseHandleStart = (input: Input) => {
@@ -112,22 +112,12 @@ const createBaseHandleStart = (input: Input) => {
     });
 
     const rawData = await response.body;
-    const data = JSON.parse(rawData.toString());
-
-    console.log(`API response: ${JSON.stringify(data)}`);
-    // data.outbounds is an object whose values are our results.
-    console.log(`Outbounds: ${JSON.stringify(data.outbounds)}`);
-
-    // Convert the outbounds object into an array of result objects.
-    const parsedOutbounds = Object.values(data.outbounds).map((result) =>
-      resultSchema.parse(result),
-    );
-
-    for (const result of parsedOutbounds) {
-      log.info(`Parsed result: ${JSON.stringify(result)}`);
-    }
+    const results = parseResults(rawData);
+    console.log(results);
+    Dataset.pushData(results);
 
     await page.waitForTimeout(1000000);
+    await page.close();
     // console.log('Filling date');
     // await page.click('span[data-e2e="buttonDepartureDateText"]');
     // await page.waitForTimeout(2000);
