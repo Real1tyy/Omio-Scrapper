@@ -17,6 +17,14 @@ export const getValidatedInput = async (): Promise<Input> => {
 	const [year, month, day] = validatedInput.date.split('-').map(Number);
 	const finalDate = new Date(year, month - 1, day);
 
+	// Get today's date with time zeroed out.
+	const today = new Date();
+	today.setHours(0, 0, 0, 0);
+
+	if (finalDate < today) {
+		Actor.fail('Incorrect input: Date must be either today or later');
+	}
+
 	return {
 		...validatedInput,
 		date: finalDate,
