@@ -1,29 +1,29 @@
 {
-  "title": "Omio scraper",
-  "type": "object",
-  "schemaVersion": 1,
-  "properties": {
-    "from": {
-      "title": "From",
-      "description": "From location.",
-      "editor": "textfield",
-      "type": "string",
-      "prefill": "Brno"
-    },
-    "to": {
-      "title": "To",
-      "description": "To location.",
-      "editor": "datepicker",
-      "type": "string",
-      "prefill": "Prague"
-    },
-    "date": {
-      "title": "Date",
-      "type": "string",
-      "description": "Select a absolute date for the travel in format YYYY-MM-DD",
-      "editor": "datepicker",
-      "pattern": "^(\\d{4})-(0[1-9]|1[0-2])-(0[1-9]|[12]\\d|3[01])$"
-    }
-  },
-  "required": []
+	"title": "Omio scraper",
+	"type": "object",
+	"schemaVersion": 1,
+	"properties": {
+		"from": {
+			"title": "From",
+			"description": "From location.",
+			"editor": "textfield",
+			"type": "string",
+			"prefill": "Brno"
+		},
+		"to": {
+			"title": "To",
+			"description": "To location.",
+			"editor": "datepicker",
+			"type": "string",
+			"prefill": "Prague"
+		},
+		"date": {
+			"title": "Date",
+			"type": "string",
+			"description": "Select a absolute date for the travel in format YYYY-MM-DD",
+			"editor": "datepicker",
+			"pattern": "^(\\d{4})-(0[1-9]|1[0-2])-(0[1-9]|[12]\\d|3[01])$"
+		}
+	},
+	"required": []
 }

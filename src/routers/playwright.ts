@@ -4,10 +4,10 @@ import baseHandleStart from '../handlers/start.js';
 import { Input } from '../models/model.js';
 
 export const createPlaywrightRouterWithInput = async (input: Input) => {
-  const playwrightRouter = createPlaywrightRouter();
-  playwrightRouter.addHandler(BASE_LABEL, baseHandleStart(input));
+	const playwrightRouter = createPlaywrightRouter();
+	playwrightRouter.addHandler(BASE_LABEL, baseHandleStart(input));
 
-  return playwrightRouter;
+	return playwrightRouter;
 };
 
 export default createPlaywrightRouterWithInput;

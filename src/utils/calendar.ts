@@ -8,28 +8,30 @@ import { PlaywrightCrawlingContext } from 'crawlee';
  * @param date - The Date object to be selected.
  */
 export async function selectCalendarDate(
-  context: PlaywrightCrawlingContext,
-  date: Date,
+	context: PlaywrightCrawlingContext,
+	date: Date,
 ): Promise<void> {
-  // Extract the day number from the provided date and convert it to string.
-  const dayNumber = date.getDate();
-  const dayText = dayNumber.toString();
+	// Extract the day number from the provided date and convert it to string.
+	const dayNumber = date.getDate();
+	const dayText = dayNumber.toString();
 
-  // Wait for the calendar container to be visible.
-  const calendarLocator = context.page.locator('div[data-e2e="calendar"]');
-  await calendarLocator.waitFor({ state: 'visible', timeout: 5000 });
+	// Wait for the calendar container to be visible.
+	const calendarLocator = context.page.locator('div[data-e2e="calendar"]');
+	await calendarLocator.waitFor({ state: 'visible', timeout: 5000 });
 
-  // Get all li elements within the calendar container.
-  const dayElements = await calendarLocator.locator('li[data-e2e="calendarDay"]').elementHandles();
+	// Get all li elements within the calendar container.
+	const dayElements = await calendarLocator
+		.locator('li[data-e2e="calendarDay"]')
+		.elementHandles();
 
-  // Iterate over each li element and compare its text content.
-  for (const li of dayElements) {
-    const innerText = (await li.textContent()) || '';
-    if (innerText.trim() === dayText) {
-      await li.click();
-      return;
-    }
-  }
+	// Iterate over each li element and compare its text content.
+	for (const li of dayElements) {
+		const innerText = (await li.textContent()) || '';
+		if (innerText.trim() === dayText) {
+			await li.click();
+			return;
+		}
+	}
 
-  throw new Error(`No calendar day element found for day "${dayText}".`);
+	throw new Error(`No calendar day element found for day "${dayText}".`);
 }

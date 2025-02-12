@@ -6,48 +6,104 @@ import { Result } from '../models/result.js';
 import { Segment } from '../models/segment.js';
 
 /**
-/**
- * Parses the full JSON response.
+ * Parses the full JSON response into a Response object.
  *
- * This function:
- *   1. Builds a Map for companies (using data.companies) where each key is the company ID.
- *   2. Builds a Map for positions (using data.positions) where each key is the position ID.
- *   3. Walks the outbounds object, parses each outbound using the resultSchema,
- *      and then adds the corresponding Company (and Position if applicable) by looking
- *      up the corresponding maps.
- *
- * @param body - The full response body, either as a string or a Buffer.
- * @returns An array of EnhancedResult objects.
+ * @param body - The full response body, either as a string
+ * @returns The parsed Response.
  * @throws Error if the JSON is invalid or the expected structure is not found.
  */
 export function parseResults(body: string): Response {
-  try {
-    const data = JSON.parse(body);
-    return responseSchema.parse(data);
-  } catch (error) {
-    throw new Error(`Invalid JSON format: ${error}`);
-  }
+	try {
+		const data = JSON.parse(body);
+		return responseSchema.parse(data);
+	} catch (error) {
+		throw new Error(`Invalid JSON format: ${error}`);
+	}
 }
 
+/**
+ * Extracts results from a parsed response.
+ *
+ * For each outbound, this function injects:
+ *   - The company matched by outbound.companyId.
+ *   - The segment object matched by outbound.segments (assumed to be a single numeric id).
+ *   - Departure and arrival positions via the segment's departurePositionId and arrivalPositionId.
+ *   - Ticket companies mapped from outbound.ticketsSellingCompanies.
+ *   - Service providers mapped from outbound.serviceProviderIds.
+ *
+ * @param response - The parsed response.
+ * @returns An array of Result objects.
+ */
 export function extractResults(response: Response): Result[] {
-  const results: Result[] = [];
+	const companiesMap = new Map<string, Company>();
+	const positionsMap = new Map<string, Position>();
+	const providersMap = new Map<string, Provider>();
+	const segmentsMap = new Map<string, Segment>();
 
-  const companiesMap = new Map<string, Company>();
-  const positionsMap = new Map<string, Position>();
-  const providersMap = new Map<string, Provider>();
-  const segmentsMap = new Map<string, Segment>();
+	response.companies.forEach((company) => {
+		companiesMap.set(company.id, company);
+	});
 
-  response.companies.forEach((company) => {
-    companiesMap.set(company.id, company);
-  });
+	response.positions.forEach((position) => {
+		positionsMap.set(position.id, position);
+	});
 
-  response.positions.forEach((position) => {
-    positionsMap.set(position.id, position);
-  });
+	response.providers.forEach((provider) => {
+		providersMap.set(provider.id, provider);
+	});
 
-  response.providers.forEach((provider) => {
-    providersMap.set(provider.id, provider);
-  });
+	response.segmentDetails.forEach((segment) => {
+		segmentsMap.set(segment.id, segment);
+	});
 
-  return results;
+	return response.outbounds.map((outbound) => {
+		const segment = segmentsMap.get(outbound.segments);
+		if (!segment) {
+			throw new Error(`Segment with id ${outbound.segments} not found`);
+		}
+
+		const departurePosition = positionsMap.get(segment.departurePosition);
+		if (!departurePosition) {
+			throw new Error(`Departure position with id ${segment.departurePosition} not found`);
+		}
+		const arrivalPosition = positionsMap.get(segment.arrivalPosition);
+		if (!arrivalPosition) {
+			throw new Error(`Arrival position with id ${segment.arrivalPosition} not found`);
+		}
+
+		const ticketCompanies = outbound.ticketsSellingCompanies.map((companyId) => {
+			const company = companiesMap.get(companyId);
+			if (!company) {
+				throw new Error(`Company with id ${companyId} not found in ticket companies`);
+			}
+			return company;
+		});
+
+		const serviceProviders = outbound.serviceProviderIds.map((providerId) => {
+			const provider = providersMap.get(providerId);
+			if (!provider) {
+				throw new Error(`Provider with id ${providerId} not found`);
+			}
+			return provider;
+		});
+
+		return {
+			company: companiesMap.get(outbound.companyId)!,
+			departurePosition: departurePosition,
+			arrivalPosition: arrivalPosition,
+			segment: segment,
+			duration: outbound.duration,
+			departureTime: outbound.departureTime,
+			arrivalTime: outbound.arrivalTime,
+			stops: outbound.stops,
+			mode: outbound.mode,
+			price: outbound.price,
+			originalPrice: outbound.originalPrice,
+			ticketsLeft: outbound.ticketsLeft,
+			journeyId: outbound.journeyId,
+			outboundId: outbound.outboundId,
+			ticketCompanies: ticketCompanies,
+			serviceProviders: serviceProviders,
+		};
+	});
 }
