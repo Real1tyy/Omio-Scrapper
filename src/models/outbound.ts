@@ -22,13 +22,13 @@ export const outboundSchema = z
 		serviceProviderIds: z.array(z.string()),
 		ticketsSellingCompanies: z.array(z.string()),
 		segments: z.preprocess((val) => {
-			if (Array.isArray(val) && val.length === 1 && typeof val[0] === 'number') {
-				return val[0].toString();
+			if (Array.isArray(val) && val.length > 0) {
+				return val.map((segment) => segment.toString());
 			}
 			throw new Error(
-				`Invalid segments format: ${JSON.stringify(val)}. Expected a single number or an array containing a single number.`,
+				`Invalid segments format: ${JSON.stringify(val)}. Expected a non-empty array of numbers.`,
 			);
-		}, z.string()),
+		}, z.array(z.string())),
 		status: z.string(),
 	})
 	.strip();

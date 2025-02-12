@@ -1,17 +1,15 @@
 import { Dataset, KeyValueStore, PlaywrightCrawlingContext } from 'crawlee';
 import setCookieParser, { Cookie } from 'set-cookie-parser';
-import { Input } from '../models/model.js';
+import { Input } from '../models/input.js';
 import { acceptCookieBanner } from '../utils/accept.js';
 import { addCookies } from '../utils/cookies.js';
-import { parseResults } from '../utils/parse.js';
+import { extractResults, parseResults } from '../utils/parse.js';
 import { typeAndSelectValue } from '../utils/select.js';
 
 const createBaseHandleStart = (input: Input) => {
 	const baseHandleStart = async (context: PlaywrightCrawlingContext) => {
 		const { page, log, sendRequest } = context;
 		await page.setDefaultNavigationTimeout(1000000);
-
-		// Initialize an array to store intercepted cookies.
 		const interceptedCookies: Cookie[] = [];
 
 		// Attach a response listener to capture set-cookie headers.
@@ -19,11 +17,8 @@ const createBaseHandleStart = (input: Input) => {
 			try {
 				const headers = response.headers();
 				if (headers['set-cookie']) {
-					// console.log('Set-cookie:', headers['set-cookie']);
 					const parsedCookies = setCookieParser(headers['set-cookie'], { map: false });
 					interceptedCookies.push(...parsedCookies);
-				} else {
-					// console.log('No set-cookie:', headers);
 				}
 			} catch (err) {
 				log.error(`Error processing response from ${response.url()}: ${err}`);
@@ -31,17 +26,11 @@ const createBaseHandleStart = (input: Input) => {
 		});
 
 		await page.goto('https://www.omio.com/');
-
 		await page.waitForLoadState('domcontentloaded');
 		await page.waitForTimeout(5000);
 		await addCookies(context, interceptedCookies);
 		await acceptCookieBanner(context);
 		log.info('Cookies added and banner accepted');
-
-		// await page.waitForTimeout(2000);
-		// await selectCurrency(context, 'CHF');
-		// log.info(`CURRENCY IS CHF`);
-		// log.info('Currency selected');
 
 		// await page.waitForLoadState('domcontentloaded');
 		// await page.waitForTimeout(5000);
@@ -89,8 +78,9 @@ const createBaseHandleStart = (input: Input) => {
 		log.info('Response received');
 		const rawData = await response.body;
 		await KeyValueStore.setValue('rawData', rawData);
-		const results = parseResults(rawData);
-		await KeyValueStore.setValue('results', results);
+		const rawResults = parseResults(rawData);
+		const results = extractResults(rawResults);
+		await Dataset.pushData(results);
 		await page.close();
 		await page.context().close();
 
@@ -106,7 +96,6 @@ const createBaseHandleStart = (input: Input) => {
 		//   log.info(`Processed Result: ${JSON.stringify(result)}`);
 		// }
 
-		Dataset.pushData(results);
 		// console.log('Filling date');
 		// await page.click('span[data-e2e="buttonDepartureDateText"]');
 		// await page.waitForTimeout(2000);

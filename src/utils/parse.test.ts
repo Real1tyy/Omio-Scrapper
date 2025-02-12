@@ -1,13 +1,12 @@
 import fs from 'fs';
 import path from 'path';
 import { Response } from '../models/response.js';
-import { prettifyResults } from '../models/result.js';
 import { extractResults, parseResults } from './parse.js';
 
 /**
  * Verifies that an object has a property with the expected length as an array.
  *
- * @param obj - The object to check.
+ * @param obj - The parsed response object.
  * @param propName - The property name.
  * @param expectedLength - Expected length of the array at that property.
  */
@@ -18,30 +17,66 @@ function expectArrayProperty(obj: Response, propName: string, expectedLength: nu
 	expect(value.length).toBe(expectedLength);
 }
 
-describe('parseResults', () => {
-	it('should parse the example response without throwing an error and return valid arrays for the given properties', () => {
-		const filePath = path.join(__dirname, '../../data/example_response.json');
-		const jsonData = fs.readFileSync(filePath, 'utf-8');
-		const results = parseResults(jsonData);
+/**
+ * Helper function for running tests on a given response file.
+ *
+ * @param fileName - The name of the file under test.
+ * @param expectedCounts - An object containing the expected counts for each property.
+ */
+function runParseAndExtractTests(
+	fileName: string,
+	expectedCounts: {
+		outbounds: number;
+		companies: number;
+		positions: number;
+		providers: number;
+		segmentDetails: number;
+		resultsCount: number;
+	},
+) {
+	describe(`Tests for ${fileName}`, () => {
+		const filePath = path.join(__dirname, '../../data', fileName);
+		let jsonData: string;
+		let parsedResponse: Response;
 
-		expect(results).toBeDefined();
-		expectArrayProperty(results, 'outbounds', 71);
-		expectArrayProperty(results, 'companies', 3);
-		expectArrayProperty(results, 'positions', 13);
-		expectArrayProperty(results, 'providers', 3);
-		expectArrayProperty(results, 'segmentDetails', 71);
+		beforeAll(() => {
+			jsonData = fs.readFileSync(filePath, 'utf-8');
+			parsedResponse = parseResults(jsonData);
+		});
+
+		it(`should parse ${fileName} without throwing an error and return valid arrays for the given properties`, () => {
+			expect(parsedResponse).toBeDefined();
+			expectArrayProperty(parsedResponse, 'outbounds', expectedCounts.outbounds);
+			expectArrayProperty(parsedResponse, 'companies', expectedCounts.companies);
+			expectArrayProperty(parsedResponse, 'positions', expectedCounts.positions);
+			expectArrayProperty(parsedResponse, 'providers', expectedCounts.providers);
+			expectArrayProperty(parsedResponse, 'segmentDetails', expectedCounts.segmentDetails);
+		});
+
+		it(`should extract ${expectedCounts.resultsCount} Result objects from ${fileName}`, () => {
+			const results = extractResults(parsedResponse);
+			expect(Array.isArray(results)).toBe(true);
+			expect(results.length).toBe(expectedCounts.resultsCount);
+		});
 	});
-});
+}
 
-describe('Extract Results', () => {
-	it('should extract 71 Result objects from the parsed response', () => {
-		const filePath = path.join(__dirname, '../../data/example_response.json');
-		const jsonData = fs.readFileSync(filePath, 'utf-8');
-		const parsedResponse: Response = parseResults(jsonData);
-		const results = extractResults(parsedResponse);
-		console.log(prettifyResults(results));
+describe('Response Parsing and Extraction Tests', () => {
+	runParseAndExtractTests('example_response.json', {
+		outbounds: 71,
+		companies: 3,
+		positions: 13,
+		providers: 3,
+		segmentDetails: 71,
+		resultsCount: 71,
+	});
 
-		expect(Array.isArray(results)).toBe(true);
-		expect(results.length).toBe(71);
+	runParseAndExtractTests('example_response2.json', {
+		outbounds: 89,
+		companies: 4,
+		positions: 14,
+		providers: 3,
+		segmentDetails: 96,
+		resultsCount: 89,
 	});
 });

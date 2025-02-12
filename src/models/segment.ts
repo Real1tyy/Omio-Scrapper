@@ -12,7 +12,7 @@ export const segmentSchema = z.object({
 	duration: z.string(),
 	company: z.string(),
 	marketingCompany: z.string(),
-	transportId: z.string(),
+	transportId: z.string().optional(),
 	direction: z.string(),
 });
 

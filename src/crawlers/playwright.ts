@@ -1,35 +1,16 @@
-import { ProxyConfiguration } from 'apify';
-import { PlaywrightCrawler, PlaywrightCrawlerOptions, RequestQueue } from 'crawlee';
+import { log, ProxyConfiguration } from 'apify';
+import { PlaywrightCrawler, RequestQueue } from 'crawlee';
 import { firefox } from 'playwright';
-import { Input } from '../models/model.js';
-import createPlaywrightRouterWithInput from '../routers/playwright.js';
-import logger from '../utils/logger.js';
-
-class CustomPlaywrightCrawler extends PlaywrightCrawler {
-	cheerioQueue: RequestQueue;
-
-	constructor(options: PlaywrightCrawlerOptions, cheerioQueue: RequestQueue) {
-		super(options);
-		this.cheerioQueue = cheerioQueue;
-	}
-}
+import { UserData } from '../models/input.js';
+import createPlaywrightRouterWithInput from '../router.js';
 
 export const createPlaywrightCrawler = async (
 	playwrightQueue: RequestQueue,
 	cheerioQueue: RequestQueue,
-	input: Input,
-): Promise<CustomPlaywrightCrawler> => {
-	// const proxyConfiguration = await Actor.createProxyConfiguration({
-	//   useApifyProxy: false,
-	//   groups: ['RESIDENTIAL'],
-	// });
-
-	// if (!proxyConfiguration) {
-	//   throw new Error('Proxy configuration not found');
-	// }
-
+	input: UserData,
+): Promise<PlaywrightCrawler> => {
 	const playwrightRouter = await createPlaywrightRouterWithInput(input);
-	const options: PlaywrightCrawlerOptions = {
+	return new PlaywrightCrawler({
 		launchContext: {
 			launcher: firefox,
 			launchOptions: {
@@ -49,12 +30,12 @@ export const createPlaywrightCrawler = async (
 			proxyUrls: [`http://auto:${process.env.APIFY_PROXY_PASSWORD}@proxy.apify.com:8000`],
 		}),
 		requestHandler: async (context) => {
-			const { request } = context;
-			logger.info(`Handling ${request.url} with label ${request.label}`);
-			await playwrightRouter(context);
+			log.debug(
+				`PlaywrightCrawler handling request ${context.request.url} with label ${context.request.label}`,
+			);
+			await playwrightRouter({ ...context, cheerioQueue });
 		},
-	};
-	return new CustomPlaywrightCrawler(options, cheerioQueue);
+	});
 };
 
 export default createPlaywrightCrawler;

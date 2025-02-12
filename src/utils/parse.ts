@@ -15,6 +15,7 @@ import { Segment } from '../models/segment.js';
 export function parseResults(body: string): Response {
 	try {
 		const data = JSON.parse(body);
+		console.log("got here");
 		return responseSchema.parse(data);
 	} catch (error) {
 		throw new Error(`Invalid JSON format: ${error}`);
@@ -57,7 +58,7 @@ export function extractResults(response: Response): Result[] {
 	});
 
 	return response.outbounds.map((outbound) => {
-		const segment = segmentsMap.get(outbound.segments);
+		const segment = segmentsMap.get(outbound.segments[0]);
 		if (!segment) {
 			throw new Error(`Segment with id ${outbound.segments} not found`);
 		}
