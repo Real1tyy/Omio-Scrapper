@@ -12,7 +12,7 @@
 		"to": {
 			"title": "To",
 			"description": "To location.",
-			"editor": "datepicker",
+			"editor": "textfield",
 			"type": "string"
 		},
 		"date": {

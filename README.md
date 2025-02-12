@@ -1,74 +1,37 @@
 # Omio Scrapper
 
-Omio Scrapper is an [Apify Actor](https://docs.apify.com/actors) designed to scrape travel data from [Omio](https://www.omio.com) for a specific date. It fetches all available data matching the search criteria (e.g. travel schedules, prices, etc.) and outputs the results into an Apify dataset.
+Omio Scrapper is an [Apify Actor](https://docs.apify.com/actors) designed to scrape travel data from [Omio](https://www.omio.com) for specific dates. It fetches all available travel options matching the search criteria (e.g. schedules, prices, etc.) and outputs the results into an Apify dataset.
 
 ---
 
 ## Overview
 
-This open-source actor leverages [Crawlee](https://crawlee.dev/) and [Playwright](https://playwright.dev/) for robust browser automation and web scraping.
+This open‑source actor uses [Crawlee](https://crawlee.dev/) together with [Playwright](https://playwright.dev/) to automate browser activities and scrape data. The project extracts travel information for trains, buses, and planes—all with details such as departure/arrival times, durations, pricing, and other metadata.
 
----
+**Please note:** Currency support is not fully feature‑complete. Currently, the currency shown depends on the proxy location. We plan to add improved currency handling in the future.
 
-## Input
-
-The actor expects the following input fields:
-
-- **from**: Departure city (string).
-- **to**: Destination city (string).
-- **date**: Travel date in the format `YYYY-MM-DD`.
-
-> **Example Input:**
->
-> ```json
-> {
->   "from": "Berlin",
->   "to": "Munich",
->   "date": "2023-11-15"
-> }
-> ```
-
-*Note:* Although your actor's input schema was originally defined using keys like `"from"`, `"to"`, and `"date"`, you can consider these as representing the _fromLocation_, _toLocation_, and _day_ respectively.
-
----
-
-## Output
-
-The actor publishes all fetched travel data entries to an [Apify dataset](https://docs.apify.com/actors/dataset). Each record in the dataset represents one travel option including details such as departure/arrival times, travel duration, pricing, and other metadata as available on Omio.
+The Omio Scrapper is under active development. Future releases will include additional features such as exposing top‑level map, filter, and reduce operations on the results—giving users the ability to modify and transform the output however they wish.
 
 ---
 
 ## Project Structure
 
-Below is an overview of the project's file structure:
+- **handlers:**
+  Contains the main task handler (e.g. `start.ts`), which coordinates the scraping process and data extraction.
 
-```
-├── .actor
-│   ├── actor.json         # Apify actor configuration; specifies actor specification and environment
-│   └── INPUT_SCHEMA.json  # JSON schema for the actor input
-├── docs                   # Documentation and additional project files
-├── src
-│   ├── crawlers           # Contains crawler files for rendering with Cheerio and Playwright
-│   │   ├── cheerio.ts
-│   │   ├── playwright.ts
-│   │   └── requestQueue.ts
-│   ├── handlers           # Main task handler; starts the crawl and coordinates results extraction
-│   │   └── start.ts
-│   ├── models             # Data models (e.g., for input and result structures)
-│   ├── router.ts          # Defines routing for tasks and custom endpoints if needed
-│   └── utils              # Utility modules with helper functions
-│       ├── accept.ts      # Handles cookie banners and other pop-ups
-│       ├── calendar.ts    # Utilities for selecting calendar dates
-│       ├── cookies.ts     # Cookie manipulation functions
-│       ├── currency.ts    # Currency conversion & extraction utilities
-│       ├── google.ts      # Dismisses the Google sign‑in overlay from within an iframe
-│       ├── parse.ts       # Parsing functions for scraping and data extraction
-│       ├── select.ts      # Helpers to type and select values on the page
-│       └── toggle.ts      # Functions to toggle interface elements
-├── package.json           # Package metadata and dependency configuration
-├── LICENSE                # AGPL-3.0 license file
-└── README.md              # This file
-```
+- **crawlers:**
+  Holds the browser automation and scraper modules (for both Cheerio and Playwright) responsible for parsing page content.
+
+- **models:**
+  Defines all data structures including search input, travel results, companies, providers, positions, etc.
+
+- **utils:**
+  Provides helper functions for cookie handling, currency, parsing, element selections, and more.
+
+- **router:**
+  Sets up the routing for tasks and custom endpoints if needed.
+
+This high‑level architecture allows for a clear separation of concerns and makes it easier to extend or modify specific parts of the system.
 
 ---
 
@@ -92,22 +55,38 @@ Below is an overview of the project's file structure:
 
 3. **Deploy as an Apify Actor**
 
-   The project is configured to run on the Apify platform. Review the `.actor/actor.json` file for configuration details. You can deploy the actor using Apify CLI or directly through the Apify web interface.
+   Check the [.actor/actor.json](.actor/actor.json) for deployment configurations and deploy via the Apify CLI or Apify web interface.
 
 ---
 
-## Configuration
+## Input
 
-- **Input Schema**: Located in `.actor/INPUT_SCHEMA.json`, it ensures that only valid data (departure city, destination city, and a properly formatted date) is provided.
-- **Actor Configuration**: The `.actor/actor.json` file outlines metadata such as actor specification version, name, version, and Dockerfile location.
-- **Dependencies**: All required dependencies are declared in `package.json` and include libraries such as `crawlee`, `playwright`, and `apify`.
+The actor expects the following input fields:
+
+- **from:** Departure city (string).
+- **to:** Destination city (string).
+- **date:** Travel date in the format `YYYY-MM-DD`.
+
+> **Example Input:**
+>
+> ```json
+> {
+>   "from": "Berlin",
+>   "to": "Munich",
+>   "date": "2023-11-15"
+> }
+> ```
+
+*Note:* These keys represent the departure location, destination, and travel day respectively.
+
+---
+
+## Output
+
+The actor writes all extracted travel data entries to an [Apify dataset](https://docs.apify.com/actors/dataset). Each record represents one travel option with details such as times, duration, price, and additional travel specifics.
 
 ---
 
 ## License
 
 This project is open source, licensed under the [GNU Affero General Public License 3.0 (AGPL-3.0)](https://www.gnu.org/licenses/agpl-3.0.en.html). Feel free to review, use, and modify the code according to the license terms.
-
----
-
-The Omio Scrapper is provided as-is for anyone to use, inspect, or extend. Enjoy exploring the code!

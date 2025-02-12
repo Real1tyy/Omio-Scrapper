@@ -68,7 +68,10 @@ const createBaseHandleStart = (input: Input) => {
 		log.info('Response received');
 
 		const rawData = await response.body;
-		await KeyValueStore.setValue('rawData', rawData);
+		const rawDataJson = JSON.parse(rawData);
+		const currency = rawDataJson.query.userInfo.userCurrency;
+		await KeyValueStore.setValue('rawDataJson', rawDataJson);
+		await KeyValueStore.setValue('currency', currency);
 		const rawResults = parseResults(rawData);
 		const results = extractResults(rawResults);
 		const prettifiedResults = prettifyResults(results);
