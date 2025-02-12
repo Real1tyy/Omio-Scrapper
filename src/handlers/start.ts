@@ -57,8 +57,7 @@ const createBaseHandleStart = (input: Input) => {
 
 		const cookies = await page.context().cookies();
 		const cookieHeader = cookies.map((cookie) => `${cookie.name}=${cookie.value}`).join('; ');
-
-		// Now call sendRequest with the Cookie header attached
+		log.info(`Sending request to ${apiUrl}`);
 		const response = await sendRequest({
 			url: apiUrl,
 			method: 'GET',
