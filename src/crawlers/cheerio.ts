@@ -1,14 +1,12 @@
 import { log } from 'apify';
 import { CheerioCrawler, RequestQueue } from 'crawlee';
-import { UserData } from '../models/input.js';
-import createCheerioRouterwithInput from '../routers/cheerio.js';
+import { createCheerioRouterwithInput } from '../router.js';
 
 export const createCheerioCrawler = async (
 	cheerioQueue: RequestQueue,
 	playwrightQueue: RequestQueue,
-	input: UserData,
 ): Promise<CheerioCrawler> => {
-	const cheerioRouter = await createCheerioRouterwithInput(input);
+	const cheerioRouter = await createCheerioRouterwithInput();
 	return new CheerioCrawler({
 		requestHandler: async (context) => {
 			log.debug(

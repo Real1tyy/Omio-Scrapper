@@ -1,6 +1,6 @@
+import { log } from 'apify';
 import { PlaywrightCrawlingContext } from 'crawlee';
 import { Cookie } from 'set-cookie-parser';
-import { log } from 'apify';
 
 export const addCookies = async (
 	context: PlaywrightCrawlingContext,
