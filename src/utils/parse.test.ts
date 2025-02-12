@@ -1,5 +1,6 @@
 import fs from 'fs';
 import path from 'path';
+import { expect } from 'playwright/test';
 import { Response } from '../models/response.js';
 import { extractResults, parseResults } from './parse.js';
 
