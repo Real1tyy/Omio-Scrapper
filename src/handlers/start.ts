@@ -3,7 +3,6 @@ import setCookieParser, { Cookie } from 'set-cookie-parser';
 import { Input } from '../models/model.js';
 import { acceptCookieBanner } from '../utils/accept.js';
 import { addCookies } from '../utils/cookies.js';
-import { selectCurrency } from '../utils/currency.js';
 import { parseResults } from '../utils/parse.js';
 import { typeAndSelectValue } from '../utils/select.js';
 
@@ -39,16 +38,16 @@ const createBaseHandleStart = (input: Input) => {
     await acceptCookieBanner(context);
     log.info('Cookies added and banner accepted');
 
-    await page.waitForTimeout(2000);
-    await selectCurrency(context, 'CHF');
-    log.info(`CURRENCY IS CHF`);
-    log.info('Currency selected');
+    // await page.waitForTimeout(2000);
+    // await selectCurrency(context, 'CHF');
+    // log.info(`CURRENCY IS CHF`);
+    // log.info('Currency selected');
 
-    await page.waitForLoadState('domcontentloaded');
-    await page.waitForTimeout(5000);
-    await addCookies(context, interceptedCookies);
-    await acceptCookieBanner(context);
-    log.info('Cookies added and banner accepted');
+    // await page.waitForLoadState('domcontentloaded');
+    // await page.waitForTimeout(5000);
+    // await addCookies(context, interceptedCookies);
+    // await acceptCookieBanner(context);
+    // log.info('Cookies added and banner accepted');
 
     await page.waitForTimeout(3000);
     await typeAndSelectValue('[data-id="departurePosition"]', input.from, context);
@@ -67,10 +66,7 @@ const createBaseHandleStart = (input: Input) => {
     console.log('Search button found: ', await searchButton.innerHTML());
     await searchButton.click();
     log.info('Search button clicked');
-
     const url = page.url();
-    await page.close();
-    await page.context().close();
 
     console.log('URL: ', url);
     const hash = url.match(/results\/([A-Z0-9]+)\//)?.[1];
@@ -95,20 +91,22 @@ const createBaseHandleStart = (input: Input) => {
     await KeyValueStore.setValue('rawData', rawData);
     const results = parseResults(rawData);
     await KeyValueStore.setValue('results', results);
+    await page.close();
+    await page.context().close();
 
     // Sort the results based on the price from lowest to highest.
-    const sortedResults = results.sort((a, b) => a.price - b.price);
+    // const sortedResults = results.sort((a, b) => a.price - b.price);
 
     // Log the sorted results (for debugging purposes)
-    log.info(`Sorted Results by Price: ${JSON.stringify(sortedResults)}`);
+    // log.info(`Sorted Results by Price: ${JSON.stringify(sortedResults)}`);
 
     // Continue with processing the sorted results...
     // Example: Iterating over each result.
-    for (const result of sortedResults) {
-      log.info(`Processed Result: ${JSON.stringify(result)}`);
-    }
+    // for (const result of sortedResults) {
+    //   log.info(`Processed Result: ${JSON.stringify(result)}`);
+    // }
 
-    Dataset.pushData(sortedResults);
+    Dataset.pushData(results);
     // console.log('Filling date');
     // await page.click('span[data-e2e="buttonDepartureDateText"]');
     // await page.waitForTimeout(2000);

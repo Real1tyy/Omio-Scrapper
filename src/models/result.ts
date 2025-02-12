@@ -1,22 +1,22 @@
-import { z } from 'zod';
+import { Company } from './company.js';
+import { Position } from './positions.js';
+import { Provider } from './provider.js';
 
-export const resultSchema = z
-  .object({
-    companyId: z.string(),
-    duration: z.string(),
-    departureTime: z.preprocess((val) => (typeof val === 'string' ? new Date(val) : val), z.date()),
-    arrivalTime: z.preprocess((val) => (typeof val === 'string' ? new Date(val) : val), z.date()),
-    stops: z.string(),
-    mode: z.string(),
-    price: z.number(),
-    originalPrice: z.number(),
-    ticketsLeft: z.number(),
-    journeyId: z.string(),
-    outboundId: z.string(),
-    ticketsSellingCompanies: z.array(z.string()),
-    segments: z.array(z.number()),
-    status: z.string(),
-  })
-  .strip();
-
-export type Result = z.infer<typeof resultSchema>;
+export interface Result {
+  company: Company;
+  position: Position;
+  provider: Provider;
+  duration: string;
+  departureTime: Date;
+  arrivalTime: Date;
+  stops: string;
+  mode: string;
+  price: number;
+  originalPrice: number;
+  ticketsLeft: number;
+  journeyId: string;
+  outboundId: string;
+  ticketsSellingCompanies: string[];
+  segments: number[];
+  status: string;
+}

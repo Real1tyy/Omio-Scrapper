@@ -1,4 +1,9 @@
+import { Company } from '../models/company.js';
+import { Position } from '../models/positions.js';
+import { Provider } from '../models/provider.js';
 import { Response, responseSchema } from '../models/response.js';
+import { Result } from '../models/result.js';
+import { Segment } from '../models/segment.js';
 
 /**
 /**
@@ -16,74 +21,33 @@ import { Response, responseSchema } from '../models/response.js';
  * @throws Error if the JSON is invalid or the expected structure is not found.
  */
 export function parseResults(body: string): Response {
-  let data;
-
   try {
-    data = JSON.parse(body);
+    const data = JSON.parse(body);
+    return responseSchema.parse(data);
   } catch (error) {
     throw new Error(`Invalid JSON format: ${error}`);
   }
-  const results: Response = responseSchema.parse(data);
-  console.log('Result: ', results);
-  // Create a Map for companies.
-  // (Assumes your JSON includes a "companies" property.
-  //  If your JSON uses "providers" instead, you can substitute that.)
-  // const companyMap = new Map<string, Company>();
-  // if (data.companies && typeof data.companies === 'object') {
-  //   for (const [key, value] of Object.entries(data.companies)) {
-  //     companyMap.set(key, {
-  //       id: key,
-  //       name: value.name,
-  //       logoUrl: value.logoUrl,
-  //       companyCodes: value.companyCodes,
-  //     });
-  //   }
-  // }
+}
 
-  // // Create a Map for positions.
-  // const positionsMap = new Map<string, Position>();
-  // if (data.positions && typeof data.positions === 'object') {
-  //   for (const [key, value] of Object.entries(data.positions)) {
-  //     positionsMap.set(key, {
-  //       id: key,
-  //       name: value.name,
-  //       country: value.country,
-  //       cityName: value.cityName,
-  //       latitude: Number(value.latitude),
-  //       longitude: Number(value.longitude),
-  //     });
-  //   }
-  // }
+export function extractResults(response: Response): Result[] {
+  const results: Result[] = [];
 
-  // // Ensure that data.outbounds exists and is an object.
-  // if (
-  //   typeof data !== 'object' ||
-  //   data === null ||
-  //   !('outbounds' in data) ||
-  //   typeof data.outbounds !== 'object'
-  // ) {
-  //   throw new Error("Invalid JSON structure: 'outbounds' field is missing or is not an object.");
-  // }
-  // const outboundsObject = data.outbounds;
+  const companiesMap = new Map<string, Company>();
+  const positionsMap = new Map<string, Position>();
+  const providersMap = new Map<string, Provider>();
+  const segmentsMap = new Map<string, Segment>();
 
-  // // Process each outbound.
-  // const results: EnhancedResult[] = Object.values(outboundsObject).map((item: any) => {
-  //   // Validate and parse using the resultSchema.
-  //   const parsed = resultSchema.parse(item);
+  response.companies.forEach((company) => {
+    companiesMap.set(company.id, company);
+  });
 
-  //   // Lookup the company based on companyId.
-  //   const company = companyMap.get(parsed.companyId);
+  response.positions.forEach((position) => {
+    positionsMap.set(position.id, position);
+  });
 
-  //   // Optionally, if the outbound contains a position reference,
-  //   // do a similar lookup. (Assuming there's a property "positionId".)
-  //   const position = (parsed as any).positionId
-  //     ? positionsMap.get((parsed as any).positionId)
-  //     : undefined;
-
-  //   // Remove companyId from the result and attach the full company entry.
-  //   const { companyId, ...rest } = parsed;
-  //   return { ...rest, company, position };
-  // });
+  response.providers.forEach((provider) => {
+    providersMap.set(provider.id, provider);
+  });
 
   return results;
 }
