@@ -39,23 +39,23 @@ This high‑level architecture allows for a clear separation of concerns and mak
 
 1. **Install Dependencies**
 
-   Ensure you have [pnpm](https://pnpm.io/) installed, then run:
+    Ensure you have [pnpm](https://pnpm.io/) installed, then run:
 
-   ```bash
-   pnpm install
-   ```
+    ```bash
+    pnpm install
+    ```
 
 2. **Run the Project**
 
-   Run the TypeScript source code:
+    Run the TypeScript source code:
 
-   ```bash
-   pnpm dev
-   ```
+    ```bash
+    pnpm dev
+    ```
 
 3. **Deploy as an Apify Actor**
 
-   Check the [.actor/actor.json](.actor/actor.json) for deployment configurations and deploy via the Apify CLI or Apify web interface.
+    Check the [.actor/actor.json](.actor/actor.json) for deployment configurations and deploy via the Apify CLI or Apify web interface.
 
 ---
 
@@ -71,13 +71,13 @@ The actor expects the following input fields:
 >
 > ```json
 > {
->   "from": "Berlin",
->   "to": "Munich",
->   "date": "2023-11-15"
+> 	"from": "Berlin",
+> 	"to": "Munich",
+> 	"date": "2023-11-15"
 > }
 > ```
 
-*Note:* These keys represent the departure location, destination, and travel day respectively.
+_Note:_ These keys represent the departure location, destination, and travel day respectively.
 
 ---
 

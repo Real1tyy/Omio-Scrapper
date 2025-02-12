@@ -1,5 +1,4 @@
 import { PlaywrightCrawlingContext } from 'crawlee';
-
 /**
  * Selects the correct day on an interactive calendar based on the provided date.
  * Assumes that the calendar's month and year have already been loaded.
@@ -11,27 +10,43 @@ export async function selectCalendarDate(
 	context: PlaywrightCrawlingContext,
 	date: Date,
 ): Promise<void> {
-	// Extract the day number from the provided date and convert it to string.
-	const dayNumber = date.getDate();
-	const dayText = dayNumber.toString();
+	const { page, log } = context;
+	// Extract target day info from the provided date
+	const targetDay = date.getDate();
+	const targetMonth = date.getMonth();
+	const targetYear = date.getFullYear();
 
-	// Wait for the calendar container to be visible.
-	const calendarLocator = context.page.locator('div[data-e2e="calendar"]');
-	await calendarLocator.waitFor({ state: 'visible', timeout: 5000 });
+	// Open the calendar
+	await page.click('span[data-e2e="buttonDepartureDateText"]');
+	log.info('Opened calendar');
+	await page.waitForTimeout(1000);
 
-	// Get all li elements within the calendar container.
+	const calendarLocator = page.locator('div[data-e2e="calendar"]');
+	await calendarLocator.waitFor();
+	log.info('Calendar found');
+
+	// Get all calendar day elements
 	const dayElements = await calendarLocator
 		.locator('li[data-e2e="calendarDay"]')
 		.elementHandles();
 
-	// Iterate over each li element and compare its text content.
-	for (const li of dayElements) {
-		const innerText = (await li.textContent()) || '';
-		if (innerText.trim() === dayText) {
-			await li.click();
+	for (const dayElement of dayElements) {
+		// Get the 'date' attribute from the day element.
+		const dateAttr = await dayElement.getAttribute('date');
+		if (!dateAttr) continue;
+		log.info(`Date attribute: ${dateAttr}`);
+
+		const elementDate = new Date(dateAttr);
+		// Compare day, month, and year.
+		if (
+			elementDate.getDate() === targetDay &&
+			elementDate.getMonth() === targetMonth &&
+			elementDate.getFullYear() === targetYear
+		) {
+			await dayElement.click();
+			log.info(`Clicked on date: ${elementDate.toDateString()}`);
 			return;
 		}
 	}
-
-	throw new Error(`No calendar day element found for day "${dayText}".`);
+	throw new Error(`No calendar day element found representing ${date.toDateString()}`);
 }

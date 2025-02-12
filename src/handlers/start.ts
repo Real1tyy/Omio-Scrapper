@@ -3,6 +3,7 @@ import setCookieParser, { Cookie } from 'set-cookie-parser';
 import { Input } from '../models/input.js';
 import { orderResults, prettifyResults } from '../models/result.js';
 import { acceptCookieBanner } from '../utils/accept.js';
+import { selectCalendarDate } from '../utils/calendar.js';
 import { addCookies } from '../utils/cookies.js';
 import { dismissGoogleSignIn } from '../utils/google.js';
 import { extractResults, parseResults } from '../utils/parse.js';
@@ -42,7 +43,11 @@ const createBaseHandleStart = (input: Input) => {
 			context,
 			"[data-e2e='searchCheckbox'] [data-component='toggle'] .react-toggle",
 		);
+
 		await dismissGoogleSignIn(context);
+
+		await selectCalendarDate(context, input.date);
+
 		const searchButton = await page.waitForSelector('[data-e2e="buttonSearch"]');
 		await searchButton.click();
 		log.info('Search button clicked');
@@ -83,24 +88,6 @@ const createBaseHandleStart = (input: Input) => {
 		log.info(`Page execution time: ${duration} seconds`);
 		await page.close();
 		await page.context().close();
-
-		// Sort the results based on the price from lowest to highest.
-		// const sortedResults = results.sort((a, b) => a.price - b.price);
-
-		// Log the sorted results (for debugging purposes)
-		// log.info(`Sorted Results by Price: ${JSON.stringify(sortedResults)}`);
-
-		// Continue with processing the sorted results...
-		// Example: Iterating over each result.
-		// for (const result of sortedResults) {
-		//   log.info(`Processed Result: ${JSON.stringify(result)}`);
-		// }
-
-		// console.log('Filling date');
-		// await page.click('span[data-e2e="buttonDepartureDateText"]');
-		// await page.waitForTimeout(2000);
-		// console.log('Selecting date');
-		// await selectCalendarDate(context, input.date);
 	};
 
 	return baseHandleStart;

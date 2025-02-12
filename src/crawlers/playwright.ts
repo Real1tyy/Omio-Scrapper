@@ -14,7 +14,7 @@ export const createPlaywrightCrawler = async (
 		launchContext: {
 			launcher: firefox,
 			launchOptions: {
-				headless: true,
+				headless: false,
 			},
 		},
 		requestQueue: playwrightQueue,
