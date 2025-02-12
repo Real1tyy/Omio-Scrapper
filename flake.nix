@@ -1,5 +1,5 @@
 {
-  description = "{{ project_name }} webscrapper";
+  description = "omio webscrapper";
 
   inputs = {
     nixpkgs.url =

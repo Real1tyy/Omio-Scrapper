@@ -31,10 +31,8 @@ const createBaseHandleStart = (input: Input) => {
 
 		await page.goto('https://www.omio.com/');
 		await page.waitForLoadState('domcontentloaded');
-		await page.waitForTimeout(5000);
 		await addCookies(context, interceptedCookies);
 		await acceptCookieBanner(context);
-		await page.waitForTimeout(3000);
 
 		await typeAndSelectValue('[data-id="departurePosition"]', input.from, context);
 		log.info('From selected');
