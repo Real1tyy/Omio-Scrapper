@@ -6,7 +6,8 @@
 		"from": {
 			"title": "From",
 			"description": "From location.",
-			"editor": "textfield"
+			"editor": "textfield",
+			"type": "string"
 		},
 		"to": {
 			"title": "To",
