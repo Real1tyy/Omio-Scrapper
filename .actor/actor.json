@@ -3,5 +3,7 @@
 	"name": "omio-scrapper",
 	"version": "0.0",
 	"buildTag": "latest",
-	"environmentVariables": {}
+	"environmentVariables": {},
+	"input": "./input_schema.json",
+    "dockerfile": "./Dockerfile"
 }
