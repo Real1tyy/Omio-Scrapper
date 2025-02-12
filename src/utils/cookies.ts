@@ -26,6 +26,6 @@ export const addCookies = async (
 				: undefined,
 		}));
 		await context.page.context().addCookies(cookiesToAdd);
-		log.info(`Added intercepted cookies to context: ${JSON.stringify(cookiesToAdd)}`);
+		log.info(`Added intercepted cookies to context`);
 	}
 };

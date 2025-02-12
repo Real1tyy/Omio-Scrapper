@@ -6,7 +6,7 @@ const createRequestQueues = async (): Promise<{
 	playwrightQueue: RequestQueue;
 	cheerioQueue: RequestQueue;
 }> => {
-	const apifyClient = new ApifyClient();
+	const apifyClient = new ApifyClient({ token: process.env.APIFY_TOKEN });
 	const playwrightQueueMetadata = await apifyClient.requestQueues().getOrCreate();
 	const cheerioQueueMetadata = await apifyClient.requestQueues().getOrCreate();
 	const playwrightQueue = await Actor.openRequestQueue(playwrightQueueMetadata.id);

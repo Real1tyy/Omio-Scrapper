@@ -4,14 +4,8 @@ export const outboundSchema = z
 	.object({
 		companyId: z.string(),
 		duration: z.string(),
-		departureTime: z.preprocess(
-			(val) => (typeof val === 'string' ? new Date(val) : val),
-			z.date(),
-		),
-		arrivalTime: z.preprocess(
-			(val) => (typeof val === 'string' ? new Date(val) : val),
-			z.date(),
-		),
+		departureTime: z.string(),
+		arrivalTime: z.string(),
 		stops: z.string(),
 		mode: z.string(),
 		price: z.number(),
