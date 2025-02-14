@@ -97,7 +97,7 @@ export function extractResults(response: Response): Result[] {
 			stops: outbound.stops,
 			mode: outbound.mode,
 			price: outbound.price,
-			originalPrice: outbound.originalPrice,
+			originalPrice: outbound.originalPrice ?? outbound.price,
 			ticketsLeft: outbound.ticketsLeft,
 			journeyId: outbound.journeyId,
 			outboundId: outbound.outboundId,

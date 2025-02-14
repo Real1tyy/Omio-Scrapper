@@ -1,4 +1,4 @@
-import { log, ProxyConfiguration } from 'apify';
+import { Actor, log } from 'apify';
 import { PlaywrightCrawler, RequestQueue } from 'crawlee';
 import { firefox } from 'playwright';
 import { Input } from '../models/input.js';
@@ -18,16 +18,12 @@ export const createPlaywrightCrawler = async (
 			},
 		},
 		requestQueue: playwrightQueue,
-		persistCookiesPerSession: true,
-		useSessionPool: true,
 		navigationTimeoutSecs: 1000000,
 		sessionPoolOptions: {
 			persistenceOptions: { enable: true },
 			maxPoolSize: 10,
 		},
-		proxyConfiguration: new ProxyConfiguration({
-			proxyUrls: [`http://auto:${process.env.APIFY_PROXY_PASSWORD}@proxy.apify.com:8000`],
-		}),
+		proxyConfiguration: await Actor.createProxyConfiguration(),
 		requestHandler: async (context) => {
 			log.debug(
 				`PlaywrightCrawler handling request ${context.request.url} with label ${context.request.label}`,

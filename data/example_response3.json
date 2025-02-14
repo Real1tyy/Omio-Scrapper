@@ -1,0 +1,3267 @@
+{
+	"Interested in our search results?": "There's an API just for you. Please email b2b@omio.com for more information.",
+	"serviceVersion": "v1.0.0",
+	"outbounds": {
+		"7802465238457071840-1277-train-0-896865891": {
+			"companyId": "1277",
+			"duration": "132",
+			"departureTime": "2025-06-26T06:46:00.000+02:00",
+			"arrivalTime": "2025-06-26T08:58:00.000+02:00",
+			"segments": [473421807],
+			"segmentClasses": [
+				{
+					"ids": ["473421807"],
+					"className": "Providers.trenitaliapico.standard"
+				}
+			],
+			"stops": "0",
+			"mode": "train",
+			"ticketsSellingCompanies": ["1277"],
+			"outboundId": "7802465238457071840",
+			"journeyId": "896865891",
+			"price": 1242000,
+			"updatedAt": "29",
+			"serviceProviderIds": ["100006"],
+			"status": "available",
+			"additionalServices": [],
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 19,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.trenitaliapico.standard",
+					"cheapestClassPrice": 1242000
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": true,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"-178657669388190477-1045-bus-0-671683179": {
+			"companyId": "1045",
+			"duration": "325",
+			"departureTime": "2025-06-26T00:50:00.000+02:00",
+			"arrivalTime": "2025-06-26T06:15:00.000+02:00",
+			"segments": [-1611250691],
+			"segmentClasses": [
+				{
+					"ids": ["-1611250691"],
+					"className": ""
+				}
+			],
+			"stops": "0",
+			"mode": "bus",
+			"ticketsSellingCompanies": ["1045"],
+			"outboundId": "-178657669388190477",
+			"journeyId": "671683179",
+			"price": 577300,
+			"updatedAt": "41",
+			"serviceProviderIds": ["100104"],
+			"status": "available",
+			"additionalServices": [],
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 76,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "",
+					"cheapestClassPrice": 577300
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"3099606968044412004-1277-train-0--1274022400": {
+			"companyId": "1277",
+			"duration": "115",
+			"departureTime": "2025-06-26T11:28:00.000+02:00",
+			"arrivalTime": "2025-06-26T13:23:00.000+02:00",
+			"segments": [-237765341],
+			"segmentClasses": [
+				{
+					"ids": ["-237765341"],
+					"className": "Providers.trenitaliapico.standard"
+				}
+			],
+			"stops": "0",
+			"mode": "train",
+			"ticketsSellingCompanies": ["1277"],
+			"outboundId": "3099606968044412004",
+			"journeyId": "-1274022400",
+			"price": 1242000,
+			"updatedAt": "17",
+			"serviceProviderIds": ["100006"],
+			"status": "available",
+			"additionalServices": [],
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 10,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.trenitaliapico.standard",
+					"cheapestClassPrice": 1242000
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": true,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"-8296612990994448068-1045-bus-0--80231682": {
+			"companyId": "1045",
+			"duration": "330",
+			"departureTime": "2025-06-26T04:00:00.000+02:00",
+			"arrivalTime": "2025-06-26T09:30:00.000+02:00",
+			"segments": [-1681380640],
+			"segmentClasses": [
+				{
+					"ids": ["-1681380640"],
+					"className": ""
+				}
+			],
+			"stops": "0",
+			"mode": "bus",
+			"ticketsSellingCompanies": ["1045"],
+			"outboundId": "-8296612990994448068",
+			"journeyId": "-80231682",
+			"price": 641500,
+			"updatedAt": "41",
+			"serviceProviderIds": ["100104"],
+			"status": "available",
+			"additionalServices": [],
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 48,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "",
+					"cheapestClassPrice": 641500
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"972920966941897910-3660-train-0--1137512139": {
+			"companyId": "3660",
+			"duration": "308",
+			"departureTime": "2025-06-26T13:16:00.000+02:00",
+			"arrivalTime": "2025-06-26T18:24:00.000+02:00",
+			"segments": [287210417],
+			"segmentClasses": [
+				{
+					"ids": ["287210417"],
+					"className": "Providers.sncfConnect.2"
+				}
+			],
+			"stops": "0",
+			"mode": "train",
+			"ticketsSellingCompanies": ["3660"],
+			"outboundId": "972920966941897910",
+			"journeyId": "-1137512139",
+			"price": 2809400,
+			"updatedAt": "26",
+			"serviceProviderIds": ["100073"],
+			"status": "available",
+			"additionalServices": [],
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 200,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.sncfConnect.2",
+					"cheapestClassPrice": 2809400
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": true,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"5551185431825452382-1045-bus-0--2024095557": {
+			"companyId": "1045",
+			"duration": "370",
+			"departureTime": "2025-06-26T01:45:00.000+02:00",
+			"arrivalTime": "2025-06-26T07:55:00.000+02:00",
+			"segments": [-1298189795],
+			"segmentClasses": [
+				{
+					"ids": ["-1298189795"],
+					"className": ""
+				}
+			],
+			"stops": "0",
+			"mode": "bus",
+			"ticketsSellingCompanies": ["1045"],
+			"outboundId": "5551185431825452382",
+			"journeyId": "-2024095557",
+			"price": 598700,
+			"updatedAt": "41",
+			"serviceProviderIds": ["100104"],
+			"status": "available",
+			"additionalServices": [],
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 47,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "",
+					"cheapestClassPrice": 598700
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"8183630176643626859-4685-bus-0--255620461": {
+			"companyId": "4685",
+			"duration": "335",
+			"departureTime": "2025-06-26T01:35:00.000+02:00",
+			"arrivalTime": "2025-06-26T07:10:00.000+02:00",
+			"segments": [18644042],
+			"segmentClasses": [
+				{
+					"ids": ["18644042"],
+					"className": "Providers.blablacarbus.ST"
+				}
+			],
+			"stops": "0",
+			"mode": "bus",
+			"ticketsSellingCompanies": ["4685"],
+			"outboundId": "8183630176643626859",
+			"journeyId": "-255620461",
+			"price": 599100,
+			"updatedAt": "31",
+			"serviceProviderIds": ["100108"],
+			"status": "available",
+			"additionalServices": [],
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 53,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.blablacarbus.ST",
+					"cheapestClassPrice": 599100
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"-2736869507742202012-1045-bus-0--951577660": {
+			"companyId": "1045",
+			"duration": "330",
+			"departureTime": "2025-06-26T23:40:00.000+02:00",
+			"arrivalTime": "2025-06-27T05:10:00.000+02:00",
+			"segments": [190442221],
+			"segmentClasses": [
+				{
+					"ids": ["190442221"],
+					"className": ""
+				}
+			],
+			"stops": "0",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"mode": "bus",
+			"ticketsSellingCompanies": ["1045"],
+			"outboundId": "-2736869507742202012",
+			"journeyId": "-951577660",
+			"price": 855700,
+			"updatedAt": "41",
+			"serviceProviderIds": ["100104"],
+			"status": "available",
+			"additionalServices": [],
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 47,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "",
+					"cheapestClassPrice": 855700
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"7871016151543060707-1277-train-0-175262300": {
+			"companyId": "1277",
+			"duration": "131",
+			"departureTime": "2025-06-26T17:08:00.000+02:00",
+			"arrivalTime": "2025-06-26T19:19:00.000+02:00",
+			"segments": [824375528],
+			"segmentClasses": [
+				{
+					"ids": ["824375528"],
+					"className": "Providers.trenitaliapico.standard"
+				}
+			],
+			"stops": "0",
+			"mode": "train",
+			"ticketsSellingCompanies": ["1277"],
+			"outboundId": "7871016151543060707",
+			"journeyId": "175262300",
+			"price": 1242000,
+			"updatedAt": "29",
+			"serviceProviderIds": ["100006"],
+			"status": "available",
+			"additionalServices": [],
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 17,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.trenitaliapico.standard",
+					"cheapestClassPrice": 1242000
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": true,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"-4953282768158702373-4712-train-0-1877940615": {
+			"companyId": "4712",
+			"duration": "125",
+			"departureTime": "2025-06-26T14:04:00.000+02:00",
+			"arrivalTime": "2025-06-26T16:09:00.000+02:00",
+			"segments": [-2144149873],
+			"segmentClasses": [
+				{
+					"ids": ["-2144149873"],
+					"className": "Providers.sncfConnect.2"
+				}
+			],
+			"stops": "0",
+			"mode": "train",
+			"ticketsSellingCompanies": ["4712"],
+			"outboundId": "-4953282768158702373",
+			"journeyId": "1877940615",
+			"price": 3126300,
+			"updatedAt": "26",
+			"serviceProviderIds": ["100073"],
+			"status": "available",
+			"additionalServices": [
+				{
+					"type": "seatSelection",
+					"isBookable": true,
+					"isRequired": false
+				}
+			],
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 39,
+			"ticketsLeftDisplayMode": "DISPLAY_JUST_LIMITED_AVAILABILITY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.sncfConnect.2",
+					"cheapestClassPrice": 3126300
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": true,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"8189157807776671873-4685-bus-0--539892182": {
+			"companyId": "4685",
+			"duration": "360",
+			"departureTime": "2025-06-26T00:30:00.000+02:00",
+			"arrivalTime": "2025-06-26T06:30:00.000+02:00",
+			"segments": [135430245],
+			"segmentClasses": [
+				{
+					"ids": ["135430245"],
+					"className": "Providers.blablacarbus.ST"
+				}
+			],
+			"stops": "0",
+			"mode": "bus",
+			"ticketsSellingCompanies": ["4685"],
+			"outboundId": "8189157807776671873",
+			"journeyId": "-539892182",
+			"price": 770400,
+			"updatedAt": "31",
+			"serviceProviderIds": ["100108"],
+			"status": "available",
+			"additionalServices": [],
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 49,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.blablacarbus.ST",
+					"cheapestClassPrice": 770400
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"-4099661109601843667-1277-train-0-1130929547": {
+			"companyId": "1277",
+			"duration": "116",
+			"departureTime": "2025-06-26T13:08:00.000+02:00",
+			"arrivalTime": "2025-06-26T15:04:00.000+02:00",
+			"segments": [-525761373],
+			"segmentClasses": [
+				{
+					"ids": ["-525761373"],
+					"className": "Providers.trenitaliapico.standard"
+				}
+			],
+			"stops": "0",
+			"mode": "train",
+			"ticketsSellingCompanies": ["1277"],
+			"outboundId": "-4099661109601843667",
+			"journeyId": "1130929547",
+			"price": 985000,
+			"updatedAt": "17",
+			"serviceProviderIds": ["100006"],
+			"status": "available",
+			"additionalServices": [],
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 12,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.trenitaliapico.standard",
+					"cheapestClassPrice": 985000
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": true,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"-7654567698151148890-1045-bus-0--1656097558": {
+			"companyId": "1045",
+			"duration": "345",
+			"departureTime": "2025-06-26T00:15:00.000+02:00",
+			"arrivalTime": "2025-06-26T06:00:00.000+02:00",
+			"segments": [870840245],
+			"segmentClasses": [
+				{
+					"ids": ["870840245"],
+					"className": ""
+				}
+			],
+			"stops": "0",
+			"mode": "bus",
+			"ticketsSellingCompanies": ["1045"],
+			"outboundId": "-7654567698151148890",
+			"journeyId": "-1656097558",
+			"price": 577300,
+			"updatedAt": "41",
+			"serviceProviderIds": ["100104"],
+			"status": "available",
+			"additionalServices": [],
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 75,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "",
+					"cheapestClassPrice": 577300
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"-8407752918236307633-4712-train-0--947943817": {
+			"companyId": "4712",
+			"duration": "117",
+			"departureTime": "2025-06-26T13:04:00.000+02:00",
+			"arrivalTime": "2025-06-26T15:01:00.000+02:00",
+			"segments": [1697376519],
+			"segmentClasses": [
+				{
+					"ids": ["1697376519"],
+					"className": "Providers.sncfConnect.2"
+				}
+			],
+			"stops": "0",
+			"mode": "train",
+			"ticketsSellingCompanies": ["4712"],
+			"outboundId": "-8407752918236307633",
+			"journeyId": "-947943817",
+			"price": 1970000,
+			"updatedAt": "26",
+			"serviceProviderIds": ["100073"],
+			"status": "available",
+			"additionalServices": [
+				{
+					"type": "seatSelection",
+					"isBookable": true,
+					"isRequired": false
+				}
+			],
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 15,
+			"ticketsLeftDisplayMode": "DISPLAY_JUST_LIMITED_AVAILABILITY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.sncfConnect.2",
+					"cheapestClassPrice": 1970000
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": true,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"6363529074918972768-1277-train-0--1762649099": {
+			"companyId": "1277",
+			"duration": "117",
+			"departureTime": "2025-06-26T17:22:00.000+02:00",
+			"arrivalTime": "2025-06-26T19:19:00.000+02:00",
+			"segments": [1270912936],
+			"segmentClasses": [
+				{
+					"ids": ["1270912936"],
+					"className": "Providers.trenitaliapico.standard"
+				}
+			],
+			"stops": "0",
+			"mode": "train",
+			"ticketsSellingCompanies": ["1277"],
+			"outboundId": "6363529074918972768",
+			"journeyId": "-1762649099",
+			"price": 1242000,
+			"updatedAt": "17",
+			"serviceProviderIds": ["100006"],
+			"status": "available",
+			"additionalServices": [],
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 17,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.trenitaliapico.standard",
+					"cheapestClassPrice": 1242000
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": true,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"1281660760123169864-1099-bus-0--503841297": {
+			"companyId": "1099",
+			"duration": "335",
+			"departureTime": "2025-06-26T05:10:00.000+02:00",
+			"arrivalTime": "2025-06-26T10:45:00.000+02:00",
+			"segments": [-2097400331],
+			"segmentClasses": [
+				{
+					"ids": ["-2097400331"],
+					"className": ""
+				}
+			],
+			"stops": "0",
+			"mode": "bus",
+			"ticketsSellingCompanies": ["1099"],
+			"outboundId": "1281660760123169864",
+			"journeyId": "-503841297",
+			"price": 471100,
+			"updatedAt": "19",
+			"serviceProviderIds": ["100083"],
+			"status": "available",
+			"additionalServices": [],
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 46,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "",
+					"cheapestClassPrice": 471100
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"-1740908386052376652-4712-train-0--2103796867": {
+			"companyId": "4712",
+			"duration": "118",
+			"departureTime": "2025-06-26T11:03:00.000+02:00",
+			"arrivalTime": "2025-06-26T13:01:00.000+02:00",
+			"segments": [-771930551],
+			"segmentClasses": [
+				{
+					"ids": ["-771930551"],
+					"className": "Providers.sncfConnect.2"
+				}
+			],
+			"stops": "0",
+			"mode": "train",
+			"ticketsSellingCompanies": ["4712"],
+			"outboundId": "-1740908386052376652",
+			"journeyId": "-2103796867",
+			"price": 1970000,
+			"updatedAt": "26",
+			"serviceProviderIds": ["100073"],
+			"status": "available",
+			"additionalServices": [
+				{
+					"type": "seatSelection",
+					"isBookable": true,
+					"isRequired": false
+				}
+			],
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 19,
+			"ticketsLeftDisplayMode": "DISPLAY_JUST_LIMITED_AVAILABILITY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.sncfConnect.2",
+					"cheapestClassPrice": 1970000
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": true,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"3647763232808398747-4685-bus-0--1154953472": {
+			"companyId": "4685",
+			"duration": "315",
+			"departureTime": "2025-06-26T00:20:00.000+02:00",
+			"arrivalTime": "2025-06-26T05:35:00.000+02:00",
+			"segments": [2025122150],
+			"segmentClasses": [
+				{
+					"ids": ["2025122150"],
+					"className": "Providers.blablacarbus.ST"
+				}
+			],
+			"stops": "0",
+			"mode": "bus",
+			"ticketsSellingCompanies": ["4685"],
+			"outboundId": "3647763232808398747",
+			"journeyId": "-1154953472",
+			"price": 684800,
+			"updatedAt": "31",
+			"serviceProviderIds": ["100108"],
+			"status": "available",
+			"additionalServices": [],
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 51,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.blablacarbus.ST",
+					"cheapestClassPrice": 684800
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"-8467507265717138960-4712-train-0--1736178692": {
+			"companyId": "4712",
+			"duration": "125",
+			"departureTime": "2025-06-26T08:04:00.000+02:00",
+			"arrivalTime": "2025-06-26T10:09:00.000+02:00",
+			"segments": [721026691],
+			"segmentClasses": [
+				{
+					"ids": ["721026691"],
+					"className": "Providers.sncfConnect.2"
+				}
+			],
+			"stops": "0",
+			"mode": "train",
+			"ticketsSellingCompanies": ["4712"],
+			"outboundId": "-8467507265717138960",
+			"journeyId": "-1736178692",
+			"price": 1970000,
+			"updatedAt": "26",
+			"serviceProviderIds": ["100073"],
+			"status": "available",
+			"additionalServices": [
+				{
+					"type": "seatSelection",
+					"isBookable": true,
+					"isRequired": false
+				}
+			],
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 19,
+			"ticketsLeftDisplayMode": "DISPLAY_JUST_LIMITED_AVAILABILITY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.sncfConnect.2",
+					"cheapestClassPrice": 1970000
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": true,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"7351638923359714522-4712-train-0--1196742107": {
+			"companyId": "4712",
+			"duration": "117",
+			"departureTime": "2025-06-26T13:04:00.000+02:00",
+			"arrivalTime": "2025-06-26T15:01:00.000+02:00",
+			"segments": [130011476],
+			"segmentClasses": [
+				{
+					"ids": ["130011476"],
+					"className": "Providers.sncfConnect.2"
+				}
+			],
+			"stops": "0",
+			"mode": "train",
+			"ticketsSellingCompanies": ["4712"],
+			"outboundId": "7351638923359714522",
+			"journeyId": "-1196742107",
+			"price": 2141300,
+			"updatedAt": "26",
+			"serviceProviderIds": ["100073"],
+			"status": "available",
+			"additionalServices": [
+				{
+					"type": "seatSelection",
+					"isBookable": true,
+					"isRequired": false
+				}
+			],
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 17,
+			"ticketsLeftDisplayMode": "DISPLAY_JUST_LIMITED_AVAILABILITY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.sncfConnect.2",
+					"cheapestClassPrice": 2141300
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": true,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"1186411399535676859-4712-train-0-622759202": {
+			"companyId": "4712",
+			"duration": "124",
+			"departureTime": "2025-06-26T10:04:00.000+02:00",
+			"arrivalTime": "2025-06-26T12:08:00.000+02:00",
+			"segments": [-1703848893],
+			"segmentClasses": [
+				{
+					"ids": ["-1703848893"],
+					"className": "Providers.sncfConnect.2"
+				}
+			],
+			"stops": "0",
+			"mode": "train",
+			"ticketsSellingCompanies": ["4712"],
+			"outboundId": "1186411399535676859",
+			"journeyId": "622759202",
+			"price": 1970000,
+			"updatedAt": "26",
+			"serviceProviderIds": ["100073"],
+			"status": "available",
+			"additionalServices": [
+				{
+					"type": "seatSelection",
+					"isBookable": true,
+					"isRequired": false
+				}
+			],
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 18,
+			"ticketsLeftDisplayMode": "DISPLAY_JUST_LIMITED_AVAILABILITY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.sncfConnect.2",
+					"cheapestClassPrice": 1970000
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": true,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"-3613511254996173970-1099-bus-0--219627338": {
+			"companyId": "1099",
+			"duration": "314",
+			"departureTime": "2025-06-26T05:10:00.000+02:00",
+			"arrivalTime": "2025-06-26T10:24:00.000+02:00",
+			"segments": [-1703858678],
+			"segmentClasses": [
+				{
+					"ids": ["-1703858678"],
+					"className": ""
+				}
+			],
+			"stops": "0",
+			"mode": "bus",
+			"ticketsSellingCompanies": ["1099"],
+			"outboundId": "-3613511254996173970",
+			"journeyId": "-219627338",
+			"price": 471100,
+			"updatedAt": "19",
+			"serviceProviderIds": ["100083"],
+			"status": "available",
+			"additionalServices": [],
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 46,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "",
+					"cheapestClassPrice": 471100
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": true,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"-4404266087157808949-3660-train-0--881644617": {
+			"companyId": "3660",
+			"duration": "308",
+			"departureTime": "2025-06-26T15:16:00.000+02:00",
+			"arrivalTime": "2025-06-26T20:24:00.000+02:00",
+			"segments": [-940620248],
+			"segmentClasses": [
+				{
+					"ids": ["-940620248"],
+					"className": "Providers.sncfConnect.2"
+				}
+			],
+			"stops": "0",
+			"mode": "train",
+			"ticketsSellingCompanies": ["3660"],
+			"outboundId": "-4404266087157808949",
+			"journeyId": "-881644617",
+			"price": 2809400,
+			"updatedAt": "26",
+			"serviceProviderIds": ["100073"],
+			"status": "available",
+			"additionalServices": [],
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 200,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.sncfConnect.2",
+					"cheapestClassPrice": 2809400
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": true,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"-2705594166697735717-4685-bus-0--1829217557": {
+			"companyId": "4685",
+			"duration": "375",
+			"departureTime": "2025-06-26T12:00:00.000+02:00",
+			"arrivalTime": "2025-06-26T18:15:00.000+02:00",
+			"segments": [945721071],
+			"segmentClasses": [
+				{
+					"ids": ["945721071"],
+					"className": "Providers.blablacarbus.ST"
+				}
+			],
+			"stops": "0",
+			"mode": "bus",
+			"ticketsSellingCompanies": ["4685"],
+			"outboundId": "-2705594166697735717",
+			"journeyId": "-1829217557",
+			"price": 599100,
+			"updatedAt": "31",
+			"serviceProviderIds": ["100108"],
+			"status": "available",
+			"additionalServices": [],
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 49,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.blablacarbus.ST",
+					"cheapestClassPrice": 599100
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"4991570679897774768-1045-bus-0--73343643": {
+			"companyId": "1045",
+			"duration": "400",
+			"departureTime": "2025-06-26T09:15:00.000+02:00",
+			"arrivalTime": "2025-06-26T15:55:00.000+02:00",
+			"segments": [1422945952],
+			"segmentClasses": [
+				{
+					"ids": ["1422945952"],
+					"className": ""
+				}
+			],
+			"stops": "0",
+			"mode": "bus",
+			"ticketsSellingCompanies": ["1045"],
+			"outboundId": "4991570679897774768",
+			"journeyId": "-73343643",
+			"price": 555900,
+			"updatedAt": "41",
+			"serviceProviderIds": ["100104"],
+			"status": "available",
+			"additionalServices": [],
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 44,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "",
+					"cheapestClassPrice": 555900
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"-5711020371754205545-1277-train-0-506351262": {
+			"companyId": "1277",
+			"duration": "130",
+			"departureTime": "2025-06-26T12:54:00.000+02:00",
+			"arrivalTime": "2025-06-26T15:04:00.000+02:00",
+			"segments": [886627752],
+			"segmentClasses": [
+				{
+					"ids": ["886627752"],
+					"className": "Providers.trenitaliapico.standard"
+				}
+			],
+			"stops": "0",
+			"mode": "train",
+			"ticketsSellingCompanies": ["1277"],
+			"outboundId": "-5711020371754205545",
+			"journeyId": "506351262",
+			"price": 985000,
+			"updatedAt": "29",
+			"serviceProviderIds": ["100006"],
+			"status": "available",
+			"additionalServices": [],
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 12,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.trenitaliapico.standard",
+					"cheapestClassPrice": 985000
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": true,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"5183658728814031628-1045-bus-0--336693233": {
+			"companyId": "1045",
+			"duration": "340",
+			"departureTime": "2025-06-26T16:30:00.000+02:00",
+			"arrivalTime": "2025-06-26T22:10:00.000+02:00",
+			"segments": [1048645824],
+			"segmentClasses": [
+				{
+					"ids": ["1048645824"],
+					"className": ""
+				}
+			],
+			"stops": "0",
+			"mode": "bus",
+			"ticketsSellingCompanies": ["1045"],
+			"outboundId": "5183658728814031628",
+			"journeyId": "-336693233",
+			"price": 534500,
+			"updatedAt": "41",
+			"serviceProviderIds": ["100104"],
+			"status": "available",
+			"additionalServices": [],
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 76,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "",
+					"cheapestClassPrice": 534500
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"822736900732824878-4685-bus-0--1578648586": {
+			"companyId": "4685",
+			"duration": "320",
+			"departureTime": "2025-06-26T02:45:00.000+02:00",
+			"arrivalTime": "2025-06-26T08:05:00.000+02:00",
+			"segments": [430641802],
+			"segmentClasses": [
+				{
+					"ids": ["430641802"],
+					"className": "Providers.blablacarbus.ST"
+				}
+			],
+			"stops": "0",
+			"mode": "bus",
+			"ticketsSellingCompanies": ["4685"],
+			"outboundId": "822736900732824878",
+			"journeyId": "-1578648586",
+			"price": 427800,
+			"updatedAt": "31",
+			"serviceProviderIds": ["100108"],
+			"status": "available",
+			"additionalServices": [],
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 46,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.blablacarbus.ST",
+					"cheapestClassPrice": 427800
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"2229900237002439434-1045-bus-0--886366572": {
+			"companyId": "1045",
+			"duration": "330",
+			"departureTime": "2025-06-26T05:25:00.000+02:00",
+			"arrivalTime": "2025-06-26T10:55:00.000+02:00",
+			"segments": [1567130205],
+			"segmentClasses": [
+				{
+					"ids": ["1567130205"],
+					"className": ""
+				}
+			],
+			"stops": "0",
+			"mode": "bus",
+			"ticketsSellingCompanies": ["1045"],
+			"outboundId": "2229900237002439434",
+			"journeyId": "-886366572",
+			"price": 555900,
+			"updatedAt": "41",
+			"serviceProviderIds": ["100104"],
+			"status": "available",
+			"additionalServices": [],
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 76,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "",
+					"cheapestClassPrice": 555900
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"-4911196358186652839-1045-bus-0-388188740": {
+			"companyId": "1045",
+			"duration": "370",
+			"departureTime": "2025-06-26T08:40:00.000+02:00",
+			"arrivalTime": "2025-06-26T14:50:00.000+02:00",
+			"segments": [-1234913890],
+			"segmentClasses": [
+				{
+					"ids": ["-1234913890"],
+					"className": ""
+				}
+			],
+			"stops": "0",
+			"mode": "bus",
+			"ticketsSellingCompanies": ["1045"],
+			"outboundId": "-4911196358186652839",
+			"journeyId": "388188740",
+			"price": 534500,
+			"updatedAt": "41",
+			"serviceProviderIds": ["100104"],
+			"status": "available",
+			"additionalServices": [],
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 53,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "",
+					"cheapestClassPrice": 534500
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"2302435349102753134-4685-bus-0--1348300248": {
+			"companyId": "4685",
+			"duration": "370",
+			"departureTime": "2025-06-26T00:10:00.000+02:00",
+			"arrivalTime": "2025-06-26T06:20:00.000+02:00",
+			"segments": [1481286445],
+			"segmentClasses": [
+				{
+					"ids": ["1481286445"],
+					"className": "Providers.blablacarbus.ST"
+				}
+			],
+			"stops": "0",
+			"mode": "bus",
+			"ticketsSellingCompanies": ["4685"],
+			"outboundId": "2302435349102753134",
+			"journeyId": "-1348300248",
+			"price": 427800,
+			"updatedAt": "31",
+			"serviceProviderIds": ["100108"],
+			"status": "available",
+			"additionalServices": [],
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 53,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.blablacarbus.ST",
+					"cheapestClassPrice": 427800
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"-3120060222634662001-1045-bus-0--172758201": {
+			"companyId": "1045",
+			"duration": "315",
+			"departureTime": "2025-06-26T23:55:00.000+02:00",
+			"arrivalTime": "2025-06-27T05:10:00.000+02:00",
+			"segments": [-1637232540],
+			"segmentClasses": [
+				{
+					"ids": ["-1637232540"],
+					"className": ""
+				}
+			],
+			"stops": "0",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"mode": "bus",
+			"ticketsSellingCompanies": ["1045"],
+			"outboundId": "-3120060222634662001",
+			"journeyId": "-172758201",
+			"price": 577300,
+			"updatedAt": "41",
+			"serviceProviderIds": ["100104"],
+			"status": "available",
+			"additionalServices": [],
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 46,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "",
+					"cheapestClassPrice": 577300
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"1708469555941324293-1045-bus-0-1437374570": {
+			"companyId": "1045",
+			"duration": "360",
+			"departureTime": "2025-06-26T15:15:00.000+02:00",
+			"arrivalTime": "2025-06-26T21:15:00.000+02:00",
+			"segments": [361285463],
+			"segmentClasses": [
+				{
+					"ids": ["361285463"],
+					"className": ""
+				}
+			],
+			"stops": "0",
+			"mode": "bus",
+			"ticketsSellingCompanies": ["1045"],
+			"outboundId": "1708469555941324293",
+			"journeyId": "1437374570",
+			"price": 555900,
+			"updatedAt": "41",
+			"serviceProviderIds": ["100104"],
+			"status": "available",
+			"additionalServices": [],
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 53,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "",
+					"cheapestClassPrice": 555900
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"6375897917963685349-1277-train-0-87607243": {
+			"companyId": "1277",
+			"duration": "120",
+			"departureTime": "2025-06-26T20:38:00.000+02:00",
+			"arrivalTime": "2025-06-26T22:38:00.000+02:00",
+			"segments": [391070123],
+			"segmentClasses": [
+				{
+					"ids": ["391070123"],
+					"className": "Providers.trenitaliapico.standard"
+				}
+			],
+			"stops": "0",
+			"mode": "train",
+			"ticketsSellingCompanies": ["1277"],
+			"outboundId": "6375897917963685349",
+			"journeyId": "87607243",
+			"price": 985000,
+			"updatedAt": "17",
+			"serviceProviderIds": ["100006"],
+			"status": "available",
+			"additionalServices": [],
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 20,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.trenitaliapico.standard",
+					"cheapestClassPrice": 985000
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": true,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"-1104614333280798781-4685-bus-0--231034203": {
+			"companyId": "4685",
+			"duration": "395",
+			"departureTime": "2025-06-26T10:50:00.000+02:00",
+			"arrivalTime": "2025-06-26T17:25:00.000+02:00",
+			"segments": [116140781],
+			"segmentClasses": [
+				{
+					"ids": ["116140781"],
+					"className": "Providers.blablacarbus.ST"
+				}
+			],
+			"stops": "0",
+			"mode": "bus",
+			"ticketsSellingCompanies": ["4685"],
+			"outboundId": "-1104614333280798781",
+			"journeyId": "-231034203",
+			"price": 427800,
+			"updatedAt": "31",
+			"serviceProviderIds": ["100108"],
+			"status": "available",
+			"additionalServices": [],
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 53,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.blablacarbus.ST",
+					"cheapestClassPrice": 427800
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"-5631464983291521569-3660-train-0-1708661378": {
+			"companyId": "3660",
+			"duration": "310",
+			"departureTime": "2025-06-26T11:16:00.000+02:00",
+			"arrivalTime": "2025-06-26T16:26:00.000+02:00",
+			"segments": [1231585669],
+			"segmentClasses": [
+				{
+					"ids": ["1231585669"],
+					"className": "Providers.sncfConnect.2"
+				}
+			],
+			"stops": "0",
+			"mode": "train",
+			"ticketsSellingCompanies": ["3660"],
+			"outboundId": "-5631464983291521569",
+			"journeyId": "1708661378",
+			"price": 2809400,
+			"updatedAt": "26",
+			"serviceProviderIds": ["100073"],
+			"status": "available",
+			"additionalServices": [],
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 200,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.sncfConnect.2",
+					"cheapestClassPrice": 2809400
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": true,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"-6343369808869248896-4712-train-0-1721503751": {
+			"companyId": "4712",
+			"duration": "117",
+			"departureTime": "2025-06-26T15:04:00.000+02:00",
+			"arrivalTime": "2025-06-26T17:01:00.000+02:00",
+			"segments": [-1286704192],
+			"segmentClasses": [
+				{
+					"ids": ["-1286704192"],
+					"className": "Providers.sncfConnect.2"
+				}
+			],
+			"stops": "0",
+			"mode": "train",
+			"ticketsSellingCompanies": ["4712"],
+			"outboundId": "-6343369808869248896",
+			"journeyId": "1721503751",
+			"price": 3126300,
+			"updatedAt": "26",
+			"serviceProviderIds": ["100073"],
+			"status": "available",
+			"additionalServices": [
+				{
+					"type": "seatSelection",
+					"isBookable": true,
+					"isRequired": false
+				}
+			],
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 79,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.sncfConnect.2",
+					"cheapestClassPrice": 3126300
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": true,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"5355135396587616046-4712-train-0--705519582": {
+			"companyId": "4712",
+			"duration": "118",
+			"departureTime": "2025-06-26T11:38:00.000+02:00",
+			"arrivalTime": "2025-06-26T13:36:00.000+02:00",
+			"segments": [338775926],
+			"segmentClasses": [
+				{
+					"ids": ["338775926"],
+					"className": "Providers.sncfConnect.2"
+				}
+			],
+			"stops": "0",
+			"mode": "train",
+			"ticketsSellingCompanies": ["4712"],
+			"outboundId": "5355135396587616046",
+			"journeyId": "-705519582",
+			"price": 1970000,
+			"updatedAt": "26",
+			"serviceProviderIds": ["100073"],
+			"status": "available",
+			"additionalServices": [
+				{
+					"type": "seatSelection",
+					"isBookable": true,
+					"isRequired": false
+				}
+			],
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 18,
+			"ticketsLeftDisplayMode": "DISPLAY_JUST_LIMITED_AVAILABILITY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.sncfConnect.2",
+					"cheapestClassPrice": 1970000
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": true,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"-2116130623651175757-4685-bus-0--541649150": {
+			"companyId": "4685",
+			"duration": "340",
+			"departureTime": "2025-06-26T17:10:00.000+02:00",
+			"arrivalTime": "2025-06-26T22:50:00.000+02:00",
+			"segments": [-390897766],
+			"segmentClasses": [
+				{
+					"ids": ["-390897766"],
+					"className": "Providers.blablacarbus.ST"
+				}
+			],
+			"stops": "0",
+			"mode": "bus",
+			"ticketsSellingCompanies": ["4685"],
+			"outboundId": "-2116130623651175757",
+			"journeyId": "-541649150",
+			"price": 599100,
+			"updatedAt": "31",
+			"serviceProviderIds": ["100108"],
+			"status": "available",
+			"additionalServices": [],
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 49,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.blablacarbus.ST",
+					"cheapestClassPrice": 599100
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"4405737885274413016-1277-train-0--99588235": {
+			"companyId": "1277",
+			"duration": "118",
+			"departureTime": "2025-06-26T07:00:00.000+02:00",
+			"arrivalTime": "2025-06-26T08:58:00.000+02:00",
+			"segments": [-1190627526],
+			"segmentClasses": [
+				{
+					"ids": ["-1190627526"],
+					"className": "Providers.trenitaliapico.standard"
+				}
+			],
+			"stops": "0",
+			"mode": "train",
+			"ticketsSellingCompanies": ["1277"],
+			"outboundId": "4405737885274413016",
+			"journeyId": "-99588235",
+			"price": 1242000,
+			"updatedAt": "17",
+			"serviceProviderIds": ["100006"],
+			"status": "available",
+			"additionalServices": [],
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 19,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.trenitaliapico.standard",
+					"cheapestClassPrice": 1242000
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": true,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"5499573616738965380-1045-bus-0--90360662": {
+			"companyId": "1045",
+			"duration": "390",
+			"departureTime": "2025-06-26T00:15:00.000+02:00",
+			"arrivalTime": "2025-06-26T06:45:00.000+02:00",
+			"segments": [-187132346],
+			"segmentClasses": [
+				{
+					"ids": ["-187132346"],
+					"className": ""
+				}
+			],
+			"stops": "0",
+			"mode": "bus",
+			"ticketsSellingCompanies": ["1045"],
+			"outboundId": "5499573616738965380",
+			"journeyId": "-90360662",
+			"price": 577300,
+			"updatedAt": "41",
+			"serviceProviderIds": ["100104"],
+			"status": "available",
+			"additionalServices": [],
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 75,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "",
+					"cheapestClassPrice": 577300
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"4114279800026739926-4712-train-0--685954724": {
+			"companyId": "4712",
+			"duration": "127",
+			"departureTime": "2025-06-26T16:04:00.000+02:00",
+			"arrivalTime": "2025-06-26T18:11:00.000+02:00",
+			"segments": [-1430544408],
+			"segmentClasses": [
+				{
+					"ids": ["-1430544408"],
+					"className": "Providers.sncfConnect.2"
+				}
+			],
+			"stops": "0",
+			"mode": "train",
+			"ticketsSellingCompanies": ["4712"],
+			"outboundId": "4114279800026739926",
+			"journeyId": "-685954724",
+			"price": 3297600,
+			"updatedAt": "26",
+			"serviceProviderIds": ["100073"],
+			"status": "available",
+			"additionalServices": [
+				{
+					"type": "seatSelection",
+					"isBookable": true,
+					"isRequired": false
+				}
+			],
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 78,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.sncfConnect.2",
+					"cheapestClassPrice": 3297600
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": true,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"-2676489892319488305-1045-bus-0--1175476024": {
+			"companyId": "1045",
+			"duration": "345",
+			"departureTime": "2025-06-26T21:30:00.000+02:00",
+			"arrivalTime": "2025-06-27T03:15:00.000+02:00",
+			"segments": [1320759927],
+			"segmentClasses": [
+				{
+					"ids": ["1320759927"],
+					"className": ""
+				}
+			],
+			"stops": "0",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"mode": "bus",
+			"ticketsSellingCompanies": ["1045"],
+			"outboundId": "-2676489892319488305",
+			"journeyId": "-1175476024",
+			"price": 770000,
+			"updatedAt": "41",
+			"serviceProviderIds": ["100104"],
+			"status": "available",
+			"additionalServices": [],
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 73,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "",
+					"cheapestClassPrice": 770000
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"4972280799345849249-4685-bus-0--1971481816": {
+			"companyId": "4685",
+			"duration": "330",
+			"departureTime": "2025-06-26T01:00:00.000+02:00",
+			"arrivalTime": "2025-06-26T06:30:00.000+02:00",
+			"segments": [1558798323],
+			"segmentClasses": [
+				{
+					"ids": ["1558798323"],
+					"className": "Providers.blablacarbus.ST"
+				}
+			],
+			"stops": "0",
+			"mode": "bus",
+			"ticketsSellingCompanies": ["4685"],
+			"outboundId": "4972280799345849249",
+			"journeyId": "-1971481816",
+			"price": 427800,
+			"updatedAt": "31",
+			"serviceProviderIds": ["100108"],
+			"status": "available",
+			"additionalServices": [],
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 49,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.blablacarbus.ST",
+					"cheapestClassPrice": 427800
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		}
+	},
+	"itineraries": [
+		{
+			"outboundLegId": "2229900237002439434-1045-bus-0--886366572"
+		},
+		{
+			"outboundLegId": "8183630176643626859-4685-bus-0--255620461"
+		},
+		{
+			"outboundLegId": "4114279800026739926-4712-train-0--685954724"
+		},
+		{
+			"outboundLegId": "4972280799345849249-4685-bus-0--1971481816"
+		},
+		{
+			"outboundLegId": "1281660760123169864-1099-bus-0--503841297"
+		},
+		{
+			"outboundLegId": "3647763232808398747-4685-bus-0--1154953472"
+		},
+		{
+			"outboundLegId": "-4099661109601843667-1277-train-0-1130929547"
+		},
+		{
+			"outboundLegId": "-5631464983291521569-3660-train-0-1708661378"
+		},
+		{
+			"outboundLegId": "5355135396587616046-4712-train-0--705519582"
+		},
+		{
+			"outboundLegId": "4991570679897774768-1045-bus-0--73343643"
+		},
+		{
+			"outboundLegId": "822736900732824878-4685-bus-0--1578648586"
+		},
+		{
+			"outboundLegId": "-2705594166697735717-4685-bus-0--1829217557"
+		},
+		{
+			"outboundLegId": "2302435349102753134-4685-bus-0--1348300248"
+		},
+		{
+			"outboundLegId": "-4911196358186652839-1045-bus-0-388188740"
+		},
+		{
+			"outboundLegId": "5183658728814031628-1045-bus-0--336693233"
+		},
+		{
+			"outboundLegId": "972920966941897910-3660-train-0--1137512139"
+		},
+		{
+			"outboundLegId": "-1740908386052376652-4712-train-0--2103796867"
+		},
+		{
+			"outboundLegId": "-3613511254996173970-1099-bus-0--219627338"
+		},
+		{
+			"outboundLegId": "7871016151543060707-1277-train-0-175262300"
+		},
+		{
+			"outboundLegId": "6375897917963685349-1277-train-0-87607243"
+		},
+		{
+			"outboundLegId": "-4404266087157808949-3660-train-0--881644617"
+		},
+		{
+			"outboundLegId": "5499573616738965380-1045-bus-0--90360662"
+		},
+		{
+			"outboundLegId": "4405737885274413016-1277-train-0--99588235"
+		},
+		{
+			"outboundLegId": "-2116130623651175757-4685-bus-0--541649150"
+		},
+		{
+			"outboundLegId": "-3120060222634662001-1045-bus-0--172758201"
+		},
+		{
+			"outboundLegId": "-8296612990994448068-1045-bus-0--80231682"
+		},
+		{
+			"outboundLegId": "-1104614333280798781-4685-bus-0--231034203"
+		},
+		{
+			"outboundLegId": "1708469555941324293-1045-bus-0-1437374570"
+		},
+		{
+			"outboundLegId": "7802465238457071840-1277-train-0-896865891"
+		},
+		{
+			"outboundLegId": "5551185431825452382-1045-bus-0--2024095557"
+		},
+		{
+			"outboundLegId": "6363529074918972768-1277-train-0--1762649099"
+		},
+		{
+			"outboundLegId": "-7654567698151148890-1045-bus-0--1656097558"
+		},
+		{
+			"outboundLegId": "-5711020371754205545-1277-train-0-506351262"
+		},
+		{
+			"outboundLegId": "-8467507265717138960-4712-train-0--1736178692"
+		},
+		{
+			"outboundLegId": "-6343369808869248896-4712-train-0-1721503751"
+		},
+		{
+			"outboundLegId": "3099606968044412004-1277-train-0--1274022400"
+		},
+		{
+			"outboundLegId": "-4953282768158702373-4712-train-0-1877940615"
+		},
+		{
+			"outboundLegId": "8189157807776671873-4685-bus-0--539892182"
+		},
+		{
+			"outboundLegId": "7351638923359714522-4712-train-0--1196742107"
+		},
+		{
+			"outboundLegId": "-2736869507742202012-1045-bus-0--951577660"
+		},
+		{
+			"outboundLegId": "1186411399535676859-4712-train-0-622759202"
+		},
+		{
+			"outboundLegId": "-178657669388190477-1045-bus-0-671683179"
+		},
+		{
+			"outboundLegId": "-2676489892319488305-1045-bus-0--1175476024"
+		},
+		{
+			"outboundLegId": "-8407752918236307633-4712-train-0--947943817"
+		}
+	],
+	"companies": {
+		"1045": {
+			"id": "1045",
+			"name": "FlixBus",
+			"code": "meinfernbus_flixbus",
+			"logoUrl": "https://cdn-goeuro.com/static_content/web/logos/{size}/meinfernbus_flixbus.png",
+			"companyCodes": [
+				{
+					"code": "flixbus",
+					"type": "GOEURO"
+				}
+			]
+		},
+		"1099": {
+			"id": "1099",
+			"name": "Alsa",
+			"code": "alsa",
+			"logoUrl": "https://cdn-goeuro.com/static_content/web/logos/{size}/alsa.png",
+			"companyCodes": [
+				{
+					"code": "alsa",
+					"type": "GOEURO"
+				}
+			]
+		},
+		"1277": {
+			"id": "1277",
+			"name": "Trenitalia",
+			"code": "trenitalia",
+			"logoUrl": "https://cdn-goeuro.com/static_content/web/logos/{size}/trenitalia.png",
+			"companyCodes": [
+				{
+					"code": "sncf-trenitalia",
+					"type": "GOEURO"
+				}
+			]
+		},
+		"3660": {
+			"id": "3660",
+			"name": "SNCF | TER",
+			"code": "sncf-ter",
+			"logoUrl": "https://cdn-goeuro.com/static_content/web/logos/{size}/sncf-ter.png",
+			"companyCodes": [
+				{
+					"code": "sncf-ter",
+					"type": "GOEURO"
+				}
+			]
+		},
+		"4685": {
+			"id": "4685",
+			"name": "BlaBlaCar Bus",
+			"code": "blablacarbus",
+			"logoUrl": "https://cdn-goeuro.com/static_content/web/logos/{size}/blablacarbus.png",
+			"companyCodes": [
+				{
+					"code": "blablacarbus",
+					"type": "GOEURO"
+				}
+			]
+		},
+		"4712": {
+			"id": "4712",
+			"name": "SNCF | TGV INOUI",
+			"code": "sncf-tgv-inoui-national",
+			"logoUrl": "https://cdn-goeuro.com/static_content/web/logos/{size}/sncf-tgv-inoui-national.png",
+			"companyCodes": [
+				{
+					"code": "sncf-tgv-inoui-national",
+					"type": "TOC"
+				}
+			]
+		}
+	},
+	"query": {
+		"roundTrip": false,
+		"airportToAirport": false,
+		"locationsOutsideEurope": false,
+		"includeNearbyAirports": false,
+		"nearbyAirportAvailable": false,
+		"searchId": "E4DEC58F125C240919C907F6A25A9DB25",
+		"departurePosition": "379604",
+		"arrivalPosition": "379727",
+		"departureDate": "2025-06-26",
+		"passengers": {
+			"adults": 1,
+			"children": 0,
+			"infants": 0
+		},
+		"userInfo": {
+			"userLocale": "en",
+			"userCurrency": "HUF",
+			"unitSystem": "metric",
+			"ipCountryCode": "GB"
+		},
+		"searchModes": {
+			"flight": {
+				"status": "inprogress",
+				"resultsQty": 0,
+				"filteredResultsQty": 0,
+				"returnCodes": [],
+				"disclaimers": [],
+				"defaultSorting": "smart"
+			},
+			"bus": {
+				"status": "done",
+				"resultsQty": 24,
+				"filteredResultsQty": 24,
+				"returnCodes": [],
+				"disclaimers": [],
+				"defaultSorting": "outboundDepartureTime"
+			},
+			"ferry": {
+				"status": "notavailable",
+				"resultsQty": 0,
+				"filteredResultsQty": 0,
+				"returnCodes": [131],
+				"disclaimers": [],
+				"defaultSorting": "outboundDepartureTime"
+			},
+			"train": {
+				"status": "done",
+				"resultsQty": 20,
+				"filteredResultsQty": 20,
+				"returnCodes": [],
+				"disclaimers": [],
+				"extension_info": {
+					"outbounds": [["08:00", "16:04"]]
+				},
+				"defaultSorting": "outboundDepartureTime"
+			}
+		},
+		"cursor": "",
+		"searchTriggerTime": "2025-02-13T13:50:30.865Z",
+		"sentOutDiscountCards": [],
+		"abTestParameters": [
+			"OCT-4340:b",
+			"da-ferry",
+			"new-ferry-tcp",
+			"SXP-205-Improved-search-bar",
+			"fctcp",
+			"OCT-4696:b",
+			"air-stcp",
+			"radio-cabins-fh",
+			"CMPN-6108",
+			"FDET",
+			"RTNV-42:b",
+			"fn-680:sft",
+			"persist-pdp-data",
+			"fn-722:lb-b",
+			"JBVN:ctrl",
+			"seat-maps-air",
+			"AD-5988:1",
+			"RTNV286:0",
+			"trenitalia-check-in-cta",
+			"GIN-1:C",
+			"fn-770:normal",
+			"radio-cabins-gnv",
+			"bdp-post-modification-survey",
+			"ferry-stcp",
+			"CMPN-5655-2:0",
+			"free-omio-flex:ctrl",
+			"CMPN-5655-1:4",
+			"ryanair",
+			"NPPR",
+			"SXP-1401:1",
+			"cs-chat-widget",
+			"RTNV-298:b",
+			"RTT52:3",
+			"change_your_booking_button_rn_enable",
+			"test-dummy:ctrl",
+			"AD-5647:0",
+			"independent-ticket-config-page",
+			"omio-flex-with-companjon",
+			"rg-5477:c",
+			"AD-5935:1",
+			"mobile-web-new-header",
+			"seat-maps-v1",
+			"fn-683:rbdm",
+			"AD-5850",
+			"CHEC-3107:b",
+			"SPL4879:1"
+		],
+		"airportTransferLikelihood": 0.022727272727272728
+	},
+	"positions": {
+		"320755": {
+			"positionType": "station",
+			"name": "Paris Gare de Lyon",
+			"countryCode": "FR",
+			"cityName": "Paris",
+			"latitude": 48.84429959918209,
+			"longitude": 2.3743378406143165,
+			"ticketVendingMachine": false
+		},
+		"361911": {
+			"positionType": "station",
+			"name": "Gare de Lyon-Perrache",
+			"countryCode": "FR",
+			"cityName": "Lyon",
+			"latitude": 45.74852910878239,
+			"longitude": 4.825916037109437,
+			"ticketVendingMachine": false
+		},
+		"362017": {
+			"positionType": "station",
+			"name": "Lyon Part Dieu",
+			"countryCode": "FR",
+			"cityName": "Lyon",
+			"latitude": 45.760545544809986,
+			"longitude": 4.86111752778629,
+			"ticketVendingMachine": false
+		},
+		"363846": {
+			"positionType": "station",
+			"name": "Paris Bercy Bourgogne - Pays d'Auvergne",
+			"countryCode": "FR",
+			"cityName": "Paris",
+			"latitude": 48.83912459556473,
+			"longitude": 2.3827637764434257,
+			"ticketVendingMachine": false
+		},
+		"379604": {
+			"positionType": "location",
+			"name": "Lyon",
+			"countryCode": "FR",
+			"cityName": "Lyon",
+			"latitude": 45.74846,
+			"longitude": 4.84671,
+			"ticketVendingMachine": false
+		},
+		"379727": {
+			"positionType": "location",
+			"name": "Paris",
+			"countryCode": "FR",
+			"cityName": "Paris",
+			"latitude": 48.85341,
+			"longitude": 2.3488,
+			"ticketVendingMachine": false
+		},
+		"16804983": {
+			"positionType": "busstation",
+			"name": "Paris, Massy-Palaiseau",
+			"countryCode": "FR",
+			"cityName": "Paris",
+			"latitude": 48.726914,
+			"longitude": 2.263162,
+			"ticketVendingMachine": false
+		},
+		"16834868": {
+			"positionType": "busstation",
+			"name": "Paris, Quai de Bercy (Bercy Seine)",
+			"countryCode": "FR",
+			"cityName": "Paris",
+			"latitude": 48.83632528252408,
+			"longitude": 2.3793135252719426,
+			"ticketVendingMachine": false
+		},
+		"16863268": {
+			"positionType": "busstation",
+			"name": "Paris, Pont de Levallois",
+			"countryCode": "FR",
+			"cityName": "Paris",
+			"latitude": 48.897742,
+			"longitude": 2.281255,
+			"ticketVendingMachine": false
+		},
+		"16903248": {
+			"positionType": "busstation",
+			"name": "Lyon, Perrache Bus Station",
+			"countryCode": "FR",
+			"cityName": "Lyon",
+			"latitude": 45.749711,
+			"longitude": 4.826788,
+			"ticketVendingMachine": false
+		},
+		"17286854": {
+			"positionType": "busstation",
+			"name": "Aeropuerto Paris Orly",
+			"countryCode": "FR",
+			"cityName": "Orly",
+			"latitude": 48.73156,
+			"longitude": 2.37356,
+			"ticketVendingMachine": false
+		}
+	},
+	"currencies": {
+		"HUF": {
+			"name": "Hungarian Forint",
+			"symbol": "Ft"
+		}
+	},
+	"sortVariants": {
+		"smart": [
+			388188740, -231034203, -73343643, 1130929547, 506351262, -1274022400, -219627338,
+			-1829217557, -503841297, 1437374570, -336693233, -886366572, -541649150, -1762649099,
+			87607243, 175262300, -80231682, -99588235, -1578648586, 622759202, 896865891,
+			-1971481816, -172758201, -1348300248, -255620461, 671683179, -2103796867, -705519582,
+			-1736178692, -2024095557, -1656097558, -90360662, -1154953472, -947943817, -951577660,
+			-1175476024, -539892182, -1196742107, 1708661378, -1137512139, 1877940615, 1721503751,
+			-881644617, -685954724
+		]
+	},
+	"segmentDetails": {
+		"18644042": {
+			"type": "bus",
+			"departureTime": "2025-06-26T01:35:00.000+02:00",
+			"departureZoneId": "Europe/Paris",
+			"arrivalTime": "2025-06-26T07:10:00.000+02:00",
+			"arrivalZoneId": "Europe/Paris",
+			"departurePosition": "16903248",
+			"arrivalPosition": "16834868",
+			"duration": "335",
+			"company": "4685",
+			"marketingCompany": "0",
+			"transportId": "94762",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"116140781": {
+			"type": "bus",
+			"departureTime": "2025-06-26T10:50:00.000+02:00",
+			"departureZoneId": "Europe/Paris",
+			"arrivalTime": "2025-06-26T17:25:00.000+02:00",
+			"arrivalZoneId": "Europe/Paris",
+			"departurePosition": "16903248",
+			"arrivalPosition": "16834868",
+			"duration": "395",
+			"company": "4685",
+			"marketingCompany": "0",
+			"transportId": "5184",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"130011476": {
+			"type": "train",
+			"departureTime": "2025-06-26T13:04:00.000+02:00",
+			"departureZoneId": "Europe/Paris",
+			"arrivalTime": "2025-06-26T15:01:00.000+02:00",
+			"arrivalZoneId": "Europe/Paris",
+			"departurePosition": "362017",
+			"arrivalPosition": "320755",
+			"duration": "117",
+			"company": "4712",
+			"marketingCompany": "0",
+			"transportId": "6694",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"135430245": {
+			"type": "bus",
+			"departureTime": "2025-06-26T00:30:00.000+02:00",
+			"departureZoneId": "Europe/Paris",
+			"arrivalTime": "2025-06-26T06:30:00.000+02:00",
+			"arrivalZoneId": "Europe/Paris",
+			"departurePosition": "16903248",
+			"arrivalPosition": "16834868",
+			"duration": "360",
+			"company": "4685",
+			"marketingCompany": "0",
+			"transportId": "50106",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"190442221": {
+			"type": "bus",
+			"departureTime": "2025-06-26T23:40:00.000+02:00",
+			"departureZoneId": "Europe/Paris",
+			"arrivalTime": "2025-06-27T05:10:00.000+02:00",
+			"arrivalZoneId": "Europe/Paris",
+			"departurePosition": "16903248",
+			"arrivalPosition": "16834868",
+			"duration": "330",
+			"company": "1045",
+			"marketingCompany": "0",
+			"transportId": "FlixBus",
+			"direction": "OUTBOUND",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"287210417": {
+			"type": "train",
+			"departureTime": "2025-06-26T13:16:00.000+02:00",
+			"departureZoneId": "Europe/Paris",
+			"arrivalTime": "2025-06-26T18:24:00.000+02:00",
+			"arrivalZoneId": "Europe/Paris",
+			"departurePosition": "362017",
+			"arrivalPosition": "363846",
+			"duration": "308",
+			"company": "3660",
+			"marketingCompany": "0",
+			"transportId": "17760",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"338775926": {
+			"type": "train",
+			"departureTime": "2025-06-26T11:38:00.000+02:00",
+			"departureZoneId": "Europe/Paris",
+			"arrivalTime": "2025-06-26T13:36:00.000+02:00",
+			"arrivalZoneId": "Europe/Paris",
+			"departurePosition": "362017",
+			"arrivalPosition": "320755",
+			"duration": "118",
+			"company": "4712",
+			"marketingCompany": "0",
+			"transportId": "6616",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"361285463": {
+			"type": "bus",
+			"departureTime": "2025-06-26T15:15:00.000+02:00",
+			"departureZoneId": "Europe/Paris",
+			"arrivalTime": "2025-06-26T21:15:00.000+02:00",
+			"arrivalZoneId": "Europe/Paris",
+			"departurePosition": "16903248",
+			"arrivalPosition": "16834868",
+			"duration": "360",
+			"company": "1045",
+			"marketingCompany": "0",
+			"transportId": "FlixBus",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"391070123": {
+			"type": "train",
+			"departureTime": "2025-06-26T20:38:00.000+02:00",
+			"departureZoneId": "Europe/Paris",
+			"arrivalTime": "2025-06-26T22:38:00.000+02:00",
+			"arrivalZoneId": "Europe/Paris",
+			"departurePosition": "362017",
+			"arrivalPosition": "320755",
+			"duration": "120",
+			"company": "1277",
+			"marketingCompany": "0",
+			"transportId": "FRECCIAROSSA 1000 9296",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"430641802": {
+			"type": "bus",
+			"departureTime": "2025-06-26T02:45:00.000+02:00",
+			"departureZoneId": "Europe/Paris",
+			"arrivalTime": "2025-06-26T08:05:00.000+02:00",
+			"arrivalZoneId": "Europe/Paris",
+			"departurePosition": "16903248",
+			"arrivalPosition": "16834868",
+			"duration": "320",
+			"company": "4685",
+			"marketingCompany": "0",
+			"transportId": "4782",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"473421807": {
+			"type": "train",
+			"departureTime": "2025-06-26T06:46:00.000+02:00",
+			"departureZoneId": "Europe/Paris",
+			"arrivalTime": "2025-06-26T08:58:00.000+02:00",
+			"arrivalZoneId": "Europe/Paris",
+			"departurePosition": "361911",
+			"arrivalPosition": "320755",
+			"duration": "132",
+			"company": "1277",
+			"marketingCompany": "0",
+			"transportId": "FRECCIAROSSA 1000 6650",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"721026691": {
+			"type": "train",
+			"departureTime": "2025-06-26T08:04:00.000+02:00",
+			"departureZoneId": "Europe/Paris",
+			"arrivalTime": "2025-06-26T10:09:00.000+02:00",
+			"arrivalZoneId": "Europe/Paris",
+			"departurePosition": "362017",
+			"arrivalPosition": "320755",
+			"duration": "125",
+			"company": "4712",
+			"marketingCompany": "0",
+			"transportId": "6608",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"824375528": {
+			"type": "train",
+			"departureTime": "2025-06-26T17:08:00.000+02:00",
+			"departureZoneId": "Europe/Paris",
+			"arrivalTime": "2025-06-26T19:19:00.000+02:00",
+			"arrivalZoneId": "Europe/Paris",
+			"departurePosition": "361911",
+			"arrivalPosition": "320755",
+			"duration": "131",
+			"company": "1277",
+			"marketingCompany": "0",
+			"transportId": "FRECCIAROSSA 1000 6656",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"870840245": {
+			"type": "bus",
+			"departureTime": "2025-06-26T00:15:00.000+02:00",
+			"departureZoneId": "Europe/Paris",
+			"arrivalTime": "2025-06-26T06:00:00.000+02:00",
+			"arrivalZoneId": "Europe/Paris",
+			"departurePosition": "16903248",
+			"arrivalPosition": "16834868",
+			"duration": "345",
+			"company": "1045",
+			"marketingCompany": "0",
+			"transportId": "FlixBus",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"886627752": {
+			"type": "train",
+			"departureTime": "2025-06-26T12:54:00.000+02:00",
+			"departureZoneId": "Europe/Paris",
+			"arrivalTime": "2025-06-26T15:04:00.000+02:00",
+			"arrivalZoneId": "Europe/Paris",
+			"departurePosition": "361911",
+			"arrivalPosition": "320755",
+			"duration": "130",
+			"company": "1277",
+			"marketingCompany": "0",
+			"transportId": "FRECCIAROSSA 1000 6654",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"945721071": {
+			"type": "bus",
+			"departureTime": "2025-06-26T12:00:00.000+02:00",
+			"departureZoneId": "Europe/Paris",
+			"arrivalTime": "2025-06-26T18:15:00.000+02:00",
+			"arrivalZoneId": "Europe/Paris",
+			"departurePosition": "16903248",
+			"arrivalPosition": "16834868",
+			"duration": "375",
+			"company": "4685",
+			"marketingCompany": "0",
+			"transportId": "58074",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"1048645824": {
+			"type": "bus",
+			"departureTime": "2025-06-26T16:30:00.000+02:00",
+			"departureZoneId": "Europe/Paris",
+			"arrivalTime": "2025-06-26T22:10:00.000+02:00",
+			"arrivalZoneId": "Europe/Paris",
+			"departurePosition": "16903248",
+			"arrivalPosition": "16834868",
+			"duration": "340",
+			"company": "1045",
+			"marketingCompany": "0",
+			"transportId": "FlixBus",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"1231585669": {
+			"type": "train",
+			"departureTime": "2025-06-26T11:16:00.000+02:00",
+			"departureZoneId": "Europe/Paris",
+			"arrivalTime": "2025-06-26T16:26:00.000+02:00",
+			"arrivalZoneId": "Europe/Paris",
+			"departurePosition": "362017",
+			"arrivalPosition": "363846",
+			"duration": "310",
+			"company": "3660",
+			"marketingCompany": "0",
+			"transportId": "17758",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"1270912936": {
+			"type": "train",
+			"departureTime": "2025-06-26T17:22:00.000+02:00",
+			"departureZoneId": "Europe/Paris",
+			"arrivalTime": "2025-06-26T19:19:00.000+02:00",
+			"arrivalZoneId": "Europe/Paris",
+			"departurePosition": "362017",
+			"arrivalPosition": "320755",
+			"duration": "117",
+			"company": "1277",
+			"marketingCompany": "0",
+			"transportId": "FRECCIAROSSA 1000 6656",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"1320759927": {
+			"type": "bus",
+			"departureTime": "2025-06-26T21:30:00.000+02:00",
+			"departureZoneId": "Europe/Paris",
+			"arrivalTime": "2025-06-27T03:15:00.000+02:00",
+			"arrivalZoneId": "Europe/Paris",
+			"departurePosition": "16903248",
+			"arrivalPosition": "16834868",
+			"duration": "345",
+			"company": "1045",
+			"marketingCompany": "0",
+			"transportId": "FlixBus",
+			"direction": "OUTBOUND",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"1422945952": {
+			"type": "bus",
+			"departureTime": "2025-06-26T09:15:00.000+02:00",
+			"departureZoneId": "Europe/Paris",
+			"arrivalTime": "2025-06-26T15:55:00.000+02:00",
+			"arrivalZoneId": "Europe/Paris",
+			"departurePosition": "16903248",
+			"arrivalPosition": "16834868",
+			"duration": "400",
+			"company": "1045",
+			"marketingCompany": "0",
+			"transportId": "FlixBus",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"1481286445": {
+			"type": "bus",
+			"departureTime": "2025-06-26T00:10:00.000+02:00",
+			"departureZoneId": "Europe/Paris",
+			"arrivalTime": "2025-06-26T06:20:00.000+02:00",
+			"arrivalZoneId": "Europe/Paris",
+			"departurePosition": "16903248",
+			"arrivalPosition": "16834868",
+			"duration": "370",
+			"company": "4685",
+			"marketingCompany": "0",
+			"transportId": "5186",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"1558798323": {
+			"type": "bus",
+			"departureTime": "2025-06-26T01:00:00.000+02:00",
+			"departureZoneId": "Europe/Paris",
+			"arrivalTime": "2025-06-26T06:30:00.000+02:00",
+			"arrivalZoneId": "Europe/Paris",
+			"departurePosition": "16903248",
+			"arrivalPosition": "16834868",
+			"duration": "330",
+			"company": "4685",
+			"marketingCompany": "0",
+			"transportId": "5808",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"1567130205": {
+			"type": "bus",
+			"departureTime": "2025-06-26T05:25:00.000+02:00",
+			"departureZoneId": "Europe/Paris",
+			"arrivalTime": "2025-06-26T10:55:00.000+02:00",
+			"arrivalZoneId": "Europe/Paris",
+			"departurePosition": "16903248",
+			"arrivalPosition": "16834868",
+			"duration": "330",
+			"company": "1045",
+			"marketingCompany": "0",
+			"transportId": "FlixBus",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"1697376519": {
+			"type": "train",
+			"departureTime": "2025-06-26T13:04:00.000+02:00",
+			"departureZoneId": "Europe/Paris",
+			"arrivalTime": "2025-06-26T15:01:00.000+02:00",
+			"arrivalZoneId": "Europe/Paris",
+			"departurePosition": "362017",
+			"arrivalPosition": "320755",
+			"duration": "117",
+			"company": "4712",
+			"marketingCompany": "0",
+			"transportId": "6618",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"2025122150": {
+			"type": "bus",
+			"departureTime": "2025-06-26T00:20:00.000+02:00",
+			"departureZoneId": "Europe/Paris",
+			"arrivalTime": "2025-06-26T05:35:00.000+02:00",
+			"arrivalZoneId": "Europe/Paris",
+			"departurePosition": "16903248",
+			"arrivalPosition": "16834868",
+			"duration": "315",
+			"company": "4685",
+			"marketingCompany": "0",
+			"transportId": "3356",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"-1430544408": {
+			"type": "train",
+			"departureTime": "2025-06-26T16:04:00.000+02:00",
+			"departureZoneId": "Europe/Paris",
+			"arrivalTime": "2025-06-26T18:11:00.000+02:00",
+			"arrivalZoneId": "Europe/Paris",
+			"departurePosition": "362017",
+			"arrivalPosition": "320755",
+			"duration": "127",
+			"company": "4712",
+			"marketingCompany": "0",
+			"transportId": "6624",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"-1681380640": {
+			"type": "bus",
+			"departureTime": "2025-06-26T04:00:00.000+02:00",
+			"departureZoneId": "Europe/Paris",
+			"arrivalTime": "2025-06-26T09:30:00.000+02:00",
+			"arrivalZoneId": "Europe/Paris",
+			"departurePosition": "16903248",
+			"arrivalPosition": "16834868",
+			"duration": "330",
+			"company": "1045",
+			"marketingCompany": "0",
+			"transportId": "FlixBus",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"-237765341": {
+			"type": "train",
+			"departureTime": "2025-06-26T11:28:00.000+02:00",
+			"departureZoneId": "Europe/Paris",
+			"arrivalTime": "2025-06-26T13:23:00.000+02:00",
+			"arrivalZoneId": "Europe/Paris",
+			"departurePosition": "362017",
+			"arrivalPosition": "320755",
+			"duration": "115",
+			"company": "1277",
+			"marketingCompany": "0",
+			"transportId": "FRECCIAROSSA 1000 9292",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"-771930551": {
+			"type": "train",
+			"departureTime": "2025-06-26T11:03:00.000+02:00",
+			"departureZoneId": "Europe/Paris",
+			"arrivalTime": "2025-06-26T13:01:00.000+02:00",
+			"arrivalZoneId": "Europe/Paris",
+			"departurePosition": "362017",
+			"arrivalPosition": "320755",
+			"duration": "118",
+			"company": "4712",
+			"marketingCompany": "0",
+			"transportId": "6614",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"-1637232540": {
+			"type": "bus",
+			"departureTime": "2025-06-26T23:55:00.000+02:00",
+			"departureZoneId": "Europe/Paris",
+			"arrivalTime": "2025-06-27T05:10:00.000+02:00",
+			"arrivalZoneId": "Europe/Paris",
+			"departurePosition": "16903248",
+			"arrivalPosition": "16804983",
+			"duration": "315",
+			"company": "1045",
+			"marketingCompany": "0",
+			"transportId": "FlixBus",
+			"direction": "OUTBOUND",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"-1234913890": {
+			"type": "bus",
+			"departureTime": "2025-06-26T08:40:00.000+02:00",
+			"departureZoneId": "Europe/Paris",
+			"arrivalTime": "2025-06-26T14:50:00.000+02:00",
+			"arrivalZoneId": "Europe/Paris",
+			"departurePosition": "16903248",
+			"arrivalPosition": "16834868",
+			"duration": "370",
+			"company": "1045",
+			"marketingCompany": "0",
+			"transportId": "FlixBus",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"-1703858678": {
+			"type": "bus",
+			"departureTime": "2025-06-26T05:10:00.000+02:00",
+			"departureZoneId": "Europe/Paris",
+			"arrivalTime": "2025-06-26T10:24:00.000+02:00",
+			"arrivalZoneId": "Europe/Paris",
+			"departurePosition": "16903248",
+			"arrivalPosition": "17286854",
+			"duration": "314",
+			"company": "1099",
+			"marketingCompany": "0",
+			"transportId": "Normal",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"-2097400331": {
+			"type": "bus",
+			"departureTime": "2025-06-26T05:10:00.000+02:00",
+			"departureZoneId": "Europe/Paris",
+			"arrivalTime": "2025-06-26T10:45:00.000+02:00",
+			"arrivalZoneId": "Europe/Paris",
+			"departurePosition": "16903248",
+			"arrivalPosition": "16834868",
+			"duration": "335",
+			"company": "1099",
+			"marketingCompany": "0",
+			"transportId": "Normal",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"-940620248": {
+			"type": "train",
+			"departureTime": "2025-06-26T15:16:00.000+02:00",
+			"departureZoneId": "Europe/Paris",
+			"arrivalTime": "2025-06-26T20:24:00.000+02:00",
+			"arrivalZoneId": "Europe/Paris",
+			"departurePosition": "362017",
+			"arrivalPosition": "363846",
+			"duration": "308",
+			"company": "3660",
+			"marketingCompany": "0",
+			"transportId": "17762",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"-1298189795": {
+			"type": "bus",
+			"departureTime": "2025-06-26T01:45:00.000+02:00",
+			"departureZoneId": "Europe/Paris",
+			"arrivalTime": "2025-06-26T07:55:00.000+02:00",
+			"arrivalZoneId": "Europe/Paris",
+			"departurePosition": "16903248",
+			"arrivalPosition": "16834868",
+			"duration": "370",
+			"company": "1045",
+			"marketingCompany": "0",
+			"transportId": "FlixBus",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"-1611250691": {
+			"type": "bus",
+			"departureTime": "2025-06-26T00:50:00.000+02:00",
+			"departureZoneId": "Europe/Paris",
+			"arrivalTime": "2025-06-26T06:15:00.000+02:00",
+			"arrivalZoneId": "Europe/Paris",
+			"departurePosition": "16903248",
+			"arrivalPosition": "16834868",
+			"duration": "325",
+			"company": "1045",
+			"marketingCompany": "0",
+			"transportId": "FlixBus",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"-1190627526": {
+			"type": "train",
+			"departureTime": "2025-06-26T07:00:00.000+02:00",
+			"departureZoneId": "Europe/Paris",
+			"arrivalTime": "2025-06-26T08:58:00.000+02:00",
+			"arrivalZoneId": "Europe/Paris",
+			"departurePosition": "362017",
+			"arrivalPosition": "320755",
+			"duration": "118",
+			"company": "1277",
+			"marketingCompany": "0",
+			"transportId": "FRECCIAROSSA 1000 6650",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"-525761373": {
+			"type": "train",
+			"departureTime": "2025-06-26T13:08:00.000+02:00",
+			"departureZoneId": "Europe/Paris",
+			"arrivalTime": "2025-06-26T15:04:00.000+02:00",
+			"arrivalZoneId": "Europe/Paris",
+			"departurePosition": "362017",
+			"arrivalPosition": "320755",
+			"duration": "116",
+			"company": "1277",
+			"marketingCompany": "0",
+			"transportId": "FRECCIAROSSA 1000 6654",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"-2144149873": {
+			"type": "train",
+			"departureTime": "2025-06-26T14:04:00.000+02:00",
+			"departureZoneId": "Europe/Paris",
+			"arrivalTime": "2025-06-26T16:09:00.000+02:00",
+			"arrivalZoneId": "Europe/Paris",
+			"departurePosition": "362017",
+			"arrivalPosition": "320755",
+			"duration": "125",
+			"company": "4712",
+			"marketingCompany": "0",
+			"transportId": "6620",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"-1286704192": {
+			"type": "train",
+			"departureTime": "2025-06-26T15:04:00.000+02:00",
+			"departureZoneId": "Europe/Paris",
+			"arrivalTime": "2025-06-26T17:01:00.000+02:00",
+			"arrivalZoneId": "Europe/Paris",
+			"departurePosition": "362017",
+			"arrivalPosition": "320755",
+			"duration": "117",
+			"company": "4712",
+			"marketingCompany": "0",
+			"transportId": "6622",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"-187132346": {
+			"type": "bus",
+			"departureTime": "2025-06-26T00:15:00.000+02:00",
+			"departureZoneId": "Europe/Paris",
+			"arrivalTime": "2025-06-26T06:45:00.000+02:00",
+			"arrivalZoneId": "Europe/Paris",
+			"departurePosition": "16903248",
+			"arrivalPosition": "16863268",
+			"duration": "390",
+			"company": "1045",
+			"marketingCompany": "0",
+			"transportId": "FlixBus",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"-390897766": {
+			"type": "bus",
+			"departureTime": "2025-06-26T17:10:00.000+02:00",
+			"departureZoneId": "Europe/Paris",
+			"arrivalTime": "2025-06-26T22:50:00.000+02:00",
+			"arrivalZoneId": "Europe/Paris",
+			"departurePosition": "16903248",
+			"arrivalPosition": "16834868",
+			"duration": "340",
+			"company": "4685",
+			"marketingCompany": "0",
+			"transportId": "94766",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"-1703848893": {
+			"type": "train",
+			"departureTime": "2025-06-26T10:04:00.000+02:00",
+			"departureZoneId": "Europe/Paris",
+			"arrivalTime": "2025-06-26T12:08:00.000+02:00",
+			"arrivalZoneId": "Europe/Paris",
+			"departurePosition": "362017",
+			"arrivalPosition": "320755",
+			"duration": "124",
+			"company": "4712",
+			"marketingCompany": "0",
+			"transportId": "6612",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		}
+	},
+	"providers": {
+		"100006": {
+			"name": "trenitaliapico",
+			"displayName": "Trenitalia"
+		},
+		"100073": {
+			"name": "sncfConnect",
+			"displayName": "SNCF"
+		},
+		"100083": {
+			"name": "moveliaconnect",
+			"displayName": "moveliaconnect"
+		},
+		"100104": {
+			"name": "flixbusConnect",
+			"displayName": "Flixbus"
+		},
+		"100108": {
+			"name": "blablacarbus",
+			"displayName": "blablacarbus"
+		}
+	},
+	"translations": {
+		"Providers.sncfConnect.2": "2nd Class",
+		"Providers.trenitaliapico.standard": "Standard",
+		"Providers.blablacarbus.ST": "Standard"
+	},
+	"showRoutedConnectionTip": false
+}

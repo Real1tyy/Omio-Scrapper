@@ -7,20 +7,23 @@
 			"title": "From",
 			"description": "From location.",
 			"editor": "textfield",
-			"type": "string"
+			"type": "string",
+			"prefill": "Brno"
 		},
 		"to": {
 			"title": "To",
 			"description": "To location.",
 			"editor": "textfield",
-			"type": "string"
+			"type": "string",
+			"prefill": "Prague"
 		},
 		"date": {
 			"title": "Date",
 			"type": "string",
 			"description": "Select an absolute travel date in format YYYY-MM-DD. The date must be either today or in the future (past dates are not supported).",
 			"editor": "datepicker",
-			"pattern": "^(\\d{4})-(0[1-9]|1[0-2])-(0[1-9]|[12]\\d|3[01])$"
+			"pattern": "^(\\d{4})-(0[1-9]|1[0-2])-(0[1-9]|[12]\\d|3[01])$",
+			"prefill": "27.3.2025"
 		}
 	},
 	"required": ["from", "to", "date"]

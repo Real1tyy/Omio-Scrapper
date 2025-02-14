@@ -9,7 +9,7 @@ export const outboundSchema = z
 		stops: z.string(),
 		mode: z.string(),
 		price: z.number(),
-		originalPrice: z.number(),
+		originalPrice: z.number().optional(),
 		ticketsLeft: z.number(),
 		journeyId: z.string(),
 		outboundId: z.string(),
