@@ -5,6 +5,8 @@ import { getValidatedInput } from './models/input.js';
 
 Actor.main(async () => {
 	const input = await getValidatedInput();
+	console.log(input);
+	process.exit(0);
 	const { playwrightQueue, cheerioQueue } = await createRequestQueues();
 	const playwrightCrawler = await createPlaywrightCrawler(playwrightQueue, cheerioQueue, input);
 
