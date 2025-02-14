@@ -59,7 +59,6 @@ export const getValidatedInput = async (): Promise<Input> => {
 	const validatedInput = rawInputSchema.parse(rawInput);
 
 	const today = new Date();
-
 	let finalDate: Date;
 
 	if (absoluteDateRegex.test(validatedInput.date)) {
@@ -71,8 +70,8 @@ export const getValidatedInput = async (): Promise<Input> => {
 		const unit = match[2];
 		finalDate = addRelativeToDate(today, amount, unit);
 	}
-	console.log('finalDate', finalDate);
 
+	today.setHours(0, 0, 0, 0);
 	if (finalDate < today) {
 		Actor.fail('Incorrect input: Date must be either today or later');
 	}
