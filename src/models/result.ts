@@ -94,7 +94,7 @@ export function prettifyResult(result: Result): PrettifiedResult {
 		arrival: result.arrivalPosition.name,
 		price: result.price,
 		ticketsLeft: result.ticketsLeft,
-		stops: result.stops,
+		stops: result.stops.length > 1 ? result.stops : [],
 	};
 }
 
