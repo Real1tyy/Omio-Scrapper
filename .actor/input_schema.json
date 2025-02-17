@@ -22,7 +22,8 @@
 			"type": "string",
 			"description": "Select an absolute travel date in format YYYY-MM-DD. The date must be either today or in the future (past dates are not supported).",
 			"editor": "datepicker",
-			"pattern": "^(\\d{4})-(0[1-9]|1[0-2])-(0[1-9]|[12]\\d|3[01])$",
+			"dateType": "absoluteOrRelative",
+			"pattern": "^(\\d{4})-(0[1-9]|1[0-2])-(0[1-9]|[12]\\d|3[01])$|^(\\d+)\\s*(day|week|month|year)s?$",
 			"prefill": "27.3.2025"
 		}
 	},
