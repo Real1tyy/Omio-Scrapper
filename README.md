@@ -84,7 +84,7 @@ _Note:_ These keys represent the departure location, destination, and travel day
 
 ## Output
 
-The actor writes all extracted travel data entries to an [Apify dataset](https://docs.apify.com/actors/dataset). Each record represents one travel option with details such as times, duration, price, and additional travel specifics.
+The actor writes all extracted travel data entries to an [Apify dataset](https://docs.apify.com/actors/dataset). Each record represents one travel option with details such as times, duration, price, and additional travel specifics. The data is sorted based on departure time, from earliest to latest.
 
 ---
 
