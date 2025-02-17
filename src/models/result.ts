@@ -1,17 +1,42 @@
 import { Company } from './company.js';
 import { Position } from './positions.js';
 import { Provider } from './provider.js';
-import { Segment } from './segment.js';
+
+/**
+ * An enriched version of a Segment that includes full position objects instead of just IDs.
+ */
+export interface EnrichedSegment {
+	id: string;
+	departurePosition: Position;
+	arrivalPosition: Position;
+	departureTime: string;
+	arrivalTime: string;
+	duration?: string;
+}
+
+/**
+ * A stop (connection) detail between segments. For every connection we list
+ * the arrival position of the previous segment, the departure position of the next,
+ * and a string indicating the connecting time.
+ */
+export interface StopDetail {
+	departure: string;
+	arrival: string;
+	departureTime: string;
+	arrivalTime: string;
+	duration: string;
+	waitTime?: string;
+}
 
 export interface Result {
 	company: Company;
 	departurePosition: Position;
 	arrivalPosition: Position;
-	segments: Segment[];
+	segments: EnrichedSegment[];
+	stops: StopDetail[];
 	duration: string;
 	departureTime: string;
 	arrivalTime: string;
-	stops: string;
 	mode: string;
 	price: number;
 	originalPrice: number;
@@ -39,6 +64,7 @@ export function formatDuration(duration: string | number): string {
 
 /**
  * Interface representing the prettified result object.
+ * In addition to the basic info, we now include a prettified segments list and stops.
  */
 export interface PrettifiedResult {
 	company: string;
@@ -50,6 +76,7 @@ export interface PrettifiedResult {
 	arrival: string;
 	price: number;
 	ticketsLeft: number;
+	stops: StopDetail[];
 }
 
 /**
@@ -67,6 +94,7 @@ export function prettifyResult(result: Result): PrettifiedResult {
 		arrival: result.arrivalPosition.name,
 		price: result.price,
 		ticketsLeft: result.ticketsLeft,
+		stops: result.stops,
 	};
 }
 
