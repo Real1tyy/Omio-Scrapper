@@ -66,7 +66,7 @@ The actor expects the following input fields:
 - **from:** Departure city (string).
 - **to:** Destination city (string).
 - **date:** Travel date in the format `YYYY-MM-DD`.
-  *Note: The date must be either today's date or a future date. Past dates are not supported.*
+  _Note: The date must be either today's date or a future date. Past dates are not supported._
 
 > **Example Input:**
 >

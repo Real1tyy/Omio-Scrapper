@@ -67,15 +67,17 @@ export function extractResults(response: Response): Result[] {
 	);
 
 	return response.outbounds.map((outbound) => {
-		const segment = getFromMap(segmentsMap, outbound.segments[0], 'Segment');
+		const segments = outbound.segments.map((segmentId) =>
+			getFromMap(segmentsMap, segmentId, 'Segment'),
+		);
 		const departurePosition = getFromMap(
 			positionsMap,
-			segment.departurePosition,
+			segments[0].departurePosition,
 			'Departure position',
 		);
 		const arrivalPosition = getFromMap(
 			positionsMap,
-			segment.arrivalPosition,
+			segments[segments.length - 1].arrivalPosition,
 			'Arrival position',
 		);
 
@@ -90,7 +92,7 @@ export function extractResults(response: Response): Result[] {
 			company: getFromMap(companiesMap, outbound.companyId, 'Company'),
 			departurePosition,
 			arrivalPosition,
-			segment,
+			segments,
 			duration: outbound.duration,
 			departureTime: outbound.departureTime,
 			arrivalTime: outbound.arrivalTime,

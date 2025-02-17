@@ -82,11 +82,20 @@ describe('Response Parsing and Extraction Tests', () => {
 	});
 
 	runParseAndExtractTests('example_response3.json', {
-		outbounds: 1,
-		companies: 1,
-		positions: 1,
-		providers: 1,
-		segmentDetails: 1,
-		resultsCount: 1,
+		outbounds: 44,
+		companies: 6,
+		positions: 11,
+		providers: 5,
+		segmentDetails: 44,
+		resultsCount: 44,
+	});
+
+	runParseAndExtractTests('example_response4.json', {
+		outbounds: 53,
+		companies: 19,
+		positions: 23,
+		providers: 2,
+		segmentDetails: 78,
+		resultsCount: 53,
 	});
 });

@@ -7,7 +7,7 @@ export interface Result {
 	company: Company;
 	departurePosition: Position;
 	arrivalPosition: Position;
-	segment: Segment;
+	segments: Segment[];
 	duration: string;
 	departureTime: string;
 	arrivalTime: string;
