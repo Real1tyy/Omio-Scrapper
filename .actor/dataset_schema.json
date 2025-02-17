@@ -1,8 +1,5 @@
 {
     "actorSpecification": 1,
-    "name": "Prettified Result Actor",
-    "title": "Prettified Result Actor",
-    "version": "1.0.0",
     "fields": {},
     "views": {
         "overview": {
