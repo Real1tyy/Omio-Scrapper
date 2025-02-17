@@ -76,6 +76,10 @@ export const getValidatedInput = async (): Promise<Input> => {
 		Actor.fail('Incorrect input: Date must be either today or later');
 	}
 
+	if (validatedInput.from === validatedInput.to) {
+		Actor.fail('Incorrect input: From and to cannot be the same');
+	}
+
 	return {
 		...validatedInput,
 		date: finalDate,

@@ -55,23 +55,23 @@ const createBaseHandleStart = (input: Input) => {
 		const url = page.url();
 		log.info(`URL: ${url.toString()}`);
 		const hash = url.match(/results\/([A-Z0-9]+)\//)?.[1];
-		const apiUrl = `https://www.omio.com/GoEuroAPI/rest/api/v5/results?direction=outbound&search_id=${hash}&sort_by=updateTime&include_segment_positions=true&sort_variants=smart&exclude_offsite_bus_results=true&exclude_offsite_train_results=true&use_stats=true&updated_since=0`;
+		const apiUrl = `https://www.omio.com/GoEuroAPI/rest/api/v5/results?direction=outbound&search_id=${hash}&sort_by=updateTime&include_segment_positions=true&sort_variants=smart&exclude_offsite_bus_results=true&exclude_offsite_train_results=true&use_stats=true`;
 		await KeyValueStore.setValue('apiUrl', apiUrl);
 
 		const cookies = await page.context().cookies();
 		const cookieHeader = cookies.map((cookie) => `${cookie.name}=${cookie.value}`).join('; ');
 		log.info(`Sending request to ${apiUrl}`);
+		const headers = {
+			'User-Agent':
+				'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+			Cookie: cookieHeader,
+		};
+		await KeyValueStore.setValue('headers', headers);
 		const response = await sendRequest({
 			url: apiUrl,
 			method: 'GET',
-			headers: {
-				'User-Agent':
-					'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-				Cookie: cookieHeader,
-			},
+			headers,
 		});
-		log.info('Response received');
-
 		const rawData = await response.body;
 		const rawDataJson = JSON.parse(rawData);
 		const currency = rawDataJson.query.userInfo.userCurrency;
