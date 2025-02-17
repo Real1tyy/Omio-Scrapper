@@ -1,0 +1,71 @@
+{
+    "actorSpecification": 1,
+    "name": "Prettified Result Actor",
+    "title": "Prettified Result Actor",
+    "version": "1.0.0",
+    "fields": {},
+    "views": {
+        "overview": {
+            "title": "Overview",
+            "transformation": {
+                "fields": [
+                    "company",
+                    "mode",
+                    "departureTime",
+                    "arrivalTime",
+                    "duration",
+                    "departure",
+                    "arrival",
+                    "price",
+                    "ticketsLeft",
+                    "stops"
+                ]
+            },
+            "display": {
+                "component": "table",
+                "properties": {
+                    "company": {
+                        "label": "Company",
+                        "format": "text"
+                    },
+                    "mode": {
+                        "label": "Mode",
+                        "format": "text"
+                    },
+                    "departureTime": {
+                        "label": "Departure Time",
+                        "format": "datetime"
+                    },
+                    "arrivalTime": {
+                        "label": "Arrival Time",
+                        "format": "datetime"
+                    },
+                    "duration": {
+                        "label": "Duration",
+                        "format": "text"
+                    },
+                    "departure": {
+                        "label": "Departure Location",
+                        "format": "text"
+                    },
+                    "arrival": {
+                        "label": "Arrival Location",
+                        "format": "text"
+                    },
+                    "price": {
+                        "label": "Price",
+                        "format": "number"
+                    },
+                    "ticketsLeft": {
+                        "label": "Tickets Left",
+                        "format": "number"
+                    },
+                    "stops": {
+                        "label": "Stops",
+                        "format": "array"
+                    }
+                }
+            }
+        }
+    }
+}
