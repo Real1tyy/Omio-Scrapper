@@ -45,6 +45,7 @@ export interface Result {
 	outboundId: string;
 	ticketCompanies: Company[];
 	serviceProviders: Provider[];
+	currency: string;
 }
 
 /**
@@ -77,6 +78,7 @@ export interface PrettifiedResult {
 	price: number;
 	ticketsLeft: number;
 	stops: StopDetail[];
+	currency: string;
 }
 
 /**
@@ -95,6 +97,7 @@ export function prettifyResult(result: Result): PrettifiedResult {
 		price: result.price,
 		ticketsLeft: result.ticketsLeft,
 		stops: result.stops.length > 1 ? result.stops : [],
+		currency: result.currency,
 	};
 }
 

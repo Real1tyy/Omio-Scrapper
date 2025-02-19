@@ -41,7 +41,7 @@ export function parseResults(body: string): Response {
 /**
  * Extracts and enriches segments while building full stops with travel times and wait times.
  */
-export function extractResults(response: Response): Result[] {
+export function extractResults(response: Response, currency: string): Result[] {
 	// Build lookup maps.
 	const companiesMap = new Map<string, Company>(
 		response.companies.map((company) => [company.id, company]),
@@ -127,6 +127,7 @@ export function extractResults(response: Response): Result[] {
 			serviceProviders: outbound.serviceProviderIds.map((providerId) =>
 				getFromMap(providersMap, providerId, 'Provider'),
 			),
+			currency,
 		};
 	});
 }

@@ -24,7 +24,7 @@
 			"editor": "datepicker",
 			"dateType": "absoluteOrRelative",
 			"pattern": "^(\\d{4})-(0[1-9]|1[0-2])-(0[1-9]|[12]\\d|3[01])$|^(\\d+)\\s*(day|week|month|year)s?$",
-			"prefill": "27.3.2025"
+			"prefill": "5 days"
 		}
 	},
 	"required": ["from", "to", "date"]

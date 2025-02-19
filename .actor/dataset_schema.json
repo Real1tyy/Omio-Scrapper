@@ -14,6 +14,7 @@
                     "departure",
                     "arrival",
                     "price",
+					"currency",
                     "ticketsLeft",
                     "stops"
                 ]
@@ -42,17 +43,21 @@
                         "format": "text"
                     },
                     "departure": {
-                        "label": "Departure Location",
+                        "label": "Departure Station",
                         "format": "text"
                     },
                     "arrival": {
-                        "label": "Arrival Location",
+                        "label": "Arrival Station",
                         "format": "text"
                     },
                     "price": {
                         "label": "Price",
                         "format": "number"
                     },
+					"currency": {
+						"label": "Currency",
+						"format": "text"
+					},
                     "ticketsLeft": {
                         "label": "Tickets Left",
                         "format": "number"

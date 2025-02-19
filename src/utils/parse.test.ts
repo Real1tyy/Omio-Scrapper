@@ -55,7 +55,8 @@ function runParseAndExtractTests(
 		});
 
 		it(`should extract ${expectedCounts.resultsCount} Result objects from ${fileName}`, () => {
-			const results = extractResults(parsedResponse);
+			const currency = 'USD';
+			const results = extractResults(parsedResponse, currency);
 			expect(Array.isArray(results)).toBe(true);
 			expect(results.length).toBe(expectedCounts.resultsCount);
 		});
