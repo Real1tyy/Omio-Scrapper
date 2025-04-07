@@ -1,0 +1,3295 @@
+{
+	"Interested in our search results?": "There's an API just for you. Please email b2b@omio.com for more information.",
+	"serviceVersion": "v1.0.0",
+	"outbounds": {
+		"-1774688615246094631-2586-bus-0-352000124": {
+			"companyId": "2586",
+			"duration": "210",
+			"departureTime": "2025-02-18T12:40:00.000+01:00",
+			"arrivalTime": "2025-02-18T16:10:00.000+01:00",
+			"segments": [-1557972111],
+			"segmentClasses": [
+				{
+					"ids": ["-1557972111"],
+					"className": "Providers.infobus.standard"
+				}
+			],
+			"stops": "0",
+			"mode": "bus",
+			"ticketsSellingCompanies": ["2586"],
+			"outboundId": "-1774688615246094631",
+			"journeyId": "352000124",
+			"price": 1794,
+			"originalPrice": 1794,
+			"updatedAt": "22",
+			"serviceProviderIds": ["137"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 19,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.infobus.standard",
+					"cheapestClassPrice": 1631
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"-1966028697931760141-4201-bus-0--2037704988": {
+			"companyId": "4201",
+			"duration": "170",
+			"departureTime": "2025-02-18T07:45:00.000+01:00",
+			"arrivalTime": "2025-02-18T10:35:00.000+01:00",
+			"segments": [1666279785],
+			"segmentClasses": [
+				{
+					"ids": ["1666279785"],
+					"className": "Providers.distribusion.default"
+				}
+			],
+			"stops": "0",
+			"mode": "bus",
+			"ticketsSellingCompanies": ["4201"],
+			"outboundId": "-1966028697931760141",
+			"journeyId": "-2037704988",
+			"price": 2265,
+			"originalPrice": 2265,
+			"updatedAt": "27",
+			"serviceProviderIds": ["236"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 99,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.distribusion.default",
+					"cheapestClassPrice": 2059
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": true,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"-4873041142154869683-1045-bus-0--2106555086": {
+			"companyId": "1045",
+			"duration": "155",
+			"departureTime": "2025-02-18T14:05:00.000+01:00",
+			"arrivalTime": "2025-02-18T16:40:00.000+01:00",
+			"segments": [-1080002669],
+			"segmentClasses": [
+				{
+					"ids": ["-1080002669"],
+					"className": null
+				}
+			],
+			"stops": "0",
+			"mode": "bus",
+			"ticketsSellingCompanies": ["1045"],
+			"outboundId": "-4873041142154869683",
+			"journeyId": "-2106555086",
+			"price": 1564,
+			"originalPrice": 1564,
+			"updatedAt": "29",
+			"serviceProviderIds": ["100104"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 39,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "",
+					"cheapestClassPrice": 1422
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"-5306980919434615285-1045-bus-0--1944710555": {
+			"companyId": "1045",
+			"duration": "145",
+			"departureTime": "2025-02-18T03:55:00.000+01:00",
+			"arrivalTime": "2025-02-18T06:20:00.000+01:00",
+			"segments": [41768413],
+			"segmentClasses": [
+				{
+					"ids": ["41768413"],
+					"className": null
+				}
+			],
+			"stops": "0",
+			"mode": "bus",
+			"ticketsSellingCompanies": ["1045"],
+			"outboundId": "-5306980919434615285",
+			"journeyId": "-1944710555",
+			"price": 1564,
+			"originalPrice": 1564,
+			"updatedAt": "29",
+			"serviceProviderIds": ["100104"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 39,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "",
+					"cheapestClassPrice": 1422
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"-7890985767171667275-1045-bus-0--1904949860": {
+			"companyId": "1045",
+			"duration": "210",
+			"departureTime": "2025-02-18T09:10:00.000+01:00",
+			"arrivalTime": "2025-02-18T12:40:00.000+01:00",
+			"segments": [-1913445073],
+			"segmentClasses": [
+				{
+					"ids": ["-1913445073"],
+					"className": null
+				}
+			],
+			"stops": "0",
+			"mode": "bus",
+			"ticketsSellingCompanies": ["1045"],
+			"outboundId": "-7890985767171667275",
+			"journeyId": "-1904949860",
+			"price": 1564,
+			"originalPrice": 1564,
+			"updatedAt": "29",
+			"serviceProviderIds": ["100104"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 36,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "",
+					"cheapestClassPrice": 1422
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"-4221326791834155348-1045-bus-0--1900130683": {
+			"companyId": "1045",
+			"duration": "145",
+			"departureTime": "2025-02-18T09:30:00.000+01:00",
+			"arrivalTime": "2025-02-18T11:55:00.000+01:00",
+			"segments": [1179744229],
+			"segmentClasses": [
+				{
+					"ids": ["1179744229"],
+					"className": null
+				}
+			],
+			"stops": "0",
+			"mode": "bus",
+			"ticketsSellingCompanies": ["1045"],
+			"outboundId": "-4221326791834155348",
+			"journeyId": "-1900130683",
+			"price": 1564,
+			"originalPrice": 1564,
+			"updatedAt": "29",
+			"serviceProviderIds": ["100104"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 40,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "",
+					"cheapestClassPrice": 1422
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"-7910666964608910815-1045-bus-0--1699506981": {
+			"companyId": "1045",
+			"duration": "170",
+			"departureTime": "2025-02-18T08:05:00.000+01:00",
+			"arrivalTime": "2025-02-18T10:55:00.000+01:00",
+			"segments": [-1841310662],
+			"segmentClasses": [
+				{
+					"ids": ["-1841310662"],
+					"className": null
+				}
+			],
+			"stops": "0",
+			"mode": "bus",
+			"ticketsSellingCompanies": ["1045"],
+			"outboundId": "-7910666964608910815",
+			"journeyId": "-1699506981",
+			"price": 1564,
+			"originalPrice": 1564,
+			"updatedAt": "29",
+			"serviceProviderIds": ["100104"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 67,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "",
+					"cheapestClassPrice": 1422
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"1972569829967754156-1045-bus-0--1428876564": {
+			"companyId": "1045",
+			"duration": "155",
+			"departureTime": "2025-02-18T06:15:00.000+01:00",
+			"arrivalTime": "2025-02-18T08:50:00.000+01:00",
+			"segments": [-959903513],
+			"segmentClasses": [
+				{
+					"ids": ["-959903513"],
+					"className": null
+				}
+			],
+			"stops": "0",
+			"mode": "bus",
+			"ticketsSellingCompanies": ["1045"],
+			"outboundId": "1972569829967754156",
+			"journeyId": "-1428876564",
+			"price": 1564,
+			"originalPrice": 1564,
+			"updatedAt": "29",
+			"serviceProviderIds": ["100104"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 73,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "",
+					"cheapestClassPrice": 1422
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"-534986427139553942-1045-bus-0--1353024933": {
+			"companyId": "1045",
+			"duration": "150",
+			"departureTime": "2025-02-18T03:20:00.000+01:00",
+			"arrivalTime": "2025-02-18T05:50:00.000+01:00",
+			"segments": [532268973],
+			"segmentClasses": [
+				{
+					"ids": ["532268973"],
+					"className": null
+				}
+			],
+			"stops": "0",
+			"mode": "bus",
+			"ticketsSellingCompanies": ["1045"],
+			"outboundId": "-534986427139553942",
+			"journeyId": "-1353024933",
+			"price": 3742,
+			"originalPrice": 3742,
+			"updatedAt": "29",
+			"serviceProviderIds": ["100104"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 63,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "",
+					"cheapestClassPrice": 3402
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"1067298364506936381-1045-bus-0--1304026989": {
+			"companyId": "1045",
+			"duration": "155",
+			"departureTime": "2025-02-18T08:20:00.000+01:00",
+			"arrivalTime": "2025-02-18T10:55:00.000+01:00",
+			"segments": [-1664790158],
+			"segmentClasses": [
+				{
+					"ids": ["-1664790158"],
+					"className": null
+				}
+			],
+			"stops": "0",
+			"mode": "bus",
+			"ticketsSellingCompanies": ["1045"],
+			"outboundId": "1067298364506936381",
+			"journeyId": "-1304026989",
+			"price": 1564,
+			"originalPrice": 1564,
+			"updatedAt": "29",
+			"serviceProviderIds": ["100104"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 67,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "",
+					"cheapestClassPrice": 1422
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"8380130983355278641-1045-bus-0--1278325639": {
+			"companyId": "1045",
+			"duration": "170",
+			"departureTime": "2025-02-18T12:30:00.000+01:00",
+			"arrivalTime": "2025-02-18T15:20:00.000+01:00",
+			"segments": [-426463385],
+			"segmentClasses": [
+				{
+					"ids": ["-426463385"],
+					"className": null
+				}
+			],
+			"stops": "0",
+			"mode": "bus",
+			"ticketsSellingCompanies": ["1045"],
+			"outboundId": "8380130983355278641",
+			"journeyId": "-1278325639",
+			"price": 1564,
+			"originalPrice": 1564,
+			"updatedAt": "29",
+			"serviceProviderIds": ["100104"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 22,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "",
+					"cheapestClassPrice": 1422
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"-4459041544090274574-1045-bus-0--1240527789": {
+			"companyId": "1045",
+			"duration": "165",
+			"departureTime": "2025-02-18T08:35:00.000+01:00",
+			"arrivalTime": "2025-02-18T11:20:00.000+01:00",
+			"segments": [542711674],
+			"segmentClasses": [
+				{
+					"ids": ["542711674"],
+					"className": null
+				}
+			],
+			"stops": "0",
+			"mode": "bus",
+			"ticketsSellingCompanies": ["1045"],
+			"outboundId": "-4459041544090274574",
+			"journeyId": "-1240527789",
+			"price": 1564,
+			"originalPrice": 1564,
+			"updatedAt": "29",
+			"serviceProviderIds": ["100104"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 30,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "",
+					"cheapestClassPrice": 1422
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"-1759352266467773538-1045-bus-0--915065295": {
+			"companyId": "1045",
+			"duration": "140",
+			"departureTime": "2025-02-18T21:00:00.000+01:00",
+			"arrivalTime": "2025-02-18T23:20:00.000+01:00",
+			"segments": [800686982],
+			"segmentClasses": [
+				{
+					"ids": ["800686982"],
+					"className": null
+				}
+			],
+			"stops": "0",
+			"mode": "bus",
+			"ticketsSellingCompanies": ["1045"],
+			"outboundId": "-1759352266467773538",
+			"journeyId": "-915065295",
+			"price": 1564,
+			"originalPrice": 1564,
+			"updatedAt": "29",
+			"serviceProviderIds": ["100104"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 73,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "",
+					"cheapestClassPrice": 1422
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"-2251247093999802457-1045-bus-0--898545904": {
+			"companyId": "1045",
+			"duration": "165",
+			"departureTime": "2025-02-18T10:35:00.000+01:00",
+			"arrivalTime": "2025-02-18T13:20:00.000+01:00",
+			"segments": [1387443253],
+			"segmentClasses": [
+				{
+					"ids": ["1387443253"],
+					"className": null
+				}
+			],
+			"stops": "0",
+			"mode": "bus",
+			"ticketsSellingCompanies": ["1045"],
+			"outboundId": "-2251247093999802457",
+			"journeyId": "-898545904",
+			"price": 1564,
+			"originalPrice": 1564,
+			"updatedAt": "29",
+			"serviceProviderIds": ["100104"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 27,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "",
+					"cheapestClassPrice": 1422
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"-3935958956989885841-1045-bus-0--657788210": {
+			"companyId": "1045",
+			"duration": "145",
+			"departureTime": "2025-02-18T01:45:00.000+01:00",
+			"arrivalTime": "2025-02-18T04:10:00.000+01:00",
+			"segments": [1943386906],
+			"segmentClasses": [
+				{
+					"ids": ["1943386906"],
+					"className": null
+				}
+			],
+			"stops": "0",
+			"mode": "bus",
+			"ticketsSellingCompanies": ["1045"],
+			"outboundId": "-3935958956989885841",
+			"journeyId": "-657788210",
+			"price": 1564,
+			"originalPrice": 1564,
+			"updatedAt": "29",
+			"serviceProviderIds": ["100104"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 42,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "",
+					"cheapestClassPrice": 1422
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"7395428371051194568-1045-bus-0--563421469": {
+			"companyId": "1045",
+			"duration": "160",
+			"departureTime": "2025-02-18T16:50:00.000+01:00",
+			"arrivalTime": "2025-02-18T19:30:00.000+01:00",
+			"segments": [742530122],
+			"segmentClasses": [
+				{
+					"ids": ["742530122"],
+					"className": null
+				}
+			],
+			"stops": "0",
+			"mode": "bus",
+			"ticketsSellingCompanies": ["1045"],
+			"outboundId": "7395428371051194568",
+			"journeyId": "-563421469",
+			"price": 1564,
+			"originalPrice": 1564,
+			"updatedAt": "29",
+			"serviceProviderIds": ["100104"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 26,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "",
+					"cheapestClassPrice": 1422
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"8280533300652488716-1045-bus-0--537438724": {
+			"companyId": "1045",
+			"duration": "165",
+			"departureTime": "2025-02-18T06:05:00.000+01:00",
+			"arrivalTime": "2025-02-18T08:50:00.000+01:00",
+			"segments": [37866618],
+			"segmentClasses": [
+				{
+					"ids": ["37866618"],
+					"className": null
+				}
+			],
+			"stops": "0",
+			"mode": "bus",
+			"ticketsSellingCompanies": ["1045"],
+			"outboundId": "8280533300652488716",
+			"journeyId": "-537438724",
+			"price": 1564,
+			"originalPrice": 1564,
+			"updatedAt": "29",
+			"serviceProviderIds": ["100104"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 73,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "",
+					"cheapestClassPrice": 1422
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"8200769200971196612-1045-bus-0--355671702": {
+			"companyId": "1045",
+			"duration": "175",
+			"departureTime": "2025-02-18T07:35:00.000+01:00",
+			"arrivalTime": "2025-02-18T10:30:00.000+01:00",
+			"segments": [219050023],
+			"segmentClasses": [
+				{
+					"ids": ["219050023"],
+					"className": null
+				}
+			],
+			"stops": "0",
+			"mode": "bus",
+			"ticketsSellingCompanies": ["1045"],
+			"outboundId": "8200769200971196612",
+			"journeyId": "-355671702",
+			"price": 1564,
+			"originalPrice": 1564,
+			"updatedAt": "29",
+			"serviceProviderIds": ["100104"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 39,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "",
+					"cheapestClassPrice": 1422
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"5981227141029437549-1045-bus-0--323336084": {
+			"companyId": "1045",
+			"duration": "140",
+			"departureTime": "2025-02-18T09:00:00.000+01:00",
+			"arrivalTime": "2025-02-18T11:20:00.000+01:00",
+			"segments": [1786621374],
+			"segmentClasses": [
+				{
+					"ids": ["1786621374"],
+					"className": null
+				}
+			],
+			"stops": "0",
+			"mode": "bus",
+			"ticketsSellingCompanies": ["1045"],
+			"outboundId": "5981227141029437549",
+			"journeyId": "-323336084",
+			"price": 1564,
+			"originalPrice": 1564,
+			"updatedAt": "29",
+			"serviceProviderIds": ["100104"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 30,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "",
+					"cheapestClassPrice": 1422
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"-5216038671761351484-1045-bus-0--196721329": {
+			"companyId": "1045",
+			"duration": "175",
+			"departureTime": "2025-02-18T18:05:00.000+01:00",
+			"arrivalTime": "2025-02-18T21:00:00.000+01:00",
+			"segments": [2119276067],
+			"segmentClasses": [
+				{
+					"ids": ["2119276067"],
+					"className": null
+				}
+			],
+			"stops": "0",
+			"mode": "bus",
+			"ticketsSellingCompanies": ["1045"],
+			"outboundId": "-5216038671761351484",
+			"journeyId": "-196721329",
+			"price": 1564,
+			"originalPrice": 1564,
+			"updatedAt": "29",
+			"serviceProviderIds": ["100104"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 47,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "",
+					"cheapestClassPrice": 1422
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"-1750408522478689244-1045-bus-0--149365717": {
+			"companyId": "1045",
+			"duration": "160",
+			"departureTime": "2025-02-18T06:30:00.000+01:00",
+			"arrivalTime": "2025-02-18T09:10:00.000+01:00",
+			"segments": [1307866031],
+			"segmentClasses": [
+				{
+					"ids": ["1307866031"],
+					"className": null
+				}
+			],
+			"stops": "0",
+			"mode": "bus",
+			"ticketsSellingCompanies": ["1045"],
+			"outboundId": "-1750408522478689244",
+			"journeyId": "-149365717",
+			"price": 1564,
+			"originalPrice": 1564,
+			"updatedAt": "29",
+			"serviceProviderIds": ["100104"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 35,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "",
+					"cheapestClassPrice": 1422
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"8308930301959932625-1045-bus-0--133937509": {
+			"companyId": "1045",
+			"duration": "140",
+			"departureTime": "2025-02-18T11:00:00.000+01:00",
+			"arrivalTime": "2025-02-18T13:20:00.000+01:00",
+			"segments": [-683364496],
+			"segmentClasses": [
+				{
+					"ids": ["-683364496"],
+					"className": null
+				}
+			],
+			"stops": "0",
+			"mode": "bus",
+			"ticketsSellingCompanies": ["1045"],
+			"outboundId": "8308930301959932625",
+			"journeyId": "-133937509",
+			"price": 1564,
+			"originalPrice": 1564,
+			"updatedAt": "29",
+			"serviceProviderIds": ["100104"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 27,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "",
+					"cheapestClassPrice": 1422
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"-8503727915078935961-1045-bus-0--80791941": {
+			"companyId": "1045",
+			"duration": "210",
+			"departureTime": "2025-02-18T07:50:00.000+01:00",
+			"arrivalTime": "2025-02-18T11:20:00.000+01:00",
+			"segments": [-812860526],
+			"segmentClasses": [
+				{
+					"ids": ["-812860526"],
+					"className": null
+				}
+			],
+			"stops": "0",
+			"mode": "bus",
+			"ticketsSellingCompanies": ["1045"],
+			"outboundId": "-8503727915078935961",
+			"journeyId": "-80791941",
+			"price": 1564,
+			"originalPrice": 1564,
+			"updatedAt": "29",
+			"serviceProviderIds": ["100104"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 30,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "",
+					"cheapestClassPrice": 1422
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"165858691814217707-1045-bus-0-18898417": {
+			"companyId": "1045",
+			"duration": "160",
+			"departureTime": "2025-02-18T03:40:00.000+01:00",
+			"arrivalTime": "2025-02-18T06:20:00.000+01:00",
+			"segments": [568103925],
+			"segmentClasses": [
+				{
+					"ids": ["568103925"],
+					"className": null
+				}
+			],
+			"stops": "0",
+			"mode": "bus",
+			"ticketsSellingCompanies": ["1045"],
+			"outboundId": "165858691814217707",
+			"journeyId": "18898417",
+			"price": 1564,
+			"originalPrice": 1564,
+			"updatedAt": "29",
+			"serviceProviderIds": ["100104"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 36,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "",
+					"cheapestClassPrice": 1422
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"3284328754619775861-1045-bus-0-35308874": {
+			"companyId": "1045",
+			"duration": "160",
+			"departureTime": "2025-02-18T15:50:00.000+01:00",
+			"arrivalTime": "2025-02-18T18:30:00.000+01:00",
+			"segments": [-1885713357],
+			"segmentClasses": [
+				{
+					"ids": ["-1885713357"],
+					"className": null
+				}
+			],
+			"stops": "0",
+			"mode": "bus",
+			"ticketsSellingCompanies": ["1045"],
+			"outboundId": "3284328754619775861",
+			"journeyId": "35308874",
+			"price": 1564,
+			"originalPrice": 1564,
+			"updatedAt": "29",
+			"serviceProviderIds": ["100104"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 68,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "",
+					"cheapestClassPrice": 1422
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"5201562062049208962-1045-bus-0-88214022": {
+			"companyId": "1045",
+			"duration": "155",
+			"departureTime": "2025-02-18T12:45:00.000+01:00",
+			"arrivalTime": "2025-02-18T15:20:00.000+01:00",
+			"segments": [1905385223],
+			"segmentClasses": [
+				{
+					"ids": ["1905385223"],
+					"className": null
+				}
+			],
+			"stops": "0",
+			"mode": "bus",
+			"ticketsSellingCompanies": ["1045"],
+			"outboundId": "5201562062049208962",
+			"journeyId": "88214022",
+			"price": 1564,
+			"originalPrice": 1564,
+			"updatedAt": "29",
+			"serviceProviderIds": ["100104"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 22,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "",
+					"cheapestClassPrice": 1422
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"-3030250622518837536-1045-bus-0-115162725": {
+			"companyId": "1045",
+			"duration": "145",
+			"departureTime": "2025-02-18T03:05:00.000+01:00",
+			"arrivalTime": "2025-02-18T05:30:00.000+01:00",
+			"segments": [157668097],
+			"segmentClasses": [
+				{
+					"ids": ["157668097"],
+					"className": null
+				}
+			],
+			"stops": "0",
+			"mode": "bus",
+			"ticketsSellingCompanies": ["1045"],
+			"outboundId": "-3030250622518837536",
+			"journeyId": "115162725",
+			"price": 1564,
+			"originalPrice": 1564,
+			"updatedAt": "29",
+			"serviceProviderIds": ["100104"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 21,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "",
+					"cheapestClassPrice": 1422
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"-7741465353895518638-1045-bus-0-159068657": {
+			"companyId": "1045",
+			"duration": "155",
+			"departureTime": "2025-02-18T09:35:00.000+01:00",
+			"arrivalTime": "2025-02-18T12:10:00.000+01:00",
+			"segments": [1713164214],
+			"segmentClasses": [
+				{
+					"ids": ["1713164214"],
+					"className": null
+				}
+			],
+			"stops": "0",
+			"mode": "bus",
+			"ticketsSellingCompanies": ["1045"],
+			"outboundId": "-7741465353895518638",
+			"journeyId": "159068657",
+			"price": 1564,
+			"originalPrice": 1564,
+			"updatedAt": "29",
+			"serviceProviderIds": ["100104"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 41,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "",
+					"cheapestClassPrice": 1422
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"-5321729274341331252-1045-bus-0-199405817": {
+			"companyId": "1045",
+			"duration": "175",
+			"departureTime": "2025-02-18T13:35:00.000+01:00",
+			"arrivalTime": "2025-02-18T16:30:00.000+01:00",
+			"segments": [-46731604],
+			"segmentClasses": [
+				{
+					"ids": ["-46731604"],
+					"className": null
+				}
+			],
+			"stops": "0",
+			"mode": "bus",
+			"ticketsSellingCompanies": ["1045"],
+			"outboundId": "-5321729274341331252",
+			"journeyId": "199405817",
+			"price": 1564,
+			"originalPrice": 1564,
+			"updatedAt": "29",
+			"serviceProviderIds": ["100104"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 43,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "",
+					"cheapestClassPrice": 1422
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"2164630014968453837-1045-bus-0-285450361": {
+			"companyId": "1045",
+			"duration": "205",
+			"departureTime": "2025-02-18T10:15:00.000+01:00",
+			"arrivalTime": "2025-02-18T13:40:00.000+01:00",
+			"segments": [248277348],
+			"segmentClasses": [
+				{
+					"ids": ["248277348"],
+					"className": null
+				}
+			],
+			"stops": "0",
+			"mode": "bus",
+			"ticketsSellingCompanies": ["1045"],
+			"outboundId": "2164630014968453837",
+			"journeyId": "285450361",
+			"price": 3742,
+			"originalPrice": 3742,
+			"updatedAt": "29",
+			"serviceProviderIds": ["100104"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 25,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "",
+					"cheapestClassPrice": 3402
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"-5542007549426929911-1045-bus-0-436521643": {
+			"companyId": "1045",
+			"duration": "140",
+			"departureTime": "2025-02-18T22:45:00.000+01:00",
+			"arrivalTime": "2025-02-19T01:05:00.000+01:00",
+			"segments": [-718423382],
+			"segmentClasses": [
+				{
+					"ids": ["-718423382"],
+					"className": null
+				}
+			],
+			"stops": "0",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"mode": "bus",
+			"ticketsSellingCompanies": ["1045"],
+			"outboundId": "-5542007549426929911",
+			"journeyId": "436521643",
+			"price": 1564,
+			"originalPrice": 1564,
+			"updatedAt": "29",
+			"serviceProviderIds": ["100104"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 33,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "",
+					"cheapestClassPrice": 1422
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"5781656479825070496-1045-bus-0-591033934": {
+			"companyId": "1045",
+			"duration": "175",
+			"departureTime": "2025-02-18T16:35:00.000+01:00",
+			"arrivalTime": "2025-02-18T19:30:00.000+01:00",
+			"segments": [-2112584390],
+			"segmentClasses": [
+				{
+					"ids": ["-2112584390"],
+					"className": null
+				}
+			],
+			"stops": "0",
+			"mode": "bus",
+			"ticketsSellingCompanies": ["1045"],
+			"outboundId": "5781656479825070496",
+			"journeyId": "591033934",
+			"price": 1564,
+			"originalPrice": 1564,
+			"updatedAt": "29",
+			"serviceProviderIds": ["100104"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 26,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "",
+					"cheapestClassPrice": 1422
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"-2651512931031477590-1045-bus-0-752287808": {
+			"companyId": "1045",
+			"duration": "150",
+			"departureTime": "2025-02-18T11:35:00.000+01:00",
+			"arrivalTime": "2025-02-18T14:05:00.000+01:00",
+			"segments": [-1538107564],
+			"segmentClasses": [
+				{
+					"ids": ["-1538107564"],
+					"className": null
+				}
+			],
+			"stops": "0",
+			"mode": "bus",
+			"ticketsSellingCompanies": ["1045"],
+			"outboundId": "-2651512931031477590",
+			"journeyId": "752287808",
+			"price": 1564,
+			"originalPrice": 1564,
+			"updatedAt": "29",
+			"serviceProviderIds": ["100104"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 77,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "",
+					"cheapestClassPrice": 1422
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"7844698856263302168-1045-bus-0-1053494316": {
+			"companyId": "1045",
+			"duration": "155",
+			"departureTime": "2025-02-18T11:05:00.000+01:00",
+			"arrivalTime": "2025-02-18T13:40:00.000+01:00",
+			"segments": [1678278270],
+			"segmentClasses": [
+				{
+					"ids": ["1678278270"],
+					"className": null
+				}
+			],
+			"stops": "0",
+			"mode": "bus",
+			"ticketsSellingCompanies": ["1045"],
+			"outboundId": "7844698856263302168",
+			"journeyId": "1053494316",
+			"price": 3742,
+			"originalPrice": 3742,
+			"updatedAt": "29",
+			"serviceProviderIds": ["100104"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 25,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "",
+					"cheapestClassPrice": 3402
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"3800670825777844742-1045-bus-0-1173950952": {
+			"companyId": "1045",
+			"duration": "175",
+			"departureTime": "2025-02-18T15:35:00.000+01:00",
+			"arrivalTime": "2025-02-18T18:30:00.000+01:00",
+			"segments": [-1127751115],
+			"segmentClasses": [
+				{
+					"ids": ["-1127751115"],
+					"className": null
+				}
+			],
+			"stops": "0",
+			"mode": "bus",
+			"ticketsSellingCompanies": ["1045"],
+			"outboundId": "3800670825777844742",
+			"journeyId": "1173950952",
+			"price": 1564,
+			"originalPrice": 1564,
+			"updatedAt": "29",
+			"serviceProviderIds": ["100104"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 68,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "",
+					"cheapestClassPrice": 1422
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"6464794707436890987-1045-bus-0-1179574770": {
+			"companyId": "1045",
+			"duration": "155",
+			"departureTime": "2025-02-18T10:05:00.000+01:00",
+			"arrivalTime": "2025-02-18T12:40:00.000+01:00",
+			"segments": [-551013752],
+			"segmentClasses": [
+				{
+					"ids": ["-551013752"],
+					"className": null
+				}
+			],
+			"stops": "0",
+			"mode": "bus",
+			"ticketsSellingCompanies": ["1045"],
+			"outboundId": "6464794707436890987",
+			"journeyId": "1179574770",
+			"price": 1564,
+			"originalPrice": 1564,
+			"updatedAt": "29",
+			"serviceProviderIds": ["100104"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 36,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "",
+					"cheapestClassPrice": 1422
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"-8363608891429008182-1045-bus-0-1375831076": {
+			"companyId": "1045",
+			"duration": "160",
+			"departureTime": "2025-02-18T22:25:00.000+01:00",
+			"arrivalTime": "2025-02-19T01:05:00.000+01:00",
+			"segments": [698543652],
+			"segmentClasses": [
+				{
+					"ids": ["698543652"],
+					"className": null
+				}
+			],
+			"stops": "0",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"mode": "bus",
+			"ticketsSellingCompanies": ["1045"],
+			"outboundId": "-8363608891429008182",
+			"journeyId": "1375831076",
+			"price": 1564,
+			"originalPrice": 1564,
+			"updatedAt": "29",
+			"serviceProviderIds": ["100104"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 33,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "",
+					"cheapestClassPrice": 1422
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"-1360326926691006989-1045-bus-0-1488906141": {
+			"companyId": "1045",
+			"duration": "170",
+			"departureTime": "2025-02-18T09:05:00.000+01:00",
+			"arrivalTime": "2025-02-18T11:55:00.000+01:00",
+			"segments": [1269731452],
+			"segmentClasses": [
+				{
+					"ids": ["1269731452"],
+					"className": null
+				}
+			],
+			"stops": "0",
+			"mode": "bus",
+			"ticketsSellingCompanies": ["1045"],
+			"outboundId": "-1360326926691006989",
+			"journeyId": "1488906141",
+			"price": 1564,
+			"originalPrice": 1564,
+			"updatedAt": "29",
+			"serviceProviderIds": ["100104"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 40,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "",
+					"cheapestClassPrice": 1422
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"-1223046393426793550-1045-bus-0-1524426892": {
+			"companyId": "1045",
+			"duration": "155",
+			"departureTime": "2025-02-18T14:35:00.000+01:00",
+			"arrivalTime": "2025-02-18T17:10:00.000+01:00",
+			"segments": [1179828079],
+			"segmentClasses": [
+				{
+					"ids": ["1179828079"],
+					"className": null
+				}
+			],
+			"stops": "0",
+			"mode": "bus",
+			"ticketsSellingCompanies": ["1045"],
+			"outboundId": "-1223046393426793550",
+			"journeyId": "1524426892",
+			"price": 1564,
+			"originalPrice": 1564,
+			"updatedAt": "29",
+			"serviceProviderIds": ["100104"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 44,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "",
+					"cheapestClassPrice": 1422
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"7086428375323651407-1045-bus-0-1822040833": {
+			"companyId": "1045",
+			"duration": "160",
+			"departureTime": "2025-02-18T19:35:00.000+01:00",
+			"arrivalTime": "2025-02-18T22:15:00.000+01:00",
+			"segments": [333692058],
+			"segmentClasses": [
+				{
+					"ids": ["333692058"],
+					"className": null
+				}
+			],
+			"stops": "0",
+			"mode": "bus",
+			"ticketsSellingCompanies": ["1045"],
+			"outboundId": "7086428375323651407",
+			"journeyId": "1822040833",
+			"price": 1564,
+			"originalPrice": 1564,
+			"updatedAt": "29",
+			"serviceProviderIds": ["100104"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 65,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "",
+					"cheapestClassPrice": 1422
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"-6691800008698931467-1045-bus-0-1970714476": {
+			"companyId": "1045",
+			"duration": "165",
+			"departureTime": "2025-02-18T20:35:00.000+01:00",
+			"arrivalTime": "2025-02-18T23:20:00.000+01:00",
+			"segments": [345721243],
+			"segmentClasses": [
+				{
+					"ids": ["345721243"],
+					"className": null
+				}
+			],
+			"stops": "0",
+			"mode": "bus",
+			"ticketsSellingCompanies": ["1045"],
+			"outboundId": "-6691800008698931467",
+			"journeyId": "1970714476",
+			"price": 1564,
+			"originalPrice": 1564,
+			"updatedAt": "29",
+			"serviceProviderIds": ["100104"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 73,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "",
+					"cheapestClassPrice": 1422
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		}
+	},
+	"itineraries": [
+		{
+			"outboundLegId": "-1774688615246094631-2586-bus-0-352000124"
+		},
+		{
+			"outboundLegId": "-1966028697931760141-4201-bus-0--2037704988"
+		},
+		{
+			"outboundLegId": "-4873041142154869683-1045-bus-0--2106555086"
+		},
+		{
+			"outboundLegId": "-5306980919434615285-1045-bus-0--1944710555"
+		},
+		{
+			"outboundLegId": "-7890985767171667275-1045-bus-0--1904949860"
+		},
+		{
+			"outboundLegId": "-4221326791834155348-1045-bus-0--1900130683"
+		},
+		{
+			"outboundLegId": "-7910666964608910815-1045-bus-0--1699506981"
+		},
+		{
+			"outboundLegId": "1972569829967754156-1045-bus-0--1428876564"
+		},
+		{
+			"outboundLegId": "-534986427139553942-1045-bus-0--1353024933"
+		},
+		{
+			"outboundLegId": "1067298364506936381-1045-bus-0--1304026989"
+		},
+		{
+			"outboundLegId": "8380130983355278641-1045-bus-0--1278325639"
+		},
+		{
+			"outboundLegId": "-4459041544090274574-1045-bus-0--1240527789"
+		},
+		{
+			"outboundLegId": "-1759352266467773538-1045-bus-0--915065295"
+		},
+		{
+			"outboundLegId": "-2251247093999802457-1045-bus-0--898545904"
+		},
+		{
+			"outboundLegId": "-3935958956989885841-1045-bus-0--657788210"
+		},
+		{
+			"outboundLegId": "7395428371051194568-1045-bus-0--563421469"
+		},
+		{
+			"outboundLegId": "8280533300652488716-1045-bus-0--537438724"
+		},
+		{
+			"outboundLegId": "8200769200971196612-1045-bus-0--355671702"
+		},
+		{
+			"outboundLegId": "5981227141029437549-1045-bus-0--323336084"
+		},
+		{
+			"outboundLegId": "-5216038671761351484-1045-bus-0--196721329"
+		},
+		{
+			"outboundLegId": "-1750408522478689244-1045-bus-0--149365717"
+		},
+		{
+			"outboundLegId": "8308930301959932625-1045-bus-0--133937509"
+		},
+		{
+			"outboundLegId": "-8503727915078935961-1045-bus-0--80791941"
+		},
+		{
+			"outboundLegId": "165858691814217707-1045-bus-0-18898417"
+		},
+		{
+			"outboundLegId": "3284328754619775861-1045-bus-0-35308874"
+		},
+		{
+			"outboundLegId": "5201562062049208962-1045-bus-0-88214022"
+		},
+		{
+			"outboundLegId": "-3030250622518837536-1045-bus-0-115162725"
+		},
+		{
+			"outboundLegId": "-7741465353895518638-1045-bus-0-159068657"
+		},
+		{
+			"outboundLegId": "-5321729274341331252-1045-bus-0-199405817"
+		},
+		{
+			"outboundLegId": "2164630014968453837-1045-bus-0-285450361"
+		},
+		{
+			"outboundLegId": "-5542007549426929911-1045-bus-0-436521643"
+		},
+		{
+			"outboundLegId": "5781656479825070496-1045-bus-0-591033934"
+		},
+		{
+			"outboundLegId": "-2651512931031477590-1045-bus-0-752287808"
+		},
+		{
+			"outboundLegId": "7844698856263302168-1045-bus-0-1053494316"
+		},
+		{
+			"outboundLegId": "3800670825777844742-1045-bus-0-1173950952"
+		},
+		{
+			"outboundLegId": "6464794707436890987-1045-bus-0-1179574770"
+		},
+		{
+			"outboundLegId": "-8363608891429008182-1045-bus-0-1375831076"
+		},
+		{
+			"outboundLegId": "-1360326926691006989-1045-bus-0-1488906141"
+		},
+		{
+			"outboundLegId": "-1223046393426793550-1045-bus-0-1524426892"
+		},
+		{
+			"outboundLegId": "7086428375323651407-1045-bus-0-1822040833"
+		},
+		{
+			"outboundLegId": "-6691800008698931467-1045-bus-0-1970714476"
+		}
+	],
+	"companies": {
+		"1045": {
+			"id": "1045",
+			"name": "FlixBus",
+			"code": "meinfernbus_flixbus",
+			"logoUrl": "https://cdn-goeuro.com/static_content/web/logos/{size}/meinfernbus_flixbus.png",
+			"companyCodes": [
+				{
+					"code": "flixbus",
+					"type": "GOEURO"
+				}
+			]
+		},
+		"2586": {
+			"id": "2586",
+			"name": "Infobus",
+			"code": "ams_infobus",
+			"logoUrl": "https://cdn-goeuro.com/static_content/web/logos/{size}/ams_infobus.png",
+			"companyCodes": [
+				{
+					"code": "infobus",
+					"type": "GOEURO"
+				}
+			]
+		},
+		"4201": {
+			"id": "4201",
+			"name": "Slovak Lines Express a.s.",
+			"code": "slin",
+			"logoUrl": "https://cdn-goeuro.com/static_content/web/logos/{size}/slin.png",
+			"companyCodes": [
+				{
+					"code": "slin",
+					"type": "GOEURO"
+				}
+			]
+		}
+	},
+	"query": {
+		"roundTrip": false,
+		"airportToAirport": false,
+		"locationsOutsideEurope": false,
+		"includeNearbyAirports": false,
+		"nearbyAirportAvailable": false,
+		"searchId": "EF1942B13D4284D7B951C50168FE4BC1B",
+		"departurePosition": "375859",
+		"arrivalPosition": "375495",
+		"departureDate": "2025-02-18",
+		"passengers": {
+			"adults": 1,
+			"children": 0,
+			"infants": 0
+		},
+		"userInfo": {
+			"userLocale": "en",
+			"userCurrency": "CAD",
+			"unitSystem": "metric",
+			"ipCountryCode": "CA"
+		},
+		"searchModes": {
+			"bus": {
+				"status": "done",
+				"resultsQty": 49,
+				"filteredResultsQty": 41,
+				"returnCodes": [],
+				"disclaimers": [],
+				"defaultSorting": "outboundDepartureTime",
+				"filteredOffSiteResultsQty": 8,
+				"fares": []
+			},
+			"flight": {
+				"status": "notavailable",
+				"resultsQty": 0,
+				"filteredResultsQty": 0,
+				"returnCodes": [131],
+				"disclaimers": [],
+				"defaultSorting": "smart",
+				"filteredOffSiteResultsQty": 0,
+				"fares": []
+			},
+			"ferry": {
+				"status": "notavailable",
+				"resultsQty": 0,
+				"filteredResultsQty": 0,
+				"returnCodes": [131],
+				"disclaimers": [],
+				"defaultSorting": "outboundDepartureTime",
+				"filteredOffSiteResultsQty": 0,
+				"fares": []
+			},
+			"train": {
+				"status": "notavailable",
+				"resultsQty": 0,
+				"filteredResultsQty": 0,
+				"returnCodes": [131],
+				"disclaimers": [],
+				"defaultSorting": "outboundDepartureTime",
+				"filteredOffSiteResultsQty": 0,
+				"fares": []
+			}
+		},
+		"cursor": "",
+		"featuresSupported": [],
+		"searchTriggerTime": "2025-02-17T12:34:06.787Z",
+		"sentOutDiscountCards": [],
+		"abTestParameters": [
+			"OCT-4340:b",
+			"da-ferry",
+			"new-ferry-tcp",
+			"SXP-205-Improved-search-bar",
+			"fctcp",
+			"OCT-4696:b",
+			"air-stcp",
+			"radio-cabins-fh",
+			"CMPN-6108",
+			"RTNV-42:b",
+			"fn-722:lb-b",
+			"fn-680:sft",
+			"persist-pdp-data",
+			"JBVN:ctrl",
+			"seat-maps-air",
+			"AD-5988:1",
+			"RTNV286:0",
+			"trenitalia-check-in-cta",
+			"fn-770:normal",
+			"radio-cabins-gnv",
+			"bdp-post-modification-survey",
+			"ferry-stcp",
+			"CMPN-5655-2:0",
+			"free-omio-flex:ctrl",
+			"CMPN-5655-1:4",
+			"ryanair",
+			"SXP-1401:1",
+			"cs-chat-widget",
+			"fn-683:dm-10",
+			"RTNV-298:a",
+			"GIN-1:T",
+			"OPACQ-28:a",
+			"change_your_booking_button_rn_enable",
+			"test-dummy:ctrl",
+			"omio-flex-with-companjon",
+			"independent-ticket-config-page",
+			"AD-5647:1",
+			"AD-5935:1",
+			"mobile-web-new-header",
+			"seat-maps-v1",
+			"AD-5850",
+			"SPL4879:1",
+			"rg-5477:o"
+		],
+		"airportTransferLikelihood": 0
+	},
+	"positions": {
+		"375495": {
+			"positionType": "location",
+			"name": "Brno",
+			"countryCode": "CZ",
+			"cityName": "Brno",
+			"latitude": 49.19510269165039,
+			"longitude": 16.60753059387207,
+			"ticketVendingMachine": false
+		},
+		"375859": {
+			"positionType": "location",
+			"name": "Prague",
+			"countryCode": "CZ",
+			"cityName": "Prague",
+			"latitude": 50.08804,
+			"longitude": 14.42076,
+			"ticketVendingMachine": false
+		},
+		"476795": {
+			"positionType": "busstation",
+			"name": "Praha, Na Knížecí",
+			"countryCode": "CZ",
+			"cityName": "Prague",
+			"latitude": 50.068405,
+			"longitude": 14.404449,
+			"ticketVendingMachine": false
+		},
+		"476799": {
+			"positionType": "busstation",
+			"name": "Prague, Central Train Station",
+			"countryCode": "CZ",
+			"cityName": "Prague",
+			"latitude": 50.08304573701105,
+			"longitude": 14.434950242187377,
+			"ticketVendingMachine": false
+		},
+		"476801": {
+			"positionType": "busstation",
+			"name": "Praha, Zličín",
+			"countryCode": "CZ",
+			"cityName": "Prague",
+			"latitude": 50.055344,
+			"longitude": 14.29016,
+			"ticketVendingMachine": false
+		},
+		"3346249": {
+			"positionType": "busstation",
+			"name": "Praha, ÚAN Florenc",
+			"countryCode": "CZ",
+			"cityName": "Prague",
+			"latitude": 50.08945,
+			"longitude": 14.440529999999999,
+			"ticketVendingMachine": false
+		},
+		"9260641": {
+			"positionType": "busstation",
+			"name": "Brno, ÚAN Zvonařka",
+			"countryCode": "CZ",
+			"cityName": "Brno",
+			"latitude": 49.18576,
+			"longitude": 16.61624,
+			"ticketVendingMachine": false
+		},
+		"16804020": {
+			"positionType": "busstation",
+			"name": "Brno, Benešova - Grandhotel (Hlavní nádraží)",
+			"countryCode": "CZ",
+			"cityName": "Brno",
+			"latitude": 49.19335501138492,
+			"longitude": 16.614252734664433,
+			"ticketVendingMachine": false
+		},
+		"16811262": {
+			"positionType": "busstation",
+			"name": "Praha, Roztyly",
+			"countryCode": "CZ",
+			"cityName": "Prague",
+			"latitude": 50.037866186836624,
+			"longitude": 14.476984254268359,
+			"ticketVendingMachine": false
+		},
+		"16811418": {
+			"positionType": "busstation",
+			"name": "Praha, Nádraží Holešovice",
+			"countryCode": "CZ",
+			"cityName": "Prague",
+			"latitude": 50.11014,
+			"longitude": 14.44117,
+			"ticketVendingMachine": false
+		},
+		"971134052": {
+			"positionType": "busstation",
+			"name": "Florenc, platform 8",
+			"ticketVendingMachine": false
+		},
+		"1147558421": {
+			"positionType": "busstation",
+			"name": "hotel Grand, platform 1-6",
+			"ticketVendingMachine": false
+		}
+	},
+	"currencies": {
+		"CAD": {
+			"name": "Canadian Dollar",
+			"symbol": "CA$"
+		}
+	},
+	"sortVariants": {
+		"smart": [
+			-323336084, -1900130683, 159068657, 1179574770, 1488906141, -1240527789, -898545904,
+			-1904949860, -133937509, -1304026989, -1699506981, 752287808, -80791941, -355671702,
+			88214022, -1278325639, 199405817, -2106555086, 1524426892, -563421469, -149365717,
+			35308874, -2037704988, 352000124, 591033934, 1173950952, -196721329, 285450361,
+			-1428876564, -537438724, 1053494316, 1822040833, 1970714476, -915065295, 436521643,
+			-1944710555, 18898417, 1375831076, -657788210, 115162725, -1353024933
+		]
+	},
+	"stats": {
+		"summary": {
+			"bus": {
+				"type": "bus",
+				"totalDuration": "210",
+				"totalPrice": 1794,
+				"legs": [
+					{
+						"type": "bus",
+						"duration": "210"
+					}
+				]
+			}
+		},
+		"filterRanges": {
+			"bus": {
+				"minPrice": 1564,
+				"maxPrice": 3742,
+				"avgPrice": 1746,
+				"minDurationOutbound": "140",
+				"maxDurationOutbound": "210",
+				"avgDurationOutbound": "163",
+				"minDepartureOutbound": "2025-02-18T01:45:00.000+01:00",
+				"maxDepartureOutbound": "2025-02-18T22:45:00.000+01:00",
+				"minArrivalOutbound": "2025-02-18T04:10:00.000+01:00",
+				"maxArrivalOutbound": "2025-02-19T01:05:00.000+01:00",
+				"outboundStops": [0],
+				"inboundStops": []
+			}
+		},
+		"companies": {
+			"bus": [
+				{
+					"id": "1045",
+					"name": "FlixBus",
+					"code": "meinfernbus_flixbus"
+				},
+				{
+					"id": "2586",
+					"name": "Infobus",
+					"code": "ams_infobus"
+				},
+				{
+					"id": "4201",
+					"name": "Slovak Lines Express a.s.",
+					"code": "slin"
+				}
+			]
+		},
+		"stations": {
+			"bus": {
+				"outboundDepartures": [
+					971134052, 476801, 476799, 16811418, 3346249, 476795, 16811262
+				],
+				"outboundArrivals": [1147558421, 16804020, 9260641],
+				"queryDeparturePositionDistances": {
+					"476795": 2.4766281152488343,
+					"476799": 1.1560083726066852,
+					"476801": 10.015800672907273,
+					"3346249": 1.420750151595391,
+					"9260641": 187.22847996296377,
+					"16804020": 186.6460661911852,
+					"16811262": 6.8795848873326895,
+					"16811418": 2.8590980588362895
+				},
+				"queryArrivalPositionDistances": {
+					"476795": 186.00379504858782,
+					"476799": 184.9772141474774,
+					"476801": 192.3649013290571,
+					"3346249": 185.0104844057416,
+					"9260641": 1.2176900519749814,
+					"16804020": 0.5262875387109367,
+					"16811262": 179.81795708138492,
+					"16811418": 186.19008547873204
+				}
+			}
+		}
+	},
+	"segmentDetails": {
+		"37866618": {
+			"type": "bus",
+			"departureTime": "2025-02-18T06:05:00.000+01:00",
+			"departureZoneId": "Europe/Prague",
+			"arrivalTime": "2025-02-18T08:50:00.000+01:00",
+			"arrivalZoneId": "Europe/Prague",
+			"departurePosition": "3346249",
+			"arrivalPosition": "16804020",
+			"duration": "165",
+			"company": "1045",
+			"marketingCompany": "0",
+			"transportId": "FlixBus",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"41768413": {
+			"type": "bus",
+			"departureTime": "2025-02-18T03:55:00.000+01:00",
+			"departureZoneId": "Europe/Prague",
+			"arrivalTime": "2025-02-18T06:20:00.000+01:00",
+			"arrivalZoneId": "Europe/Prague",
+			"departurePosition": "476799",
+			"arrivalPosition": "16804020",
+			"duration": "145",
+			"company": "1045",
+			"marketingCompany": "0",
+			"transportId": "FlixBus",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"157668097": {
+			"type": "bus",
+			"departureTime": "2025-02-18T03:05:00.000+01:00",
+			"departureZoneId": "Europe/Prague",
+			"arrivalTime": "2025-02-18T05:30:00.000+01:00",
+			"arrivalZoneId": "Europe/Prague",
+			"departurePosition": "476799",
+			"arrivalPosition": "16804020",
+			"duration": "145",
+			"company": "1045",
+			"marketingCompany": "0",
+			"transportId": "FlixBus",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"219050023": {
+			"type": "bus",
+			"departureTime": "2025-02-18T07:35:00.000+01:00",
+			"departureZoneId": "Europe/Prague",
+			"arrivalTime": "2025-02-18T10:30:00.000+01:00",
+			"arrivalZoneId": "Europe/Prague",
+			"departurePosition": "3346249",
+			"arrivalPosition": "16804020",
+			"duration": "175",
+			"company": "1045",
+			"marketingCompany": "0",
+			"transportId": "FlixBus",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"248277348": {
+			"type": "bus",
+			"departureTime": "2025-02-18T10:15:00.000+01:00",
+			"departureZoneId": "Europe/Prague",
+			"arrivalTime": "2025-02-18T13:40:00.000+01:00",
+			"arrivalZoneId": "Europe/Prague",
+			"departurePosition": "476795",
+			"arrivalPosition": "16804020",
+			"duration": "205",
+			"company": "1045",
+			"marketingCompany": "0",
+			"transportId": "FlixBus",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"333692058": {
+			"type": "bus",
+			"departureTime": "2025-02-18T19:35:00.000+01:00",
+			"departureZoneId": "Europe/Prague",
+			"arrivalTime": "2025-02-18T22:15:00.000+01:00",
+			"arrivalZoneId": "Europe/Prague",
+			"departurePosition": "3346249",
+			"arrivalPosition": "16804020",
+			"duration": "160",
+			"company": "1045",
+			"marketingCompany": "0",
+			"transportId": "FlixBus",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"345721243": {
+			"type": "bus",
+			"departureTime": "2025-02-18T20:35:00.000+01:00",
+			"departureZoneId": "Europe/Prague",
+			"arrivalTime": "2025-02-18T23:20:00.000+01:00",
+			"arrivalZoneId": "Europe/Prague",
+			"departurePosition": "3346249",
+			"arrivalPosition": "16804020",
+			"duration": "165",
+			"company": "1045",
+			"marketingCompany": "0",
+			"transportId": "FlixBus",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"532268973": {
+			"type": "bus",
+			"departureTime": "2025-02-18T03:20:00.000+01:00",
+			"departureZoneId": "Europe/Prague",
+			"arrivalTime": "2025-02-18T05:50:00.000+01:00",
+			"arrivalZoneId": "Europe/Prague",
+			"departurePosition": "476799",
+			"arrivalPosition": "16804020",
+			"duration": "150",
+			"company": "1045",
+			"marketingCompany": "0",
+			"transportId": "FlixBus",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"542711674": {
+			"type": "bus",
+			"departureTime": "2025-02-18T08:35:00.000+01:00",
+			"departureZoneId": "Europe/Prague",
+			"arrivalTime": "2025-02-18T11:20:00.000+01:00",
+			"arrivalZoneId": "Europe/Prague",
+			"departurePosition": "3346249",
+			"arrivalPosition": "16804020",
+			"duration": "165",
+			"company": "1045",
+			"marketingCompany": "0",
+			"transportId": "FlixBus",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"568103925": {
+			"type": "bus",
+			"departureTime": "2025-02-18T03:40:00.000+01:00",
+			"departureZoneId": "Europe/Prague",
+			"arrivalTime": "2025-02-18T06:20:00.000+01:00",
+			"arrivalZoneId": "Europe/Prague",
+			"departurePosition": "3346249",
+			"arrivalPosition": "16804020",
+			"duration": "160",
+			"company": "1045",
+			"marketingCompany": "0",
+			"transportId": "FlixBus",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"698543652": {
+			"type": "bus",
+			"departureTime": "2025-02-18T22:25:00.000+01:00",
+			"departureZoneId": "Europe/Prague",
+			"arrivalTime": "2025-02-19T01:05:00.000+01:00",
+			"arrivalZoneId": "Europe/Prague",
+			"departurePosition": "3346249",
+			"arrivalPosition": "16804020",
+			"duration": "160",
+			"company": "1045",
+			"marketingCompany": "0",
+			"transportId": "FlixBus",
+			"direction": "OUTBOUND",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"742530122": {
+			"type": "bus",
+			"departureTime": "2025-02-18T16:50:00.000+01:00",
+			"departureZoneId": "Europe/Prague",
+			"arrivalTime": "2025-02-18T19:30:00.000+01:00",
+			"arrivalZoneId": "Europe/Prague",
+			"departurePosition": "476799",
+			"arrivalPosition": "16804020",
+			"duration": "160",
+			"company": "1045",
+			"marketingCompany": "0",
+			"transportId": "FlixBus",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"800686982": {
+			"type": "bus",
+			"departureTime": "2025-02-18T21:00:00.000+01:00",
+			"departureZoneId": "Europe/Prague",
+			"arrivalTime": "2025-02-18T23:20:00.000+01:00",
+			"arrivalZoneId": "Europe/Prague",
+			"departurePosition": "16811262",
+			"arrivalPosition": "16804020",
+			"duration": "140",
+			"company": "1045",
+			"marketingCompany": "0",
+			"transportId": "FlixBus",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"1179744229": {
+			"type": "bus",
+			"departureTime": "2025-02-18T09:30:00.000+01:00",
+			"departureZoneId": "Europe/Prague",
+			"arrivalTime": "2025-02-18T11:55:00.000+01:00",
+			"arrivalZoneId": "Europe/Prague",
+			"departurePosition": "16811262",
+			"arrivalPosition": "16804020",
+			"duration": "145",
+			"company": "1045",
+			"marketingCompany": "0",
+			"transportId": "FlixBus",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"1179828079": {
+			"type": "bus",
+			"departureTime": "2025-02-18T14:35:00.000+01:00",
+			"departureZoneId": "Europe/Prague",
+			"arrivalTime": "2025-02-18T17:10:00.000+01:00",
+			"arrivalZoneId": "Europe/Prague",
+			"departurePosition": "3346249",
+			"arrivalPosition": "16804020",
+			"duration": "155",
+			"company": "1045",
+			"marketingCompany": "0",
+			"transportId": "FlixBus",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"1269731452": {
+			"type": "bus",
+			"departureTime": "2025-02-18T09:05:00.000+01:00",
+			"departureZoneId": "Europe/Prague",
+			"arrivalTime": "2025-02-18T11:55:00.000+01:00",
+			"arrivalZoneId": "Europe/Prague",
+			"departurePosition": "3346249",
+			"arrivalPosition": "16804020",
+			"duration": "170",
+			"company": "1045",
+			"marketingCompany": "0",
+			"transportId": "FlixBus",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"1307866031": {
+			"type": "bus",
+			"departureTime": "2025-02-18T06:30:00.000+01:00",
+			"departureZoneId": "Europe/Prague",
+			"arrivalTime": "2025-02-18T09:10:00.000+01:00",
+			"arrivalZoneId": "Europe/Prague",
+			"departurePosition": "3346249",
+			"arrivalPosition": "16804020",
+			"duration": "160",
+			"company": "1045",
+			"marketingCompany": "0",
+			"transportId": "FlixBus",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"1387443253": {
+			"type": "bus",
+			"departureTime": "2025-02-18T10:35:00.000+01:00",
+			"departureZoneId": "Europe/Prague",
+			"arrivalTime": "2025-02-18T13:20:00.000+01:00",
+			"arrivalZoneId": "Europe/Prague",
+			"departurePosition": "3346249",
+			"arrivalPosition": "16804020",
+			"duration": "165",
+			"company": "1045",
+			"marketingCompany": "0",
+			"transportId": "FlixBus",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"1666279785": {
+			"type": "bus",
+			"departureTime": "2025-02-18T07:45:00.000+01:00",
+			"departureZoneId": "Europe/Prague",
+			"arrivalTime": "2025-02-18T10:35:00.000+01:00",
+			"arrivalZoneId": "Europe/Prague",
+			"departurePosition": "3346249",
+			"arrivalPosition": "9260641",
+			"duration": "170",
+			"company": "4201",
+			"marketingCompany": "4201",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"1678278270": {
+			"type": "bus",
+			"departureTime": "2025-02-18T11:05:00.000+01:00",
+			"departureZoneId": "Europe/Prague",
+			"arrivalTime": "2025-02-18T13:40:00.000+01:00",
+			"arrivalZoneId": "Europe/Prague",
+			"departurePosition": "3346249",
+			"arrivalPosition": "16804020",
+			"duration": "155",
+			"company": "1045",
+			"marketingCompany": "0",
+			"transportId": "FlixBus",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"1713164214": {
+			"type": "bus",
+			"departureTime": "2025-02-18T09:35:00.000+01:00",
+			"departureZoneId": "Europe/Prague",
+			"arrivalTime": "2025-02-18T12:10:00.000+01:00",
+			"arrivalZoneId": "Europe/Prague",
+			"departurePosition": "3346249",
+			"arrivalPosition": "16804020",
+			"duration": "155",
+			"company": "1045",
+			"marketingCompany": "0",
+			"transportId": "FlixBus",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"1786621374": {
+			"type": "bus",
+			"departureTime": "2025-02-18T09:00:00.000+01:00",
+			"departureZoneId": "Europe/Prague",
+			"arrivalTime": "2025-02-18T11:20:00.000+01:00",
+			"arrivalZoneId": "Europe/Prague",
+			"departurePosition": "16811262",
+			"arrivalPosition": "16804020",
+			"duration": "140",
+			"company": "1045",
+			"marketingCompany": "0",
+			"transportId": "FlixBus",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"1905385223": {
+			"type": "bus",
+			"departureTime": "2025-02-18T12:45:00.000+01:00",
+			"departureZoneId": "Europe/Prague",
+			"arrivalTime": "2025-02-18T15:20:00.000+01:00",
+			"arrivalZoneId": "Europe/Prague",
+			"departurePosition": "476799",
+			"arrivalPosition": "16804020",
+			"duration": "155",
+			"company": "1045",
+			"marketingCompany": "0",
+			"transportId": "FlixBus",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"1943386906": {
+			"type": "bus",
+			"departureTime": "2025-02-18T01:45:00.000+01:00",
+			"departureZoneId": "Europe/Prague",
+			"arrivalTime": "2025-02-18T04:10:00.000+01:00",
+			"arrivalZoneId": "Europe/Prague",
+			"departurePosition": "476799",
+			"arrivalPosition": "16804020",
+			"duration": "145",
+			"company": "1045",
+			"marketingCompany": "0",
+			"transportId": "FlixBus",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"2119276067": {
+			"type": "bus",
+			"departureTime": "2025-02-18T18:05:00.000+01:00",
+			"departureZoneId": "Europe/Prague",
+			"arrivalTime": "2025-02-18T21:00:00.000+01:00",
+			"arrivalZoneId": "Europe/Prague",
+			"departurePosition": "3346249",
+			"arrivalPosition": "16804020",
+			"duration": "175",
+			"company": "1045",
+			"marketingCompany": "0",
+			"transportId": "FlixBus",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"-1080002669": {
+			"type": "bus",
+			"departureTime": "2025-02-18T14:05:00.000+01:00",
+			"departureZoneId": "Europe/Prague",
+			"arrivalTime": "2025-02-18T16:40:00.000+01:00",
+			"arrivalZoneId": "Europe/Prague",
+			"departurePosition": "3346249",
+			"arrivalPosition": "16804020",
+			"duration": "155",
+			"company": "1045",
+			"marketingCompany": "0",
+			"transportId": "FlixBus",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"-1127751115": {
+			"type": "bus",
+			"departureTime": "2025-02-18T15:35:00.000+01:00",
+			"departureZoneId": "Europe/Prague",
+			"arrivalTime": "2025-02-18T18:30:00.000+01:00",
+			"arrivalZoneId": "Europe/Prague",
+			"departurePosition": "3346249",
+			"arrivalPosition": "16804020",
+			"duration": "175",
+			"company": "1045",
+			"marketingCompany": "0",
+			"transportId": "FlixBus",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"-1538107564": {
+			"type": "bus",
+			"departureTime": "2025-02-18T11:35:00.000+01:00",
+			"departureZoneId": "Europe/Prague",
+			"arrivalTime": "2025-02-18T14:05:00.000+01:00",
+			"arrivalZoneId": "Europe/Prague",
+			"departurePosition": "3346249",
+			"arrivalPosition": "16804020",
+			"duration": "150",
+			"company": "1045",
+			"marketingCompany": "0",
+			"transportId": "FlixBus",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"-1557972111": {
+			"type": "bus",
+			"departureTime": "2025-02-18T12:40:00.000+01:00",
+			"departureZoneId": "Europe/Prague",
+			"arrivalTime": "2025-02-18T16:10:00.000+01:00",
+			"arrivalZoneId": "Europe/Prague",
+			"departurePosition": "971134052",
+			"arrivalPosition": "1147558421",
+			"duration": "210",
+			"company": "2586",
+			"marketingCompany": "2586",
+			"transportId": "5339845",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"-1664790158": {
+			"type": "bus",
+			"departureTime": "2025-02-18T08:20:00.000+01:00",
+			"departureZoneId": "Europe/Prague",
+			"arrivalTime": "2025-02-18T10:55:00.000+01:00",
+			"arrivalZoneId": "Europe/Prague",
+			"departurePosition": "476799",
+			"arrivalPosition": "16804020",
+			"duration": "155",
+			"company": "1045",
+			"marketingCompany": "0",
+			"transportId": "FlixBus",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"-1841310662": {
+			"type": "bus",
+			"departureTime": "2025-02-18T08:05:00.000+01:00",
+			"departureZoneId": "Europe/Prague",
+			"arrivalTime": "2025-02-18T10:55:00.000+01:00",
+			"arrivalZoneId": "Europe/Prague",
+			"departurePosition": "3346249",
+			"arrivalPosition": "16804020",
+			"duration": "170",
+			"company": "1045",
+			"marketingCompany": "0",
+			"transportId": "FlixBus",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"-1885713357": {
+			"type": "bus",
+			"departureTime": "2025-02-18T15:50:00.000+01:00",
+			"departureZoneId": "Europe/Prague",
+			"arrivalTime": "2025-02-18T18:30:00.000+01:00",
+			"arrivalZoneId": "Europe/Prague",
+			"departurePosition": "476799",
+			"arrivalPosition": "16804020",
+			"duration": "160",
+			"company": "1045",
+			"marketingCompany": "0",
+			"transportId": "FlixBus",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"-1913445073": {
+			"type": "bus",
+			"departureTime": "2025-02-18T09:10:00.000+01:00",
+			"departureZoneId": "Europe/Prague",
+			"arrivalTime": "2025-02-18T12:40:00.000+01:00",
+			"arrivalZoneId": "Europe/Prague",
+			"departurePosition": "16811418",
+			"arrivalPosition": "16804020",
+			"duration": "210",
+			"company": "1045",
+			"marketingCompany": "0",
+			"transportId": "FlixBus",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"-2112584390": {
+			"type": "bus",
+			"departureTime": "2025-02-18T16:35:00.000+01:00",
+			"departureZoneId": "Europe/Prague",
+			"arrivalTime": "2025-02-18T19:30:00.000+01:00",
+			"arrivalZoneId": "Europe/Prague",
+			"departurePosition": "3346249",
+			"arrivalPosition": "16804020",
+			"duration": "175",
+			"company": "1045",
+			"marketingCompany": "0",
+			"transportId": "FlixBus",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"-426463385": {
+			"type": "bus",
+			"departureTime": "2025-02-18T12:30:00.000+01:00",
+			"departureZoneId": "Europe/Prague",
+			"arrivalTime": "2025-02-18T15:20:00.000+01:00",
+			"arrivalZoneId": "Europe/Prague",
+			"departurePosition": "3346249",
+			"arrivalPosition": "16804020",
+			"duration": "170",
+			"company": "1045",
+			"marketingCompany": "0",
+			"transportId": "FlixBus",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"-46731604": {
+			"type": "bus",
+			"departureTime": "2025-02-18T13:35:00.000+01:00",
+			"departureZoneId": "Europe/Prague",
+			"arrivalTime": "2025-02-18T16:30:00.000+01:00",
+			"arrivalZoneId": "Europe/Prague",
+			"departurePosition": "3346249",
+			"arrivalPosition": "16804020",
+			"duration": "175",
+			"company": "1045",
+			"marketingCompany": "0",
+			"transportId": "FlixBus",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"-551013752": {
+			"type": "bus",
+			"departureTime": "2025-02-18T10:05:00.000+01:00",
+			"departureZoneId": "Europe/Prague",
+			"arrivalTime": "2025-02-18T12:40:00.000+01:00",
+			"arrivalZoneId": "Europe/Prague",
+			"departurePosition": "3346249",
+			"arrivalPosition": "16804020",
+			"duration": "155",
+			"company": "1045",
+			"marketingCompany": "0",
+			"transportId": "FlixBus",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"-683364496": {
+			"type": "bus",
+			"departureTime": "2025-02-18T11:00:00.000+01:00",
+			"departureZoneId": "Europe/Prague",
+			"arrivalTime": "2025-02-18T13:20:00.000+01:00",
+			"arrivalZoneId": "Europe/Prague",
+			"departurePosition": "16811262",
+			"arrivalPosition": "16804020",
+			"duration": "140",
+			"company": "1045",
+			"marketingCompany": "0",
+			"transportId": "FlixBus",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"-718423382": {
+			"type": "bus",
+			"departureTime": "2025-02-18T22:45:00.000+01:00",
+			"departureZoneId": "Europe/Prague",
+			"arrivalTime": "2025-02-19T01:05:00.000+01:00",
+			"arrivalZoneId": "Europe/Prague",
+			"departurePosition": "16811262",
+			"arrivalPosition": "16804020",
+			"duration": "140",
+			"company": "1045",
+			"marketingCompany": "0",
+			"transportId": "FlixBus",
+			"direction": "OUTBOUND",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"-812860526": {
+			"type": "bus",
+			"departureTime": "2025-02-18T07:50:00.000+01:00",
+			"departureZoneId": "Europe/Prague",
+			"arrivalTime": "2025-02-18T11:20:00.000+01:00",
+			"arrivalZoneId": "Europe/Prague",
+			"departurePosition": "476801",
+			"arrivalPosition": "16804020",
+			"duration": "210",
+			"company": "1045",
+			"marketingCompany": "0",
+			"transportId": "FlixBus",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"-959903513": {
+			"type": "bus",
+			"departureTime": "2025-02-18T06:15:00.000+01:00",
+			"departureZoneId": "Europe/Prague",
+			"arrivalTime": "2025-02-18T08:50:00.000+01:00",
+			"arrivalZoneId": "Europe/Prague",
+			"departurePosition": "476799",
+			"arrivalPosition": "16804020",
+			"duration": "155",
+			"company": "1045",
+			"marketingCompany": "0",
+			"transportId": "FlixBus",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		}
+	},
+	"providers": {
+		"137": {
+			"name": "infobus",
+			"displayName": "Infobus"
+		},
+		"236": {
+			"name": "distribusion",
+			"displayName": "Distribusion"
+		},
+		"100104": {
+			"name": "flixbusConnect",
+			"displayName": "Flixbus"
+		}
+	},
+	"translations": {
+		"Providers.infobus.standard": "Standard",
+		"Providers.distribusion.default": "Standard"
+	},
+	"showRoutedConnectionTip": false
+}

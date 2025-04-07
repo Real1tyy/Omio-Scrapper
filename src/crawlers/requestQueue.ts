@@ -1,29 +1,27 @@
+import { Actor, ApifyClient, log } from 'apify';
 import { RequestQueue } from 'crawlee';
-import { BASE_LABEL } from '../constants/labels.js';
-import { BASE_URL } from '../constants/links.js';
+import { LABELS, SEARCH_URL } from '../constants.js';
 
 const createRequestQueues = async (): Promise<{
-  playwrightQueue: RequestQueue;
-  cheerioQueue: RequestQueue;
+	playwrightQueue: RequestQueue;
+	cheerioQueue: RequestQueue;
 }> => {
-  let playwrightQueue = await RequestQueue.open('playwright-queue');
-  await playwrightQueue.drop();
-  let cheerioQueue = await RequestQueue.open('cheerio-queue');
-  await cheerioQueue.drop();
+	const apifyClient = new ApifyClient({ token: process.env.APIFY_TOKEN });
+	const playwrightQueueMetadata = await apifyClient.requestQueues().getOrCreate();
+	const cheerioQueueMetadata = await apifyClient.requestQueues().getOrCreate();
+	const playwrightQueue = await Actor.openRequestQueue(playwrightQueueMetadata.id);
+	const cheerioQueue = await Actor.openRequestQueue(cheerioQueueMetadata.id);
 
-  playwrightQueue = await RequestQueue.open('playwright-queue');
-  cheerioQueue = await RequestQueue.open('cheerio-queue');
-
-  await playwrightQueue.addRequests([]);
-
-  await cheerioQueue.addRequests([
-    {
-      url: BASE_URL,
-      label: BASE_LABEL,
-    },
-  ]);
-
-  return { playwrightQueue, cheerioQueue };
+	await playwrightQueue.addRequests([
+		{
+			url: SEARCH_URL,
+			label: LABELS.SEARCH,
+		},
+	]);
+	await cheerioQueue.addRequests([]);
+	log.debug(`playwright queue requests: ${await playwrightQueue.getTotalCount()}`);
+	log.debug(`cheerio queue requests: ${await cheerioQueue.getTotalCount()}`);
+	return { playwrightQueue, cheerioQueue };
 };
 
 export default createRequestQueues;

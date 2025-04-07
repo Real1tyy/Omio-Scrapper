@@ -1,0 +1,12 @@
+{
+	"actorSpecification": 1,
+	"name": "omio-scrapper",
+	"version": "0.0",
+	"buildTag": "latest",
+	"environmentVariables": {},
+	"input": "./input_schema.json",
+	"dockerfile": "./Dockerfile",
+	"storages": {
+        "dataset": "./dataset_schema.json"
+    }
+}

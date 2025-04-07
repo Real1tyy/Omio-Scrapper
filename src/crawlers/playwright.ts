@@ -1,36 +1,36 @@
-import { PlaywrightCrawler, PlaywrightCrawlerOptions, RequestQueue } from 'crawlee';
-import router from '../routers/playwright.js';
-import logger from '../utils/logger.js';
-
-class CustomPlaywrightCrawler extends PlaywrightCrawler {
-  cheerioQueue: RequestQueue;
-
-  constructor(options: PlaywrightCrawlerOptions, cheerioQueue: RequestQueue) {
-    super(options);
-    this.cheerioQueue = cheerioQueue;
-  }
-}
+import { Actor, log } from 'apify';
+import { PlaywrightCrawler, RequestQueue } from 'crawlee';
+import { firefox } from 'playwright';
+import { Input } from '../models/input.js';
+import { createPlaywrightRouterWithInput } from '../router.js';
 
 export const createPlaywrightCrawler = async (
-  playwrightQueue: RequestQueue,
-  cheerioQueue: RequestQueue,
-): Promise<CustomPlaywrightCrawler> => {
-  const options: PlaywrightCrawlerOptions = {
-    async requestHandler(context) {
-      const { request } = context;
-      context.cheerioQueue = cheerioQueue;
-      logger.info(`PlaywrightCrawler handling request ${request.url} with label ${request.label}`);
-      await router(context);
-    },
-    failedRequestHandler: async ({ request }) => {
-      logger.error(
-        `PlaywrightCrawler failed to handle request ${request.url} with label ${request.label}`,
-      );
-    },
-    headless: true,
-    requestQueue: playwrightQueue,
-  };
-  return new CustomPlaywrightCrawler(options, cheerioQueue);
+	playwrightQueue: RequestQueue,
+	cheerioQueue: RequestQueue,
+	input: Input,
+): Promise<PlaywrightCrawler> => {
+	const playwrightRouter = await createPlaywrightRouterWithInput(input);
+	return new PlaywrightCrawler({
+		launchContext: {
+			launcher: firefox,
+			launchOptions: {
+				headless: true,
+			},
+		},
+		requestQueue: playwrightQueue,
+		navigationTimeoutSecs: 1000000,
+		sessionPoolOptions: {
+			persistenceOptions: { enable: true },
+			maxPoolSize: 10,
+		},
+		proxyConfiguration: await Actor.createProxyConfiguration(),
+		requestHandler: async (context) => {
+			log.debug(
+				`PlaywrightCrawler handling request ${context.request.url} with label ${context.request.label}`,
+			);
+			await playwrightRouter({ ...context, cheerioQueue });
+		},
+	});
 };
 
 export default createPlaywrightCrawler;

@@ -6,5 +6,8 @@ dist
 .env
 .envrc
 .gitignore
-storage
 logs
+
+apify_storage
+crawlee_storage
+storage

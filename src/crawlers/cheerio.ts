@@ -1,36 +1,21 @@
-import { CheerioCrawler, CheerioCrawlerOptions, RequestQueue } from 'crawlee';
-import router from '../routers/cheerio.js';
-import logger from '../utils/logger.js';
-
-class CustomCheerioCrawler extends CheerioCrawler {
-  playwrightQueue: RequestQueue;
-
-  constructor(options: CheerioCrawlerOptions, playwrightQueue: RequestQueue) {
-    super(options);
-    this.playwrightQueue = playwrightQueue;
-  }
-}
+import { log } from 'apify';
+import { CheerioCrawler, RequestQueue } from 'crawlee';
+import { createCheerioRouterwithInput } from '../router.js';
 
 export const createCheerioCrawler = async (
-  cheerioQueue: RequestQueue,
-  playwrightQueue: RequestQueue,
-): Promise<CustomCheerioCrawler> => {
-  const options: CheerioCrawlerOptions = {
-    async requestHandler(context) {
-      const { request } = context;
-      context.playwrightQueue = playwrightQueue;
-      logger.debug(`CheerioCrawler handling request ${request.url} with label ${request.label}`);
-      await router(context);
-    },
-    failedRequestHandler: async ({ request }) => {
-      logger.error(
-        `CheerioCrawler failed to handle request ${request.url} with label ${request.label}`,
-      );
-    },
-    requestQueue: cheerioQueue,
-  };
-
-  return new CustomCheerioCrawler(options, playwrightQueue);
+	cheerioQueue: RequestQueue,
+	playwrightQueue: RequestQueue,
+): Promise<CheerioCrawler> => {
+	const cheerioRouter = await createCheerioRouterwithInput();
+	return new CheerioCrawler({
+		requestHandler: async (context) => {
+			log.debug(
+				`CheerioCrawler handling request ${context.request.url} with label ${context.request.label}`,
+			);
+			await cheerioRouter({ ...context, playwrightQueue });
+		},
+		requestQueue: cheerioQueue,
+	});
 };
 
 export default createCheerioCrawler;

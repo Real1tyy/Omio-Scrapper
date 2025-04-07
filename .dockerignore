@@ -15,3 +15,7 @@ coverage
 .gitignore
 storage
 logs
+
+apify_storage
+crawlee_storage
+storage

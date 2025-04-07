@@ -1,0 +1,7014 @@
+{
+	"Interested in our search results?": "There's an API just for you. Please email b2b@omio.com for more information.",
+	"serviceVersion": "v1.0.0",
+	"outbounds": {
+		"208661975204343291-62-flight-1--1862775063": {
+			"companyId": "62",
+			"duration": "1870",
+			"departureTime": "2025-02-18T17:40:00.000-08:00",
+			"arrivalTime": "2025-02-20T09:50:00.000+01:00",
+			"segments": [-1795029774, 500493767],
+			"segmentClasses": [
+				{
+					"ids": ["-1795029774", "500493767"],
+					"className": null
+				}
+			],
+			"stops": "1",
+			"overnightOffset": 2,
+			"arrivalOvernightOffset": 2,
+			"mode": "flight",
+			"ticketsSellingCompanies": ["62"],
+			"outboundId": "208661975204343291",
+			"journeyId": "-1862775063",
+			"price": 308952,
+			"originalPrice": 308952,
+			"updatedAt": "13",
+			"serviceProviderIds": ["1021"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 0,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "",
+					"cheapestClassPrice": 305952
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"8582492484229313010-31-flight-1--2102389816": {
+			"companyId": "31",
+			"duration": "1065",
+			"departureTime": "2025-02-18T17:55:00.000-08:00",
+			"arrivalTime": "2025-02-19T20:40:00.000+01:00",
+			"segments": [1713006972, 308675863],
+			"segmentClasses": [
+				{
+					"ids": ["1713006972", "308675863"],
+					"className": "Providers.travelfusionconnect.ECONOMY"
+				}
+			],
+			"stops": "1",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"mode": "flight",
+			"ticketsSellingCompanies": ["31"],
+			"outboundId": "8582492484229313010",
+			"journeyId": "-2102389816",
+			"price": 98268,
+			"originalPrice": 98268,
+			"updatedAt": "15",
+			"serviceProviderIds": ["100101"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [
+				{
+					"type": "baggage",
+					"isBookable": true,
+					"isRequired": false
+				}
+			],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 99,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.travelfusionconnect.ECONOMY",
+					"cheapestClassPrice": 95268
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"8941474053603275467-31-flight-1--2068605472": {
+			"companyId": "31",
+			"duration": "1115",
+			"departureTime": "2025-02-18T15:35:00.000-08:00",
+			"arrivalTime": "2025-02-19T19:10:00.000+01:00",
+			"segments": [913982882, 626414748],
+			"segmentClasses": [
+				{
+					"ids": ["913982882", "626414748"],
+					"className": "Providers.travelfusionconnect.ECONOMY"
+				}
+			],
+			"stops": "1",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"mode": "flight",
+			"ticketsSellingCompanies": ["31"],
+			"outboundId": "8941474053603275467",
+			"journeyId": "-2068605472",
+			"price": 98268,
+			"originalPrice": 98268,
+			"updatedAt": "15",
+			"serviceProviderIds": ["100101"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [
+				{
+					"type": "baggage",
+					"isBookable": true,
+					"isRequired": false
+				}
+			],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 99,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.travelfusionconnect.ECONOMY",
+					"cheapestClassPrice": 95268
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"6812448624725768259-60-flight-1--1988280775": {
+			"companyId": "60",
+			"duration": "995",
+			"departureTime": "2025-02-18T17:35:00.000-08:00",
+			"arrivalTime": "2025-02-19T19:10:00.000+01:00",
+			"segments": [-651352065, 626414748],
+			"segmentClasses": [
+				{
+					"ids": ["-651352065", "626414748"],
+					"className": "Providers.travelfusionconnect.ECONOMY"
+				}
+			],
+			"stops": "1",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"mode": "flight",
+			"ticketsSellingCompanies": ["60"],
+			"outboundId": "6812448624725768259",
+			"journeyId": "-1988280775",
+			"price": 98268,
+			"originalPrice": 98268,
+			"updatedAt": "15",
+			"serviceProviderIds": ["100101"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [
+				{
+					"type": "baggage",
+					"isBookable": true,
+					"isRequired": false
+				}
+			],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 99,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.travelfusionconnect.ECONOMY",
+					"cheapestClassPrice": 95268
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"7217471484521135016-35-flight-2--1753853774": {
+			"companyId": "35",
+			"duration": "955",
+			"departureTime": "2025-02-18T15:05:00.000-08:00",
+			"arrivalTime": "2025-02-19T16:00:00.000+01:00",
+			"segments": [21723204, 1112467520, 989214848],
+			"segmentClasses": [
+				{
+					"ids": ["21723204", "1112467520", "989214848"],
+					"className": "Providers.travelfusionconnect.ECONOMY"
+				}
+			],
+			"stops": "2",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"mode": "flight",
+			"ticketsSellingCompanies": ["35"],
+			"outboundId": "7217471484521135016",
+			"journeyId": "-1753853774",
+			"price": 102465,
+			"originalPrice": 102465,
+			"updatedAt": "15",
+			"serviceProviderIds": ["100101"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [
+				{
+					"type": "baggage",
+					"isBookable": true,
+					"isRequired": false
+				}
+			],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 99,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.travelfusionconnect.ECONOMY",
+					"cheapestClassPrice": 99465
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"2587346960197183647-31-flight-1--1631209829": {
+			"companyId": "31",
+			"duration": "885",
+			"departureTime": "2025-02-18T20:55:00.000-08:00",
+			"arrivalTime": "2025-02-19T20:40:00.000+01:00",
+			"segments": [609945469, 308675863],
+			"segmentClasses": [
+				{
+					"ids": ["609945469", "308675863"],
+					"className": "Providers.travelfusionconnect.ECONOMY"
+				}
+			],
+			"stops": "1",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"mode": "flight",
+			"ticketsSellingCompanies": ["31"],
+			"outboundId": "2587346960197183647",
+			"journeyId": "-1631209829",
+			"price": 98268,
+			"originalPrice": 98268,
+			"updatedAt": "15",
+			"serviceProviderIds": ["100101"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [
+				{
+					"type": "baggage",
+					"isBookable": true,
+					"isRequired": false
+				}
+			],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 99,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.travelfusionconnect.ECONOMY",
+					"cheapestClassPrice": 95268
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"-6925225290950952477-60-flight-2--1609704054": {
+			"companyId": "60",
+			"duration": "1115",
+			"departureTime": "2025-02-18T11:25:00.000-08:00",
+			"arrivalTime": "2025-02-19T15:00:00.000+01:00",
+			"segments": [-730941230, 744871968, -1409358087],
+			"segmentClasses": [
+				{
+					"ids": ["-730941230", "744871968", "-1409358087"],
+					"className": "Providers.travelfusionconnect.ECONOMY"
+				}
+			],
+			"stops": "2",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"mode": "flight",
+			"ticketsSellingCompanies": ["60"],
+			"outboundId": "-6925225290950952477",
+			"journeyId": "-1609704054",
+			"price": 99137,
+			"originalPrice": 99137,
+			"updatedAt": "15",
+			"serviceProviderIds": ["100101"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [
+				{
+					"type": "baggage",
+					"isBookable": true,
+					"isRequired": false
+				}
+			],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 99,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.travelfusionconnect.ECONOMY",
+					"cheapestClassPrice": 96137
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"-4454658473014495632-72-flight-2--1605918841": {
+			"companyId": "72",
+			"duration": "1025",
+			"departureTime": "2025-02-18T08:45:00.000-08:00",
+			"arrivalTime": "2025-02-19T10:50:00.000+01:00",
+			"segments": [-1362632594, -230183042, -366316255],
+			"segmentClasses": [
+				{
+					"ids": ["-1362632594", "-230183042", "-366316255"],
+					"className": "Providers.travelfusionconnect.ECONOMY"
+				}
+			],
+			"stops": "2",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"mode": "flight",
+			"ticketsSellingCompanies": ["72"],
+			"outboundId": "-4454658473014495632",
+			"journeyId": "-1605918841",
+			"price": 109913,
+			"originalPrice": 109913,
+			"updatedAt": "15",
+			"serviceProviderIds": ["100101"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [
+				{
+					"type": "baggage",
+					"isBookable": true,
+					"isRequired": false
+				}
+			],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 99,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.travelfusionconnect.ECONOMY",
+					"cheapestClassPrice": 106913
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"6418025732053544642-96-flight-1--1593859920": {
+			"companyId": "96",
+			"duration": "2315",
+			"departureTime": "2025-02-18T18:55:00.000-08:00",
+			"arrivalTime": "2025-02-20T18:30:00.000+01:00",
+			"segments": [-614485505, 1035577917],
+			"segmentClasses": [
+				{
+					"ids": ["-614485505", "1035577917"],
+					"className": "Providers.travelfusionconnect.ECONOMY"
+				}
+			],
+			"stops": "1",
+			"overnightOffset": 2,
+			"arrivalOvernightOffset": 2,
+			"mode": "flight",
+			"ticketsSellingCompanies": ["96"],
+			"outboundId": "6418025732053544642",
+			"journeyId": "-1593859920",
+			"price": 62828,
+			"originalPrice": 62828,
+			"updatedAt": "15",
+			"serviceProviderIds": ["100101"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [
+				{
+					"type": "baggage",
+					"isBookable": true,
+					"isRequired": false
+				}
+			],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 99,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.travelfusionconnect.ECONOMY",
+					"cheapestClassPrice": 59836
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"7246380277720454674-68-flight-1--1590033807": {
+			"companyId": "68",
+			"duration": "2075",
+			"departureTime": "2025-02-18T20:50:00.000-08:00",
+			"arrivalTime": "2025-02-20T16:25:00.000+01:00",
+			"segments": [1396015884, -421686346],
+			"segmentClasses": [
+				{
+					"ids": ["1396015884", "-421686346"],
+					"className": "Providers.travelfusionconnect.ECONOMY"
+				}
+			],
+			"stops": "1",
+			"overnightOffset": 2,
+			"arrivalOvernightOffset": 2,
+			"mode": "flight",
+			"ticketsSellingCompanies": ["68"],
+			"outboundId": "7246380277720454674",
+			"journeyId": "-1590033807",
+			"price": 68710,
+			"originalPrice": 68710,
+			"updatedAt": "15",
+			"serviceProviderIds": ["100101"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [
+				{
+					"type": "baggage",
+					"isBookable": true,
+					"isRequired": false
+				}
+			],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 99,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.travelfusionconnect.ECONOMY",
+					"cheapestClassPrice": 65710
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"-3344666071339037867-37-flight-1--1554748065": {
+			"companyId": "37",
+			"duration": "1410",
+			"departureTime": "2025-02-18T13:45:00.000-08:00",
+			"arrivalTime": "2025-02-19T22:15:00.000+01:00",
+			"segments": [2040597544, 1715213364],
+			"segmentClasses": [
+				{
+					"ids": ["2040597544", "1715213364"],
+					"className": "Providers.travelfusionconnect.ECONOMY"
+				}
+			],
+			"stops": "1",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"mode": "flight",
+			"ticketsSellingCompanies": ["37"],
+			"outboundId": "-3344666071339037867",
+			"journeyId": "-1554748065",
+			"price": 99399,
+			"originalPrice": 99399,
+			"updatedAt": "15",
+			"serviceProviderIds": ["100101"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [
+				{
+					"type": "baggage",
+					"isBookable": true,
+					"isRequired": false
+				}
+			],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 99,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.travelfusionconnect.ECONOMY",
+					"cheapestClassPrice": 96399
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"-5671854286306697115-96-flight-1--1528636072": {
+			"companyId": "96",
+			"duration": "1730",
+			"departureTime": "2025-02-18T18:55:00.000-08:00",
+			"arrivalTime": "2025-02-20T08:45:00.000+01:00",
+			"segments": [-614485505, -1142876940],
+			"segmentClasses": [
+				{
+					"ids": ["-614485505", "-1142876940"],
+					"className": "Providers.travelfusionconnect.ECONOMY"
+				}
+			],
+			"stops": "1",
+			"overnightOffset": 2,
+			"arrivalOvernightOffset": 2,
+			"mode": "flight",
+			"ticketsSellingCompanies": ["96"],
+			"outboundId": "-5671854286306697115",
+			"journeyId": "-1528636072",
+			"price": 62828,
+			"originalPrice": 62828,
+			"updatedAt": "15",
+			"serviceProviderIds": ["100101"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [
+				{
+					"type": "baggage",
+					"isBookable": true,
+					"isRequired": false
+				}
+			],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 99,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.travelfusionconnect.ECONOMY",
+					"cheapestClassPrice": 59836
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"-394971329223769444-72-flight-2--1484556325": {
+			"companyId": "72",
+			"duration": "980",
+			"departureTime": "2025-02-18T08:25:00.000-08:00",
+			"arrivalTime": "2025-02-19T09:45:00.000+01:00",
+			"segments": [1163981861, 667810982, 33513546],
+			"segmentClasses": [
+				{
+					"ids": ["1163981861", "667810982", "33513546"],
+					"className": "Providers.travelfusionconnect.ECONOMY"
+				}
+			],
+			"stops": "2",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"mode": "flight",
+			"ticketsSellingCompanies": ["72"],
+			"outboundId": "-394971329223769444",
+			"journeyId": "-1484556325",
+			"price": 100029,
+			"originalPrice": 100029,
+			"updatedAt": "15",
+			"serviceProviderIds": ["100101"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [
+				{
+					"type": "baggage",
+					"isBookable": true,
+					"isRequired": false
+				}
+			],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 99,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.travelfusionconnect.ECONOMY",
+					"cheapestClassPrice": 97029
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"4711656444854578001-72-flight-2--1420297172": {
+			"companyId": "72",
+			"duration": "1035",
+			"departureTime": "2025-02-18T11:40:00.000-08:00",
+			"arrivalTime": "2025-02-19T13:55:00.000+01:00",
+			"segments": [-618448135, -858812557, 1317622518],
+			"segmentClasses": [
+				{
+					"ids": ["-618448135", "-858812557", "1317622518"],
+					"className": "Providers.travelfusionconnect.ECONOMY"
+				}
+			],
+			"stops": "2",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"mode": "flight",
+			"ticketsSellingCompanies": ["72"],
+			"outboundId": "4711656444854578001",
+			"journeyId": "-1420297172",
+			"price": 99646,
+			"originalPrice": 99646,
+			"updatedAt": "15",
+			"serviceProviderIds": ["100101"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [
+				{
+					"type": "baggage",
+					"isBookable": true,
+					"isRequired": false
+				}
+			],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 99,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.travelfusionconnect.ECONOMY",
+					"cheapestClassPrice": 96646
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"3508598271289015034-60-flight-1--1403289813": {
+			"companyId": "60",
+			"duration": "975",
+			"departureTime": "2025-02-18T21:35:00.000-08:00",
+			"arrivalTime": "2025-02-19T22:50:00.000+01:00",
+			"segments": [-842032551, 2032903747],
+			"segmentClasses": [
+				{
+					"ids": ["-842032551", "2032903747"],
+					"className": "Providers.travelfusionconnect.ECONOMY"
+				}
+			],
+			"stops": "1",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"mode": "flight",
+			"ticketsSellingCompanies": ["60"],
+			"outboundId": "3508598271289015034",
+			"journeyId": "-1403289813",
+			"price": 98268,
+			"originalPrice": 98268,
+			"updatedAt": "15",
+			"serviceProviderIds": ["100101"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [
+				{
+					"type": "baggage",
+					"isBookable": true,
+					"isRequired": false
+				}
+			],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 99,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.travelfusionconnect.ECONOMY",
+					"cheapestClassPrice": 95268
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"6098579248530203081-44-flight-1--1315711803": {
+			"companyId": "44",
+			"duration": "1795",
+			"departureTime": "2025-02-18T18:00:00.000-08:00",
+			"arrivalTime": "2025-02-20T08:55:00.000+01:00",
+			"segments": [-615875890, 1510640549],
+			"segmentClasses": [
+				{
+					"ids": ["-615875890", "1510640549"],
+					"className": "Providers.travelfusionconnect.ECONOMY"
+				}
+			],
+			"stops": "1",
+			"overnightOffset": 2,
+			"arrivalOvernightOffset": 2,
+			"mode": "flight",
+			"ticketsSellingCompanies": ["44"],
+			"outboundId": "6098579248530203081",
+			"journeyId": "-1315711803",
+			"price": 99598,
+			"originalPrice": 99598,
+			"updatedAt": "15",
+			"serviceProviderIds": ["100101"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [
+				{
+					"type": "baggage",
+					"isBookable": true,
+					"isRequired": false
+				}
+			],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 99,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.travelfusionconnect.ECONOMY",
+					"cheapestClassPrice": 96598
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"-3432252042696829477-72-flight-2--1264461129": {
+			"companyId": "72",
+			"duration": "1090",
+			"departureTime": "2025-02-18T07:20:00.000-08:00",
+			"arrivalTime": "2025-02-19T10:30:00.000+01:00",
+			"segments": [266131848, -50592746, -987669147],
+			"segmentClasses": [
+				{
+					"ids": ["266131848", "-50592746", "-987669147"],
+					"className": "Providers.travelfusionconnect.ECONOMY"
+				}
+			],
+			"stops": "2",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"mode": "flight",
+			"ticketsSellingCompanies": ["72"],
+			"outboundId": "-3432252042696829477",
+			"journeyId": "-1264461129",
+			"price": 100391,
+			"originalPrice": 100391,
+			"updatedAt": "15",
+			"serviceProviderIds": ["100101"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [
+				{
+					"type": "baggage",
+					"isBookable": true,
+					"isRequired": false
+				}
+			],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 99,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.travelfusionconnect.ECONOMY",
+					"cheapestClassPrice": 97391
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"566092790421824702-72-flight-2--1206538817": {
+			"companyId": "72",
+			"duration": "970",
+			"departureTime": "2025-02-18T08:35:00.000-08:00",
+			"arrivalTime": "2025-02-19T09:45:00.000+01:00",
+			"segments": [1108497647, -1436914442, 33513546],
+			"segmentClasses": [
+				{
+					"ids": ["1108497647", "-1436914442", "33513546"],
+					"className": "Providers.travelfusionconnect.ECONOMY"
+				}
+			],
+			"stops": "2",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"mode": "flight",
+			"ticketsSellingCompanies": ["72"],
+			"outboundId": "566092790421824702",
+			"journeyId": "-1206538817",
+			"price": 109629,
+			"originalPrice": 109629,
+			"updatedAt": "15",
+			"serviceProviderIds": ["100101"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [
+				{
+					"type": "baggage",
+					"isBookable": true,
+					"isRequired": false
+				}
+			],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 99,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.travelfusionconnect.ECONOMY",
+					"cheapestClassPrice": 106629
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"-8265760565845100115-35-flight-2--1063260429": {
+			"companyId": "35",
+			"duration": "960",
+			"departureTime": "2025-02-18T15:05:00.000-08:00",
+			"arrivalTime": "2025-02-19T16:05:00.000+01:00",
+			"segments": [-1657615745, -1915448766, -1440069155],
+			"segmentClasses": [
+				{
+					"ids": ["-1657615745", "-1915448766", "-1440069155"],
+					"className": "Providers.travelfusionconnect.ECONOMY"
+				}
+			],
+			"stops": "2",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"mode": "flight",
+			"ticketsSellingCompanies": ["35"],
+			"outboundId": "-8265760565845100115",
+			"journeyId": "-1063260429",
+			"price": 101943,
+			"originalPrice": 101943,
+			"updatedAt": "15",
+			"serviceProviderIds": ["100101"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [
+				{
+					"type": "baggage",
+					"isBookable": true,
+					"isRequired": false
+				}
+			],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 99,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.travelfusionconnect.ECONOMY",
+					"cheapestClassPrice": 98943
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"-2799603846512483715-44-flight-1--920461143": {
+			"companyId": "44",
+			"duration": "1180",
+			"departureTime": "2025-02-18T18:00:00.000-08:00",
+			"arrivalTime": "2025-02-19T22:40:00.000+01:00",
+			"segments": [-615875890, -1753602288],
+			"segmentClasses": [
+				{
+					"ids": ["-615875890", "-1753602288"],
+					"className": "Providers.travelfusionconnect.ECONOMY"
+				}
+			],
+			"stops": "1",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"mode": "flight",
+			"ticketsSellingCompanies": ["44"],
+			"outboundId": "-2799603846512483715",
+			"journeyId": "-920461143",
+			"price": 99500,
+			"originalPrice": 99500,
+			"updatedAt": "15",
+			"serviceProviderIds": ["100101"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [
+				{
+					"type": "baggage",
+					"isBookable": true,
+					"isRequired": false
+				}
+			],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 99,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.travelfusionconnect.ECONOMY",
+					"cheapestClassPrice": 96500
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"1705945802552153316-60-flight-2--820201238": {
+			"companyId": "60",
+			"duration": "1150",
+			"departureTime": "2025-02-18T10:50:00.000-08:00",
+			"arrivalTime": "2025-02-19T15:00:00.000+01:00",
+			"segments": [1711878049, 243926165, -1409358087],
+			"segmentClasses": [
+				{
+					"ids": ["1711878049", "243926165", "-1409358087"],
+					"className": "Providers.travelfusionconnect.ECONOMY"
+				}
+			],
+			"stops": "2",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"mode": "flight",
+			"ticketsSellingCompanies": ["60"],
+			"outboundId": "1705945802552153316",
+			"journeyId": "-820201238",
+			"price": 99137,
+			"originalPrice": 99137,
+			"updatedAt": "15",
+			"serviceProviderIds": ["100101"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [
+				{
+					"type": "baggage",
+					"isBookable": true,
+					"isRequired": false
+				}
+			],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 99,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.travelfusionconnect.ECONOMY",
+					"cheapestClassPrice": 96137
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"8943341867994803690-31-flight-1--800045972": {
+			"companyId": "31",
+			"duration": "1015",
+			"departureTime": "2025-02-18T20:55:00.000-08:00",
+			"arrivalTime": "2025-02-19T22:50:00.000+01:00",
+			"segments": [609945469, 2032903747],
+			"segmentClasses": [
+				{
+					"ids": ["609945469", "2032903747"],
+					"className": "Providers.travelfusionconnect.ECONOMY"
+				}
+			],
+			"stops": "1",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"mode": "flight",
+			"ticketsSellingCompanies": ["31"],
+			"outboundId": "8943341867994803690",
+			"journeyId": "-800045972",
+			"price": 98268,
+			"originalPrice": 98268,
+			"updatedAt": "15",
+			"serviceProviderIds": ["100101"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [
+				{
+					"type": "baggage",
+					"isBookable": true,
+					"isRequired": false
+				}
+			],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 99,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.travelfusionconnect.ECONOMY",
+					"cheapestClassPrice": 95268
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"6223791648432276066-72-flight-2--656457738": {
+			"companyId": "72",
+			"duration": "1015",
+			"departureTime": "2025-02-18T08:35:00.000-08:00",
+			"arrivalTime": "2025-02-19T10:30:00.000+01:00",
+			"segments": [-493289831, -1067312399, -987669147],
+			"segmentClasses": [
+				{
+					"ids": ["-493289831", "-1067312399", "-987669147"],
+					"className": "Providers.travelfusionconnect.ECONOMY"
+				}
+			],
+			"stops": "2",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"mode": "flight",
+			"ticketsSellingCompanies": ["72"],
+			"outboundId": "6223791648432276066",
+			"journeyId": "-656457738",
+			"price": 100391,
+			"originalPrice": 100391,
+			"updatedAt": "15",
+			"serviceProviderIds": ["100101"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [
+				{
+					"type": "baggage",
+					"isBookable": true,
+					"isRequired": false
+				}
+			],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 99,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.travelfusionconnect.ECONOMY",
+					"cheapestClassPrice": 97391
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"-2618072445929682566-37-flight-1--593785773": {
+			"companyId": "37",
+			"duration": "2015",
+			"departureTime": "2025-02-18T13:45:00.000-08:00",
+			"arrivalTime": "2025-02-20T08:20:00.000+01:00",
+			"segments": [2040597544, -1453464177],
+			"segmentClasses": [
+				{
+					"ids": ["2040597544", "-1453464177"],
+					"className": "Providers.travelfusionconnect.ECONOMY"
+				}
+			],
+			"stops": "1",
+			"overnightOffset": 2,
+			"arrivalOvernightOffset": 2,
+			"mode": "flight",
+			"ticketsSellingCompanies": ["37"],
+			"outboundId": "-2618072445929682566",
+			"journeyId": "-593785773",
+			"price": 99399,
+			"originalPrice": 99399,
+			"updatedAt": "15",
+			"serviceProviderIds": ["100101"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [
+				{
+					"type": "baggage",
+					"isBookable": true,
+					"isRequired": false
+				}
+			],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 99,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.travelfusionconnect.ECONOMY",
+					"cheapestClassPrice": 96399
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"-6528927950922673456-37-flight-1--282913667": {
+			"companyId": "37",
+			"duration": "1135",
+			"departureTime": "2025-02-18T13:45:00.000-08:00",
+			"arrivalTime": "2025-02-19T17:40:00.000+01:00",
+			"segments": [2040597544, -1126935701],
+			"segmentClasses": [
+				{
+					"ids": ["2040597544", "-1126935701"],
+					"className": "Providers.travelfusionconnect.ECONOMY"
+				}
+			],
+			"stops": "1",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"mode": "flight",
+			"ticketsSellingCompanies": ["37"],
+			"outboundId": "-6528927950922673456",
+			"journeyId": "-282913667",
+			"price": 99399,
+			"originalPrice": 99399,
+			"updatedAt": "15",
+			"serviceProviderIds": ["100101"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [
+				{
+					"type": "baggage",
+					"isBookable": true,
+					"isRequired": false
+				}
+			],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 99,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.travelfusionconnect.ECONOMY",
+					"cheapestClassPrice": 96399
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"-2349234794065076003-44-flight-1--159812424": {
+			"companyId": "44",
+			"duration": "2000",
+			"departureTime": "2025-02-18T18:00:00.000-08:00",
+			"arrivalTime": "2025-02-20T12:20:00.000+01:00",
+			"segments": [-615875890, -843267345],
+			"segmentClasses": [
+				{
+					"ids": ["-615875890", "-843267345"],
+					"className": "Providers.travelfusionconnect.ECONOMY"
+				}
+			],
+			"stops": "1",
+			"overnightOffset": 2,
+			"arrivalOvernightOffset": 2,
+			"mode": "flight",
+			"ticketsSellingCompanies": ["44"],
+			"outboundId": "-2349234794065076003",
+			"journeyId": "-159812424",
+			"price": 99630,
+			"originalPrice": 99630,
+			"updatedAt": "15",
+			"serviceProviderIds": ["100101"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [
+				{
+					"type": "baggage",
+					"isBookable": true,
+					"isRequired": false
+				}
+			],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 99,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.travelfusionconnect.ECONOMY",
+					"cheapestClassPrice": 96630
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"9212487475771310560-37-flight-2--14796771": {
+			"companyId": "37",
+			"duration": "1100",
+			"departureTime": "2025-02-18T13:45:00.000-08:00",
+			"arrivalTime": "2025-02-19T17:05:00.000+01:00",
+			"segments": [-363128834, 1678892830, -1003987186],
+			"segmentClasses": [
+				{
+					"ids": ["-363128834", "1678892830", "-1003987186"],
+					"className": "Providers.travelfusionconnect.ECONOMY"
+				}
+			],
+			"stops": "2",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"mode": "flight",
+			"ticketsSellingCompanies": ["37"],
+			"outboundId": "9212487475771310560",
+			"journeyId": "-14796771",
+			"price": 100944,
+			"originalPrice": 100944,
+			"updatedAt": "15",
+			"serviceProviderIds": ["100101"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [
+				{
+					"type": "baggage",
+					"isBookable": true,
+					"isRequired": false
+				}
+			],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 99,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.travelfusionconnect.ECONOMY",
+					"cheapestClassPrice": 97944
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"8021165875572060067-72-flight-2-119174255": {
+			"companyId": "72",
+			"duration": "1035",
+			"departureTime": "2025-02-18T08:35:00.000-08:00",
+			"arrivalTime": "2025-02-19T10:50:00.000+01:00",
+			"segments": [754591674, 978454799, -366316255],
+			"segmentClasses": [
+				{
+					"ids": ["754591674", "978454799", "-366316255"],
+					"className": "Providers.travelfusionconnect.ECONOMY"
+				}
+			],
+			"stops": "2",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"mode": "flight",
+			"ticketsSellingCompanies": ["72"],
+			"outboundId": "8021165875572060067",
+			"journeyId": "119174255",
+			"price": 109913,
+			"originalPrice": 109913,
+			"updatedAt": "15",
+			"serviceProviderIds": ["100101"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [
+				{
+					"type": "baggage",
+					"isBookable": true,
+					"isRequired": false
+				}
+			],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 99,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.travelfusionconnect.ECONOMY",
+					"cheapestClassPrice": 106913
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"3080589481588564559-72-flight-2-209441689": {
+			"companyId": "72",
+			"duration": "1110",
+			"departureTime": "2025-02-18T07:20:00.000-08:00",
+			"arrivalTime": "2025-02-19T10:50:00.000+01:00",
+			"segments": [-1759490626, -230183042, -366316255],
+			"segmentClasses": [
+				{
+					"ids": ["-1759490626", "-230183042", "-366316255"],
+					"className": "Providers.travelfusionconnect.ECONOMY"
+				}
+			],
+			"stops": "2",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"mode": "flight",
+			"ticketsSellingCompanies": ["72"],
+			"outboundId": "3080589481588564559",
+			"journeyId": "209441689",
+			"price": 109913,
+			"originalPrice": 109913,
+			"updatedAt": "15",
+			"serviceProviderIds": ["100101"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [
+				{
+					"type": "baggage",
+					"isBookable": true,
+					"isRequired": false
+				}
+			],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 99,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.travelfusionconnect.ECONOMY",
+					"cheapestClassPrice": 106913
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"6027939023514299618-60-flight-2-216882992": {
+			"companyId": "60",
+			"duration": "1115",
+			"departureTime": "2025-02-18T11:25:00.000-08:00",
+			"arrivalTime": "2025-02-19T15:00:00.000+01:00",
+			"segments": [1452916725, 1778485393, -1409358087],
+			"segmentClasses": [
+				{
+					"ids": ["1452916725", "1778485393", "-1409358087"],
+					"className": "Providers.travelfusionconnect.ECONOMY"
+				}
+			],
+			"stops": "2",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"mode": "flight",
+			"ticketsSellingCompanies": ["60"],
+			"outboundId": "6027939023514299618",
+			"journeyId": "216882992",
+			"price": 99137,
+			"originalPrice": 99137,
+			"updatedAt": "15",
+			"serviceProviderIds": ["100101"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [
+				{
+					"type": "baggage",
+					"isBookable": true,
+					"isRequired": false
+				}
+			],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 99,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.travelfusionconnect.ECONOMY",
+					"cheapestClassPrice": 96137
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"444469088937750864-31-flight-1-287921515": {
+			"companyId": "31",
+			"duration": "1025",
+			"departureTime": "2025-02-18T15:35:00.000-08:00",
+			"arrivalTime": "2025-02-19T17:40:00.000+01:00",
+			"segments": [913982882, -454205640],
+			"segmentClasses": [
+				{
+					"ids": ["913982882", "-454205640"],
+					"className": "Providers.travelfusionconnect.ECONOMY"
+				}
+			],
+			"stops": "1",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"mode": "flight",
+			"ticketsSellingCompanies": ["31"],
+			"outboundId": "444469088937750864",
+			"journeyId": "287921515",
+			"price": 98268,
+			"originalPrice": 98268,
+			"updatedAt": "15",
+			"serviceProviderIds": ["100101"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [
+				{
+					"type": "baggage",
+					"isBookable": true,
+					"isRequired": false
+				}
+			],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 99,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.travelfusionconnect.ECONOMY",
+					"cheapestClassPrice": 95268
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"-5574590730897941689-37-flight-1-476051725": {
+			"companyId": "37",
+			"duration": "1240",
+			"departureTime": "2025-02-18T13:45:00.000-08:00",
+			"arrivalTime": "2025-02-19T19:25:00.000+01:00",
+			"segments": [2040597544, -1215813993],
+			"segmentClasses": [
+				{
+					"ids": ["2040597544", "-1215813993"],
+					"className": "Providers.travelfusionconnect.ECONOMY"
+				}
+			],
+			"stops": "1",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"mode": "flight",
+			"ticketsSellingCompanies": ["37"],
+			"outboundId": "-5574590730897941689",
+			"journeyId": "476051725",
+			"price": 99399,
+			"originalPrice": 99399,
+			"updatedAt": "15",
+			"serviceProviderIds": ["100101"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [
+				{
+					"type": "baggage",
+					"isBookable": true,
+					"isRequired": false
+				}
+			],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 99,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.travelfusionconnect.ECONOMY",
+					"cheapestClassPrice": 96399
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"-6720476671219842896-37-flight-2-484437786": {
+			"companyId": "37",
+			"duration": "1100",
+			"departureTime": "2025-02-18T13:45:00.000-08:00",
+			"arrivalTime": "2025-02-19T17:05:00.000+01:00",
+			"segments": [-363128834, 457743881, -1003987186],
+			"segmentClasses": [
+				{
+					"ids": ["-363128834", "457743881", "-1003987186"],
+					"className": "Providers.travelfusionconnect.ECONOMY"
+				}
+			],
+			"stops": "2",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"mode": "flight",
+			"ticketsSellingCompanies": ["37"],
+			"outboundId": "-6720476671219842896",
+			"journeyId": "484437786",
+			"price": 100944,
+			"originalPrice": 100944,
+			"updatedAt": "15",
+			"serviceProviderIds": ["100101"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [
+				{
+					"type": "baggage",
+					"isBookable": true,
+					"isRequired": false
+				}
+			],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 99,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.travelfusionconnect.ECONOMY",
+					"cheapestClassPrice": 97944
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"-8242109627944015639-60-flight-1-489972519": {
+			"companyId": "60",
+			"duration": "905",
+			"departureTime": "2025-02-18T17:35:00.000-08:00",
+			"arrivalTime": "2025-02-19T17:40:00.000+01:00",
+			"segments": [-651352065, -454205640],
+			"segmentClasses": [
+				{
+					"ids": ["-651352065", "-454205640"],
+					"className": "Providers.travelfusionconnect.ECONOMY"
+				}
+			],
+			"stops": "1",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"mode": "flight",
+			"ticketsSellingCompanies": ["60"],
+			"outboundId": "-8242109627944015639",
+			"journeyId": "489972519",
+			"price": 98268,
+			"originalPrice": 98268,
+			"updatedAt": "15",
+			"serviceProviderIds": ["100101"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [
+				{
+					"type": "baggage",
+					"isBookable": true,
+					"isRequired": false
+				}
+			],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 99,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.travelfusionconnect.ECONOMY",
+					"cheapestClassPrice": 95268
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"-3309051151410610133-44-flight-1-598747216": {
+			"companyId": "44",
+			"duration": "845",
+			"departureTime": "2025-02-18T18:00:00.000-08:00",
+			"arrivalTime": "2025-02-19T17:05:00.000+01:00",
+			"segments": [-615875890, -1003987186],
+			"segmentClasses": [
+				{
+					"ids": ["-615875890", "-1003987186"],
+					"className": "Providers.travelfusionconnect.ECONOMY"
+				}
+			],
+			"stops": "1",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"mode": "flight",
+			"ticketsSellingCompanies": ["44"],
+			"outboundId": "-3309051151410610133",
+			"journeyId": "598747216",
+			"price": 99500,
+			"originalPrice": 99500,
+			"updatedAt": "15",
+			"serviceProviderIds": ["100101"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [
+				{
+					"type": "baggage",
+					"isBookable": true,
+					"isRequired": false
+				}
+			],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 99,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.travelfusionconnect.ECONOMY",
+					"cheapestClassPrice": 96500
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"-6340840411384159589-37-flight-1-654176256": {
+			"companyId": "37",
+			"duration": "895",
+			"departureTime": "2025-02-18T13:45:00.000-08:00",
+			"arrivalTime": "2025-02-19T13:40:00.000+01:00",
+			"segments": [2040597544, -1177280406],
+			"segmentClasses": [
+				{
+					"ids": ["2040597544", "-1177280406"],
+					"className": "Providers.travelfusionconnect.ECONOMY"
+				}
+			],
+			"stops": "1",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"mode": "flight",
+			"ticketsSellingCompanies": ["37"],
+			"outboundId": "-6340840411384159589",
+			"journeyId": "654176256",
+			"price": 99399,
+			"originalPrice": 99399,
+			"updatedAt": "15",
+			"serviceProviderIds": ["100101"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [
+				{
+					"type": "baggage",
+					"isBookable": true,
+					"isRequired": false
+				}
+			],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 99,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.travelfusionconnect.ECONOMY",
+					"cheapestClassPrice": 96399
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"5735375074927216421-35-flight-2-760508598": {
+			"companyId": "35",
+			"duration": "960",
+			"departureTime": "2025-02-18T15:05:00.000-08:00",
+			"arrivalTime": "2025-02-19T16:05:00.000+01:00",
+			"segments": [-1657615745, 1737461769, -1440069155],
+			"segmentClasses": [
+				{
+					"ids": ["-1657615745", "1737461769", "-1440069155"],
+					"className": "Providers.travelfusionconnect.ECONOMY"
+				}
+			],
+			"stops": "2",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"mode": "flight",
+			"ticketsSellingCompanies": ["35"],
+			"outboundId": "5735375074927216421",
+			"journeyId": "760508598",
+			"price": 101943,
+			"originalPrice": 101943,
+			"updatedAt": "15",
+			"serviceProviderIds": ["100101"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [
+				{
+					"type": "baggage",
+					"isBookable": true,
+					"isRequired": false
+				}
+			],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 99,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.travelfusionconnect.ECONOMY",
+					"cheapestClassPrice": 98943
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"-771620019609643275-72-flight-2-780000087": {
+			"companyId": "72",
+			"duration": "1075",
+			"departureTime": "2025-02-18T08:25:00.000-08:00",
+			"arrivalTime": "2025-02-19T11:20:00.000+01:00",
+			"segments": [1163981861, 667810982, -1593129565],
+			"segmentClasses": [
+				{
+					"ids": ["1163981861", "667810982", "-1593129565"],
+					"className": "Providers.travelfusionconnect.ECONOMY"
+				}
+			],
+			"stops": "2",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"mode": "flight",
+			"ticketsSellingCompanies": ["72"],
+			"outboundId": "-771620019609643275",
+			"journeyId": "780000087",
+			"price": 100029,
+			"originalPrice": 100029,
+			"updatedAt": "15",
+			"serviceProviderIds": ["100101"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [
+				{
+					"type": "baggage",
+					"isBookable": true,
+					"isRequired": false
+				}
+			],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 99,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.travelfusionconnect.ECONOMY",
+					"cheapestClassPrice": 97029
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"-5764408771680677059-72-flight-2-803374195": {
+			"companyId": "72",
+			"duration": "1045",
+			"departureTime": "2025-02-18T07:20:00.000-08:00",
+			"arrivalTime": "2025-02-19T09:45:00.000+01:00",
+			"segments": [1748919398, -1623996973, 33513546],
+			"segmentClasses": [
+				{
+					"ids": ["1748919398", "-1623996973", "33513546"],
+					"className": "Providers.travelfusionconnect.ECONOMY"
+				}
+			],
+			"stops": "2",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"mode": "flight",
+			"ticketsSellingCompanies": ["72"],
+			"outboundId": "-5764408771680677059",
+			"journeyId": "803374195",
+			"price": 100029,
+			"originalPrice": 100029,
+			"updatedAt": "15",
+			"serviceProviderIds": ["100101"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [
+				{
+					"type": "baggage",
+					"isBookable": true,
+					"isRequired": false
+				}
+			],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 99,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.travelfusionconnect.ECONOMY",
+					"cheapestClassPrice": 97029
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"-8189190111504461542-72-flight-2-831755053": {
+			"companyId": "72",
+			"duration": "1065",
+			"departureTime": "2025-02-18T08:35:00.000-08:00",
+			"arrivalTime": "2025-02-19T11:20:00.000+01:00",
+			"segments": [1108497647, -1142728058, -1593129565],
+			"segmentClasses": [
+				{
+					"ids": ["1108497647", "-1142728058", "-1593129565"],
+					"className": "Providers.travelfusionconnect.ECONOMY"
+				}
+			],
+			"stops": "2",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"mode": "flight",
+			"ticketsSellingCompanies": ["72"],
+			"outboundId": "-8189190111504461542",
+			"journeyId": "831755053",
+			"price": 100029,
+			"originalPrice": 100029,
+			"updatedAt": "15",
+			"serviceProviderIds": ["100101"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [
+				{
+					"type": "baggage",
+					"isBookable": true,
+					"isRequired": false
+				}
+			],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 99,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.travelfusionconnect.ECONOMY",
+					"cheapestClassPrice": 97029
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"-297077189677859716-60-flight-1-987086100": {
+			"companyId": "60",
+			"duration": "845",
+			"departureTime": "2025-02-18T21:35:00.000-08:00",
+			"arrivalTime": "2025-02-19T20:40:00.000+01:00",
+			"segments": [-842032551, 308675863],
+			"segmentClasses": [
+				{
+					"ids": ["-842032551", "308675863"],
+					"className": "Providers.travelfusionconnect.ECONOMY"
+				}
+			],
+			"stops": "1",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"mode": "flight",
+			"ticketsSellingCompanies": ["60"],
+			"outboundId": "-297077189677859716",
+			"journeyId": "987086100",
+			"price": 98268,
+			"originalPrice": 98268,
+			"updatedAt": "15",
+			"serviceProviderIds": ["100101"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [
+				{
+					"type": "baggage",
+					"isBookable": true,
+					"isRequired": false
+				}
+			],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 99,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.travelfusionconnect.ECONOMY",
+					"cheapestClassPrice": 95268
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"2197494218137877193-97-flight-1-1151574657": {
+			"companyId": "97",
+			"duration": "960",
+			"departureTime": "2025-02-18T16:15:00.000-08:00",
+			"arrivalTime": "2025-02-19T17:15:00.000+01:00",
+			"segments": [56952686, 375749312],
+			"segmentClasses": [
+				{
+					"ids": ["56952686", "375749312"],
+					"className": "Providers.travelfusionconnect.ECONOMY"
+				}
+			],
+			"stops": "1",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"mode": "flight",
+			"ticketsSellingCompanies": ["97"],
+			"outboundId": "2197494218137877193",
+			"journeyId": "1151574657",
+			"price": 74590,
+			"originalPrice": 74590,
+			"updatedAt": "15",
+			"serviceProviderIds": ["100101"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [
+				{
+					"type": "baggage",
+					"isBookable": true,
+					"isRequired": false
+				}
+			],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 99,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.travelfusionconnect.ECONOMY",
+					"cheapestClassPrice": 71590
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"-541674383266155167-72-flight-2-1179950664": {
+			"companyId": "72",
+			"duration": "1065",
+			"departureTime": "2025-02-18T08:35:00.000-08:00",
+			"arrivalTime": "2025-02-19T11:20:00.000+01:00",
+			"segments": [1108497647, -1436914442, -1593129565],
+			"segmentClasses": [
+				{
+					"ids": ["1108497647", "-1436914442", "-1593129565"],
+					"className": "Providers.travelfusionconnect.ECONOMY"
+				}
+			],
+			"stops": "2",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"mode": "flight",
+			"ticketsSellingCompanies": ["72"],
+			"outboundId": "-541674383266155167",
+			"journeyId": "1179950664",
+			"price": 109629,
+			"originalPrice": 109629,
+			"updatedAt": "15",
+			"serviceProviderIds": ["100101"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [
+				{
+					"type": "baggage",
+					"isBookable": true,
+					"isRequired": false
+				}
+			],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 99,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.travelfusionconnect.ECONOMY",
+					"cheapestClassPrice": 106629
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"-4500329142386950663-31-flight-1-1295203910": {
+			"companyId": "31",
+			"duration": "975",
+			"departureTime": "2025-02-18T17:55:00.000-08:00",
+			"arrivalTime": "2025-02-19T19:10:00.000+01:00",
+			"segments": [1713006972, 626414748],
+			"segmentClasses": [
+				{
+					"ids": ["1713006972", "626414748"],
+					"className": "Providers.travelfusionconnect.ECONOMY"
+				}
+			],
+			"stops": "1",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"mode": "flight",
+			"ticketsSellingCompanies": ["31"],
+			"outboundId": "-4500329142386950663",
+			"journeyId": "1295203910",
+			"price": 98268,
+			"originalPrice": 98268,
+			"updatedAt": "15",
+			"serviceProviderIds": ["100101"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [
+				{
+					"type": "baggage",
+					"isBookable": true,
+					"isRequired": false
+				}
+			],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 99,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.travelfusionconnect.ECONOMY",
+					"cheapestClassPrice": 95268
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"6612466508724991633-35-flight-2-1298506549": {
+			"companyId": "35",
+			"duration": "1070",
+			"departureTime": "2025-02-18T15:05:00.000-08:00",
+			"arrivalTime": "2025-02-19T17:55:00.000+01:00",
+			"segments": [2038034102, 1336334438, 1059292911],
+			"segmentClasses": [
+				{
+					"ids": ["2038034102", "1336334438", "1059292911"],
+					"className": "Providers.travelfusionconnect.ECONOMY"
+				}
+			],
+			"stops": "2",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"mode": "flight",
+			"ticketsSellingCompanies": ["35"],
+			"outboundId": "6612466508724991633",
+			"journeyId": "1298506549",
+			"price": 102387,
+			"originalPrice": 102387,
+			"updatedAt": "15",
+			"serviceProviderIds": ["100101"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [
+				{
+					"type": "baggage",
+					"isBookable": true,
+					"isRequired": false
+				}
+			],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 99,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.travelfusionconnect.ECONOMY",
+					"cheapestClassPrice": 99387
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"-9209796263782336509-96-flight-1-1439117209": {
+			"companyId": "96",
+			"duration": "2035",
+			"departureTime": "2025-02-18T18:55:00.000-08:00",
+			"arrivalTime": "2025-02-20T13:50:00.000+01:00",
+			"segments": [-614485505, 1214394765],
+			"segmentClasses": [
+				{
+					"ids": ["-614485505", "1214394765"],
+					"className": "Providers.travelfusionconnect.ECONOMY"
+				}
+			],
+			"stops": "1",
+			"overnightOffset": 2,
+			"arrivalOvernightOffset": 2,
+			"mode": "flight",
+			"ticketsSellingCompanies": ["96"],
+			"outboundId": "-9209796263782336509",
+			"journeyId": "1439117209",
+			"price": 68736,
+			"originalPrice": 68736,
+			"updatedAt": "15",
+			"serviceProviderIds": ["100101"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [
+				{
+					"type": "baggage",
+					"isBookable": true,
+					"isRequired": false
+				}
+			],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 99,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.travelfusionconnect.ECONOMY",
+					"cheapestClassPrice": 65736
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"7448021241157502914-31-flight-1-1443647191": {
+			"companyId": "31",
+			"duration": "885",
+			"departureTime": "2025-02-18T17:55:00.000-08:00",
+			"arrivalTime": "2025-02-19T17:40:00.000+01:00",
+			"segments": [1713006972, -454205640],
+			"segmentClasses": [
+				{
+					"ids": ["1713006972", "-454205640"],
+					"className": "Providers.travelfusionconnect.ECONOMY"
+				}
+			],
+			"stops": "1",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"mode": "flight",
+			"ticketsSellingCompanies": ["31"],
+			"outboundId": "7448021241157502914",
+			"journeyId": "1443647191",
+			"price": 98268,
+			"originalPrice": 98268,
+			"updatedAt": "15",
+			"serviceProviderIds": ["100101"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [
+				{
+					"type": "baggage",
+					"isBookable": true,
+					"isRequired": false
+				}
+			],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 99,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.travelfusionconnect.ECONOMY",
+					"cheapestClassPrice": 95268
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"-8164174245004757669-97-flight-1-1514276154": {
+			"companyId": "97",
+			"duration": "1060",
+			"departureTime": "2025-02-18T16:15:00.000-08:00",
+			"arrivalTime": "2025-02-19T18:55:00.000+01:00",
+			"segments": [56952686, 983778906],
+			"segmentClasses": [
+				{
+					"ids": ["56952686", "983778906"],
+					"className": "Providers.travelfusionconnect.ECONOMY"
+				}
+			],
+			"stops": "1",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"mode": "flight",
+			"ticketsSellingCompanies": ["97"],
+			"outboundId": "-8164174245004757669",
+			"journeyId": "1514276154",
+			"price": 74590,
+			"originalPrice": 74590,
+			"updatedAt": "15",
+			"serviceProviderIds": ["100101"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [
+				{
+					"type": "baggage",
+					"isBookable": true,
+					"isRequired": false
+				}
+			],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 99,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.travelfusionconnect.ECONOMY",
+					"cheapestClassPrice": 71590
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"-1034508857535720944-72-flight-2-1617491253": {
+			"companyId": "72",
+			"duration": "970",
+			"departureTime": "2025-02-18T08:35:00.000-08:00",
+			"arrivalTime": "2025-02-19T09:45:00.000+01:00",
+			"segments": [1108497647, -1142728058, 33513546],
+			"segmentClasses": [
+				{
+					"ids": ["1108497647", "-1142728058", "33513546"],
+					"className": "Providers.travelfusionconnect.ECONOMY"
+				}
+			],
+			"stops": "2",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"mode": "flight",
+			"ticketsSellingCompanies": ["72"],
+			"outboundId": "-1034508857535720944",
+			"journeyId": "1617491253",
+			"price": 100029,
+			"originalPrice": 100029,
+			"updatedAt": "15",
+			"serviceProviderIds": ["100101"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [
+				{
+					"type": "baggage",
+					"isBookable": true,
+					"isRequired": false
+				}
+			],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 99,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.travelfusionconnect.ECONOMY",
+					"cheapestClassPrice": 97029
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"4888064255744706692-97-flight-1-1752042054": {
+			"companyId": "97",
+			"duration": "1230",
+			"departureTime": "2025-02-18T16:15:00.000-08:00",
+			"arrivalTime": "2025-02-19T21:45:00.000+01:00",
+			"segments": [56952686, 1388104313],
+			"segmentClasses": [
+				{
+					"ids": ["56952686", "1388104313"],
+					"className": "Providers.travelfusionconnect.ECONOMY"
+				}
+			],
+			"stops": "1",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"mode": "flight",
+			"ticketsSellingCompanies": ["97"],
+			"outboundId": "4888064255744706692",
+			"journeyId": "1752042054",
+			"price": 74590,
+			"originalPrice": 74590,
+			"updatedAt": "15",
+			"serviceProviderIds": ["100101"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [
+				{
+					"type": "baggage",
+					"isBookable": true,
+					"isRequired": false
+				}
+			],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 99,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.travelfusionconnect.ECONOMY",
+					"cheapestClassPrice": 71590
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"-8615026134715044764-50-flight-1-1882449233": {
+			"companyId": "50",
+			"duration": "890",
+			"departureTime": "2025-02-18T19:10:00.000-08:00",
+			"arrivalTime": "2025-02-19T19:00:00.000+01:00",
+			"segments": [1884853559, 288029734],
+			"segmentClasses": [
+				{
+					"ids": ["1884853559", "288029734"],
+					"className": "Providers.travelfusionconnect.ECONOMY"
+				}
+			],
+			"stops": "1",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"mode": "flight",
+			"ticketsSellingCompanies": ["50"],
+			"outboundId": "-8615026134715044764",
+			"journeyId": "1882449233",
+			"price": 99646,
+			"originalPrice": 99646,
+			"updatedAt": "15",
+			"serviceProviderIds": ["100101"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [
+				{
+					"type": "baggage",
+					"isBookable": true,
+					"isRequired": false
+				}
+			],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 99,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.travelfusionconnect.ECONOMY",
+					"cheapestClassPrice": 96646
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"8887991738155603554-35-flight-1-2023403022": {
+			"companyId": "35",
+			"duration": "860",
+			"departureTime": "2025-02-18T15:05:00.000-08:00",
+			"arrivalTime": "2025-02-19T14:25:00.000+01:00",
+			"segments": [-1657615745, 704371187],
+			"segmentClasses": [
+				{
+					"ids": ["-1657615745", "704371187"],
+					"className": "Providers.travelfusionconnect.ECONOMY"
+				}
+			],
+			"stops": "1",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"mode": "flight",
+			"ticketsSellingCompanies": ["35"],
+			"outboundId": "8887991738155603554",
+			"journeyId": "2023403022",
+			"price": 100029,
+			"originalPrice": 100029,
+			"updatedAt": "15",
+			"serviceProviderIds": ["100101"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [
+				{
+					"type": "baggage",
+					"isBookable": true,
+					"isRequired": false
+				}
+			],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 99,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.travelfusionconnect.ECONOMY",
+					"cheapestClassPrice": 97029
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		},
+		"9026870397099915663-60-flight-1-2088220938": {
+			"companyId": "60",
+			"duration": "1085",
+			"departureTime": "2025-02-18T17:35:00.000-08:00",
+			"arrivalTime": "2025-02-19T20:40:00.000+01:00",
+			"segments": [-651352065, 308675863],
+			"segmentClasses": [
+				{
+					"ids": ["-651352065", "308675863"],
+					"className": "Providers.travelfusionconnect.ECONOMY"
+				}
+			],
+			"stops": "1",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"mode": "flight",
+			"ticketsSellingCompanies": ["60"],
+			"outboundId": "9026870397099915663",
+			"journeyId": "2088220938",
+			"price": 98268,
+			"originalPrice": 98268,
+			"updatedAt": "15",
+			"serviceProviderIds": ["100101"],
+			"status": "available",
+			"vehicleConfig": {
+				"isBookable": false,
+				"isRequired": false
+			},
+			"additionalServices": [
+				{
+					"type": "baggage",
+					"isBookable": true,
+					"isRequired": false
+				}
+			],
+			"sentOutDiscountCards": {},
+			"overtakenByJourneyCount": 0,
+			"ticketsLeft": 99,
+			"ticketsLeftDisplayMode": "DONT_DISPLAY",
+			"availableOfferOptions": [
+				{
+					"type": "ONE_WAY",
+					"cheapestClassName": "Providers.travelfusionconnect.ECONOMY",
+					"cheapestClassPrice": 95268
+				}
+			],
+			"isCarSharing": false,
+			"isRoutedConnection": false,
+			"isNearbyDeparture": false,
+			"isNearbyArrival": false,
+			"isGoEuroBooking": true,
+			"isBookable": true,
+			"isMultiProvidersRouting": false,
+			"isMobileTicketSupported": false,
+			"isDiscountCardApplied": false,
+			"isVehicleAvailable": false,
+			"isAirportTransfer": false,
+			"isConnectionGuarantee": false,
+			"isSplitTicket": false
+		}
+	},
+	"itineraries": [
+		{
+			"outboundLegId": "208661975204343291-62-flight-1--1862775063"
+		},
+		{
+			"outboundLegId": "8582492484229313010-31-flight-1--2102389816"
+		},
+		{
+			"outboundLegId": "8941474053603275467-31-flight-1--2068605472"
+		},
+		{
+			"outboundLegId": "6812448624725768259-60-flight-1--1988280775"
+		},
+		{
+			"outboundLegId": "7217471484521135016-35-flight-2--1753853774"
+		},
+		{
+			"outboundLegId": "2587346960197183647-31-flight-1--1631209829"
+		},
+		{
+			"outboundLegId": "-6925225290950952477-60-flight-2--1609704054"
+		},
+		{
+			"outboundLegId": "-4454658473014495632-72-flight-2--1605918841"
+		},
+		{
+			"outboundLegId": "6418025732053544642-96-flight-1--1593859920"
+		},
+		{
+			"outboundLegId": "7246380277720454674-68-flight-1--1590033807"
+		},
+		{
+			"outboundLegId": "-3344666071339037867-37-flight-1--1554748065"
+		},
+		{
+			"outboundLegId": "-5671854286306697115-96-flight-1--1528636072"
+		},
+		{
+			"outboundLegId": "-394971329223769444-72-flight-2--1484556325"
+		},
+		{
+			"outboundLegId": "4711656444854578001-72-flight-2--1420297172"
+		},
+		{
+			"outboundLegId": "3508598271289015034-60-flight-1--1403289813"
+		},
+		{
+			"outboundLegId": "6098579248530203081-44-flight-1--1315711803"
+		},
+		{
+			"outboundLegId": "-3432252042696829477-72-flight-2--1264461129"
+		},
+		{
+			"outboundLegId": "566092790421824702-72-flight-2--1206538817"
+		},
+		{
+			"outboundLegId": "-8265760565845100115-35-flight-2--1063260429"
+		},
+		{
+			"outboundLegId": "-2799603846512483715-44-flight-1--920461143"
+		},
+		{
+			"outboundLegId": "1705945802552153316-60-flight-2--820201238"
+		},
+		{
+			"outboundLegId": "8943341867994803690-31-flight-1--800045972"
+		},
+		{
+			"outboundLegId": "6223791648432276066-72-flight-2--656457738"
+		},
+		{
+			"outboundLegId": "-2618072445929682566-37-flight-1--593785773"
+		},
+		{
+			"outboundLegId": "-6528927950922673456-37-flight-1--282913667"
+		},
+		{
+			"outboundLegId": "-2349234794065076003-44-flight-1--159812424"
+		},
+		{
+			"outboundLegId": "9212487475771310560-37-flight-2--14796771"
+		},
+		{
+			"outboundLegId": "8021165875572060067-72-flight-2-119174255"
+		},
+		{
+			"outboundLegId": "3080589481588564559-72-flight-2-209441689"
+		},
+		{
+			"outboundLegId": "6027939023514299618-60-flight-2-216882992"
+		},
+		{
+			"outboundLegId": "444469088937750864-31-flight-1-287921515"
+		},
+		{
+			"outboundLegId": "-5574590730897941689-37-flight-1-476051725"
+		},
+		{
+			"outboundLegId": "-6720476671219842896-37-flight-2-484437786"
+		},
+		{
+			"outboundLegId": "-8242109627944015639-60-flight-1-489972519"
+		},
+		{
+			"outboundLegId": "-3309051151410610133-44-flight-1-598747216"
+		},
+		{
+			"outboundLegId": "-6340840411384159589-37-flight-1-654176256"
+		},
+		{
+			"outboundLegId": "5735375074927216421-35-flight-2-760508598"
+		},
+		{
+			"outboundLegId": "-771620019609643275-72-flight-2-780000087"
+		},
+		{
+			"outboundLegId": "-5764408771680677059-72-flight-2-803374195"
+		},
+		{
+			"outboundLegId": "-8189190111504461542-72-flight-2-831755053"
+		},
+		{
+			"outboundLegId": "-297077189677859716-60-flight-1-987086100"
+		},
+		{
+			"outboundLegId": "2197494218137877193-97-flight-1-1151574657"
+		},
+		{
+			"outboundLegId": "-541674383266155167-72-flight-2-1179950664"
+		},
+		{
+			"outboundLegId": "-4500329142386950663-31-flight-1-1295203910"
+		},
+		{
+			"outboundLegId": "6612466508724991633-35-flight-2-1298506549"
+		},
+		{
+			"outboundLegId": "-9209796263782336509-96-flight-1-1439117209"
+		},
+		{
+			"outboundLegId": "7448021241157502914-31-flight-1-1443647191"
+		},
+		{
+			"outboundLegId": "-8164174245004757669-97-flight-1-1514276154"
+		},
+		{
+			"outboundLegId": "-1034508857535720944-72-flight-2-1617491253"
+		},
+		{
+			"outboundLegId": "4888064255744706692-97-flight-1-1752042054"
+		},
+		{
+			"outboundLegId": "-8615026134715044764-50-flight-1-1882449233"
+		},
+		{
+			"outboundLegId": "8887991738155603554-35-flight-1-2023403022"
+		},
+		{
+			"outboundLegId": "9026870397099915663-60-flight-1-2088220938"
+		}
+	],
+	"companies": {
+		"31": {
+			"id": "31",
+			"name": "British Airways",
+			"code": "british_airways",
+			"logoUrl": "https://cdn-goeuro.com/static_content/web/logos/{size}/british_airways.png",
+			"companyCodes": [
+				{
+					"code": "ba",
+					"type": "IATA"
+				}
+			]
+		},
+		"35": {
+			"id": "35",
+			"name": "Lufthansa",
+			"code": "lufthansa",
+			"logoUrl": "https://cdn-goeuro.com/static_content/web/logos/{size}/lufthansa.png",
+			"companyCodes": [
+				{
+					"code": "lh",
+					"type": "IATA"
+				}
+			]
+		},
+		"36": {
+			"id": "36",
+			"name": "Lufthansa Cityline",
+			"code": "lufthansa_cityline",
+			"logoUrl": "https://cdn-goeuro.com/static_content/web/logos/{size}/lufthansa_cityline.png",
+			"companyCodes": [
+				{
+					"code": "cl",
+					"type": "IATA"
+				}
+			]
+		},
+		"37": {
+			"id": "37",
+			"name": "KLM",
+			"code": "klm",
+			"logoUrl": "https://cdn-goeuro.com/static_content/web/logos/{size}/klm.png",
+			"companyCodes": [
+				{
+					"code": "kl",
+					"type": "IATA"
+				}
+			]
+		},
+		"44": {
+			"id": "44",
+			"name": "Air France",
+			"code": "air_france",
+			"logoUrl": "https://cdn-goeuro.com/static_content/web/logos/{size}/air_france.png",
+			"companyCodes": [
+				{
+					"code": "af",
+					"type": "IATA"
+				}
+			]
+		},
+		"49": {
+			"id": "49",
+			"name": "Brussels Airlines",
+			"code": "brussels_airlines",
+			"logoUrl": "https://cdn-goeuro.com/static_content/web/logos/{size}/brussels_airlines.png",
+			"companyCodes": [
+				{
+					"code": "sn",
+					"type": "IATA"
+				}
+			]
+		},
+		"50": {
+			"id": "50",
+			"name": "Swiss",
+			"code": "swiss",
+			"logoUrl": "https://cdn-goeuro.com/static_content/web/logos/{size}/swiss.png",
+			"companyCodes": [
+				{
+					"code": "lx",
+					"type": "IATA"
+				}
+			]
+		},
+		"60": {
+			"id": "60",
+			"name": "American Airlines",
+			"code": "american_airlines",
+			"logoUrl": "https://cdn-goeuro.com/static_content/web/logos/{size}/american_airlines.png",
+			"companyCodes": [
+				{
+					"code": "aa",
+					"type": "IATA"
+				}
+			]
+		},
+		"62": {
+			"id": "62",
+			"name": "Sas Airways",
+			"code": "sas",
+			"logoUrl": "https://cdn-goeuro.com/static_content/web/logos/{size}/sas.png",
+			"companyCodes": [
+				{
+					"code": "sk",
+					"type": "IATA"
+				}
+			]
+		},
+		"68": {
+			"id": "68",
+			"name": "Iberia",
+			"code": "iberia",
+			"logoUrl": "https://cdn-goeuro.com/static_content/web/logos/{size}/iberia.png",
+			"companyCodes": [
+				{
+					"code": "ib",
+					"type": "IATA"
+				}
+			]
+		},
+		"69": {
+			"id": "69",
+			"name": "Cityjet",
+			"code": "cityjet",
+			"logoUrl": "https://cdn-goeuro.com/static_content/web/logos/{size}/cityjet.png",
+			"companyCodes": [
+				{
+					"code": "wx",
+					"type": "IATA"
+				}
+			]
+		},
+		"72": {
+			"id": "72",
+			"name": "United",
+			"code": "united",
+			"logoUrl": "https://cdn-goeuro.com/static_content/web/logos/{size}/united.png",
+			"companyCodes": [
+				{
+					"code": "ua",
+					"type": "IATA"
+				}
+			]
+		},
+		"81": {
+			"id": "81",
+			"name": "Austrian Airlines",
+			"code": "austrian_airlines",
+			"logoUrl": "https://cdn-goeuro.com/static_content/web/logos/{size}/austrian_airlines.png",
+			"companyCodes": [
+				{
+					"code": "os",
+					"type": "IATA"
+				}
+			]
+		},
+		"87": {
+			"id": "87",
+			"name": "Helvetic Airways",
+			"code": "helvetic",
+			"logoUrl": "https://cdn-goeuro.com/static_content/web/logos/{size}/helvetic.png",
+			"companyCodes": [
+				{
+					"code": "2l",
+					"type": "IATA"
+				}
+			]
+		},
+		"96": {
+			"id": "96",
+			"name": "Turkish Airlines",
+			"code": "turkish_airlines",
+			"logoUrl": "https://cdn-goeuro.com/static_content/web/logos/{size}/turkish_airlines.png",
+			"companyCodes": [
+				{
+					"code": "tk",
+					"type": "IATA"
+				}
+			]
+		},
+		"97": {
+			"id": "97",
+			"name": "Lot Polish Airlines",
+			"code": "lot_polish_airlines",
+			"logoUrl": "https://cdn-goeuro.com/static_content/web/logos/{size}/lot_polish_airlines.png",
+			"companyCodes": [
+				{
+					"code": "lo",
+					"type": "IATA"
+				}
+			]
+		},
+		"100": {
+			"id": "100",
+			"name": "Air France Hop",
+			"code": "air_france_hop",
+			"logoUrl": "https://cdn-goeuro.com/static_content/web/logos/{size}/air_france_hop.png",
+			"companyCodes": [
+				{
+					"code": "a5",
+					"type": "IATA"
+				}
+			]
+		},
+		"117": {
+			"id": "117",
+			"name": "Vueling",
+			"code": "vueling",
+			"logoUrl": "https://cdn-goeuro.com/static_content/web/logos/{size}/vueling.png",
+			"companyCodes": [
+				{
+					"code": "vy",
+					"type": "IATA"
+				}
+			]
+		},
+		"4585": {
+			"id": "4585",
+			"name": "KLM Cityhopper",
+			"code": "klm_cityhopper",
+			"logoUrl": "https://cdn-goeuro.com/static_content/web/logos/{size}/klm_cityhopper.png",
+			"companyCodes": [
+				{
+					"code": "wa",
+					"type": "IATA"
+				}
+			]
+		}
+	},
+	"query": {
+		"roundTrip": false,
+		"airportToAirport": false,
+		"locationsOutsideEurope": true,
+		"includeNearbyAirports": false,
+		"nearbyAirportAvailable": false,
+		"searchId": "L8276FD82222C45D2B1948DE90BBAD8ED",
+		"departurePosition": "408905",
+		"arrivalPosition": "375859",
+		"departureDate": "2025-02-18",
+		"passengers": {
+			"adults": 1,
+			"children": 0,
+			"infants": 0
+		},
+		"userInfo": {
+			"userLocale": "en",
+			"userCurrency": "EUR",
+			"unitSystem": "metric",
+			"ipCountryCode": "CZ"
+		},
+		"searchModes": {
+			"flight": {
+				"status": "done",
+				"resultsQty": 53,
+				"filteredResultsQty": 53,
+				"returnCodes": [],
+				"disclaimers": [],
+				"defaultSorting": "smart",
+				"filteredOffSiteResultsQty": 0,
+				"fares": [
+					{
+						"id": "fa86d01d-cf69-3f88-88ff-ce2527fa9944",
+						"identifier": "sk.go_pro",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "YES",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": ["YES"],
+						"boardingPolicy": "STANDARD",
+						"seatingPolicy": "CHARGED",
+						"baggagePolicy": ["PERSONAL", "CABIN", "CHECKED"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "f56a04b7-73ba-3377-a629-5fd6a5e12bcb",
+						"identifier": "vueling.basic_fare",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "NO",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "STANDARD",
+						"seatingPolicy": "CHARGED",
+						"baggagePolicy": ["PERSONAL"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "9cf44c4a-2d50-3d7a-94f7-5c49409201d2",
+						"identifier": "light.class",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "NO",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "STANDARD",
+						"seatingPolicy": "CHARGED",
+						"baggagePolicy": ["PERSONAL", "CABIN"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "116619d9-f61f-34ca-a7ec-9fab18055301",
+						"identifier": "lufthansagroupndc.economy_flex",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "YES",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "PRIORITY",
+						"seatingPolicy": "INCLUDED",
+						"baggagePolicy": ["PERSONAL", "CABIN", "CHECKED"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "fd17176d-cef5-3cae-b2c9-c867f786ea23",
+						"identifier": "light.class",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "NO",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "STANDARD",
+						"seatingPolicy": "CHARGED",
+						"baggagePolicy": ["CABIN"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "c67621de-35a9-3bca-aca9-74ebe1236f08",
+						"identifier": "lufthansagroupndc.economy_basic",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "NO",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "STANDARD",
+						"seatingPolicy": "CHARGED",
+						"baggagePolicy": ["PERSONAL", "CABIN", "CHECKED"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "a419c4df-3fef-33db-8a4f-ce721a69c915",
+						"identifier": "lufthansagroupndc.economy_flex",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "YES",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "PRIORITY",
+						"seatingPolicy": "INCLUDED",
+						"baggagePolicy": ["PERSONAL", "CABIN", "CHECKED"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "26b132bb-385d-3581-a65c-7b3e2a09d5d4",
+						"identifier": "airfranceklm.la_premiere",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "PARTIAL",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "STANDARD",
+						"seatingPolicy": "CHARGED",
+						"baggagePolicy": ["PERSONAL", "CABIN", "CHECKED"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "6e058739-8c07-3de0-b5e1-c7bf7a60f14c",
+						"identifier": "turkishairlines.economy_flexible",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "PARTIAL",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "STANDARD",
+						"seatingPolicy": "INCLUDED",
+						"baggagePolicy": ["CABIN", "CHECKED"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "8728eaaf-93b3-3a8a-8eb0-b31fb8f04a4a",
+						"identifier": "lufthansagroupndc.economy_light",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "NO",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "STANDARD",
+						"seatingPolicy": "CHARGED",
+						"baggagePolicy": ["PERSONAL", "CABIN"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "36815899-edbf-35e7-bf33-08373ccc8312",
+						"identifier": "flex.class",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "NO",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "STANDARD",
+						"seatingPolicy": "INCLUDED",
+						"baggagePolicy": ["PERSONAL", "CABIN"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "c6ea5bab-3714-3cf9-b1cd-e5aec7880369",
+						"identifier": "sk.sas_plus_pro",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "PARTIAL",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": ["PARTIAL"],
+						"boardingPolicy": "PRIORITY",
+						"seatingPolicy": "INCLUDED",
+						"baggagePolicy": ["PERSONAL", "CABIN", "CHECKED"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "5aff221e-884b-3218-bf6b-e779c431174e",
+						"identifier": "iberia.basic",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "NO",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "STANDARD",
+						"seatingPolicy": "CHARGED",
+						"baggagePolicy": ["PERSONAL", "CABIN"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "a10f16f2-b34e-3317-81b6-6e811770f262",
+						"identifier": "light.class",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "NO",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "STANDARD",
+						"seatingPolicy": "CHARGED",
+						"baggagePolicy": ["CABIN"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "05f7e1f0-3312-3c8b-ac20-d5e0cd18097d",
+						"identifier": "flex.class",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "NO",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "STANDARD",
+						"seatingPolicy": "INCLUDED",
+						"baggagePolicy": ["PERSONAL", "CABIN"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "fbb1ce52-6caf-36c7-97fd-8a33fe442545",
+						"identifier": "airfranceklm.flex",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "YES",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "STANDARD",
+						"seatingPolicy": "INCLUDED",
+						"baggagePolicy": ["PERSONAL", "CABIN", "CHECKED"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "50a45364-bb1c-36b7-a842-202280d8d4ac",
+						"identifier": "standard.class",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "NO",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "STANDARD",
+						"seatingPolicy": "CHARGED",
+						"baggagePolicy": ["PERSONAL", "CABIN", "CHECKED"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "3648fba9-993a-30c3-8b03-a10095c21868",
+						"identifier": "lufthansagroupndc.economy_light",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "NO",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "STANDARD",
+						"seatingPolicy": "CHARGED",
+						"baggagePolicy": ["PERSONAL", "CABIN"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "db6493d7-d81e-3dc2-a52f-43dc8e639f5b",
+						"identifier": "vueling.basic_fare",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "NO",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "STANDARD",
+						"seatingPolicy": "CHARGED",
+						"baggagePolicy": ["PERSONAL"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "928fa8fd-88a6-368c-9917-73522bb9f097",
+						"identifier": "airfranceklm.standard",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "PARTIAL",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "STANDARD",
+						"seatingPolicy": "CHARGED",
+						"baggagePolicy": ["PERSONAL", "CABIN", "CHECKED"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "76dda984-79ff-3ae7-9f33-7d9c7a9e00fa",
+						"identifier": "turkishairlines.economy_restricted",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "NO",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "STANDARD",
+						"seatingPolicy": "CHARGED",
+						"baggagePolicy": ["CABIN"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "702262c1-7bd9-3d0d-97df-082835b3ae98",
+						"identifier": "airfranceklm.flex",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "YES",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "STANDARD",
+						"seatingPolicy": "INCLUDED",
+						"baggagePolicy": ["PERSONAL", "CABIN", "CHECKED"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "e26bc244-032f-3d40-9ce7-8885c749f0ee",
+						"identifier": "iberia.optima",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "NO",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "STANDARD",
+						"seatingPolicy": "CHARGED",
+						"baggagePolicy": ["PERSONAL", "CABIN", "CHECKED"],
+						"dynamicTerm": []
+					}
+				]
+			},
+			"bus": {
+				"status": "notavailable",
+				"resultsQty": 0,
+				"filteredResultsQty": 0,
+				"returnCodes": [131],
+				"disclaimers": [],
+				"defaultSorting": "outboundDepartureTime",
+				"filteredOffSiteResultsQty": 0,
+				"fares": [
+					{
+						"id": "fa86d01d-cf69-3f88-88ff-ce2527fa9944",
+						"identifier": "sk.go_pro",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "YES",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": ["YES"],
+						"boardingPolicy": "STANDARD",
+						"seatingPolicy": "CHARGED",
+						"baggagePolicy": ["PERSONAL", "CABIN", "CHECKED"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "f56a04b7-73ba-3377-a629-5fd6a5e12bcb",
+						"identifier": "vueling.basic_fare",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "NO",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "STANDARD",
+						"seatingPolicy": "CHARGED",
+						"baggagePolicy": ["PERSONAL"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "9cf44c4a-2d50-3d7a-94f7-5c49409201d2",
+						"identifier": "light.class",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "NO",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "STANDARD",
+						"seatingPolicy": "CHARGED",
+						"baggagePolicy": ["PERSONAL", "CABIN"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "116619d9-f61f-34ca-a7ec-9fab18055301",
+						"identifier": "lufthansagroupndc.economy_flex",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "YES",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "PRIORITY",
+						"seatingPolicy": "INCLUDED",
+						"baggagePolicy": ["PERSONAL", "CABIN", "CHECKED"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "fd17176d-cef5-3cae-b2c9-c867f786ea23",
+						"identifier": "light.class",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "NO",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "STANDARD",
+						"seatingPolicy": "CHARGED",
+						"baggagePolicy": ["CABIN"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "c67621de-35a9-3bca-aca9-74ebe1236f08",
+						"identifier": "lufthansagroupndc.economy_basic",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "NO",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "STANDARD",
+						"seatingPolicy": "CHARGED",
+						"baggagePolicy": ["PERSONAL", "CABIN", "CHECKED"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "a419c4df-3fef-33db-8a4f-ce721a69c915",
+						"identifier": "lufthansagroupndc.economy_flex",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "YES",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "PRIORITY",
+						"seatingPolicy": "INCLUDED",
+						"baggagePolicy": ["PERSONAL", "CABIN", "CHECKED"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "26b132bb-385d-3581-a65c-7b3e2a09d5d4",
+						"identifier": "airfranceklm.la_premiere",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "PARTIAL",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "STANDARD",
+						"seatingPolicy": "CHARGED",
+						"baggagePolicy": ["PERSONAL", "CABIN", "CHECKED"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "6e058739-8c07-3de0-b5e1-c7bf7a60f14c",
+						"identifier": "turkishairlines.economy_flexible",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "PARTIAL",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "STANDARD",
+						"seatingPolicy": "INCLUDED",
+						"baggagePolicy": ["CABIN", "CHECKED"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "8728eaaf-93b3-3a8a-8eb0-b31fb8f04a4a",
+						"identifier": "lufthansagroupndc.economy_light",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "NO",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "STANDARD",
+						"seatingPolicy": "CHARGED",
+						"baggagePolicy": ["PERSONAL", "CABIN"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "36815899-edbf-35e7-bf33-08373ccc8312",
+						"identifier": "flex.class",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "NO",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "STANDARD",
+						"seatingPolicy": "INCLUDED",
+						"baggagePolicy": ["PERSONAL", "CABIN"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "c6ea5bab-3714-3cf9-b1cd-e5aec7880369",
+						"identifier": "sk.sas_plus_pro",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "PARTIAL",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": ["PARTIAL"],
+						"boardingPolicy": "PRIORITY",
+						"seatingPolicy": "INCLUDED",
+						"baggagePolicy": ["PERSONAL", "CABIN", "CHECKED"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "5aff221e-884b-3218-bf6b-e779c431174e",
+						"identifier": "iberia.basic",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "NO",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "STANDARD",
+						"seatingPolicy": "CHARGED",
+						"baggagePolicy": ["PERSONAL", "CABIN"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "a10f16f2-b34e-3317-81b6-6e811770f262",
+						"identifier": "light.class",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "NO",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "STANDARD",
+						"seatingPolicy": "CHARGED",
+						"baggagePolicy": ["CABIN"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "05f7e1f0-3312-3c8b-ac20-d5e0cd18097d",
+						"identifier": "flex.class",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "NO",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "STANDARD",
+						"seatingPolicy": "INCLUDED",
+						"baggagePolicy": ["PERSONAL", "CABIN"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "fbb1ce52-6caf-36c7-97fd-8a33fe442545",
+						"identifier": "airfranceklm.flex",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "YES",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "STANDARD",
+						"seatingPolicy": "INCLUDED",
+						"baggagePolicy": ["PERSONAL", "CABIN", "CHECKED"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "50a45364-bb1c-36b7-a842-202280d8d4ac",
+						"identifier": "standard.class",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "NO",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "STANDARD",
+						"seatingPolicy": "CHARGED",
+						"baggagePolicy": ["PERSONAL", "CABIN", "CHECKED"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "3648fba9-993a-30c3-8b03-a10095c21868",
+						"identifier": "lufthansagroupndc.economy_light",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "NO",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "STANDARD",
+						"seatingPolicy": "CHARGED",
+						"baggagePolicy": ["PERSONAL", "CABIN"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "db6493d7-d81e-3dc2-a52f-43dc8e639f5b",
+						"identifier": "vueling.basic_fare",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "NO",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "STANDARD",
+						"seatingPolicy": "CHARGED",
+						"baggagePolicy": ["PERSONAL"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "928fa8fd-88a6-368c-9917-73522bb9f097",
+						"identifier": "airfranceklm.standard",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "PARTIAL",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "STANDARD",
+						"seatingPolicy": "CHARGED",
+						"baggagePolicy": ["PERSONAL", "CABIN", "CHECKED"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "76dda984-79ff-3ae7-9f33-7d9c7a9e00fa",
+						"identifier": "turkishairlines.economy_restricted",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "NO",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "STANDARD",
+						"seatingPolicy": "CHARGED",
+						"baggagePolicy": ["CABIN"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "702262c1-7bd9-3d0d-97df-082835b3ae98",
+						"identifier": "airfranceklm.flex",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "YES",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "STANDARD",
+						"seatingPolicy": "INCLUDED",
+						"baggagePolicy": ["PERSONAL", "CABIN", "CHECKED"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "e26bc244-032f-3d40-9ce7-8885c749f0ee",
+						"identifier": "iberia.optima",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "NO",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "STANDARD",
+						"seatingPolicy": "CHARGED",
+						"baggagePolicy": ["PERSONAL", "CABIN", "CHECKED"],
+						"dynamicTerm": []
+					}
+				]
+			},
+			"ferry": {
+				"status": "notavailable",
+				"resultsQty": 0,
+				"filteredResultsQty": 0,
+				"returnCodes": [131],
+				"disclaimers": [],
+				"defaultSorting": "outboundDepartureTime",
+				"filteredOffSiteResultsQty": 0,
+				"fares": [
+					{
+						"id": "fa86d01d-cf69-3f88-88ff-ce2527fa9944",
+						"identifier": "sk.go_pro",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "YES",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": ["YES"],
+						"boardingPolicy": "STANDARD",
+						"seatingPolicy": "CHARGED",
+						"baggagePolicy": ["PERSONAL", "CABIN", "CHECKED"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "f56a04b7-73ba-3377-a629-5fd6a5e12bcb",
+						"identifier": "vueling.basic_fare",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "NO",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "STANDARD",
+						"seatingPolicy": "CHARGED",
+						"baggagePolicy": ["PERSONAL"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "9cf44c4a-2d50-3d7a-94f7-5c49409201d2",
+						"identifier": "light.class",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "NO",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "STANDARD",
+						"seatingPolicy": "CHARGED",
+						"baggagePolicy": ["PERSONAL", "CABIN"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "116619d9-f61f-34ca-a7ec-9fab18055301",
+						"identifier": "lufthansagroupndc.economy_flex",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "YES",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "PRIORITY",
+						"seatingPolicy": "INCLUDED",
+						"baggagePolicy": ["PERSONAL", "CABIN", "CHECKED"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "fd17176d-cef5-3cae-b2c9-c867f786ea23",
+						"identifier": "light.class",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "NO",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "STANDARD",
+						"seatingPolicy": "CHARGED",
+						"baggagePolicy": ["CABIN"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "c67621de-35a9-3bca-aca9-74ebe1236f08",
+						"identifier": "lufthansagroupndc.economy_basic",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "NO",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "STANDARD",
+						"seatingPolicy": "CHARGED",
+						"baggagePolicy": ["PERSONAL", "CABIN", "CHECKED"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "a419c4df-3fef-33db-8a4f-ce721a69c915",
+						"identifier": "lufthansagroupndc.economy_flex",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "YES",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "PRIORITY",
+						"seatingPolicy": "INCLUDED",
+						"baggagePolicy": ["PERSONAL", "CABIN", "CHECKED"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "26b132bb-385d-3581-a65c-7b3e2a09d5d4",
+						"identifier": "airfranceklm.la_premiere",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "PARTIAL",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "STANDARD",
+						"seatingPolicy": "CHARGED",
+						"baggagePolicy": ["PERSONAL", "CABIN", "CHECKED"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "6e058739-8c07-3de0-b5e1-c7bf7a60f14c",
+						"identifier": "turkishairlines.economy_flexible",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "PARTIAL",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "STANDARD",
+						"seatingPolicy": "INCLUDED",
+						"baggagePolicy": ["CABIN", "CHECKED"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "8728eaaf-93b3-3a8a-8eb0-b31fb8f04a4a",
+						"identifier": "lufthansagroupndc.economy_light",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "NO",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "STANDARD",
+						"seatingPolicy": "CHARGED",
+						"baggagePolicy": ["PERSONAL", "CABIN"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "36815899-edbf-35e7-bf33-08373ccc8312",
+						"identifier": "flex.class",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "NO",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "STANDARD",
+						"seatingPolicy": "INCLUDED",
+						"baggagePolicy": ["PERSONAL", "CABIN"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "c6ea5bab-3714-3cf9-b1cd-e5aec7880369",
+						"identifier": "sk.sas_plus_pro",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "PARTIAL",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": ["PARTIAL"],
+						"boardingPolicy": "PRIORITY",
+						"seatingPolicy": "INCLUDED",
+						"baggagePolicy": ["PERSONAL", "CABIN", "CHECKED"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "5aff221e-884b-3218-bf6b-e779c431174e",
+						"identifier": "iberia.basic",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "NO",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "STANDARD",
+						"seatingPolicy": "CHARGED",
+						"baggagePolicy": ["PERSONAL", "CABIN"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "a10f16f2-b34e-3317-81b6-6e811770f262",
+						"identifier": "light.class",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "NO",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "STANDARD",
+						"seatingPolicy": "CHARGED",
+						"baggagePolicy": ["CABIN"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "05f7e1f0-3312-3c8b-ac20-d5e0cd18097d",
+						"identifier": "flex.class",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "NO",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "STANDARD",
+						"seatingPolicy": "INCLUDED",
+						"baggagePolicy": ["PERSONAL", "CABIN"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "fbb1ce52-6caf-36c7-97fd-8a33fe442545",
+						"identifier": "airfranceklm.flex",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "YES",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "STANDARD",
+						"seatingPolicy": "INCLUDED",
+						"baggagePolicy": ["PERSONAL", "CABIN", "CHECKED"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "50a45364-bb1c-36b7-a842-202280d8d4ac",
+						"identifier": "standard.class",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "NO",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "STANDARD",
+						"seatingPolicy": "CHARGED",
+						"baggagePolicy": ["PERSONAL", "CABIN", "CHECKED"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "3648fba9-993a-30c3-8b03-a10095c21868",
+						"identifier": "lufthansagroupndc.economy_light",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "NO",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "STANDARD",
+						"seatingPolicy": "CHARGED",
+						"baggagePolicy": ["PERSONAL", "CABIN"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "db6493d7-d81e-3dc2-a52f-43dc8e639f5b",
+						"identifier": "vueling.basic_fare",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "NO",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "STANDARD",
+						"seatingPolicy": "CHARGED",
+						"baggagePolicy": ["PERSONAL"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "928fa8fd-88a6-368c-9917-73522bb9f097",
+						"identifier": "airfranceklm.standard",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "PARTIAL",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "STANDARD",
+						"seatingPolicy": "CHARGED",
+						"baggagePolicy": ["PERSONAL", "CABIN", "CHECKED"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "76dda984-79ff-3ae7-9f33-7d9c7a9e00fa",
+						"identifier": "turkishairlines.economy_restricted",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "NO",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "STANDARD",
+						"seatingPolicy": "CHARGED",
+						"baggagePolicy": ["CABIN"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "702262c1-7bd9-3d0d-97df-082835b3ae98",
+						"identifier": "airfranceklm.flex",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "YES",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "STANDARD",
+						"seatingPolicy": "INCLUDED",
+						"baggagePolicy": ["PERSONAL", "CABIN", "CHECKED"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "e26bc244-032f-3d40-9ce7-8885c749f0ee",
+						"identifier": "iberia.optima",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "NO",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "STANDARD",
+						"seatingPolicy": "CHARGED",
+						"baggagePolicy": ["PERSONAL", "CABIN", "CHECKED"],
+						"dynamicTerm": []
+					}
+				]
+			},
+			"train": {
+				"status": "notavailable",
+				"resultsQty": 0,
+				"filteredResultsQty": 0,
+				"returnCodes": [131],
+				"disclaimers": [],
+				"defaultSorting": "outboundDepartureTime",
+				"filteredOffSiteResultsQty": 0,
+				"fares": [
+					{
+						"id": "fa86d01d-cf69-3f88-88ff-ce2527fa9944",
+						"identifier": "sk.go_pro",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "YES",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": ["YES"],
+						"boardingPolicy": "STANDARD",
+						"seatingPolicy": "CHARGED",
+						"baggagePolicy": ["PERSONAL", "CABIN", "CHECKED"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "f56a04b7-73ba-3377-a629-5fd6a5e12bcb",
+						"identifier": "vueling.basic_fare",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "NO",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "STANDARD",
+						"seatingPolicy": "CHARGED",
+						"baggagePolicy": ["PERSONAL"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "9cf44c4a-2d50-3d7a-94f7-5c49409201d2",
+						"identifier": "light.class",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "NO",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "STANDARD",
+						"seatingPolicy": "CHARGED",
+						"baggagePolicy": ["PERSONAL", "CABIN"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "116619d9-f61f-34ca-a7ec-9fab18055301",
+						"identifier": "lufthansagroupndc.economy_flex",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "YES",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "PRIORITY",
+						"seatingPolicy": "INCLUDED",
+						"baggagePolicy": ["PERSONAL", "CABIN", "CHECKED"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "fd17176d-cef5-3cae-b2c9-c867f786ea23",
+						"identifier": "light.class",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "NO",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "STANDARD",
+						"seatingPolicy": "CHARGED",
+						"baggagePolicy": ["CABIN"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "c67621de-35a9-3bca-aca9-74ebe1236f08",
+						"identifier": "lufthansagroupndc.economy_basic",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "NO",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "STANDARD",
+						"seatingPolicy": "CHARGED",
+						"baggagePolicy": ["PERSONAL", "CABIN", "CHECKED"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "a419c4df-3fef-33db-8a4f-ce721a69c915",
+						"identifier": "lufthansagroupndc.economy_flex",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "YES",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "PRIORITY",
+						"seatingPolicy": "INCLUDED",
+						"baggagePolicy": ["PERSONAL", "CABIN", "CHECKED"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "26b132bb-385d-3581-a65c-7b3e2a09d5d4",
+						"identifier": "airfranceklm.la_premiere",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "PARTIAL",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "STANDARD",
+						"seatingPolicy": "CHARGED",
+						"baggagePolicy": ["PERSONAL", "CABIN", "CHECKED"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "6e058739-8c07-3de0-b5e1-c7bf7a60f14c",
+						"identifier": "turkishairlines.economy_flexible",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "PARTIAL",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "STANDARD",
+						"seatingPolicy": "INCLUDED",
+						"baggagePolicy": ["CABIN", "CHECKED"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "8728eaaf-93b3-3a8a-8eb0-b31fb8f04a4a",
+						"identifier": "lufthansagroupndc.economy_light",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "NO",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "STANDARD",
+						"seatingPolicy": "CHARGED",
+						"baggagePolicy": ["PERSONAL", "CABIN"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "36815899-edbf-35e7-bf33-08373ccc8312",
+						"identifier": "flex.class",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "NO",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "STANDARD",
+						"seatingPolicy": "INCLUDED",
+						"baggagePolicy": ["PERSONAL", "CABIN"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "c6ea5bab-3714-3cf9-b1cd-e5aec7880369",
+						"identifier": "sk.sas_plus_pro",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "PARTIAL",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": ["PARTIAL"],
+						"boardingPolicy": "PRIORITY",
+						"seatingPolicy": "INCLUDED",
+						"baggagePolicy": ["PERSONAL", "CABIN", "CHECKED"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "5aff221e-884b-3218-bf6b-e779c431174e",
+						"identifier": "iberia.basic",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "NO",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "STANDARD",
+						"seatingPolicy": "CHARGED",
+						"baggagePolicy": ["PERSONAL", "CABIN"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "a10f16f2-b34e-3317-81b6-6e811770f262",
+						"identifier": "light.class",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "NO",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "STANDARD",
+						"seatingPolicy": "CHARGED",
+						"baggagePolicy": ["CABIN"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "05f7e1f0-3312-3c8b-ac20-d5e0cd18097d",
+						"identifier": "flex.class",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "NO",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "STANDARD",
+						"seatingPolicy": "INCLUDED",
+						"baggagePolicy": ["PERSONAL", "CABIN"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "fbb1ce52-6caf-36c7-97fd-8a33fe442545",
+						"identifier": "airfranceklm.flex",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "YES",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "STANDARD",
+						"seatingPolicy": "INCLUDED",
+						"baggagePolicy": ["PERSONAL", "CABIN", "CHECKED"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "50a45364-bb1c-36b7-a842-202280d8d4ac",
+						"identifier": "standard.class",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "NO",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "STANDARD",
+						"seatingPolicy": "CHARGED",
+						"baggagePolicy": ["PERSONAL", "CABIN", "CHECKED"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "3648fba9-993a-30c3-8b03-a10095c21868",
+						"identifier": "lufthansagroupndc.economy_light",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "NO",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "STANDARD",
+						"seatingPolicy": "CHARGED",
+						"baggagePolicy": ["PERSONAL", "CABIN"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "db6493d7-d81e-3dc2-a52f-43dc8e639f5b",
+						"identifier": "vueling.basic_fare",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "NO",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "STANDARD",
+						"seatingPolicy": "CHARGED",
+						"baggagePolicy": ["PERSONAL"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "928fa8fd-88a6-368c-9917-73522bb9f097",
+						"identifier": "airfranceklm.standard",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "PARTIAL",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "STANDARD",
+						"seatingPolicy": "CHARGED",
+						"baggagePolicy": ["PERSONAL", "CABIN", "CHECKED"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "76dda984-79ff-3ae7-9f33-7d9c7a9e00fa",
+						"identifier": "turkishairlines.economy_restricted",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "NO",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "STANDARD",
+						"seatingPolicy": "CHARGED",
+						"baggagePolicy": ["CABIN"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "702262c1-7bd9-3d0d-97df-082835b3ae98",
+						"identifier": "airfranceklm.flex",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "YES",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "STANDARD",
+						"seatingPolicy": "INCLUDED",
+						"baggagePolicy": ["PERSONAL", "CABIN", "CHECKED"],
+						"dynamicTerm": []
+					},
+					{
+						"id": "e26bc244-032f-3d40-9ce7-8885c749f0ee",
+						"identifier": "iberia.optima",
+						"type": "NON_FLEXIBLE",
+						"refundPolicy": [
+							{
+								"refundable": "NO",
+								"refundMethod": "ORIGINAL"
+							}
+						],
+						"cancellationPolicy": [],
+						"modificationPolicy": [],
+						"boardingPolicy": "STANDARD",
+						"seatingPolicy": "CHARGED",
+						"baggagePolicy": ["PERSONAL", "CABIN", "CHECKED"],
+						"dynamicTerm": []
+					}
+				]
+			}
+		},
+		"cursor": "",
+		"featuresSupported": [],
+		"searchTriggerTime": "2025-02-17T09:38:34.733Z",
+		"sentOutDiscountCards": [],
+		"abTestParameters": [
+			"OCT-4340:b",
+			"da-ferry",
+			"new-ferry-tcp",
+			"SXP-205-Improved-search-bar",
+			"fctcp",
+			"air-stcp",
+			"OCT-4696:b",
+			"radio-cabins-fh",
+			"CMPN-6108",
+			"RTNV-42:b",
+			"fn-680:sft",
+			"fn-722:lb-b",
+			"persist-pdp-data",
+			"RTNV286:1",
+			"seat-maps-air",
+			"JBVN:ctrl",
+			"AD-5988:1",
+			"trenitalia-check-in-cta",
+			"radio-cabins-gnv",
+			"fn-770:normal",
+			"bdp-post-modification-survey",
+			"CMPN-5655-2:0",
+			"ferry-stcp",
+			"free-omio-flex:ctrl",
+			"CMPN-5655-1:4",
+			"ryanair",
+			"SXP-1401:1",
+			"cs-chat-widget",
+			"RTNV-298:a",
+			"GIN-1:T",
+			"change_your_booking_button_rn_enable",
+			"test-dummy",
+			"omio-flex-with-companjon",
+			"independent-ticket-config-page",
+			"AD-5647:1",
+			"AD-5935:1",
+			"mobile-web-new-header",
+			"seat-maps-v1",
+			"fn-683:rbdm",
+			"AD-5850",
+			"SPL4879:1",
+			"rg-5477:o"
+		],
+		"airportTransferLikelihood": 0
+	},
+	"positions": {
+		"313711": {
+			"positionType": "airport",
+			"name": "Barcelona El Prat Airport",
+			"countryCode": "ES",
+			"cityName": "El Prat de Llobregat",
+			"iataCode": "BCN",
+			"latitude": 41.3025957,
+			"longitude": 2.0744297,
+			"ticketVendingMachine": false
+		},
+		"313870": {
+			"positionType": "airport",
+			"name": "Munich Airport",
+			"countryCode": "DE",
+			"cityName": "Oberding",
+			"iataCode": "MUC",
+			"latitude": 48.354597,
+			"longitude": 11.785065,
+			"ticketVendingMachine": false
+		},
+		"313878": {
+			"positionType": "airport",
+			"name": "Zurich Airport",
+			"countryCode": "CH",
+			"cityName": "Kloten",
+			"iataCode": "ZRH",
+			"latitude": 47.4512017,
+			"longitude": 8.5613956,
+			"ticketVendingMachine": false
+		},
+		"313881": {
+			"positionType": "airport",
+			"name": "Vienna International Airport",
+			"countryCode": "AT",
+			"cityName": "Schwechat",
+			"iataCode": "VIE",
+			"latitude": 48.121095,
+			"longitude": 16.5612678,
+			"ticketVendingMachine": false
+		},
+		"313884": {
+			"positionType": "airport",
+			"name": "Prague Vaclav Havel Airport",
+			"countryCode": "CZ",
+			"cityName": "Prague",
+			"iataCode": "PRG",
+			"latitude": 50.1073,
+			"longitude": 14.26731,
+			"ticketVendingMachine": false
+		},
+		"314028": {
+			"positionType": "airport",
+			"name": "Brussels Airport",
+			"countryCode": "BE",
+			"cityName": "Zaventem",
+			"iataCode": "BRU",
+			"latitude": 50.8955342,
+			"longitude": 4.4848145,
+			"ticketVendingMachine": false
+		},
+		"314044": {
+			"positionType": "airport",
+			"name": "Amsterdam Airport Schiphol",
+			"countryCode": "NL",
+			"cityName": "Rozenburg",
+			"iataCode": "AMS",
+			"latitude": 52.30907,
+			"longitude": 4.763385,
+			"ticketVendingMachine": false
+		},
+		"314059": {
+			"positionType": "airport",
+			"name": "Istanbul Airport",
+			"countryCode": "TR",
+			"cityName": "Istanbul",
+			"iataCode": "IST",
+			"latitude": 41.259754,
+			"longitude": 28.742238,
+			"ticketVendingMachine": false
+		},
+		"314272": {
+			"positionType": "airport",
+			"name": "Warsaw Chopin Airport",
+			"countryCode": "PL",
+			"cityName": "Warsaw",
+			"iataCode": "WAW",
+			"latitude": 52.16556,
+			"longitude": 20.96694,
+			"ticketVendingMachine": false
+		},
+		"314847": {
+			"positionType": "airport",
+			"name": "Frankfurt am Main Airport",
+			"countryCode": "DE",
+			"cityName": "Frankfurt am Main",
+			"iataCode": "FRA",
+			"latitude": 50.05009,
+			"longitude": 8.57155,
+			"ticketVendingMachine": false
+		},
+		"314856": {
+			"positionType": "airport",
+			"name": "Copenhagen Airport",
+			"countryCode": "DK",
+			"cityName": "Kastrup",
+			"iataCode": "CPH",
+			"latitude": 55.62864,
+			"longitude": 12.64853,
+			"ticketVendingMachine": false
+		},
+		"314957": {
+			"positionType": "airport",
+			"name": "Madrid Barajas Airport",
+			"countryCode": "ES",
+			"cityName": "Madrid",
+			"iataCode": "MAD",
+			"latitude": 40.468257904052734,
+			"longitude": -3.5695650577545166,
+			"ticketVendingMachine": false
+		},
+		"315042": {
+			"positionType": "airport",
+			"name": "Paris Charles de Gaulle Airport",
+			"countryCode": "FR",
+			"cityName": "Roissy-en-France",
+			"iataCode": "CDG",
+			"latitude": 49.0029701,
+			"longitude": 2.577134,
+			"ticketVendingMachine": false
+		},
+		"315110": {
+			"positionType": "airport",
+			"name": "London Heathrow Airport",
+			"countryCode": "GB",
+			"cityName": "London",
+			"iataCode": "LHR",
+			"latitude": 51.4708554,
+			"longitude": -0.452638,
+			"ticketVendingMachine": false
+		},
+		"315794": {
+			"positionType": "airport",
+			"name": "Los Angeles International Airport, El Segundo, CA",
+			"countryCode": "US",
+			"cityName": "El Segundo",
+			"iataCode": "LAX",
+			"latitude": 33.94353,
+			"longitude": -118.4087,
+			"ticketVendingMachine": false
+		},
+		"316369": {
+			"positionType": "airport",
+			"name": "John F. Kennedy International Airport, Inwood, NY",
+			"countryCode": "US",
+			"cityName": "Inwood",
+			"iataCode": "JFK",
+			"latitude": 40.64441,
+			"longitude": -73.78275,
+			"ticketVendingMachine": false
+		},
+		"316379": {
+			"positionType": "airport",
+			"name": "Newark Liberty International Airport, Elizabeth, NJ",
+			"countryCode": "US",
+			"cityName": "Elizabeth",
+			"iataCode": "EWR",
+			"latitude": 40.68987,
+			"longitude": -74.17821,
+			"ticketVendingMachine": false
+		},
+		"316383": {
+			"positionType": "airport",
+			"name": "Philadelphia International Airport, Folcroft, PA",
+			"countryCode": "US",
+			"cityName": "Folcroft",
+			"iataCode": "PHL",
+			"latitude": 39.87531,
+			"longitude": -75.24952,
+			"ticketVendingMachine": false
+		},
+		"316388": {
+			"positionType": "airport",
+			"name": "Dulles International Airport, Floris, VA",
+			"countryCode": "US",
+			"cityName": "Floris",
+			"iataCode": "IAD",
+			"latitude": 38.95338,
+			"longitude": -77.44772,
+			"ticketVendingMachine": false
+		},
+		"316435": {
+			"positionType": "airport",
+			"name": "O'Hare International Airport, Bensenville, IL",
+			"countryCode": "US",
+			"cityName": "Bensenville",
+			"iataCode": "ORD",
+			"latitude": 41.97649,
+			"longitude": -87.90511,
+			"ticketVendingMachine": false
+		},
+		"316577": {
+			"positionType": "airport",
+			"name": "Dallas/Ft. Worth International Airport, Grapevine, TX",
+			"countryCode": "US",
+			"cityName": "Grapevine",
+			"iataCode": "DFW",
+			"latitude": 32.8987,
+			"longitude": -97.04041,
+			"ticketVendingMachine": false
+		},
+		"375859": {
+			"positionType": "location",
+			"name": "Prague",
+			"countryCode": "CZ",
+			"cityName": "Prague",
+			"latitude": 50.08804,
+			"longitude": 14.42076,
+			"ticketVendingMachine": false
+		},
+		"408905": {
+			"positionType": "location",
+			"name": "Los Angeles, CA",
+			"countryCode": "US",
+			"cityName": "Los Angeles",
+			"latitude": 34.05223,
+			"longitude": -118.24368,
+			"ticketVendingMachine": false
+		}
+	},
+	"currencies": {
+		"EUR": {
+			"name": "Euro",
+			"symbol": "€"
+		}
+	},
+	"sortVariants": {
+		"smart": [
+			-1528636072, -1593859920, 1439117209, -1590033807, 1151574657, 1514276154, 1752042054,
+			1443647191, 489972519, 1295203910, -1988280775, -1631209829, 654176256, 287921515,
+			987086100, -2102389816, -2068605472, 2088220938, -800045972, 598747216, -1403289813,
+			2023403022, -820201238, -1420297172, -1609704054, 216882992, 1882449233, 831755053,
+			780000087, 1617491253, -1484556325, -282913667, -656457738, 476051725, 803374195,
+			-1264461129, -920461143, -1554748065, -14796771, 484437786, -1063260429, 760508598,
+			-1753853774, 1298506549, -159812424, -1315711803, -593785773, 1179950664, -1206538817,
+			-1605918841, 119174255, 209441689, -1862775063
+		]
+	},
+	"stats": {
+		"summary": {
+			"flight": {
+				"type": "flight",
+				"totalDuration": "1870",
+				"totalPrice": 308952,
+				"legs": [
+					{
+						"type": "flight",
+						"duration": "640"
+					},
+					{
+						"type": "flight",
+						"duration": "80"
+					}
+				]
+			}
+		},
+		"filterRanges": {
+			"flight": {
+				"minPrice": 62828,
+				"maxPrice": 308952,
+				"avgPrice": 100520,
+				"minDurationOutbound": "845",
+				"maxDurationOutbound": "2315",
+				"avgDurationOutbound": "1176",
+				"minDepartureOutbound": "2025-02-18T07:20:00.000-08:00",
+				"maxDepartureOutbound": "2025-02-18T21:35:00.000-08:00",
+				"minArrivalOutbound": "2025-02-19T09:45:00.000+01:00",
+				"maxArrivalOutbound": "2025-02-20T18:30:00.000+01:00",
+				"outboundStops": [1, 2],
+				"inboundStops": []
+			}
+		},
+		"companies": {
+			"flight": [
+				{
+					"id": "87",
+					"name": "Helvetic Airways",
+					"code": "helvetic"
+				},
+				{
+					"id": "97",
+					"name": "Lot Polish Airlines",
+					"code": "lot_polish_airlines"
+				},
+				{
+					"id": "31",
+					"name": "British Airways",
+					"code": "british_airways"
+				},
+				{
+					"id": "117",
+					"name": "Vueling",
+					"code": "vueling"
+				},
+				{
+					"id": "36",
+					"name": "Lufthansa Cityline",
+					"code": "lufthansa_cityline"
+				},
+				{
+					"id": "4585",
+					"name": "KLM Cityhopper",
+					"code": "klm_cityhopper"
+				},
+				{
+					"id": "62",
+					"name": "Sas Airways",
+					"code": "sas"
+				},
+				{
+					"id": "100",
+					"name": "Air France Hop",
+					"code": "air_france_hop"
+				},
+				{
+					"id": "68",
+					"name": "Iberia",
+					"code": "iberia"
+				},
+				{
+					"id": "35",
+					"name": "Lufthansa",
+					"code": "lufthansa"
+				},
+				{
+					"id": "72",
+					"name": "United",
+					"code": "united"
+				},
+				{
+					"id": "49",
+					"name": "Brussels Airlines",
+					"code": "brussels_airlines"
+				},
+				{
+					"id": "96",
+					"name": "Turkish Airlines",
+					"code": "turkish_airlines"
+				},
+				{
+					"id": "37",
+					"name": "KLM",
+					"code": "klm"
+				},
+				{
+					"id": "50",
+					"name": "Swiss",
+					"code": "swiss"
+				},
+				{
+					"id": "44",
+					"name": "Air France",
+					"code": "air_france"
+				},
+				{
+					"id": "60",
+					"name": "American Airlines",
+					"code": "american_airlines"
+				},
+				{
+					"id": "69",
+					"name": "Cityjet",
+					"code": "cityjet"
+				},
+				{
+					"id": "81",
+					"name": "Austrian Airlines",
+					"code": "austrian_airlines"
+				}
+			]
+		},
+		"stations": {
+			"flight": {
+				"outboundDepartures": [315794],
+				"outboundArrivals": [313884],
+				"queryDeparturePositionDistances": {
+					"313884": 9558.06371116277,
+					"315794": 19.449119777514856
+				},
+				"queryArrivalPositionDistances": {
+					"313884": 11.165706485115198,
+					"315794": 9584.291861986385
+				}
+			}
+		}
+	},
+	"segmentDetails": {
+		"21723204": {
+			"type": "flight",
+			"departureTime": "2025-02-18T15:05:00.000-08:00",
+			"departureZoneId": "America/Los_Angeles",
+			"arrivalTime": "2025-02-19T11:00:00.000+01:00",
+			"arrivalZoneId": "Europe/Berlin",
+			"departurePosition": "315794",
+			"arrivalPosition": "314847",
+			"duration": "655",
+			"company": "35",
+			"marketingCompany": "81",
+			"transportId": "OS7320",
+			"direction": "OUTBOUND",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"33513546": {
+			"type": "flight",
+			"departureTime": "2025-02-19T08:40:00.000+01:00",
+			"departureZoneId": "Europe/Berlin",
+			"arrivalTime": "2025-02-19T09:45:00.000+01:00",
+			"arrivalZoneId": "Europe/Prague",
+			"departurePosition": "314847",
+			"arrivalPosition": "313884",
+			"duration": "65",
+			"company": "35",
+			"marketingCompany": "35",
+			"transportId": "LH1392",
+			"direction": "OUTBOUND",
+			"overnightOffset": 1,
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"56952686": {
+			"type": "flight",
+			"departureTime": "2025-02-18T16:15:00.000-08:00",
+			"departureZoneId": "America/Los_Angeles",
+			"arrivalTime": "2025-02-19T12:50:00.000+01:00",
+			"arrivalZoneId": "Europe/Warsaw",
+			"departurePosition": "315794",
+			"arrivalPosition": "314272",
+			"duration": "695",
+			"company": "97",
+			"marketingCompany": "97",
+			"transportId": "LO22",
+			"direction": "OUTBOUND",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"243926165": {
+			"type": "flight",
+			"departureTime": "2025-02-18T21:00:00.000-05:00",
+			"departureZoneId": "America/New_York",
+			"arrivalTime": "2025-02-19T10:15:00.000+01:00",
+			"arrivalZoneId": "Europe/Madrid",
+			"departurePosition": "316369",
+			"arrivalPosition": "314957",
+			"duration": "435",
+			"company": "68",
+			"marketingCompany": "68",
+			"transportId": "IB326",
+			"direction": "OUTBOUND",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"266131848": {
+			"type": "flight",
+			"departureTime": "2025-02-18T07:20:00.000-08:00",
+			"departureZoneId": "America/Los_Angeles",
+			"arrivalTime": "2025-02-18T15:35:00.000-05:00",
+			"arrivalZoneId": "America/New_York",
+			"departurePosition": "315794",
+			"arrivalPosition": "316379",
+			"duration": "315",
+			"company": "72",
+			"marketingCompany": "81",
+			"transportId": "OS7998",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"288029734": {
+			"type": "flight",
+			"departureTime": "2025-02-19T17:40:00.000+01:00",
+			"departureZoneId": "Europe/Zurich",
+			"arrivalTime": "2025-02-19T19:00:00.000+01:00",
+			"arrivalZoneId": "Europe/Prague",
+			"departurePosition": "313878",
+			"arrivalPosition": "313884",
+			"duration": "80",
+			"company": "87",
+			"marketingCompany": "50",
+			"transportId": "LX1498",
+			"direction": "OUTBOUND",
+			"overnightOffset": 1,
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"308675863": {
+			"type": "flight",
+			"departureTime": "2025-02-19T17:35:00.000Z",
+			"departureZoneId": "Europe/London",
+			"arrivalTime": "2025-02-19T20:40:00.000+01:00",
+			"arrivalZoneId": "Europe/Prague",
+			"departurePosition": "315110",
+			"arrivalPosition": "313884",
+			"duration": "125",
+			"company": "31",
+			"marketingCompany": "31",
+			"transportId": "BA860",
+			"direction": "OUTBOUND",
+			"overnightOffset": 1,
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"375749312": {
+			"type": "flight",
+			"departureTime": "2025-02-19T15:55:00.000+01:00",
+			"departureZoneId": "Europe/Warsaw",
+			"arrivalTime": "2025-02-19T17:15:00.000+01:00",
+			"arrivalZoneId": "Europe/Prague",
+			"departurePosition": "314272",
+			"arrivalPosition": "313884",
+			"duration": "80",
+			"company": "97",
+			"marketingCompany": "97",
+			"transportId": "LO521",
+			"direction": "OUTBOUND",
+			"overnightOffset": 1,
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"457743881": {
+			"type": "flight",
+			"departureTime": "2025-02-19T10:30:00.000+01:00",
+			"departureZoneId": "Europe/Amsterdam",
+			"arrivalTime": "2025-02-19T11:55:00.000+01:00",
+			"arrivalZoneId": "Europe/Paris",
+			"departurePosition": "314044",
+			"arrivalPosition": "315042",
+			"duration": "85",
+			"company": "44",
+			"marketingCompany": "44",
+			"transportId": "AF1341",
+			"direction": "OUTBOUND",
+			"overnightOffset": 1,
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"500493767": {
+			"type": "flight",
+			"departureTime": "2025-02-20T08:30:00.000+01:00",
+			"departureZoneId": "+01:00",
+			"arrivalTime": "2025-02-20T09:50:00.000+01:00",
+			"arrivalZoneId": "+01:00",
+			"departurePosition": "314856",
+			"arrivalPosition": "313884",
+			"duration": "80",
+			"company": "69",
+			"marketingCompany": "62",
+			"transportId": "sk767",
+			"direction": "OUTBOUND",
+			"overnightOffset": 2,
+			"departureOvernightOffset": 2,
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"609945469": {
+			"type": "flight",
+			"departureTime": "2025-02-18T20:55:00.000-08:00",
+			"departureZoneId": "America/Los_Angeles",
+			"arrivalTime": "2025-02-19T15:25:00.000Z",
+			"arrivalZoneId": "Europe/London",
+			"departurePosition": "315794",
+			"arrivalPosition": "315110",
+			"duration": "630",
+			"company": "31",
+			"marketingCompany": "68",
+			"transportId": "IB3613",
+			"direction": "OUTBOUND",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"626414748": {
+			"type": "flight",
+			"departureTime": "2025-02-19T16:05:00.000Z",
+			"departureZoneId": "Europe/London",
+			"arrivalTime": "2025-02-19T19:10:00.000+01:00",
+			"arrivalZoneId": "Europe/Prague",
+			"departurePosition": "315110",
+			"arrivalPosition": "313884",
+			"duration": "125",
+			"company": "31",
+			"marketingCompany": "31",
+			"transportId": "BA862",
+			"direction": "OUTBOUND",
+			"overnightOffset": 1,
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"667810982": {
+			"type": "flight",
+			"departureTime": "2025-02-18T15:55:00.000-06:00",
+			"departureZoneId": "America/Chicago",
+			"arrivalTime": "2025-02-19T07:25:00.000+01:00",
+			"arrivalZoneId": "Europe/Berlin",
+			"departurePosition": "316435",
+			"arrivalPosition": "314847",
+			"duration": "510",
+			"company": "35",
+			"marketingCompany": "35",
+			"transportId": "LH431",
+			"direction": "OUTBOUND",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"704371187": {
+			"type": "flight",
+			"departureTime": "2025-02-19T13:20:00.000+01:00",
+			"departureZoneId": "Europe/Berlin",
+			"arrivalTime": "2025-02-19T14:25:00.000+01:00",
+			"arrivalZoneId": "Europe/Prague",
+			"departurePosition": "314847",
+			"arrivalPosition": "313884",
+			"duration": "65",
+			"company": "35",
+			"marketingCompany": "35",
+			"transportId": "LH1396",
+			"direction": "OUTBOUND",
+			"overnightOffset": 1,
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"744871968": {
+			"type": "flight",
+			"departureTime": "2025-02-18T17:40:00.000-06:00",
+			"departureZoneId": "America/Chicago",
+			"arrivalTime": "2025-02-19T09:25:00.000+01:00",
+			"arrivalZoneId": "Europe/Madrid",
+			"departurePosition": "316577",
+			"arrivalPosition": "314957",
+			"duration": "525",
+			"company": "60",
+			"marketingCompany": "68",
+			"transportId": "IB4607",
+			"direction": "OUTBOUND",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"754591674": {
+			"type": "flight",
+			"departureTime": "2025-02-18T08:35:00.000-08:00",
+			"departureZoneId": "America/Los_Angeles",
+			"arrivalTime": "2025-02-18T16:12:00.000-05:00",
+			"arrivalZoneId": "America/New_York",
+			"departurePosition": "315794",
+			"arrivalPosition": "316388",
+			"duration": "277",
+			"company": "72",
+			"marketingCompany": "49",
+			"transportId": "SN8857",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"913982882": {
+			"type": "flight",
+			"departureTime": "2025-02-18T15:35:00.000-08:00",
+			"departureZoneId": "America/Los_Angeles",
+			"arrivalTime": "2025-02-19T10:10:00.000Z",
+			"arrivalZoneId": "Europe/London",
+			"departurePosition": "315794",
+			"arrivalPosition": "315110",
+			"duration": "635",
+			"company": "31",
+			"marketingCompany": "68",
+			"transportId": "IB3623",
+			"direction": "OUTBOUND",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"978454799": {
+			"type": "flight",
+			"departureTime": "2025-02-18T17:50:00.000-05:00",
+			"departureZoneId": "America/New_York",
+			"arrivalTime": "2025-02-19T07:15:00.000+01:00",
+			"arrivalZoneId": "Europe/Brussels",
+			"departurePosition": "316388",
+			"arrivalPosition": "314028",
+			"duration": "445",
+			"company": "72",
+			"marketingCompany": "49",
+			"transportId": "SN8802",
+			"direction": "OUTBOUND",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"983778906": {
+			"type": "flight",
+			"departureTime": "2025-02-19T17:35:00.000+01:00",
+			"departureZoneId": "Europe/Warsaw",
+			"arrivalTime": "2025-02-19T18:55:00.000+01:00",
+			"arrivalZoneId": "Europe/Prague",
+			"departurePosition": "314272",
+			"arrivalPosition": "313884",
+			"duration": "80",
+			"company": "97",
+			"marketingCompany": "97",
+			"transportId": "LO525",
+			"direction": "OUTBOUND",
+			"overnightOffset": 1,
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"989214848": {
+			"type": "flight",
+			"departureTime": "2025-02-19T15:10:00.000+01:00",
+			"departureZoneId": "Europe/Vienna",
+			"arrivalTime": "2025-02-19T16:00:00.000+01:00",
+			"arrivalZoneId": "Europe/Prague",
+			"departurePosition": "313881",
+			"arrivalPosition": "313884",
+			"duration": "50",
+			"company": "81",
+			"marketingCompany": "81",
+			"transportId": "OS709",
+			"direction": "OUTBOUND",
+			"overnightOffset": 1,
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"1035577917": {
+			"type": "flight",
+			"departureTime": "2025-02-20T17:45:00.000+03:00",
+			"departureZoneId": "Europe/Istanbul",
+			"arrivalTime": "2025-02-20T18:30:00.000+01:00",
+			"arrivalZoneId": "Europe/Prague",
+			"departurePosition": "314059",
+			"arrivalPosition": "313884",
+			"duration": "165",
+			"company": "96",
+			"marketingCompany": "96",
+			"transportId": "TK1769",
+			"direction": "OUTBOUND",
+			"overnightOffset": 2,
+			"departureOvernightOffset": 2,
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"1059292911": {
+			"type": "flight",
+			"departureTime": "2025-02-19T16:30:00.000+01:00",
+			"departureZoneId": "Europe/Brussels",
+			"arrivalTime": "2025-02-19T17:55:00.000+01:00",
+			"arrivalZoneId": "Europe/Prague",
+			"departurePosition": "314028",
+			"arrivalPosition": "313884",
+			"duration": "85",
+			"company": "49",
+			"marketingCompany": "49",
+			"transportId": "SN2811",
+			"direction": "OUTBOUND",
+			"overnightOffset": 1,
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"1108497647": {
+			"type": "flight",
+			"departureTime": "2025-02-18T08:35:00.000-08:00",
+			"departureZoneId": "America/Los_Angeles",
+			"arrivalTime": "2025-02-18T16:12:00.000-05:00",
+			"arrivalZoneId": "America/New_York",
+			"departurePosition": "315794",
+			"arrivalPosition": "316388",
+			"duration": "277",
+			"company": "72",
+			"marketingCompany": "35",
+			"transportId": "LH7479",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"1112467520": {
+			"type": "flight",
+			"departureTime": "2025-02-19T12:50:00.000+01:00",
+			"departureZoneId": "Europe/Berlin",
+			"arrivalTime": "2025-02-19T14:15:00.000+01:00",
+			"arrivalZoneId": "Europe/Vienna",
+			"departurePosition": "314847",
+			"arrivalPosition": "313881",
+			"duration": "85",
+			"company": "81",
+			"marketingCompany": "81",
+			"transportId": "OS208",
+			"direction": "OUTBOUND",
+			"overnightOffset": 1,
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"1163981861": {
+			"type": "flight",
+			"departureTime": "2025-02-18T08:25:00.000-08:00",
+			"departureZoneId": "America/Los_Angeles",
+			"arrivalTime": "2025-02-18T14:32:00.000-06:00",
+			"arrivalZoneId": "America/Chicago",
+			"departurePosition": "315794",
+			"arrivalPosition": "316435",
+			"duration": "247",
+			"company": "72",
+			"marketingCompany": "35",
+			"transportId": "LH7542",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"1214394765": {
+			"type": "flight",
+			"departureTime": "2025-02-20T13:05:00.000+03:00",
+			"departureZoneId": "Europe/Istanbul",
+			"arrivalTime": "2025-02-20T13:50:00.000+01:00",
+			"arrivalZoneId": "Europe/Prague",
+			"departurePosition": "314059",
+			"arrivalPosition": "313884",
+			"duration": "165",
+			"company": "96",
+			"marketingCompany": "96",
+			"transportId": "TK1771",
+			"direction": "OUTBOUND",
+			"overnightOffset": 2,
+			"departureOvernightOffset": 2,
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"1317622518": {
+			"type": "flight",
+			"departureTime": "2025-02-19T12:35:00.000+01:00",
+			"departureZoneId": "Europe/Zurich",
+			"arrivalTime": "2025-02-19T13:55:00.000+01:00",
+			"arrivalZoneId": "Europe/Prague",
+			"departurePosition": "313878",
+			"arrivalPosition": "313884",
+			"duration": "80",
+			"company": "50",
+			"marketingCompany": "50",
+			"transportId": "LX1486",
+			"direction": "OUTBOUND",
+			"overnightOffset": 1,
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"1336334438": {
+			"type": "flight",
+			"departureTime": "2025-02-19T13:00:00.000+01:00",
+			"departureZoneId": "Europe/Berlin",
+			"arrivalTime": "2025-02-19T14:00:00.000+01:00",
+			"arrivalZoneId": "Europe/Brussels",
+			"departurePosition": "314847",
+			"arrivalPosition": "314028",
+			"duration": "60",
+			"company": "35",
+			"marketingCompany": "49",
+			"transportId": "SN7004",
+			"direction": "OUTBOUND",
+			"overnightOffset": 1,
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"1388104313": {
+			"type": "flight",
+			"departureTime": "2025-02-19T20:25:00.000+01:00",
+			"departureZoneId": "Europe/Warsaw",
+			"arrivalTime": "2025-02-19T21:45:00.000+01:00",
+			"arrivalZoneId": "Europe/Prague",
+			"departurePosition": "314272",
+			"arrivalPosition": "313884",
+			"duration": "80",
+			"company": "97",
+			"marketingCompany": "97",
+			"transportId": "LO529",
+			"direction": "OUTBOUND",
+			"overnightOffset": 1,
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"1396015884": {
+			"type": "flight",
+			"departureTime": "2025-02-18T20:50:00.000-08:00",
+			"departureZoneId": "America/Los_Angeles",
+			"arrivalTime": "2025-02-19T17:35:00.000+01:00",
+			"arrivalZoneId": "Europe/Madrid",
+			"departurePosition": "315794",
+			"arrivalPosition": "313711",
+			"duration": "705",
+			"company": "68",
+			"marketingCompany": "117",
+			"transportId": "VY9794",
+			"direction": "OUTBOUND",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"1452916725": {
+			"type": "flight",
+			"departureTime": "2025-02-18T11:25:00.000-08:00",
+			"departureZoneId": "America/Los_Angeles",
+			"arrivalTime": "2025-02-18T19:24:00.000-05:00",
+			"arrivalZoneId": "America/New_York",
+			"departurePosition": "315794",
+			"arrivalPosition": "316383",
+			"duration": "299",
+			"company": "60",
+			"marketingCompany": "68",
+			"transportId": "IB4124",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"1510640549": {
+			"type": "flight",
+			"departureTime": "2025-02-20T07:15:00.000+01:00",
+			"departureZoneId": "Europe/Paris",
+			"arrivalTime": "2025-02-20T08:55:00.000+01:00",
+			"arrivalZoneId": "Europe/Prague",
+			"departurePosition": "315042",
+			"arrivalPosition": "313884",
+			"duration": "100",
+			"company": "100",
+			"marketingCompany": "44",
+			"transportId": "AF1182",
+			"direction": "OUTBOUND",
+			"overnightOffset": 2,
+			"departureOvernightOffset": 2,
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"1678892830": {
+			"type": "flight",
+			"departureTime": "2025-02-19T12:35:00.000+01:00",
+			"departureZoneId": "Europe/Amsterdam",
+			"arrivalTime": "2025-02-19T14:00:00.000+01:00",
+			"arrivalZoneId": "Europe/Paris",
+			"departurePosition": "314044",
+			"arrivalPosition": "315042",
+			"duration": "85",
+			"company": "44",
+			"marketingCompany": "44",
+			"transportId": "AF1501",
+			"direction": "OUTBOUND",
+			"overnightOffset": 1,
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"1711878049": {
+			"type": "flight",
+			"departureTime": "2025-02-18T10:50:00.000-08:00",
+			"departureZoneId": "America/Los_Angeles",
+			"arrivalTime": "2025-02-18T19:03:00.000-05:00",
+			"arrivalZoneId": "America/New_York",
+			"departurePosition": "315794",
+			"arrivalPosition": "316369",
+			"duration": "313",
+			"company": "60",
+			"marketingCompany": "68",
+			"transportId": "IB4581",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"1713006972": {
+			"type": "flight",
+			"departureTime": "2025-02-18T17:55:00.000-08:00",
+			"departureZoneId": "America/Los_Angeles",
+			"arrivalTime": "2025-02-19T12:25:00.000Z",
+			"arrivalZoneId": "Europe/London",
+			"departurePosition": "315794",
+			"arrivalPosition": "315110",
+			"duration": "630",
+			"company": "31",
+			"marketingCompany": "68",
+			"transportId": "IB3621",
+			"direction": "OUTBOUND",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"1715213364": {
+			"type": "flight",
+			"departureTime": "2025-02-19T20:50:00.000+01:00",
+			"departureZoneId": "Europe/Amsterdam",
+			"arrivalTime": "2025-02-19T22:15:00.000+01:00",
+			"arrivalZoneId": "Europe/Prague",
+			"departurePosition": "314044",
+			"arrivalPosition": "313884",
+			"duration": "85",
+			"company": "37",
+			"marketingCompany": "37",
+			"transportId": "KL1361",
+			"direction": "OUTBOUND",
+			"overnightOffset": 1,
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"1737461769": {
+			"type": "flight",
+			"departureTime": "2025-02-19T12:15:00.000+01:00",
+			"departureZoneId": "Europe/Berlin",
+			"arrivalTime": "2025-02-19T13:10:00.000+01:00",
+			"arrivalZoneId": "Europe/Berlin",
+			"departurePosition": "314847",
+			"arrivalPosition": "313870",
+			"duration": "55",
+			"company": "35",
+			"marketingCompany": "35",
+			"transportId": "LH104",
+			"direction": "OUTBOUND",
+			"overnightOffset": 1,
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"1748919398": {
+			"type": "flight",
+			"departureTime": "2025-02-18T07:20:00.000-08:00",
+			"departureZoneId": "America/Los_Angeles",
+			"arrivalTime": "2025-02-18T15:35:00.000-05:00",
+			"arrivalZoneId": "America/New_York",
+			"departurePosition": "315794",
+			"arrivalPosition": "316379",
+			"duration": "315",
+			"company": "72",
+			"marketingCompany": "35",
+			"transportId": "LH7881",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"1778485393": {
+			"type": "flight",
+			"departureTime": "2025-02-18T21:01:00.000-05:00",
+			"departureZoneId": "America/New_York",
+			"arrivalTime": "2025-02-19T09:55:00.000+01:00",
+			"arrivalZoneId": "Europe/Madrid",
+			"departurePosition": "316383",
+			"arrivalPosition": "314957",
+			"duration": "414",
+			"company": "60",
+			"marketingCompany": "68",
+			"transportId": "IB4674",
+			"direction": "OUTBOUND",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"1884853559": {
+			"type": "flight",
+			"departureTime": "2025-02-18T19:10:00.000-08:00",
+			"departureZoneId": "America/Los_Angeles",
+			"arrivalTime": "2025-02-19T15:15:00.000+01:00",
+			"arrivalZoneId": "Europe/Zurich",
+			"departurePosition": "315794",
+			"arrivalPosition": "313878",
+			"duration": "665",
+			"company": "50",
+			"marketingCompany": "50",
+			"transportId": "LX41",
+			"direction": "OUTBOUND",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"2032903747": {
+			"type": "flight",
+			"departureTime": "2025-02-19T19:50:00.000Z",
+			"departureZoneId": "Europe/London",
+			"arrivalTime": "2025-02-19T22:50:00.000+01:00",
+			"arrivalZoneId": "Europe/Prague",
+			"departurePosition": "315110",
+			"arrivalPosition": "313884",
+			"duration": "120",
+			"company": "31",
+			"marketingCompany": "31",
+			"transportId": "BA858",
+			"direction": "OUTBOUND",
+			"overnightOffset": 1,
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"2038034102": {
+			"type": "flight",
+			"departureTime": "2025-02-18T15:05:00.000-08:00",
+			"departureZoneId": "America/Los_Angeles",
+			"arrivalTime": "2025-02-19T11:00:00.000+01:00",
+			"arrivalZoneId": "Europe/Berlin",
+			"departurePosition": "315794",
+			"arrivalPosition": "314847",
+			"duration": "655",
+			"company": "35",
+			"marketingCompany": "49",
+			"transportId": "SN7251",
+			"direction": "OUTBOUND",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"2040597544": {
+			"type": "flight",
+			"departureTime": "2025-02-18T13:45:00.000-08:00",
+			"departureZoneId": "America/Los_Angeles",
+			"arrivalTime": "2025-02-19T09:05:00.000+01:00",
+			"arrivalZoneId": "Europe/Amsterdam",
+			"departurePosition": "315794",
+			"arrivalPosition": "314044",
+			"duration": "620",
+			"company": "37",
+			"marketingCompany": "37",
+			"transportId": "KL602",
+			"direction": "OUTBOUND",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"-1003987186": {
+			"type": "flight",
+			"departureTime": "2025-02-19T15:25:00.000+01:00",
+			"departureZoneId": "Europe/Paris",
+			"arrivalTime": "2025-02-19T17:05:00.000+01:00",
+			"arrivalZoneId": "Europe/Prague",
+			"departurePosition": "315042",
+			"arrivalPosition": "313884",
+			"duration": "100",
+			"company": "44",
+			"marketingCompany": "44",
+			"transportId": "AF1082",
+			"direction": "OUTBOUND",
+			"overnightOffset": 1,
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"-1067312399": {
+			"type": "flight",
+			"departureTime": "2025-02-18T18:00:00.000-05:00",
+			"departureZoneId": "America/New_York",
+			"arrivalTime": "2025-02-19T08:30:00.000+01:00",
+			"arrivalZoneId": "Europe/Vienna",
+			"departurePosition": "316388",
+			"arrivalPosition": "313881",
+			"duration": "510",
+			"company": "81",
+			"marketingCompany": "81",
+			"transportId": "OS94",
+			"direction": "OUTBOUND",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"-1126935701": {
+			"type": "flight",
+			"departureTime": "2025-02-19T16:15:00.000+01:00",
+			"departureZoneId": "Europe/Amsterdam",
+			"arrivalTime": "2025-02-19T17:40:00.000+01:00",
+			"arrivalZoneId": "Europe/Prague",
+			"departurePosition": "314044",
+			"arrivalPosition": "313884",
+			"duration": "85",
+			"company": "37",
+			"marketingCompany": "37",
+			"transportId": "KL1357",
+			"direction": "OUTBOUND",
+			"overnightOffset": 1,
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"-1142728058": {
+			"type": "flight",
+			"departureTime": "2025-02-18T17:50:00.000-05:00",
+			"departureZoneId": "America/New_York",
+			"arrivalTime": "2025-02-19T07:25:00.000+01:00",
+			"arrivalZoneId": "Europe/Berlin",
+			"departurePosition": "316388",
+			"arrivalPosition": "314847",
+			"duration": "455",
+			"company": "35",
+			"marketingCompany": "35",
+			"transportId": "LH419",
+			"direction": "OUTBOUND",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"-1142876940": {
+			"type": "flight",
+			"departureTime": "2025-02-20T08:00:00.000+03:00",
+			"departureZoneId": "Europe/Istanbul",
+			"arrivalTime": "2025-02-20T08:45:00.000+01:00",
+			"arrivalZoneId": "Europe/Prague",
+			"departurePosition": "314059",
+			"arrivalPosition": "313884",
+			"duration": "165",
+			"company": "96",
+			"marketingCompany": "96",
+			"transportId": "TK1767",
+			"direction": "OUTBOUND",
+			"overnightOffset": 2,
+			"departureOvernightOffset": 2,
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"-1177280406": {
+			"type": "flight",
+			"departureTime": "2025-02-19T12:15:00.000+01:00",
+			"departureZoneId": "Europe/Amsterdam",
+			"arrivalTime": "2025-02-19T13:40:00.000+01:00",
+			"arrivalZoneId": "Europe/Prague",
+			"departurePosition": "314044",
+			"arrivalPosition": "313884",
+			"duration": "85",
+			"company": "4585",
+			"marketingCompany": "37",
+			"transportId": "KL1355",
+			"direction": "OUTBOUND",
+			"overnightOffset": 1,
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"-1215813993": {
+			"type": "flight",
+			"departureTime": "2025-02-19T18:00:00.000+01:00",
+			"departureZoneId": "Europe/Amsterdam",
+			"arrivalTime": "2025-02-19T19:25:00.000+01:00",
+			"arrivalZoneId": "Europe/Prague",
+			"departurePosition": "314044",
+			"arrivalPosition": "313884",
+			"duration": "85",
+			"company": "4585",
+			"marketingCompany": "37",
+			"transportId": "KL1359",
+			"direction": "OUTBOUND",
+			"overnightOffset": 1,
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"-1362632594": {
+			"type": "flight",
+			"departureTime": "2025-02-18T08:45:00.000-08:00",
+			"departureZoneId": "America/Los_Angeles",
+			"arrivalTime": "2025-02-18T16:45:00.000-05:00",
+			"arrivalZoneId": "America/New_York",
+			"departurePosition": "315794",
+			"arrivalPosition": "316379",
+			"duration": "300",
+			"company": "72",
+			"marketingCompany": "49",
+			"transportId": "SN8910",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"-1409358087": {
+			"type": "flight",
+			"departureTime": "2025-02-19T12:05:00.000+01:00",
+			"departureZoneId": "Europe/Madrid",
+			"arrivalTime": "2025-02-19T15:00:00.000+01:00",
+			"arrivalZoneId": "Europe/Prague",
+			"departurePosition": "314957",
+			"arrivalPosition": "313884",
+			"duration": "175",
+			"company": "68",
+			"marketingCompany": "68",
+			"transportId": "IB809",
+			"direction": "OUTBOUND",
+			"overnightOffset": 1,
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"-1436914442": {
+			"type": "flight",
+			"departureTime": "2025-02-18T17:20:00.000-05:00",
+			"departureZoneId": "America/New_York",
+			"arrivalTime": "2025-02-19T07:10:00.000+01:00",
+			"arrivalZoneId": "Europe/Berlin",
+			"departurePosition": "316388",
+			"arrivalPosition": "314847",
+			"duration": "470",
+			"company": "72",
+			"marketingCompany": "35",
+			"transportId": "LH9411",
+			"direction": "OUTBOUND",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"-1440069155": {
+			"type": "flight",
+			"departureTime": "2025-02-19T15:15:00.000+01:00",
+			"departureZoneId": "Europe/Berlin",
+			"arrivalTime": "2025-02-19T16:05:00.000+01:00",
+			"arrivalZoneId": "Europe/Prague",
+			"departurePosition": "313870",
+			"arrivalPosition": "313884",
+			"duration": "50",
+			"company": "36",
+			"marketingCompany": "35",
+			"transportId": "LH1692",
+			"direction": "OUTBOUND",
+			"overnightOffset": 1,
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"-1453464177": {
+			"type": "flight",
+			"departureTime": "2025-02-20T06:50:00.000+01:00",
+			"departureZoneId": "Europe/Amsterdam",
+			"arrivalTime": "2025-02-20T08:20:00.000+01:00",
+			"arrivalZoneId": "Europe/Prague",
+			"departurePosition": "314044",
+			"arrivalPosition": "313884",
+			"duration": "90",
+			"company": "4585",
+			"marketingCompany": "37",
+			"transportId": "KL1351",
+			"direction": "OUTBOUND",
+			"overnightOffset": 2,
+			"departureOvernightOffset": 2,
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"-1593129565": {
+			"type": "flight",
+			"departureTime": "2025-02-19T10:15:00.000+01:00",
+			"departureZoneId": "Europe/Berlin",
+			"arrivalTime": "2025-02-19T11:20:00.000+01:00",
+			"arrivalZoneId": "Europe/Prague",
+			"departurePosition": "314847",
+			"arrivalPosition": "313884",
+			"duration": "65",
+			"company": "35",
+			"marketingCompany": "35",
+			"transportId": "LH1394",
+			"direction": "OUTBOUND",
+			"overnightOffset": 1,
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"-1623996973": {
+			"type": "flight",
+			"departureTime": "2025-02-18T18:05:00.000-05:00",
+			"departureZoneId": "America/New_York",
+			"arrivalTime": "2025-02-19T07:25:00.000+01:00",
+			"arrivalZoneId": "Europe/Berlin",
+			"departurePosition": "316379",
+			"arrivalPosition": "314847",
+			"duration": "440",
+			"company": "35",
+			"marketingCompany": "35",
+			"transportId": "LH403",
+			"direction": "OUTBOUND",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"-1657615745": {
+			"type": "flight",
+			"departureTime": "2025-02-18T15:05:00.000-08:00",
+			"departureZoneId": "America/Los_Angeles",
+			"arrivalTime": "2025-02-19T11:00:00.000+01:00",
+			"arrivalZoneId": "Europe/Berlin",
+			"departurePosition": "315794",
+			"arrivalPosition": "314847",
+			"duration": "655",
+			"company": "35",
+			"marketingCompany": "35",
+			"transportId": "LH457",
+			"direction": "OUTBOUND",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"-1753602288": {
+			"type": "flight",
+			"departureTime": "2025-02-19T21:00:00.000+01:00",
+			"departureZoneId": "Europe/Paris",
+			"arrivalTime": "2025-02-19T22:40:00.000+01:00",
+			"arrivalZoneId": "Europe/Prague",
+			"departurePosition": "315042",
+			"arrivalPosition": "313884",
+			"duration": "100",
+			"company": "44",
+			"marketingCompany": "44",
+			"transportId": "AF1582",
+			"direction": "OUTBOUND",
+			"overnightOffset": 1,
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"-1759490626": {
+			"type": "flight",
+			"departureTime": "2025-02-18T07:20:00.000-08:00",
+			"departureZoneId": "America/Los_Angeles",
+			"arrivalTime": "2025-02-18T15:35:00.000-05:00",
+			"arrivalZoneId": "America/New_York",
+			"departurePosition": "315794",
+			"arrivalPosition": "316379",
+			"duration": "315",
+			"company": "72",
+			"marketingCompany": "49",
+			"transportId": "SN8914",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"-1795029774": {
+			"type": "flight",
+			"departureTime": "2025-02-18T17:40:00.000-08:00",
+			"departureZoneId": "-08:00",
+			"arrivalTime": "2025-02-19T13:20:00.000+01:00",
+			"arrivalZoneId": "+01:00",
+			"departurePosition": "315794",
+			"arrivalPosition": "314856",
+			"duration": "640",
+			"company": "62",
+			"marketingCompany": "62",
+			"transportId": "sk932",
+			"direction": "OUTBOUND",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"-1915448766": {
+			"type": "flight",
+			"departureTime": "2025-02-19T13:15:00.000+01:00",
+			"departureZoneId": "Europe/Berlin",
+			"arrivalTime": "2025-02-19T14:10:00.000+01:00",
+			"arrivalZoneId": "Europe/Berlin",
+			"departurePosition": "314847",
+			"arrivalPosition": "313870",
+			"duration": "55",
+			"company": "35",
+			"marketingCompany": "35",
+			"transportId": "LH106",
+			"direction": "OUTBOUND",
+			"overnightOffset": 1,
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"-230183042": {
+			"type": "flight",
+			"departureTime": "2025-02-18T19:00:00.000-05:00",
+			"departureZoneId": "America/New_York",
+			"arrivalTime": "2025-02-19T08:05:00.000+01:00",
+			"arrivalZoneId": "Europe/Brussels",
+			"departurePosition": "316379",
+			"arrivalPosition": "314028",
+			"duration": "425",
+			"company": "72",
+			"marketingCompany": "49",
+			"transportId": "SN8808",
+			"direction": "OUTBOUND",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"-363128834": {
+			"type": "flight",
+			"departureTime": "2025-02-18T13:45:00.000-08:00",
+			"departureZoneId": "America/Los_Angeles",
+			"arrivalTime": "2025-02-19T09:05:00.000+01:00",
+			"arrivalZoneId": "Europe/Amsterdam",
+			"departurePosition": "315794",
+			"arrivalPosition": "314044",
+			"duration": "620",
+			"company": "37",
+			"marketingCompany": "44",
+			"transportId": "AF8250",
+			"direction": "OUTBOUND",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"-366316255": {
+			"type": "flight",
+			"departureTime": "2025-02-19T09:25:00.000+01:00",
+			"departureZoneId": "Europe/Brussels",
+			"arrivalTime": "2025-02-19T10:50:00.000+01:00",
+			"arrivalZoneId": "Europe/Prague",
+			"departurePosition": "314028",
+			"arrivalPosition": "313884",
+			"duration": "85",
+			"company": "49",
+			"marketingCompany": "49",
+			"transportId": "SN2809",
+			"direction": "OUTBOUND",
+			"overnightOffset": 1,
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"-421686346": {
+			"type": "flight",
+			"departureTime": "2025-02-20T14:00:00.000+01:00",
+			"departureZoneId": "Europe/Madrid",
+			"arrivalTime": "2025-02-20T16:25:00.000+01:00",
+			"arrivalZoneId": "Europe/Prague",
+			"departurePosition": "313711",
+			"arrivalPosition": "313884",
+			"duration": "145",
+			"company": "117",
+			"marketingCompany": "117",
+			"transportId": "VY8656",
+			"direction": "OUTBOUND",
+			"overnightOffset": 2,
+			"departureOvernightOffset": 2,
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"-454205640": {
+			"type": "flight",
+			"departureTime": "2025-02-19T14:35:00.000Z",
+			"departureZoneId": "Europe/London",
+			"arrivalTime": "2025-02-19T17:40:00.000+01:00",
+			"arrivalZoneId": "Europe/Prague",
+			"departurePosition": "315110",
+			"arrivalPosition": "313884",
+			"duration": "125",
+			"company": "31",
+			"marketingCompany": "31",
+			"transportId": "BA856",
+			"direction": "OUTBOUND",
+			"overnightOffset": 1,
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"-493289831": {
+			"type": "flight",
+			"departureTime": "2025-02-18T08:35:00.000-08:00",
+			"departureZoneId": "America/Los_Angeles",
+			"arrivalTime": "2025-02-18T16:12:00.000-05:00",
+			"arrivalZoneId": "America/New_York",
+			"departurePosition": "315794",
+			"arrivalPosition": "316388",
+			"duration": "277",
+			"company": "72",
+			"marketingCompany": "81",
+			"transportId": "OS7868",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"-50592746": {
+			"type": "flight",
+			"departureTime": "2025-02-18T17:55:00.000-05:00",
+			"departureZoneId": "America/New_York",
+			"arrivalTime": "2025-02-19T08:00:00.000+01:00",
+			"arrivalZoneId": "Europe/Vienna",
+			"departurePosition": "316379",
+			"arrivalPosition": "313881",
+			"duration": "485",
+			"company": "81",
+			"marketingCompany": "81",
+			"transportId": "OS90",
+			"direction": "OUTBOUND",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"-614485505": {
+			"type": "flight",
+			"departureTime": "2025-02-18T18:55:00.000-08:00",
+			"departureZoneId": "America/Los_Angeles",
+			"arrivalTime": "2025-02-19T19:10:00.000+03:00",
+			"arrivalZoneId": "Europe/Istanbul",
+			"departurePosition": "315794",
+			"arrivalPosition": "314059",
+			"duration": "795",
+			"company": "96",
+			"marketingCompany": "96",
+			"transportId": "TK10",
+			"direction": "OUTBOUND",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"-615875890": {
+			"type": "flight",
+			"departureTime": "2025-02-18T18:00:00.000-08:00",
+			"departureZoneId": "America/Los_Angeles",
+			"arrivalTime": "2025-02-19T13:50:00.000+01:00",
+			"arrivalZoneId": "Europe/Paris",
+			"departurePosition": "315794",
+			"arrivalPosition": "315042",
+			"duration": "650",
+			"company": "44",
+			"marketingCompany": "44",
+			"transportId": "AF4031",
+			"direction": "OUTBOUND",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"-618448135": {
+			"type": "flight",
+			"departureTime": "2025-02-18T11:40:00.000-08:00",
+			"departureZoneId": "America/Los_Angeles",
+			"arrivalTime": "2025-02-18T19:59:00.000-05:00",
+			"arrivalZoneId": "America/New_York",
+			"departurePosition": "315794",
+			"arrivalPosition": "316379",
+			"duration": "319",
+			"company": "72",
+			"marketingCompany": "50",
+			"transportId": "LX3173",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"-651352065": {
+			"type": "flight",
+			"departureTime": "2025-02-18T17:35:00.000-08:00",
+			"departureZoneId": "America/Los_Angeles",
+			"arrivalTime": "2025-02-19T12:00:00.000Z",
+			"arrivalZoneId": "Europe/London",
+			"departurePosition": "315794",
+			"arrivalPosition": "315110",
+			"duration": "625",
+			"company": "60",
+			"marketingCompany": "68",
+			"transportId": "IB4262",
+			"direction": "OUTBOUND",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"-730941230": {
+			"type": "flight",
+			"departureTime": "2025-02-18T11:25:00.000-08:00",
+			"departureZoneId": "America/Los_Angeles",
+			"arrivalTime": "2025-02-18T16:27:00.000-06:00",
+			"arrivalZoneId": "America/Chicago",
+			"departurePosition": "315794",
+			"arrivalPosition": "316577",
+			"duration": "182",
+			"company": "60",
+			"marketingCompany": "68",
+			"transportId": "IB4232",
+			"direction": "OUTBOUND",
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"-842032551": {
+			"type": "flight",
+			"departureTime": "2025-02-18T21:35:00.000-08:00",
+			"departureZoneId": "America/Los_Angeles",
+			"arrivalTime": "2025-02-19T16:00:00.000Z",
+			"arrivalZoneId": "Europe/London",
+			"departurePosition": "315794",
+			"arrivalPosition": "315110",
+			"duration": "625",
+			"company": "60",
+			"marketingCompany": "68",
+			"transportId": "IB4237",
+			"direction": "OUTBOUND",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"-843267345": {
+			"type": "flight",
+			"departureTime": "2025-02-20T10:40:00.000+01:00",
+			"departureZoneId": "Europe/Paris",
+			"arrivalTime": "2025-02-20T12:20:00.000+01:00",
+			"arrivalZoneId": "Europe/Prague",
+			"departurePosition": "315042",
+			"arrivalPosition": "313884",
+			"duration": "100",
+			"company": "44",
+			"marketingCompany": "44",
+			"transportId": "AF1382",
+			"direction": "OUTBOUND",
+			"overnightOffset": 2,
+			"departureOvernightOffset": 2,
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"-858812557": {
+			"type": "flight",
+			"departureTime": "2025-02-18T22:05:00.000-05:00",
+			"departureZoneId": "America/New_York",
+			"arrivalTime": "2025-02-19T11:40:00.000+01:00",
+			"arrivalZoneId": "Europe/Zurich",
+			"departurePosition": "316379",
+			"arrivalPosition": "313878",
+			"duration": "455",
+			"company": "50",
+			"marketingCompany": "50",
+			"transportId": "LX19",
+			"direction": "OUTBOUND",
+			"overnightOffset": 1,
+			"arrivalOvernightOffset": 1,
+			"noChangeForNextSegment": false,
+			"tags": []
+		},
+		"-987669147": {
+			"type": "flight",
+			"departureTime": "2025-02-19T09:40:00.000+01:00",
+			"departureZoneId": "Europe/Vienna",
+			"arrivalTime": "2025-02-19T10:30:00.000+01:00",
+			"arrivalZoneId": "Europe/Prague",
+			"departurePosition": "313881",
+			"arrivalPosition": "313884",
+			"duration": "50",
+			"company": "81",
+			"marketingCompany": "81",
+			"transportId": "OS705",
+			"direction": "OUTBOUND",
+			"overnightOffset": 1,
+			"noChangeForNextSegment": false,
+			"tags": []
+		}
+	},
+	"providers": {
+		"1021": {
+			"name": "travelport",
+			"displayName": "travelport"
+		},
+		"100101": {
+			"name": "travelfusionconnect",
+			"displayName": "travelfusionconnect"
+		}
+	},
+	"translations": {
+		"Providers.travelfusionconnect.ECONOMY": "Economy"
+	},
+	"showRoutedConnectionTip": false
+}

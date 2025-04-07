@@ -1,0 +1,73 @@
+{
+    "actorSpecification": 1,
+    "fields": {},
+    "views": {
+        "overview": {
+            "title": "Overview",
+            "transformation": {
+                "fields": [
+                    "company",
+                    "mode",
+                    "departureTime",
+                    "arrivalTime",
+                    "duration",
+                    "departure",
+                    "arrival",
+                    "price",
+					"currency",
+                    "ticketsLeft",
+                    "stops"
+                ]
+            },
+            "display": {
+                "component": "table",
+                "properties": {
+                    "company": {
+                        "label": "Company",
+                        "format": "text"
+                    },
+                    "mode": {
+                        "label": "Mode",
+                        "format": "text"
+                    },
+                    "departureTime": {
+                        "label": "Departure Time",
+                        "format": "datetime"
+                    },
+                    "arrivalTime": {
+                        "label": "Arrival Time",
+                        "format": "datetime"
+                    },
+                    "duration": {
+                        "label": "Duration",
+                        "format": "text"
+                    },
+                    "departure": {
+                        "label": "Departure Station",
+                        "format": "text"
+                    },
+                    "arrival": {
+                        "label": "Arrival Station",
+                        "format": "text"
+                    },
+                    "price": {
+                        "label": "Price",
+                        "format": "number"
+                    },
+					"currency": {
+						"label": "Currency",
+						"format": "text"
+					},
+                    "ticketsLeft": {
+                        "label": "Tickets Left",
+                        "format": "number"
+                    },
+                    "stops": {
+                        "label": "Stops",
+                        "format": "array"
+                    }
+                }
+            }
+        }
+    }
+}

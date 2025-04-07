@@ -1,103 +1,93 @@
-# NodeTSTemplate
+# Omio Scrapper
 
-## Getting started
-
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
-
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
-
-## Add your files
-
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
-
-```
-cd existing_repo
-git remote add origin https://gitlab.com/softwaretemplates/nodetstemplate.git
-git branch -M main
-git push -uf origin main
-```
-
-## Integrate with your tools
-
-- [ ] [Set up project integrations](https://gitlab.com/softwaretemplates/nodetstemplate/-/settings/integrations)
-
-## Collaborate with your team
-
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Set auto-merge](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
-
-## Test and Deploy
-
-Use the built-in continuous integration in GitLab.
-
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing (SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
+Omio Scrapper is an [Apify Actor](https://docs.apify.com/actors) designed to scrape travel data from [Omio](https://www.omio.com) for specific dates. It fetches all available travel options matching the search criteria (e.g. schedules, prices, etc.) and outputs the results into an Apify dataset.
 
 ---
 
-# Editing this README
+## Overview
 
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thanks to [makeareadme.com](https://www.makeareadme.com/) for this template.
+This open‑source actor uses [Crawlee](https://crawlee.dev/) together with [Playwright](https://playwright.dev/) to automate browser activities and scrape data. The project extracts travel information for trains, buses, and planes—all with details such as departure/arrival times, durations, pricing, and other metadata.
 
-## Suggestions for a good README
+**Please note:** Currency support is not fully feature‑complete. Currently, the currency shown depends on the proxy location. We plan to add improved currency handling in the future.
 
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
+The Omio Scrapper is under active development. Future releases will include additional features such as exposing top‑level map, filter, and reduce operations on the results—giving users the ability to modify and transform the output however they wish.
 
-## Name
+---
 
-Choose a self-explaining name for your project.
+## Project Structure
 
-## Description
+- **handlers:**
+  Contains the main task handler (e.g. `start.ts`), which coordinates the scraping process and data extraction.
 
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
+- **crawlers:**
+  Holds the browser automation and scraper modules (for both Cheerio and Playwright) responsible for parsing page content.
 
-## Badges
+- **models:**
+  Defines all data structures including search input, travel results, companies, providers, positions, etc.
 
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
+- **utils:**
+  Provides helper functions for cookie handling, currency, parsing, element selections, and more.
 
-## Visuals
+- **router:**
+  Sets up the routing for tasks and custom endpoints if needed.
 
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
+This high‑level architecture allows for a clear separation of concerns and makes it easier to extend or modify specific parts of the system.
 
-## Installation
+---
 
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
+## Getting Started
 
-## Usage
+1. **Install Dependencies**
 
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
+    Ensure you have [pnpm](https://pnpm.io/) installed, then run:
 
-## Support
+    ```bash
+    pnpm install
+    ```
 
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
+2. **Run the Project**
 
-## Roadmap
+    Run the TypeScript source code:
 
-If you have ideas for releases in the future, it is a good idea to list them in the README.
+    ```bash
+    pnpm dev
+    ```
 
-## Contributing
+3. **Deploy as an Apify Actor**
 
-State if you are open to contributions and what your requirements are for accepting them.
+    Check the [.actor/actor.json](.actor/actor.json) for deployment configurations and deploy via the Apify CLI or Apify web interface.
 
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
+---
 
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
+## Input
 
-## Authors and acknowledgment
+The actor expects the following input fields:
 
-Show your appreciation to those who have contributed to the project.
+- **from:** Departure city (string).
+- **to:** Destination city (string).
+- **date:** Travel date in the format `YYYY-MM-DD`.
+  _Note: The date must be either today's date or a future date. Past dates are not supported._
+
+> **Example Input:**
+>
+> ```json
+> {
+> 	"from": "Berlin",
+> 	"to": "Munich",
+> 	"date": "2023-11-15"
+> }
+> ```
+
+_Note:_ These keys represent the departure location, destination, and travel day respectively.
+
+---
+
+## Output
+
+The actor writes all extracted travel data entries to an [Apify dataset](https://docs.apify.com/actors/dataset). Each record represents one travel option with details such as times, duration, price, and additional travel specifics. The data is sorted based on departure time, from earliest to latest.
+
+---
 
 ## License
 
-For open source projects, say how it is licensed.
-
-## Project status
-
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+This project is open source, licensed under the [GNU Affero General Public License 3.0 (AGPL-3.0)](https://www.gnu.org/licenses/agpl-3.0.en.html). Feel free to review, use, and modify the code according to the license terms.

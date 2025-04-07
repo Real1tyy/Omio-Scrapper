@@ -1,0 +1,79 @@
+accept-ch:
+Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA
+
+alt-svc:
+h3=":443"; ma=86400
+cache-control:
+private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+cf-chl-out:
+Wi2hpd6FeIEetbj0Od+iQ/MavV20GGSWzIJk8A+nI2b3iMVjJcnuhgtCBPvGvoMY+Vm9ShAxJOKxnXbDZ5CnuHgoPinh1ZQ00UJ/wI5ZzlpOPUND3mNYbaDKruZqX2fQuIgAMqhzWfn1li1Iw0MhAw==$J2dOgvpxOqhWrYVB3Wnviw==
+cf-mitigated:
+challenge
+cf-ray:
+90fec2021fa5d2ee-FRA
+content-encoding:
+br
+content-type:
+text/html; charset=UTF-8
+critical-ch:
+Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA
+cross-origin-embedder-policy:
+require-corp
+cross-origin-opener-policy:
+same-origin
+cross-origin-resource-policy:
+same-origin
+date:
+Mon, 10 Feb 2025 20:13:06 GMT
+expires:
+Thu, 01 Jan 1970 00:00:01 GMT
+origin-agent-cluster:
+?1
+permissions-policy:
+accelerometer=(),autoplay=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()
+referrer-policy:
+same-origin
+server:
+cloudflare
+set-cookie:
+__cf_bm=3W1Gvmr3WR0XBRId33gLBWv8AWldY56FZ.Zy88Myn7A-1739218386-1.0.1.1-.3XjXYa7jPwb83ssVWs6u8ZhrWdy4Ezfo.7lY1ysJxL5swxfPFJ6PCY21WLuobD3h71WPyuV73UpIb.Gh302CNZAnjiw_ddRYA20rI8Oz2g; path=/; expires=Mon, 10-Feb-25 20:43:06 GMT; domain=.omio.com; HttpOnly; Secure; SameSite=None
+vary:
+Accept-Encoding
+x-content-options:
+nosniff
+x-frame-options:
+SAMEORIGIN
+:authority:
+www.omio.com
+:method:
+GET
+:path:
+/suggester-api/v5/position?term=TEst&locale=en&hierarchical=true
+:scheme:
+https
+accept:
+application/json, text/plain, */*
+accept-encoding:
+gzip, deflate, br, zstd
+accept-language:
+en-US
+cookie:
+_go_client_id=aeffc4cd786646fc9c34cb6f29d3ec81-v3; _omio_exp_v2=YmRwLXBvc3QtbW9kaWZpY2F0aW9uLXN1cnZleTpvbixpbmRlcGVuZGVudC10aWNrZXQtY29uZmlnLXBhZ2U6b24sY2hhbmdlX3lvdXJfYm9va2luZ19idXR0b25fcm5fZW5hYmxlOm9uLHRyZW5pdGFsaWEtY2hlY2staW4tY3RhOm9uLHJhZGlvLWNhYmlucy1maDpvbixyYWRpby1jYWJpbnMtZ252Om9uLG5ldy1mZXJyeS10Y3A6b24sc2VhdC1tYXBzLXYxOm9uLGZyZWUtb21pby1mbGV4OmN0cmwsb21pby1mbGV4LXdpdGgtY29tcGFuam9uOm9uLENNUE4tNTY1NS0xOjQscGVyc2lzdC1wZHAtZGF0YTpvbixTWFAtMjA1LUltcHJvdmVkLXNlYXJjaC1iYXI6b24sT0NULTQzNDA6Yixmbi03MjI6bGItYixPQ1QtNDY5NjpiLG1vYmlsZS13ZWItbmV3LWhlYWRlcjpvbixBRC01NjQ3OjIsT1BBQ1EtMTE2OmEsZmVycnktc3RjcDpvbixyeWFuYWlyOm9uLGZuLTY4MzpkbS0wLEFELTU5ODg6MSxDTVBOLTU2NTUtMjowLGZuLTc3MDpub3JtYWwsU1hQLTE0MDE6MSxBRC01OTM1OjAsYWlyLXN0Y3A6b24sZGEtZmVycnk6b24sQ0hFQy0zMTA3OmIsY3MtY2hhdC13aWRnZXQ6b24sQUQtNTg1MDpvbixKQlZOOmN0cmwsQ01QTi02MTA4Om9uLFNQTDQ4Nzk6MSxSVE5WMjg2OjAsc2VhdC1tYXBzLWFpcjpvbixSVE5WLTQyOmIsUlROVi0yOTg6YSxmY3RjcDpvbixyZy01NDc3OmMsdGVzdC1kdW1teTpvbixmbi02ODA6c2Z0; __cflb=0H28uu4Zwq5kfu5J8d1tUYfBcWX35yf9LsZQDMxe3ob; _cfuvid=8h1sMacBszd2SHK9o39oyT09LYW.5Xp_PiSeZ3E9iOM-1739218362521-0.0.1.1-604800000; _sp_ses.4f2b=*; _gcl_au=1.1.1851157106.1739218364; _ga=GA1.1.409108032.1739218367; _ga_NKKMJY4RRV=GS1.1.1739218367.1.0.1739218367.0.0.578629212; cf_clearance=iqYW7W5Eg7iWupGq5mNbw8M3tIXORk1.V7skUVAiVUA-1739218367-1.2.1.1-3YEML9MnaGhtQ7SaXIAPSQhIkkhEUYBHz3ZMlXSs3wtXe2jgrE0uhtvTkSmOALckrHSpd8cWuxjHhWeJObYtQsmnM3lMVX6RxD2z4hcAKiqBSdpymZV7Vl.Dq.QuSjkDcwGxAauibQIeUIN4FoelOyTq7bLMDCegWmynqJzFv7QAkYz7w1EkmmCpHRNdEpqWNcRjsdXC6eF3fHel.nX64dXE34gIh0rsE4VaTvTE5nAEP7wkgSDafC1gGCRYSO3WC0T3KWjQLmw.tahPDl0GVJ_ReFoJEO8bpKSSTLWz8q0; X-Ingress=k8s-prod-nl-1|Z6pdw|Z6pdv; FPID=FPID2.2.vuoy%2FwZODkLecBs6QyKGIcHFQbeB3wsehyawLcQ46go%3D.1739218367; FPLC=QHKXdYFmIfGGxaAbP2ljasysiv6O1cYsLG3yu%2Bk8Tcp6ktfmw9lgrlaAz6q87Fy%2FxLFAnDs8zNEZZQUJvQM6aGkBUv3LODQ7QbieYIHVpPSNO6Tkkv%2BOPgEs6rsYxA%3D%3D; FPAU=1.1.1851157106.1739218364; FPGSID=1.1739218367.1739218367.G-NKKMJY4RRV.SWy-jp_MWj2wsNUpusPGHw; ki_t=1739218369265%3B1739218369265%3B1739218369265%3B1%3B1; ki_r=; gdpr={%22categories%22:[%22infrastructure%22%2C%22corefunctionalities%22%2C%22security%22%2C%22marketing%22%2C%22performance%22]%2C%22time%22:1739218382079%2C%22version%22:3%2C%22isAllAccepted%22:true}; _ga_WZNCX0KL4B=GS1.1.1739218367.1.1.1739218382.45.0.0; _sp_id.4f2b=4df0a74f-d13a-4888-9f2e-1ef67ffb46ac.1739218363.1.1739218383..ee6b1591-92b9-4dd0-8ae7-ba934b359a5b..7832f20e-ab3a-44d7-9033-28bb3827fe32.1739218363134.12; _fbp=fb.1.1739218383451.705017960392535944; __cf_bm=YoYX5X1rIrA8KfRf2vxwxqTDDsfKJ582wqRPj_pJjak-1739218383-1.0.1.1-v1tx_NFCQ5TGW60GEh5lxePh0wSyiydl_ZbZg1cmxSyHMNnWNCv3RcN_LXpvh3BjiEiat_F3se2hDDldCwjncQ6QRQvZjypmFskeTTEjpco
+priority:
+u=1, i
+referer:
+https://www.omio.com/
+sec-ch-ua:
+"Google Chrome";v="119", "Chromium";v="119", "Not?A_Brand";v="24"
+sec-ch-ua-mobile:
+?0
+sec-ch-ua-platform:
+"Linux"
+sec-fetch-dest:
+empty
+sec-fetch-mode:
+cors
+sec-fetch-site:
+same-origin
+user-agent:
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
