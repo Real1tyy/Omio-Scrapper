@@ -1,20 +1,18 @@
-import { z } from 'zod';
-import { companySchema } from './company.js';
-import { outboundSchema } from './outbound.js';
-import { positionSchema } from './positions.js';
-import { providerSchema } from './provider.js';
-import { segmentSchema } from './segment.js';
+import { z } from "zod";
+import { companySchema } from "./company.js";
+import { outboundSchema } from "./outbound.js";
+import { positionSchema } from "./positions.js";
+import { providerSchema } from "./provider.js";
+import { segmentSchema } from "./segment.js";
 
 // Helper function to convert an object to an array of values
 const objectValuesToArray = (val: unknown) => {
-	return val && typeof val === 'object' ? Object.values(val) : val;
+	return val && typeof val === "object" ? Object.values(val) : val;
 };
 
 // Helper function to convert an object to an array of objects with an 'id' field
 const objectEntriesWithIdToArray = (val: unknown) => {
-	return val && typeof val === 'object'
-		? Object.entries(val).map(([key, item]) => ({ ...item, id: key }))
-		: val;
+	return val && typeof val === "object" ? Object.entries(val).map(([key, item]) => ({ ...item, id: key })) : val;
 };
 
 export const responseSchema = z

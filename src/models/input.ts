@@ -1,5 +1,5 @@
-import { Actor } from 'apify';
-import { z } from 'zod';
+import { Actor } from "apify";
+import { z } from "zod";
 
 const absoluteDateRegex = /^\d{4}-\d{2}-\d{2}$/;
 const relativeDateRegex = /^(\d+)\s*(day|week|month|year)s?$/i;
@@ -7,15 +7,13 @@ const relativeDateRegex = /^(\d+)\s*(day|week|month|year)s?$/i;
 export const rawInputSchema = z.object({
 	from: z.string(),
 	to: z.string(),
-	date: z
-		.string()
-		.refine((date) => absoluteDateRegex.test(date) || relativeDateRegex.test(date), {
-			message: 'Date must be in YYYY-MM-DD format or relative format like "2 days"',
-		}),
+	date: z.string().refine((date) => absoluteDateRegex.test(date) || relativeDateRegex.test(date), {
+		message: 'Date must be in YYYY-MM-DD format or relative format like "2 days"',
+	}),
 });
 
 export type RawInput = z.infer<typeof rawInputSchema>;
-export type Input = Omit<RawInput, 'date'> & { date: Date };
+export type Input = Omit<RawInput, "date"> & { date: Date };
 
 /**
  * Adds a relative time to the given date.
@@ -27,20 +25,20 @@ export type Input = Omit<RawInput, 'date'> & { date: Date };
 const addRelativeToDate = (date: Date, amount: number, unit: string): Date => {
 	const newDate = new Date(date);
 	switch (unit.toLowerCase()) {
-		case 'day':
-		case 'days':
+		case "day":
+		case "days":
 			newDate.setDate(newDate.getDate() + amount);
 			break;
-		case 'week':
-		case 'weeks':
+		case "week":
+		case "weeks":
 			newDate.setDate(newDate.getDate() + amount * 7);
 			break;
-		case 'month':
-		case 'months':
+		case "month":
+		case "months":
 			newDate.setMonth(newDate.getMonth() + amount);
 			break;
-		case 'year':
-		case 'years':
+		case "year":
+		case "years":
 			newDate.setFullYear(newDate.getFullYear() + amount);
 			break;
 		default:
@@ -62,7 +60,7 @@ export const getValidatedInput = async (): Promise<Input> => {
 	let finalDate: Date;
 
 	if (absoluteDateRegex.test(validatedInput.date)) {
-		const [year, month, day] = validatedInput.date.split('-').map(Number);
+		const [year, month, day] = validatedInput.date.split("-").map(Number);
 		finalDate = new Date(Date.UTC(year, month - 1, day));
 	} else {
 		const match = validatedInput.date.match(relativeDateRegex)!;
@@ -73,11 +71,11 @@ export const getValidatedInput = async (): Promise<Input> => {
 
 	today.setHours(0, 0, 0, 0);
 	if (finalDate < today) {
-		Actor.fail('Incorrect input: Date must be either today or later');
+		Actor.fail("Incorrect input: Date must be either today or later");
 	}
 
 	if (validatedInput.from === validatedInput.to) {
-		Actor.fail('Incorrect input: From and to cannot be the same');
+		Actor.fail("Incorrect input: From and to cannot be the same");
 	}
 
 	return {

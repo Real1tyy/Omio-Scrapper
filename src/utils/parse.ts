@@ -1,9 +1,9 @@
-import { Company } from '../models/company.js';
-import { Position } from '../models/positions.js';
-import { Provider } from '../models/provider.js';
-import { Response, responseSchema } from '../models/response.js';
-import { formatDuration, Result } from '../models/result.js';
-import { Segment } from '../models/segment.js';
+import type { Company } from "../models/company.js";
+import type { Position } from "../models/positions.js";
+import type { Provider } from "../models/provider.js";
+import { type Response, responseSchema } from "../models/response.js";
+import { formatDuration, type Result } from "../models/result.js";
+import type { Segment } from "../models/segment.js";
 
 /**
  * Retrieves an item from a map by key or throws an error if not found.
@@ -43,35 +43,19 @@ export function parseResults(body: string): Response {
  */
 export function extractResults(response: Response, currency: string): Result[] {
 	// Build lookup maps.
-	const companiesMap = new Map<string, Company>(
-		response.companies.map((company) => [company.id, company]),
-	);
-	const positionsMap = new Map<string, Position>(
-		response.positions.map((position) => [position.id, position]),
-	);
-	const providersMap = new Map<string, Provider>(
-		response.providers.map((provider) => [provider.id, provider]),
-	);
-	const segmentsMap = new Map<string, Segment>(
-		response.segmentDetails.map((segment) => [segment.id, segment]),
-	);
+	const companiesMap = new Map<string, Company>(response.companies.map((company) => [company.id, company]));
+	const positionsMap = new Map<string, Position>(response.positions.map((position) => [position.id, position]));
+	const providersMap = new Map<string, Provider>(response.providers.map((provider) => [provider.id, provider]));
+	const segmentsMap = new Map<string, Segment>(response.segmentDetails.map((segment) => [segment.id, segment]));
 
 	return response.outbounds.map((outbound) => {
 		// Enrich segments and force UTC-converted time strings.
 		const enrichedSegments = outbound.segments.map((segmentId) => {
-			const segment = getFromMap(segmentsMap, segmentId, 'Segment');
+			const segment = getFromMap(segmentsMap, segmentId, "Segment");
 			return {
 				id: segment.id,
-				departurePosition: getFromMap(
-					positionsMap,
-					segment.departurePosition,
-					'Departure position',
-				),
-				arrivalPosition: getFromMap(
-					positionsMap,
-					segment.arrivalPosition,
-					'Arrival position',
-				),
+				departurePosition: getFromMap(positionsMap, segment.departurePosition, "Departure position"),
+				arrivalPosition: getFromMap(positionsMap, segment.arrivalPosition, "Arrival position"),
 				departureTime: segment.departureTime.toUTCString(),
 				arrivalTime: segment.arrivalTime.toUTCString(),
 				duration: segment.duration,
@@ -81,13 +65,11 @@ export function extractResults(response: Response, currency: string): Result[] {
 		// Build stops. Each stop shows full segment details,
 		// and if there is a gap to the next segment, compute the wait time.
 		const stopsDetail = enrichedSegments.map((segment, i) => {
-			let waitTime = '';
+			let waitTime = "";
 			if (i < enrichedSegments.length - 1) {
 				const nextSegment = enrichedSegments[i + 1];
 				const diffMinutes = Math.round(
-					(new Date(nextSegment.departureTime).getTime() -
-						new Date(segment.arrivalTime).getTime()) /
-						60000,
+					(new Date(nextSegment.departureTime).getTime() - new Date(segment.arrivalTime).getTime()) / 60000
 				);
 				waitTime = formatDuration(diffMinutes);
 			}
@@ -106,7 +88,7 @@ export function extractResults(response: Response, currency: string): Result[] {
 		const overallArrival = enrichedSegments[enrichedSegments.length - 1].arrivalPosition;
 
 		return {
-			company: getFromMap(companiesMap, outbound.companyId, 'Company'),
+			company: getFromMap(companiesMap, outbound.companyId, "Company"),
 			departurePosition: overallDeparture,
 			arrivalPosition: overallArrival,
 			segments: enrichedSegments,
@@ -122,10 +104,10 @@ export function extractResults(response: Response, currency: string): Result[] {
 			journeyId: outbound.journeyId,
 			outboundId: outbound.outboundId,
 			ticketCompanies: outbound.ticketsSellingCompanies.map((companyId) =>
-				getFromMap(companiesMap, companyId, 'Ticket company'),
+				getFromMap(companiesMap, companyId, "Ticket company")
 			),
 			serviceProviders: outbound.serviceProviderIds.map((providerId) =>
-				getFromMap(providersMap, providerId, 'Provider'),
+				getFromMap(providersMap, providerId, "Provider")
 			),
 			currency,
 		};

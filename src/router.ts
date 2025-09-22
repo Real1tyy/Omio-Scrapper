@@ -1,7 +1,7 @@
-import { createCheerioRouter, createPlaywrightRouter } from 'crawlee';
-import { LABELS } from './constants.js';
-import baseHandleStart from './handlers/start.js';
-import { Input } from './models/input.js';
+import { createCheerioRouter, createPlaywrightRouter } from "crawlee";
+import { LABELS } from "./constants.js";
+import baseHandleStart from "./handlers/start.js";
+import type { Input } from "./models/input.js";
 
 export const createPlaywrightRouterWithInput = async (input: Input) => {
 	const playwrightRouter = createPlaywrightRouter();

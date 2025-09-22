@@ -1,11 +1,11 @@
-import { z } from 'zod';
+import { z } from "zod";
 
 export const segmentSchema = z.object({
 	id: z.string(),
 	type: z.string(),
-	departureTime: z.preprocess((val) => (typeof val === 'string' ? new Date(val) : val), z.date()),
+	departureTime: z.preprocess((val) => (typeof val === "string" ? new Date(val) : val), z.date()),
 	departureZoneId: z.string(),
-	arrivalTime: z.preprocess((val) => (typeof val === 'string' ? new Date(val) : val), z.date()),
+	arrivalTime: z.preprocess((val) => (typeof val === "string" ? new Date(val) : val), z.date()),
 	arrivalZoneId: z.string(),
 	departurePosition: z.string(),
 	arrivalPosition: z.string(),

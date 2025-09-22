@@ -7,6 +7,6 @@
 	"input": "./input_schema.json",
 	"dockerfile": "./Dockerfile",
 	"storages": {
-        "dataset": "./dataset_schema.json"
-    }
+		"dataset": "./dataset_schema.json"
+	}
 }

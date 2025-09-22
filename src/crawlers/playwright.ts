@@ -1,13 +1,13 @@
-import { Actor, log } from 'apify';
-import { PlaywrightCrawler, RequestQueue } from 'crawlee';
-import { firefox } from 'playwright';
-import { Input } from '../models/input.js';
-import { createPlaywrightRouterWithInput } from '../router.js';
+import { Actor, log } from "apify";
+import { PlaywrightCrawler, type RequestQueue } from "crawlee";
+import { firefox } from "playwright";
+import type { Input } from "../models/input.js";
+import { createPlaywrightRouterWithInput } from "../router.js";
 
 export const createPlaywrightCrawler = async (
 	playwrightQueue: RequestQueue,
 	cheerioQueue: RequestQueue,
-	input: Input,
+	input: Input
 ): Promise<PlaywrightCrawler> => {
 	const playwrightRouter = await createPlaywrightRouterWithInput(input);
 	return new PlaywrightCrawler({
@@ -25,9 +25,7 @@ export const createPlaywrightCrawler = async (
 		},
 		proxyConfiguration: await Actor.createProxyConfiguration(),
 		requestHandler: async (context) => {
-			log.debug(
-				`PlaywrightCrawler handling request ${context.request.url} with label ${context.request.label}`,
-			);
+			log.debug(`PlaywrightCrawler handling request ${context.request.url} with label ${context.request.label}`);
 			await playwrightRouter({ ...context, cheerioQueue });
 		},
 	});

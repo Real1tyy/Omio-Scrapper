@@ -1,6 +1,6 @@
-import { Actor, ApifyClient, log } from 'apify';
-import { RequestQueue } from 'crawlee';
-import { LABELS, SEARCH_URL } from '../constants.js';
+import { Actor, ApifyClient, log } from "apify";
+import type { RequestQueue } from "crawlee";
+import { LABELS, SEARCH_URL } from "../constants.js";
 
 const createRequestQueues = async (): Promise<{
 	playwrightQueue: RequestQueue;

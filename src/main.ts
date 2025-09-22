@@ -1,7 +1,7 @@
-import { Actor, log } from 'apify';
-import createPlaywrightCrawler from './crawlers/playwright.js';
-import createRequestQueues from './crawlers/requestQueue.js';
-import { getValidatedInput } from './models/input.js';
+import { Actor, log } from "apify";
+import createPlaywrightCrawler from "./crawlers/playwright.js";
+import createRequestQueues from "./crawlers/requestQueue.js";
+import { getValidatedInput } from "./models/input.js";
 
 Actor.main(async () => {
 	const input = await getValidatedInput();
@@ -11,7 +11,7 @@ Actor.main(async () => {
 
 	// prepared for use if needed
 	// const cheerioCrawler = await createCheerioCrawler(cheerioQueue, playwrightQueue, input);
-	log.debug('Starting Playwright crawler...');
+	log.debug("Starting Playwright crawler...");
 	await playwrightCrawler.run();
-	log.debug('Playwright crawler finished.');
+	log.debug("Playwright crawler finished.");
 });

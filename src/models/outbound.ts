@@ -1,4 +1,4 @@
-import { z } from 'zod';
+import { z } from "zod";
 
 export const outboundSchema = z
 	.object({
@@ -19,9 +19,7 @@ export const outboundSchema = z
 			if (Array.isArray(val) && val.length > 0) {
 				return val.map((segment) => segment.toString());
 			}
-			throw new Error(
-				`Invalid segments format: ${JSON.stringify(val)}. Expected a non-empty array of numbers.`,
-			);
+			throw new Error(`Invalid segments format: ${JSON.stringify(val)}. Expected a non-empty array of numbers.`);
 		}, z.array(z.string())),
 		status: z.string(),
 	})

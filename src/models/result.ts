@@ -1,6 +1,6 @@
-import { Company } from './company.js';
-import { Position } from './positions.js';
-import { Provider } from './provider.js';
+import type { Company } from "./company.js";
+import type { Position } from "./positions.js";
+import type { Provider } from "./provider.js";
 
 /**
  * An enriched version of a Segment that includes full position objects instead of just IDs.
@@ -53,14 +53,12 @@ export interface Result {
  * For example, 90 becomes "1 hrs 30 mins".
  */
 export function formatDuration(duration: string | number): string {
-	const totalMinutes = typeof duration === 'string' ? parseInt(duration, 10) : duration;
+	const totalMinutes = typeof duration === "string" ? parseInt(duration, 10) : duration;
 	const hrs = Math.floor(totalMinutes / 60);
 	const mins = totalMinutes % 60;
-	const hrsRepresentation = hrs === 0 ? '' : `${hrs} hrs`;
-	const minsRepresentation = mins === 0 ? '' : `${mins} mins`;
-	return hrsRepresentation === ''
-		? minsRepresentation
-		: `${hrsRepresentation} ${minsRepresentation}`;
+	const hrsRepresentation = hrs === 0 ? "" : `${hrs} hrs`;
+	const minsRepresentation = mins === 0 ? "" : `${mins} mins`;
+	return hrsRepresentation === "" ? minsRepresentation : `${hrsRepresentation} ${minsRepresentation}`;
 }
 
 /**

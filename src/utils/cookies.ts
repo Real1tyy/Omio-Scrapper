@@ -1,11 +1,8 @@
-import { log } from 'apify';
-import { PlaywrightCrawlingContext } from 'crawlee';
-import { Cookie } from 'set-cookie-parser';
+import { log } from "apify";
+import type { PlaywrightCrawlingContext } from "crawlee";
+import type { Cookie } from "set-cookie-parser";
 
-export const addCookies = async (
-	context: PlaywrightCrawlingContext,
-	interceptedCookies: Cookie[],
-) => {
+export const addCookies = async (context: PlaywrightCrawlingContext, interceptedCookies: Cookie[]) => {
 	// Re-add intercepted cookies to the context to ensure they're used in subsequent requests.
 	if (interceptedCookies.length > 0) {
 		const currentURL = new URL(context.page.url());
@@ -13,16 +10,16 @@ export const addCookies = async (
 			name: cookie.name,
 			value: cookie.value,
 			domain: cookie.domain || currentURL.hostname,
-			path: cookie.path || '/',
+			path: cookie.path || "/",
 			expires: cookie.expires ? Math.floor(new Date(cookie.expires).getTime() / 1000) : -1,
 			httpOnly: cookie.httpOnly,
 			secure: cookie.secure,
 			sameSite: cookie.sameSite
-				? ((cookie.sameSite.toLowerCase() === 'lax'
-						? 'Lax'
-						: cookie.sameSite.toLowerCase() === 'strict'
-							? 'Strict'
-							: 'None') as 'Lax' | 'Strict' | 'None')
+				? ((cookie.sameSite.toLowerCase() === "lax"
+						? "Lax"
+						: cookie.sameSite.toLowerCase() === "strict"
+							? "Strict"
+							: "None") as "Lax" | "Strict" | "None")
 				: undefined,
 		}));
 		await context.page.context().addCookies(cookiesToAdd);
